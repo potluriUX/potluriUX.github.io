@@ -268,6 +268,12 @@ Full-Width Styles
   padding: 20px 10px;
   margin: 0 auto;
 }
+.inner2 {
+    margin: 0;
+    max-width: 640px;
+    padding: 20px 10px;
+    position: relative;
+}
 
 #forkme_banner {
   display: block;
