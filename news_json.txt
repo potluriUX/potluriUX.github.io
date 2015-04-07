@@ -1,4 +1,14 @@
-[  {
+[{
+    "id": "1",
+    "paper": "TimesOfIndia",
+    "site": "http:\/\/m.timesofindia.com",
+    "country": "india"
+}, {
+    "id": "2",
+    "paper": "NDTV",
+    "site": "http:\/\/m.ndtv.com",
+    "country": "india"
+}, {
     "id": "3",
     "paper": "ABCNews",
     "site": "http:\/\/m.abcnews.com\/",
@@ -1172,6 +1182,11 @@
     "id": "237",
     "paper": "Pravda.ru",
     "site": "http:\/\/english.pravda.ru\/",
+    "country": "russia"
+}, {
+    "id": "238",
+    "paper": "Prima-News",
+    "site": "http:\/\/www.prima-news.ru\/eng\/",
     "country": "russia"
 }, {
     "id": "239",
