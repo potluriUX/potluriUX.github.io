@@ -329,7 +329,7 @@
     </td></tr>
     -->
 <tr><td colspan="2"> &nbsp; </td></tr>
-<tr><td style="padding-bottom:2em;" align="center">Enter a chemical equation to balance</td>
+<tr><td style="padding-bottom:2em;" align="center">Enter a chemical equation<br>(ONLY UPPER CASE)</td>
 <td><input value="H2 + O2 = H2O2" id="input" type="text">
 <font>[ Examples: H<sub>2</sub> + O<sub>2</sub> = H<sub>2</sub>O will become H<sub>2</sub> + O<sub>2</sub> = 2H<sub>2</sub>O</font></td></tr>
 <tr><td colspan="2"> &nbsp; </td></tr>
@@ -470,8 +470,10 @@ function clearall()
     width:37em;
     
  }
+ /*#input{text-transform:uppercase}*/
  </style>
 		<script type="text/javascript">
+    
 		function alert(val)
 		{
 			console.log(val);
