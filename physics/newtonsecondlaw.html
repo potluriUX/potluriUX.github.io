@@ -46,6 +46,12 @@
                                                             $(this).next('.panel-body').toggle();
                                                             
                                                         });
+                                                          var url = window.location.pathname;
+var filename = url.substring(url.lastIndexOf('/')+1);
+
+                                                      // console.log( $("a[href='"+filename+"']").parent().parent());
+                                                        $("a[href='"+filename+"']").parent().parent().parent('.panel-body').toggle();
+                                                        $("a[href='"+filename+"']").addClass("current");
 //                                                       console.log( $("a[href='<?php echo basename($_SERVER['PHP_SELF']) ?>']").parent().parent());
 //                                                        $("a[href='<?php echo basename($_SERVER['PHP_SELF']) ?>']").parent().parent().parent('.panel-body').toggle();
 //                                                        $("a[href='<?php echo basename($_SERVER['PHP_SELF']) ?>']").addClass("current");
