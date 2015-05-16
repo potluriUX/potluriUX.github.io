@@ -224,7 +224,7 @@ text-shadow: 0.1em 0.1em 0.2em #000;
 #Downloading {
 -webkit-user-drag: auto | element | none;
 position:fixed;
-width:615px;
+width:60%;
 top: 50%;
 color:#83f352;
 left: 50%;
@@ -280,7 +280,7 @@ border-top-width:20px;
 
 #Irc {
 position:fixed;
-width:500px;
+width:60%;
 top: 50%;
 left: 50%;
 margin-top: -150px;
@@ -297,7 +297,7 @@ border-top-width:20px;
 }
 #Tracing {
 position:fixed;
-width:630px;
+width:60%;
 top: 50%;
 left: 50%;
 margin-top: -220px;
@@ -313,7 +313,7 @@ border-top:20px solid #83f352;
 }
 #Neurotoxin {
 position:fixed;
-width:630px;
+width:60%;
 top: 50%;
 left: 50%;
 margin-top: -220px;
@@ -330,7 +330,7 @@ border-top-width:20px;
 }
 #Breach {
 position:fixed;
-width:615px;
+width:60%;
 top: 50%;
 left: 50%;
 margin-top: -250px;
@@ -347,7 +347,7 @@ border-top:20px solid #83f352;
 
 #Countdown {
 position:fixed;
-width:615px;
+width:60%;
 top: 50%;
 left: 50%;
 margin-top: -130px;
@@ -364,7 +364,7 @@ border-top:20px solid #F00;
 
 #Hash {
 position:fixed;
-width:615px;
+width:60%;
 top: 50%;
 left: 50%;
 margin-top: -130px;
@@ -382,7 +382,7 @@ border-top-width:20px;
 
 #Password {
 position:fixed;
-width:615px;
+width:60%;
 top: 50%;
 left: 50%;
 margin-top: -130px;
@@ -399,7 +399,7 @@ border-top:20px solid #F00;
 
 #Evacuate {
 position:fixed;
-width:615px;
+width:60%;
 top: 50%;
 left: 50%;
 color:#F00;
@@ -421,7 +421,7 @@ background:#FF0;
 
 #Rat {
 position:fixed;
-width:500px;
+width:60%;
 top: 50%;
 left: 50%;
 color:#F00;
@@ -440,7 +440,7 @@ border-top:20px solid #F00;
 
 #Initializing {
 position:fixed;
-width:415px;
+width:60%;
 top: 50%;
 left: 50%;
 margin-top: -195px;
@@ -458,7 +458,7 @@ border-top:20px solid #83f352;
 
 #Deploy {
 position:fixed;
-width:415px;
+width:60%;
 color:#83f352;
 top: 50%;
 left: 50%;
@@ -476,7 +476,7 @@ border-top:20px solid #83f352;
 
 #Console {
 position:fixed;
-width:640px;
+width:60%;
 top: 50%;
 color:#83f352;
 left: 50%;
@@ -497,7 +497,7 @@ border-top:20px solid #83f352;
 
 #Scan {
 position:fixed;
-width:615px;
+width:60%;
 top: 50%;
 left: 50%;
 margin-top: -250px;
@@ -518,7 +518,7 @@ border:2px solid #F00;
 top: 50%;
 left: 50%;
 padding:20px;
-width:573px;
+width:60%;
 background:#000;
 margin-top: -200px;
 margin-left: -280px;
@@ -532,7 +532,7 @@ position:fixed;
 background:transparent;
 border:0;
 right: 5%;
-width:200px;
+width:60%;
 height:200px;
 bottom: 5%;
 z-index:499;
@@ -543,7 +543,7 @@ z-index:499;
 background:#000;
 position:fixed;
 padding:20px;
-width:900px;
+width:60%;
 top: 50%;
 left: 50%;
 margin-top: -152px;
@@ -556,7 +556,7 @@ border-top:20px solid #F00;
 #Numbers  img{
 position:fixed;
 right: 8%;
-width:400px;
+width:60%;
 top: 5%;
 z-index:-1;
 }
@@ -564,14 +564,14 @@ z-index:-1;
 #Radar  img{
 position:fixed;
 right: 8%;
-width:400px;
+width:60%;
 bottom: 5%;
 z-index:-1;
 }
 
 #Map {
 position:fixed;
-width:615px;
+width:60%;
 top: 50%;
 left: 50%;
 margin-top: -250px;
@@ -625,7 +625,7 @@ background-repeat:repeat;
 padding:20px;
 border:2px solid #F00;
 text-shadow: 0.1em 0.1em 0.2em #000;
-width:300px;
+width:60%;
 height:160px;
 top: 50%;
 left: 50%;
@@ -674,7 +674,7 @@ left: 50%;
 margin-top: -240px;
 margin-left: -320px;
 overflow:hidden;
-width:640px;
+width:60%;
 height:480px;
 text-align:center;
 color:#F00;
@@ -689,7 +689,7 @@ top:50%;
 height:380px;
 margin-top:-232px;
 margin-left: -250px; 
-width:500px; 
+width:60%; 
 background-color:#000;
 padding:30px;
 box-shadow: 0px 0px 3px 0px #ccc;
