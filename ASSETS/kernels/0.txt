@@ -5,24 +5,11 @@ password ******
 use strict';
 
 
-/**
- * AES (Rijndael cipher) encryption routines,
- *
- * Reference implementation of FIPS-197 http://csrc.nist.gov/publications/fips/fips197/fips-197.pdf.
- *
- * @namespace
- */
+
 var Aes = {};
 
 
-/**
- * AES Cipher function: encrypt 'input' state with Rijndael algorithm [§5.1];
- *   applies Nr rounds (10/12/14) using key schedule w for 'add round key' stage.
- *
- * @param   {number[]}   input - 16-byte (128-bit) input state array.
- * @param   {number[][]} w - Key schedule as 2D byte-array (Nr+1 x Nb bytes).
- * @returns {number[]}   Encrypted output state array.
- */
+
 Aes.cipher = function(input, w) {
     var Nb = 4;               // block size (in words): no of columns in state (fixed at 4 for AES)
     var Nr = w.length/Nb - 1; // no of rounds: 10/12/14 for 128/192/256-bit keys
@@ -50,12 +37,7 @@ Aes.cipher = function(input, w) {
 };
 
 
-/**
- * Perform key expansion to generate a key schedule from a cipher key [§5.2].
- *
- * @param   {number[]}   key - Cipher key as 16/24/32-byte array.
- * @returns {number[][]} Expanded key schedule as 2D byte-array (Nr+1 x Nb bytes).
- */
+
 Aes.keyExpansion = function(key) {
     var Nb = 4;            // block size (in words): no of columns in state (fixed at 4 for AES)
     var Nk = key.length/4; // key length (in words): 4/6/8 for 128/192/256-bit keys
@@ -91,10 +73,7 @@ Aes.keyExpansion = function(key) {
 };
 
 
-/**
- * Apply SBox to state S [§5.1.1]
- * @private
- */
+
 Aes.subBytes = function(s, Nb) {
     for (var r=0; r<4; r++) {
         for (var c=0; c<Nb; c++) s[r][c] = Aes.sBox[s[r][c]];
@@ -103,10 +82,7 @@ Aes.subBytes = function(s, Nb) {
 };
 
 
-/**
- * Shift row r of state S left by r bytes [§5.1.2]
- * @private
- */
+
 Aes.shiftRows = function(s, Nb) {
     var t = new Array(4);
     for (var r=1; r<4; r++) {
@@ -117,10 +93,7 @@ Aes.shiftRows = function(s, Nb) {
 };
 
 
-/**
- * Combine bytes of each col of state S [§5.1.3]
- * @private
- */
+
 Aes.mixColumns = function(s, Nb) {
     for (var c=0; c<4; c++) {
         var a = new Array(4);  // 'a' is a copy of the current column from 's'
@@ -139,10 +112,7 @@ Aes.mixColumns = function(s, Nb) {
 };
 
 
-/**
- * Xor Round Key into state S [§5.1.4]
- * @private
- */
+
 Aes.addRoundKey = function(state, w, rnd, Nb) {
     for (var r=0; r<4; r++) {
         for (var c=0; c<Nb; c++) state[r][c] ^= w[rnd*4+c][r];
@@ -151,20 +121,14 @@ Aes.addRoundKey = function(state, w, rnd, Nb) {
 };
 
 
-/**
- * Apply SBox to 4-byte word w
- * @private
- */
+
 Aes.subWord = function(w) {
     for (var i=0; i<4; i++) w[i] = Aes.sBox[w[i]];
     return w;
 };
 
 
-/**
- * Rotate 4-byte word w left by one byte
- * @private
- */
+
 Aes.rotWord = function(w) {
     var tmp = w[0];
     for (var i=0; i<3; i++) w[i] = w[i+1];
@@ -206,45 +170,18 @@ Aes.rCon = [ [0x00, 0x00, 0x00, 0x00],
              [0x36, 0x00, 0x00, 0x00] ]; 
 
 
-/* - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  */
-if (typeof module != 'undefined' && module.exports) module.exports = Aes; // CommonJs export
-if (typeof define == 'function' && define.amd) define([], function() { return Aes; }); // AMD
 
-/* - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  */
-/*  AES Counter-mode implementation in JavaScript       (c) Chris Veness 2005-2014 / MIT Licence  */
-/* - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  */
 
-/* jshint node:true *//* global define, escape, unescape, btoa, atob */
+
 'use strict';
 if (typeof module!='undefined' && module.exports) var Aes = require('./aes'); // CommonJS (Node.js)
 
 
-/**
- * Aes.Ctr: Counter-mode (CTR) wrapper for AES.
- *
- * This encrypts a Unicode string to produces a base64 ciphertext using 128/192/256-bit AES,
- * and the converse to decrypt an encrypted ciphertext.
- *
- * See http://csrc.nist.gov/publications/nistpubs/800-38a/sp800-38a.pdf
- *
- * @augments Aes
- */
+
 Aes.Ctr = {};
 
 
-/**
- * Encrypt a text using AES encryption in Counter mode of operation.
- *
- * Unicode multi-byte character safe
- *
- * @param   {string} plaintext - Source text to be encrypted.
- * @param   {string} password - The password to use to generate a key.
- * @param   {number} nBits - Number of bits to be used in the key; 128 / 192 / 256.
- * @returns {string} Encrypted text.
- *
- * @example
- *   var encr = Aes.Ctr.encrypt('big secret', 'pāşšŵōřđ', 256); // encr: 'lwGl66VVwVObKIr6of8HVqJr'
- */
+
 Aes.Ctr.encrypt = function(plaintext, password, nBits) {
     var blockSize = 16;  // block size fixed at 16 bytes / 128 bits (Nb=4) for AES
     if (!(nBits==128 || nBits==192 || nBits==256)) return ''; // standard allows 128/192/256 bit keys
@@ -312,17 +249,6 @@ Aes.Ctr.encrypt = function(plaintext, password, nBits) {
 };
 
 
-/**
- * Decrypt a text encrypted by AES in counter mode of operation
- *
- * @param   {string} ciphertext - Source text to be encrypted.
- * @param   {string} password - Password to use to generate a key.
- * @param   {number} nBits - Number of bits to be used in the key; 128 / 192 / 256.
- * @returns {string} Decrypted text
- *
- * @example
- *   var decr = Aes.Ctr.encrypt('lwGl66VVwVObKIr6of8HVqJr', 'pāşšŵōřđ', 256); // decr: 'big secret'
- */
 Aes.Ctr.decrypt = function(ciphertext, password, nBits) {
     var blockSize = 16;  // block size fixed at 16 bytes / 128 bits (Nb=4) for AES
     if (!(nBits==128 || nBits==192 || nBits==256)) return ''; // standard allows 128/192/256 bit keys
@@ -379,18 +305,17 @@ Aes.Ctr.decrypt = function(ciphertext, password, nBits) {
 };
 
 
-/* - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  */
 
 
-/** Extend String object with method to encode multi-byte string to utf8
- *  - monsur.hossa.in/2012/07/20/utf-8-in-javascript.html */
+
+
 if (typeof String.prototype.utf8Encode == 'undefined') {
     String.prototype.utf8Encode = function() {
         return unescape( encodeURIComponent( this ) );
     };
 }
 
-/** Extend String object with method to decode utf8 string to multi-byte */
+
 if (typeof String.prototype.utf8Decode == 'undefined') {
     String.prototype.utf8Decode = function() {
         try {
@@ -402,9 +327,7 @@ if (typeof String.prototype.utf8Decode == 'undefined') {
 }
 
 
-/** Extend String object with method to encode base64
- *  - developer.mozilla.org/en-US/docs/Web/API/window.btoa, nodejs.org/api/buffer.html
- *  note: if btoa()/atob() are not available (eg IE9-), try github.com/davidchambers/Base64.js */
+
 if (typeof String.prototype.base64Encode == 'undefined') {
     String.prototype.base64Encode = function() {
         if (typeof btoa != 'undefined') return btoa(this); // browser
@@ -427,9 +350,7 @@ if (typeof String.prototype.base64Decode == 'undefined') {
 if (typeof module != 'undefined' && module.exports) module.exports = Aes.Ctr; // CommonJs export
 if (typeof define == 'function' && define.amd) define(['Aes'], function() { return Aes.Ctr; }); // AMD
 
-/* - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  */
-/*  Encrypt/decrypt files                                                                         */
-/* - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  */
+
 
 function encryptFile(file) {
     // use FileReader.readAsArrayBuffer to handle binary files
