@@ -47,7 +47,7 @@ height: 2px; }
 	.ac img{width:50px;height:50px;display:block;float:left;margin:5px;border:2px solid grey;}
 
 	
-	#close {float:right;width:10%}
+	#close {float:right;width:20%}
 
 
 #folders {position:fixed;right:50px;top:30px;width:64px;}
@@ -227,7 +227,7 @@ position:fixed;
 width:60%;
 top: 50%;
 color:#83f352;
-left: 50%;
+left: 100px;
 margin-top: -150px;
 background:#000;
 margin-left: -330px;
@@ -547,7 +547,7 @@ width:60%;
 top: 50%;
 left: 50%;
 margin-top: -152px;
-margin-left: -450px;
+/*margin-left: -450px;*/
 z-index:499;
 border:2px solid #F00;
 border-top:20px solid #F00;
