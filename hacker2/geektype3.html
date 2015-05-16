@@ -1,9 +1,13 @@
 <!DOCTYPE html>
+<!--?!11!bluebg.jpg!rgb(87,149,208)!rgb(255,255,255)!Arial-->
+
 <html><head>
 <meta http-equiv="content-type" content="text/html; charset=UTF-8">
-<title>HACKER thunderify.com</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>HACKER Thunderify.com</title>
 <link id="pagestyle" rel="stylesheet" type="text/css" href="geektype3_files/style.css">
-<!--<script src="geektype3_files/analytics.txt" async=""></script><script type="text/javascript" src="geektype3_files/jquery.txt"></script>-->
+<!--<script src="geektype3_files/analytics.txt" async=""></script>-->
+<script type="text/javascript" src="geektype3_files/jquery.txt"></script>
 <link rel="stylesheet" type="text/css" href="geektype3_files/spectrum.css">
 <script type="text/javascript" src="geektype3_files/spectrum.js"></script>
 
@@ -110,6 +114,7 @@ function showAllDiv() {
 </script>
 <script type="text/javascript">
 $(document).keyup(function(event) { 
+    //console.log(event.which);
  if(event.which == 27) { 
    showAllDiv();
  }
@@ -212,7 +217,7 @@ $(document).keyup(function(event) {
   else if(event.which == 9) { 
    showAllDiv();
    document.getElementById('Help').style.display = "block";
-   document.getElementById('section').style.display = "block";
+  // document.getElementById('section').style.display = "block";
        }
 	   
 	   
@@ -242,19 +247,34 @@ $(document).keyup(function(event) {
   else if(event.which == 100) { 
   }
 });
+function showhelp(){
+    showAllDiv();
+   document.getElementById('Help').style.display = "block";
+   document.getElementById('section').style.display = "block";
+}
 
 </script>
 </head>
-asdfl;jasdf
+
+<div id="dragme">
+<div id="console">
+<button id='automate' onclick="var x = setInterval(function(){
+        Typer.addTextAuto(12);
+}, 30);" title="Write code for me" id="button">Automate</button>
+<br>
+<br>
+<div id="txt">15:56:45</div>
+<br> PRESS TAB for help</div>
+</div>
 <body style="background-color: rgb(0, 0, 0); color: rgb(255, 0, 0); font-family: Arial; background-image: url(&quot;../ASSETS/textures/umbrella.jpg&quot;);" onload="startTime()">
 <!--
 <img id="show" src="../ASSETS/img/settings.png" style="position:fixed;top:12px;right:25px;" />  -->
 
-<div style="display: none;" id="section">
-<input value="&lt;- Back" onclick="history.go(-1);" style="width:auto;padding:2px;" type="SUBMIT">
+<div style="display: none;background-color:yellow" id="section">
+<!--<input value="&lt;- Back" onclick="history.go(-1);" style="width:auto;padding:2px;" type="SUBMIT">-->
 
 
-<select>
+<!--<select>
     <option selected="selected">Select Font</option>
     <option>Arial</option>
 	<option>Arial Black</option>
@@ -267,51 +287,82 @@ asdfl;jasdf
 		<option>Matrix</option>
 		<option>Fixedsys</option>
 <option>Impact</option>
-</select>
+</select>-->
 
-Background: <input style="background: none repeat scroll 0% 0% rgb(255, 255, 0); display: none;" class="basic"><div style="" class="sp-replacer sp-light"><div class="sp-preview"><div style="background-color: transparent;" class="sp-preview-inner sp-clear-display"></div></div><div class="sp-dd">▼</div></div>
-Text: <input style="display: none;" class="basic2" type="text"><div style="" class="sp-replacer sp-light"><div class="sp-preview"><div style="background-color: transparent;" class="sp-preview-inner sp-clear-display"></div></div><div class="sp-dd">▼</div></div>
+<!--Background: <input style="background: none repeat scroll 0% 0% rgb(255, 255, 0); display: none;" class="basic">
+<div style="" class="sp-replacer sp-light">
+    <div class="sp-preview">
+        <div style="background-color: transparent;" class="sp-preview-inner sp-clear-display"></div>
+            
+    </div><div class="sp-dd">▼</div></div>-->
+<!--Text: <input style="display: none;" class="basic2" type="text"><div style="" class="sp-replacer sp-light">
+    <div class="sp-preview">
+        <div style="background-color: transparent;" class="sp-preview-inner sp-clear-display"></div>
+            
+    </div><div class="sp-dd">▼</div></div>-->
 
 <select name="fruit" id="logotype">
 	<option value="1">Select Logo</option>
 	<option value="1">No Logo</option>
-	<option value="0">SCP</option>
-	<option selected="selected" value="2">Biohazard</option>
-	<option value="3">Umbrella</option>
-	<option value="4">Aperture</option>
-	<option value="5">Cyberdyne</option>
-	<option value="6">Dharma</option>
+	<option selected="selected" value="15">K Corp</option>
+	<option value="16">Skeleton Corp</option>
+	<option value="17">BioHazard</option>
+	<option value="18">Shield</option>
+	<option value="19">CSX</option>
 	<option value="7">OmniCorp</option>
 	<option value="8">RDA</option>
-	<option value="9">Wyland-Yutami</option>
+<!--	<option value="9">Wyland-Yutami</option>-->
+        
+	<option value="0">SCP</option>
   <option value="10">Tegnio</option>
-    <option value="11">Tegnio Blue</option>
-	    <option value="12">Sliv</option>
-		<option value="14">Guy Fawkes</option>
+    <option value="20">Intelligence</option>
+	    <option value="21">Radiation</option>
+		<option value="14">Vendetta</option>
 </select>
 <select name="texture" id="texture">
     <option selected="selected" value="0.png">Select Background</option>
 	<option value="0.png">No Background</option>
-    <option value="1.png">World Glow</option>
+   
+    
+	<option value="redbg.jpg">Red</option>
+        <option value="bluebg.jpg">Blue</option>
+	<option value="umbrella.jpg">Umbrella</option>
+	<option value="umbrella2.jpg">Umbrella2</option>
+        
+        <option value="hacker.jpg">Hacker</option>
+        <option value="bee.jpg">Bee</option>
+        <option value="pink.jpg">Pink</option>
+        
+         <option value="cosmic.jpg">Cosmic</option>
+        <option value="beecolor.jpg">Metal</option>
+        <option value="rainbow.jpg">Rainbow</option>
+        <option value="orangeglow.jpg">Orange</option>
+        
+         <option value="1.png">World Glow</option>
     <option value="2.png">World Map</option>
     <option value="3.png">Analog Lines</option>
-	<option value="cmb.jpg">Combine</option>
-	<option value="umbrella.jpg">Umbrella</option>
-	<option value="static.gif">Static (animated)</option>
-	<option value="matrix.gif">Matrix (animated)</option>
-	<option value="sliv.jpg">Sliv</option>
-	<option value="fallout.jpg">Fallout</option>
+        
+	
 </select>
 <select name="kernel" id="kernel">
+    <option selected="selected" value="4">Python</option>
+    <option  value="0">Javascript</option>
+    <option value="1">Java</option>
+    <option  value="2">C</option>
+	<option value="3">C++</option>
+	
+	
+</select>
+<!--<select name="kernel" id="kernel">
     <option value="0">Linux</option>
     <option value="1">ASP.NET MVC</option>
     <option selected="selected" value="2">C++</option>
 	<option value="3">Python</option>
 	<option value="4">Fortran</option>
 	<option value="4">Nmap</option>
-</select>
+</select>-->
 
-
+<!--<button onclick='showhelp()'>Options</span>-->
 
 <script>
 function myFunction() {
@@ -327,9 +378,9 @@ function myFunction2() {
 		$("#folders").css("display", "block");
 }
 </script>
-Folders:
+<!--Folders:
 <input value="OFF" onclick="myFunction()" style="width:auto;padding:2px;" type="SUBMIT">
-<input value="ON" onclick="myFunction2()" style="width:auto;padding:2px;" type="SUBMIT">
+<input value="ON" onclick="myFunction2()" style="width:auto;padding:2px;" type="SUBMIT">-->
 
 <script>
 $.fn.selectText = function () {
@@ -346,34 +397,67 @@ $.fn.selectText = function () {
     });
 }
 </script>
-<div id="section2" onclick="$(this).selectText()"><div class="SD">http://fediafedia.com/geektyper/tegniosave/index.html?!</div><div id="w1" class="SD">3</div><div class="SD">!</div><div id="w2" class="SD">umbrella.jpg</div><div class="SD">!</div><div id="w3" class="SD">rgb(0,0,0)</div><div class="SD">!</div><div id="w4" class="SD">rgb(255,0,0)</div>
+<div id="section2" onclick="$(this).selectText()"><div class="SD">THUNDERIFY.COM</div><div id="w1" class="SD">3</div><div class="SD">!</div><div id="w2" class="SD">umbrella.jpg</div><div class="SD">!</div><div id="w3" class="SD">rgb(0,0,0)</div><div class="SD">!</div><div id="w4" class="SD">rgb(255,0,0)</div>
 </div>
 
 
 <img src="geektype3_files/close.png" id="hide" style="float:right;margin-right:35px;margin-top:3px;">
 </div>
-<div id="AccessGranted" style="display:none;"><h1>ACCESS GRANTED</h1></div>
-<div id="AccessDenied" ondragstart="return false;" style="display: block;"><h1>ACCESS DENIED</h1></div>
-<div id="LevelRequired" ondragstart="return false;" style="display:none;"><h1>SECURITY BREACH</h1><h2>LEVEL 3 ACCESS REQUIRED</h2></div>
-<div id="Downloading" ondragstart="return false;" class="dragme" style="display: none; border-color: rgb(255, 0, 0); color: rgb(255, 0, 0);"><img id="close" src="geektype3_files/close1.png"><h1>Downloading...</h1>Critical Data<br><img src="geektype3_files/downloading.gif"></div>
-<div id="Rat" class="dragme" ondragstart="return false;" style="display: none; border-color: rgb(255, 0, 0); color: rgb(255, 0, 0);"><img id="close" src="geektype3_files/close1.png"><img src="geektype3_files/rat.gif"></div>
-<div id="Initializing" class="dragme" ondragstart="return false;" style="display: none; border-color: rgb(255, 0, 0); color: rgb(255, 0, 0);"><img id="close" src="geektype3_files/close1.png"><h1>Encrypting</h1><img src="geektype3_files/encrypting.gif"></div>
-<div id="Scan" class="dragme" ondragstart="return false;" style="display: none; border-color: rgb(255, 0, 0); color: rgb(255, 0, 0);"><img id="close" src="geektype3_files/close1.png"><h1>Satellite Uplink</h1>Interfacing via Stuttgard<img src="geektype3_files/satellite.gif"></div>
-<div id="Map" class="dragme" ondragstart="return false;" style="display: none; border-color: rgb(255, 0, 0); color: rgb(255, 0, 0);"><img id="close" src="geektype3_files/close1.png"><h1>Tracing Contact</h1><img src="geektype3_files/facilities.gif"></div>
-<div id="Countdown" ondragstart="return false;" style="display:none;"><h1>Purge Facility</h1>Purging will commence in:<br><br><br><img src="geektype3_files/countdown.gif"><br><br></div>
-<div id="Password" class="dragme" ondragstart="return false;" style="display: none; border-color: rgb(255, 0, 0); color: rgb(255, 0, 0);"><h1>Purge Facility?</h1>Confirm password<br><img src="geektype3_files/password.gif"></div>
-<div id="Poke" class="dragme" ondragstart="return false;" style="display: none; border-color: rgb(255, 0, 0); color: rgb(255, 0, 0);"><img id="close" src="geektype3_files/close1.png"><h1>PROJECT SIOP-62</h1>Nuclear Weapons Program<img src="geektype3_files/datcoldwar.gif"></div>
-<div id="Hash" class="dragme" ondragstart="return false;" style="display: none; border-color: rgb(255, 0, 0); color: rgb(255, 0, 0);"><img id="close" src="geektype3_files/close1.png"><h1>Password Decryptor</h1>Calculating Hashes<br><img src="geektype3_files/hash.gif"></div>
-<div id="Pony" class="dragme" ondragstart="return false;" style="display: none; border-color: rgb(255, 0, 0); color: rgb(255, 0, 0);"><img src="geektype3_files/rainbow.gif"></div>
+<div id="AccessGranted" style="display:none;">
+
+   
+    <h1> GRANTED</h1><img src="geektype3_files/password2.gif"></div>
+
+<div id="AccessDenied" ondragstart="return false;" style="display: block;"><h1>WRONG PASSWORD</h1></div>
+<div id="LevelRequired" ondragstart="return false;" style="display:none;"><h1> BREACH</h1><h2>LEVEL 3 ACCESS REQUIRED</h2></div>
+<div id="Downloading" ondragstart="return false;" class="dragme" style="display: none; border-color: rgb(255, 0, 0); color: rgb(255, 0, 0);">
+    <img id="close" src="geektype3_files/close1.png"><h1>DATA Download...</h1>SECURE Data<br>
+    <img src="geektype3_files/downloading.gif"></div>
+<div id="Rat" class="dragme" ondragstart="return false;" style="display: none; border-color: rgb(255, 0, 0); color: rgb(255, 0, 0);">
+    <img id="close" src="geektype3_files/close1.png"><img src="geektype3_files/rat.gif"></div>
+<div id="Initializing" class="dragme" ondragstart="return false;" style="display: none; border-color: rgb(255, 0, 0); color: rgb(255, 0, 0);">
+    <img id="close" src="geektype3_files/close1.png"><h1>Encrypt..</h1><img src="geektype3_files/encrypting.gif"></div>
+<div id="Scan" class="dragme" ondragstart="return false;" style="display: none; border-color: rgb(255, 0, 0); color: rgb(255, 0, 0);">
+    <img id="close" src="geektype3_files/close1.png">
+    <h1>Satellite Uplink</h1>Interfacing..<img src="geektype3_files/satellite.gif"></div>
+<div id="Map" class="dragme" ondragstart="return false;" style="display: none; border-color: rgb(255, 0, 0); color: rgb(255, 0, 0);"><img id="close" src="geektype3_files/close1.png">
+    <h1>Tracing..</h1><img src="geektype3_files/facilities.gif"></div>
+<div id="Countdown" ondragstart="return false;" style="display:none;"><h1>Purge Facility</h1>Purging will commence in:<br><br><br>
+    <img src="geektype3_files/countdown.gif"><br><br></div>
+<div id="Password" class="dragme" ondragstart="return false;" style="display: none; border-color: rgb(255, 0, 0); color: rgb(255, 0, 0);">
+    <h1>Purge Facility?</h1>Confirm password<br><img src="geektype3_files/password2.gif"></div>
+<div id="Poke" class="dragme" ondragstart="return false;" style="display: none; border-color: rgb(255, 0, 0); color: rgb(255, 0, 0);">
+    <img id="close" src="geektype3_files/close1.png"><h1>PROJECT STOP</h1>Nuclear  Program<img src="geektype3_files/datcoldwar.gif"></div>
+<div id="Hash" class="dragme" ondragstart="return false;" style="display: none; border-color: rgb(255, 0, 0); color: rgb(255, 0, 0);">
+    <img id="close" src="geektype3_files/close1.png"><h1>HACKER PASSWD Decryptor</h1>Calculating..<br><img src="geektype3_files/hash.gif"></div>
+<div id="Pony" class="dragme" ondragstart="return false;" style="display: none; border-color: rgb(255, 0, 0); color: rgb(255, 0, 0);">
+    <img src="geektype3_files/rainbow.gif"></div>
 <div id="SystemFailure" class="dragme" ondragstart="return false;" style="display: none; border-color: rgb(255, 0, 0); color: rgb(255, 0, 0);"></div>
-<div id="ConnectionLost" class="dragme" ondragstart="return false;" style="display: none; border-color: rgb(255, 0, 0); color: rgb(255, 0, 0);">Connection Lost<h2>Facility Offline</h2></div>
+<div id="ConnectionLost" class="dragme" ondragstart="return false;" style="display: none; border-color: rgb(255, 0, 0); color: rgb(255, 0, 0);">Connection gone..<h2>Facility Offline</h2></div>
 <div id="Help" class="dragme" ondragstart="return false;" style="display: none; border-color: rgb(255, 0, 0); color: rgb(255, 0, 0);">
 
-<img id="close" src="geektype3_files/close1.png"><img src="geektype3_files/hints.png">
+<img id="close" src="geektype3_files/close1.png">
+<!--<img src="geektype3_files/hints.png">-->
+<br>
+Press 1 for  Download<br>
+Press 2 for Encrypt<br>
+Press 3 for Uplink<br>
+Press 4 for Compile<br>
+Press 5 for Nuke<br>
+Press 6 for Decrypt<br>
+Press 7 for Interpol<br>
+Press 8 for Hawk<br>
+
+Press 9 for Breach<br>
+Press 10 for Breach2<br>
+
+TAB for Help<br>
+Shift for Access Granted<br>
+
 
 <hr>
-<p>Stats &amp; Achievements</p>
-<div id="LetterCount">You typed: 3 characters</div><br>
+<!--<p>Stats &amp; Progress</p>
+<div id="LetterCount"></div><br>
 <div id="getAchievement1" class="ac"></div>
 <div id="getAchievement2" class="ac"></div>
 <div id="getAchievement3" class="ac"></div>
@@ -382,7 +466,7 @@ $.fn.selectText = function () {
 <div id="getAchievement6" class="ac"></div>
 <div id="getAchievement7" class="ac"></div>
 <div id="getAchievement8" class="ac"></div>
-<div id="getAchievement9" class="ac"></div>
+<div id="getAchievement9" class="ac"></div>-->
 
 
 
@@ -406,34 +490,52 @@ $.fn.selectText = function () {
 
 
 
-<div id="Breach" class="dragme" ondragstart="return false;" style="display: none; border-color: rgb(255, 0, 0); color: rgb(255, 0, 0);"><img id="close" src="geektype3_files/close1.png"><h1>SECURITY ALERT</h1>INTERIOR EXOGEN BREACH<img src="geektype3_files/breach.gif"></div>
-<div id="Evacuate" ondragstart="return false;" style="display:none;"><h1>FACILITY BREACHED</h1>CRITICAL EXOGEN BREACH<img src="geektype3_files/evacuate.gif"></div>
-<div id="Query" class="dragme" ondragstart="return false;" style="display: none; border-color: rgb(255, 0, 0); color: rgb(255, 0, 0);"><img id="close" src="geektype3_files/close1.png">Interpol database<img src="geektype3_files/query.gif"></div>
-<div id="Console" class="dragme" ondragstart="return false;" style="display: none; border-color: rgb(255, 0, 0); color: rgb(255, 0, 0);"><img id="close" src="geektype3_files/close1.png">Compiling Nodes<br><br><img src="geektype3_files/console.gif"></div>
-<div id="Deploy" class="dragme" ondragstart="return false;" style="display: none; border-color: rgb(255, 0, 0); color: rgb(255, 0, 0);"><img id="close" src="geektype3_files/close1.png"><h1>Activating HAWK</h1>Engage all enemy vehicles<img src="geektype3_files/Ship.gif"></div>
+<div id="Breach" class="dragme" ondragstart="return false;" style="display: none; border-color: rgb(255, 0, 0); color: rgb(255, 0, 0);">
+    <img id="close" src="geektype3_files/close1.png">
+    <h1> ALERT</h1><img src="geektype3_files/200_s.gif"></div>
+<div id="Download2" class="dragme" ondragstart="return false;" style="display: none; border-color: rgb(255, 0, 0); color: rgb(255, 0, 0);">
+    <img id="close" src="geektype3_files/close1.png">
+    <h1> Download</h1><img src="geektype3_files/200.gif"></div>
+<div id="Evacuate" ondragstart="return false;" style="display:none;"> 
+   
+    <h1> BREACHED</h1><img src="geektype3_files/200.gif"></div>
+<div id="Query" class="dragme" ondragstart="return false;" style="display: none; border-color: rgb(255, 0, 0); color: rgb(255, 0, 0);">
+    <img id="close" src="geektype3_files/close1.png">Interpol database
+    <img src="geektype3_files/query.gif"></div>
+<div id="Console" class="dragme" ondragstart="return false;" style="display: none; border-color: rgb(255, 0, 0); color: rgb(255, 0, 0);">
+    <img id="close" src="geektype3_files/close1.png">Compiling Nodes<br><br>
+    <img src="geektype3_files/console2.gif"></div>
+<div id="Deploy" class="dragme" ondragstart="return false;" style="display: none; border-color: rgb(255, 0, 0); color: rgb(255, 0, 0);">
+    <img id="close" src="geektype3_files/close1.png"><h1>Activating </h1>Engage all enemy vehicles
+    <img src="geektype3_files/facilities2.gif"></div>
 <div id="Numbers" class="dragme" ondragstart="return false;" style="display: none; border-color: rgb(255, 0, 0); color: rgb(255, 0, 0);"><img src="geektype3_files/id2kyxB.gif"></div>
 <div id="Radar" ondragstart="return false;" onclick='$("#Radar").toggle();' style="display:none;"><img id="close" src="geektype3_files/close1.png"><img src="geektype3_files/radar.gif"></div>
 <div id="Irc" class="dragme" ondragstart="return false;" style="display: none; border-color: rgb(255, 0, 0); color: rgb(255, 0, 0);"><img id="close" src="geektype3_files/close1.png"><img src="geektype3_files/irc.gif"></div>
 <div id="Tracing" class="dragme" ondragstart="return false;" style="display: none; border-color: rgb(255, 0, 0); color: rgb(255, 0, 0);"><img id="close" src="geektype3_files/close1.png"><img src="geektype3_files/tracing.gif"></div>
+
+
+
+
 <div id="BigFolder" class="dragme" ondragstart="return false;" style="display: none; border-color: rgb(255, 0, 0); color: rgb(255, 0, 0);">
 <img id="close" src="geektype3_files/close1.png">
 
 <h2> /root/bash/scripts</h2>
 
-<div style="background-color: rgb(255, 0, 0);" class="folder" onclick='showDraggable("#Downloading");'><p>DL Data</p></div>
-<div style="background-color: rgb(255, 0, 0);" class="folder" onclick='showDraggable("#Hash");'><p>Hash</p></div>
-<div style="background-color: rgb(255, 0, 0);" class="folder" onclick='showDraggable("#Console");'><p>Terminal</p></div>
+<div style="background-color: rgb(255, 0, 0);" class="folder" onclick='showDraggable("#Downloading");'><p>Download</p></div>
+<div style="background-color: rgb(255, 0, 0);" class="folder" onclick='showDraggable("#Hash");'><p>Passsword</p></div>
+<div style="background-color: rgb(255, 0, 0);" class="folder" onclick='showDraggable("#Console");'><p>Kernel</p></div>
 <div style="background-color: rgb(255, 0, 0);" class="folder" onclick='showDraggable("#Initializing");'><p>Decryptor</p></div>
 <div style="background-color: rgb(255, 0, 0);" class="folder" onclick='showDraggable("#Map");'><p>Map</p></div>
-<div style="background-color: rgb(255, 0, 0);" class="folder" onclick='showDraggable("#Scan");'><p>Scan 6</p></div>
-<div style="background-color: rgb(255, 0, 0);" class="folder" onclick='showDraggable("#Query");'><p>Query Db</p></div>
-<div style="background-color: rgb(255, 0, 0);" class="folder" onclick='showDraggable("#Deploy");'><p>Deploy</p></div>
+<div style="background-color: rgb(255, 0, 0);" class="folder" onclick='showDraggable("#Scan");'><p>Scan</p></div>
+<div style="background-color: rgb(255, 0, 0);" class="folder" onclick='showDraggable("#Query");'><p>Database</p></div>
+<div style="background-color: rgb(255, 0, 0);" class="folder" onclick='showDraggable("#Deploy");'><p>Engage</p></div>
 <div style="background-color: rgb(255, 0, 0);" class="folder" onclick='showDraggable("#Irc");'><p>Chat</p></div>
 <div style="background-color: rgb(255, 0, 0);" class="folder" onclick='showDraggable("#Tracing");'><p>Trace</p></div>
-<div style="background-color: rgb(255, 0, 0);" class="folder" onclick='showDraggable("#Neurotoxin");'><p>Neuro</p></div>
-<div style="background-color: rgb(255, 0, 0);" class="folder" onclick='showDraggable("#Rat");'><p>Infect</p></div>
-<div style="background-color: rgb(255, 0, 0);" class="folder" onclick='showDraggable("#AccessDenied");'><p>Root</p></div>
-<div style="background-color: rgb(255, 0, 0);" class="folder" onclick='showDraggable("#Poke");'><p>SIOP</p></div>
+<div style="background-color: rgb(255, 0, 0);" class="folder" onclick='showDraggable("#Neurotoxin");'><p>Flood</p></div>
+<div style="background-color: rgb(255, 0, 0);" class="folder" onclick='showDraggable("#Rat");'><p>Virus</p></div>
+<div style="background-color: rgb(255, 0, 0);" class="folder" onclick='showDraggable("#AccessDenied");'><p>Access</p></div>
+<div style="background-color: rgb(255, 0, 0);" class="folder" onclick='showDraggable("#Download2");'><p>Hacked</p></div>
+<div style="background-color: rgb(255, 0, 0);" class="folder" onclick='showDraggable("#Breach");'><p>Breach</p></div>
 
 </div>
 
@@ -464,17 +566,21 @@ $.fn.selectText = function () {
 </div>
 
 <div style="font-family: Arial; display: block;" id="folders">
-<div style="background-color: rgb(255, 0, 0);" class="folder" onclick='showDraggable("#Downloading");'><p>DL Data</p></div>
+<!--<div style="background-color: rgb(255, 0, 0);" class="folder" onclick='showDraggable("#Downloading");'><p>DL Data</p></div>
 <div style="background-color: rgb(255, 0, 0);" class="folder" onclick='showDraggable("#Console");'><p>Terminal</p></div>
-<div style="background-color: rgb(255, 0, 0);" class="folder" onclick='showDraggable("#Hash");'><p>Decryptor</p></div>
+<div style="background-color: rgb(255, 0, 0);" class="folder" onclick='showDraggable("#Hash");'><p>Decryptor</p></div>-->
 <div style="background-color: rgb(255, 0, 0);" class="folder" onclick='$("#section").toggle();'><p>Settings</p></div>
 <div style="background-color: rgb(255, 0, 0);" class="folder" onclick='$("#BigFolder").toggle();'><p>All Scripts</p></div>
-
+<div style="background-color: rgb(255, 0, 0);" class="folder" onclick='$("#Help").toggle();'><p>Options/Help</p></div>
 <div id="result2"></div>
 </div>
 <script type="text/javascript">
+$("body").on("pageshow", function( event ) {
+        $("body").find('input:first').focus();
+} );
 if (typeof(Storage) != "undefined") {
 	 getColour = localStorage.getItem("color1");
+        // console.log(location.search);//location.search is options
 	 var c1 = location.search.split('!')[3] ? location.search.split('!')[3] : getColour;
 localStorage.setItem('color1', c1);
 document.getElementById("w3").innerHTML = c1;
