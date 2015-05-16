@@ -21,10 +21,9 @@ getKernel = localStorage.getItem('kernel') || '0';
 Typer.file = ('../ASSETS/kernels/'+ getKernel +'.txt');
 Typer.init();
 </script>
-	
+	<input id="typer" style="position:relative; left:-100em;"/>
 <script type="text/javascript">
-
-
+$(document).click(function () { $('#typer').focus(); })
 
 
 
@@ -114,7 +113,7 @@ function showAllDiv() {
 </script>
 <script type="text/javascript">
 $(document).keyup(function(event) { 
-    //console.log(event.which);
+    
  if(event.which == 27) { 
    showAllDiv();
  }
@@ -138,6 +137,10 @@ $(document).keyup(function(event) {
    document.getElementById('Neurotoxin').style.display = "block";
   }
  else if(event.which == 18) { 
+   showAllDiv();
+   document.getElementById('AccessGranted').style.display = "block";
+ }
+  else if(event.which == 190) { 
    showAllDiv();
    document.getElementById('AccessGranted').style.display = "block";
  }
@@ -567,11 +570,11 @@ Shift for Access Granted<br>
 </div>
 
 <div style="font-family: Arial; display: block;" id="folders">
-<!--<div style="background-color: rgb(255, 0, 0);" class="folder" onclick='showDraggable("#Downloading");'><p>DL Data</p></div>
-<div style="background-color: rgb(255, 0, 0);" class="folder" onclick='showDraggable("#Console");'><p>Terminal</p></div>
+<div style="background-color: rgb(255, 0, 0);" class="folder" onclick='showDraggable("#Downloading");'><p>Download</p></div>
+<!--<div style="background-color: rgb(255, 0, 0);" class="folder" onclick='showDraggable("#Console");'><p>Terminal</p></div>
 <div style="background-color: rgb(255, 0, 0);" class="folder" onclick='showDraggable("#Hash");'><p>Decryptor</p></div>-->
 <div style="background-color: rgb(255, 0, 0);" class="folder" onclick='$("#section").toggle();'><p>Settings</p></div>
-<div style="background-color: rgb(255, 0, 0);" class="folder" onclick='$("#BigFolder").toggle();'><p>All Scripts</p></div>
+<div style="background-color: rgb(255, 0, 0);" class="folder" onclick='$("#BigFolder").toggle();'><p>All Actions</p></div>
 <div style="background-color: rgb(255, 0, 0);" class="folder" onclick='$("#Help").toggle();'><p>Options/Help</p></div>
 <div id="result2"></div>
 </div>
