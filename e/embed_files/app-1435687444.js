@@ -26840,6 +26840,7 @@ var
                 this._addResizeEvents();
                 this._addUndoEvent();
                 this._addCreateButtonEvent();
+                this._addTestButtonEvent();
                 this._addTabToggleEvents();
                 this._addCloseButtonEvent();
                 this._addLockImageClickEvents();
@@ -27010,6 +27011,41 @@ var
                 App().mpTrackEvent('Watermark callout clicked', {});
             });
         },
+         _addTestButtonEvent: function() {
+            var
+                _this = this;
+            this._element.find('#testBtn').click(function(event) {
+                event.preventDefault();
+             // alert("test");
+             Sai.set("test", 12345678);
+               var
+                html = _.template(_this.getTemplate('tabs', 'templates'), {});//
+                //above line gets what template . which tell fast templatesTabTemplate yes. got it aa? one line ala flow chuskovali.ok
+                //lets see what gettemplate is doing okk
+                //why ask .  so why ante. i want to redraw the thumbs.y. test ane button will say invitationthen invitations will 
+                //be populated. if we say business then business thumbs have to come. already i am able to redraw the template area. 
+                //template area is the thumbs area. but i am just putting the same html. this function and all functions in this 
+                //are js functions that get templates and draw the element and attach the events. vv imp if u dont understand u cant do it 
+               //draw elements ante text ah on . thumbs? no any functio in this like lets say createbutton
+               //that will get template of create button which will have image and then put it in dom and then attach events like backbone this is 
+               //template ante html + js so that u dont need to string concatenate. same old concepts be strong in them. 
+               //ok. baga ardam ainda. sarley we will see this first. 
+               //chusthunna they are setting and getin i wanna see if i can do the same.
+                templateElements = $(jQuery.parseHTML(html.trim())),//this will trim some html and get us the html 
+                tabElement = App().getElement().find('div.templatesTab');
+            tabElement.html(templateElements);//ippudu em chesa. instead of adding elements. i am ?just populating. i am not appending. got it?
+            _this._templatesTab = (new TemplatesTabView(tabElement));
+            //this function gets templateTabTemplate and puts the template, template2 variables data and puts it in which element 
+            //i meant which div in dom templatetabtemplate2 lo peduthundi. no honey it gets the template html 
+            //that way we dont need to string concatenate. andulo pettadu ye line lo techindi . 27021 ok gud 
+            //next em chsindi ye div lo pedthundi abbaa 
+            //template is not div . template just makes it easy to build html. it wont show up in dom in backbone like if u remember movies 
+            //ye div lo pedthundi . .html ekkada undi adi chudu chalu easy . dont overthink it easy . 
+            //teemplateements so what is templateelements div.templatesTab. comon honey dont be so dumb. 
+               
+                return;
+            });
+         },
         _addCreateButtonEvent: function() {
             var
                 _this = this;
@@ -27734,25 +27770,25 @@ var
         drawBackgroundTab: function() {
             var
                 _this = this;
-            jQuery.get('./photos.php', {}, function(response) {
-                if (response.success === true) {
-                    Sai.set('photos', response.data.photos);
-                    var
-                        html = _.template(_this.getTemplate('tabs', 'background'), {}),
-                        templateElements = $(jQuery.parseHTML(html.trim())),
-                        tabElement = App().getElement().find('div.backgroundTab');
-                    tabElement.append(templateElements);
-                    _this._backgroundTab = (new BackgroundTabView(tabElement));
-                } else {
-                    if (App().siteHasBeenLocked(response)) {
-                        App().showLockedModal();
-                    } else {
-                        App().showErrorModal(false, response.failedRules[0].error.reference);
-                    }
-                }
-            }, 'json').fail(function() {
-                App().showErrorModal(false, 'z1jk');
-            });
+//            jQuery.get('./photos.php', {}, function(response) {
+//                if (response.success === true) {
+//                    Sai.set('photos', response.data.photos);
+//                    var
+//                        html = _.template(_this.getTemplate('tabs', 'background'), {}),
+//                        templateElements = $(jQuery.parseHTML(html.trim())),
+//                        tabElement = App().getElement().find('div.backgroundTab');
+//                    tabElement.append(templateElements);
+//                    _this._backgroundTab = (new BackgroundTabView(tabElement));
+//                } else {
+//                    if (App().siteHasBeenLocked(response)) {
+//                        App().showLockedModal();
+//                    } else {
+//                        App().showErrorModal(false, response.failedRules[0].error.reference);
+//                    }
+//                }
+//            }, 'json').fail(function() {
+//                App().showErrorModal(false, 'z1jk');
+//            });
         },
         drawTemplatesTab: function() {
             var
@@ -27952,14 +27988,18 @@ var
         },
         getTemplate: function() {
             var
-                args = arguments,
-                ref = this.getTemplates();
-            $(args).each(function(index, arg) {
-                ref = ref[arg];
+                args = arguments,//arguments passed to the function. we can pass any number of arguments this way 
+                //we dint put function(arg1, arg2) ade adugudama nukunna
+                ref = this.getTemplates();//calling gettemplates 
+            $(args).each(function(index, arg) { //first time index is 0 and arg is tabs and second time index is 1 and arg is template
+                ref = ref[arg];//vvv imp first time ref is getTemplates.tabs .. second time ref is vv imp tell getTemplates.tabs.template ok so 
+                //wat is the value tell now. from below function
             });
             return ref;
+            
+            
         },
-        getTemplates: function() {
+        getTemplates: function() {//get templates is here. getTemplate('tabs', 'templates'),
             return {
                 admin: {
                     categories: this._element.find('#categoriesAdminTemplate').html(),

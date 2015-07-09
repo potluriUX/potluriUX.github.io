@@ -81,15 +81,15 @@
         data-pageViewName="AppView" class="sai-closed" style="zoom: 1;">
         <div id="fb-root"></div>
                 <script>
-            window.fbAsyncInit = function() {
-                FB.init({
-                    appId: '284487335033848000',
-                    status: true,
-                    cookie: true,
-                    xfbml: true,
-                    version: 'v2.2'
-                });
-            };
+//            window.fbAsyncInit = function() {
+//                FB.init({
+//                    appId: '284487335033848000',
+//                    status: true,
+//                    cookie: true,
+//                    xfbml: true,
+//                    version: 'v2.2'
+//                });
+//            };
             (function(d, s, id){
                 var js, fjs = d.getElementsByTagName(s)[0];
                 if (d.getElementById(id)) {return;}
@@ -152,6 +152,10 @@
                     </div>
                     <a href="#" id="createImageBtn" class="btn btn-primary">
                         Save &amp; Share
+                        <!-- <i class="icon-caret-right"></i> -->
+                    </a>
+                     <a href="#" id="testBtn" class="btn btn-primary">
+                        test
                         <!-- <i class="icon-caret-right"></i> -->
                     </a>
                     <div id="saveToTemplates" data-scope="templatesTab">
@@ -1318,6 +1322,11 @@
     <%
         var authd = App().userIsPro() || Sai.get('publisher') !== false,
             templates = Sai.get('templates');
+  
+ var  templates2 = [
+  {"id":"444585","created":"1414676038","updated":"1436204340","status":"open","type":"default","userId":"2991","publisherId":"0","sourceImageId":"0","numberOfRemixes":"570","publicKey":"ebdb7932","s3Filename":"1414676038-ebdb7932-fb3e.jpg","sourceUrl":"","documentJson":"{\"layers\":[{\"styles\":{\"align\":\"center\",\"fillStyle\":\"#ffffff\",\"shadowColor\":\"rgba(0,0,0,0.25)\",\"fontFamily\":\"Fredoka One\",\"fontSize\":\"41px\",\"fontStyle\":\"normal\",\"text\":\"Nature is experienced\",\"x\":\"6.67%\",\"y\":\"38.7%\",\"maxWidth\":470},\"type\":\"text\"},{\"isBackground\":true,\"type\":\"image\",\"filters\":[{\"type\":\"blur\",\"properties\":{\"strength\":3}}],\"sourceSrc\":\"http://res.cloudinary.com/do7w0q9iq/image/upload/n8xjdyj9nqzl0ppcmavb.jpg\",\"resizedSrc\":\"http://res.cloudinary.com/do7w0q9iq/image/upload/c_lfill,h_385,w_495/n8xjdyj9nqzl0ppcmavb.jpg\",\"styles\":{\"height\":385,\"width\":495,\"x\":0,\"y\":0}},{\"styles\":{\"align\":\"center\",\"fillStyle\":\"#d98c34\",\"shadowColor\":\"rgba(0,0,0,0.25)\",\"fontFamily\":\"Sacramento\",\"fontSize\":\"44px\",\"fontStyle\":\"normal\",\"text\":\"through all the senses\",\"x\":\"21.82%\",\"y\":\"52.92%\",\"maxWidth\":470},\"type\":\"text\"},{\"styles\":{\"align\":\"center\",\"fillStyle\":\"#ffffff\",\"shadowColor\":\"rgba(0,0,0,0.25)\",\"fontFamily\":\"Sacramento\",\"fontSize\":\"44px\",\"fontStyle\":\"normal\",\"text\":\"__________\",\"x\":\"36.57%\",\"y\":\"24.86%\",\"maxWidth\":470},\"type\":\"text\"}]}","text":"Nature is experienced / through all the senses / __________","hasBeenFlagged":"0","hasBeenDeleted":"0","hasHighDef":"1","createdIPAddress":"99.238.86.213","totalViews":"0","redirectUrl":"","stat-embedType":"modal","stat-flow":"chromeExtension","secondsToCreate":"258","isUserTemplate":"0","isGlobalTemplate":"1","globalTemplateOrder":"3","cloudfrontUrl":"http://res.cloudinary.com/do7w0q9iq/image/upload/1414676038-ebdb7932-fb3e.jpg","displayUrl":"http://res.cloudinary.com/do7w0q9iq/image/upload/1414676038-ebdb7932-fb3e.jpg","path":"/i/ebdb7932","url":"https://shareasimage.com/i/ebdb7932"}
+  
+  ]//Sai.get('templates');
     %>
     <% if (Sai.get('publisher') === false) { %>
         <div class="resourceTabs clearfix">
@@ -1333,7 +1342,29 @@
                     <%
                         $(templates).each(
                             function(index, template) {
+                            //	console.log(Sai.get("test"));//i am so dumb i am wondering y i am not getting for two times 12345678. 
+                            	//templates has only one image. templates2 has another image. 
+                            	//upon 
                     %>
+                  
+                        <div class="template pull-left" data-image-isfree="false">
+                            <a href="#" class="preview" data-imageId="<%= (template.id) %>">
+                                <div class="overlay"></div>
+                                <div class="icon">
+                                    <div class="icon-plus"></div>
+                                </div>
+                                <div class="actual" style="background-image: url('<%= (template.cloudfrontUrl) %>');"></div>
+                            </a>
+                        </div>
+                    <%
+                            }
+                        );
+                    %>
+                     <%
+                        $(templates2).each(
+                            function(index, template) {
+                    %>
+                    <%=(Sai.get("test"))%> 
                         <div class="template pull-left" data-image-isfree="false">
                             <a href="#" class="preview" data-imageId="<%= (template.id) %>">
                                 <div class="overlay"></div>
@@ -3932,6 +3963,7 @@ olivers new public key: louis old public key
             require(
                 [
               'http://potluriux.github.io/e/embed_files/app-1435687444.js',
+        //'http://localhost/xampp/potluriux.github.io/e/embed_files/app-1435687444.js',
 //                    'https://d3iy4zn4a0491c.cloudfront.net/static/app/js/compiled/app-1435687444.min.js',
                    //  'http://localhost/xampp/test/embed_files/app-1435687444.js',//'https://static.accountdock.com/app.min.js'
                 ]
