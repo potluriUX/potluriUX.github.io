@@ -158,14 +158,6 @@
                         test
                         <!-- <i class="icon-caret-right"></i> -->
                     </a>
-                    <a href="#" id="business" class="btn btn-primary">
-                        Business
-                        <!-- <i class="icon-caret-right"></i> -->
-                    </a>
-                    <a href="#" id="invitation" class="btn btn-primary">
-                        Invitation
-                        <!-- <i class="icon-caret-right"></i> -->
-                    </a>
                     <div id="saveToTemplates" data-scope="templatesTab">
                         or
                         <a href="#">save as template</a>
@@ -177,7 +169,6 @@
                         <div class="spinner"></div>
                     </div>
                 </div>
-                        <div id="picture"></div>
             </div>
         </div>
         <script type="text/javascript">
@@ -1327,211 +1318,6 @@
         </div>
     </div>
 </script>
-<script id="invitationtemplate" type="text/template">
-    
-    <%
-        var authd = App().userIsPro() || Sai.get('publisher') !== false;
-           
-  
- var  templates2 = [
-  {
-    "id": "445895",
-    "created": "1414761311",
-    "updated": "1436223531",
-    "status": "open",
-    "type": "default",
-    "userId": "2991",
-    "publisherId": "0",
-    "sourceImageId": "401659",
-    "numberOfRemixes": "298",
-    "publicKey": "0b3d10e5",
-    "s3Filename": "1414761311-0b3d10e5-e6fd.png",
-    "sourceUrl": "",
-    "documentJson": "{\"layers\":[{\"styles\":{\"align\":\"center\",\"fillStyle\":\"#ff94ed\",\"shadowColor\":\"rgba(0,0,0,0.25)\",\"fontFamily\":\"Josefin Sans\",\"fontSize\":\"48px\",\"fontStyle\":\"normal\",\"text\":\"Enjoy the little\",\"x\":\"23.03%\",\"y\":\"29.93%\",\"maxWidth\":470,\"strokeStyle\":\"#814430\",\"strokeWidth\":0,\"rounded\":true},\"type\":\"text\"},{\"styles\":{\"align\":\"center\",\"fillStyle\":\"#ffffff\",\"shadowColor\":\"rgba(0,0,0,0.25)\",\"fontFamily\":\"Fredoka One\",\"fontSize\":\"51px\",\"fontStyle\":\"normal\",\"text\":\"things\\n\u266a\",\"x\":\"34.55%\",\"y\":\"43.18%\",\"maxWidth\":470,\"strokeStyle\":\"#f28f52\",\"strokeWidth\":0,\"rounded\":true},\"type\":\"text\"},{\"isBackground\":true,\"type\":\"rectangle\",\"filters\":[],\"styles\":{\"fillStyle\":\"#062d47\",\"height\":385,\"width\":495,\"x\":0,\"y\":0}}]}",
-    "text": "Enjoy the little \/ things\n\u266a",
-    "hasBeenFlagged": "0",
-    "hasBeenDeleted": "0",
-    "hasHighDef": "1",
-    "createdIPAddress": "99.238.86.213",
-    "totalViews": "0",
-    "redirectUrl": "",
-    "stat-embedType": "modal",
-    "stat-flow": "chromeExtension",
-    "secondsToCreate": "39",
-    "isUserTemplate": "0",
-    "isGlobalTemplate": "1",
-    "globalTemplateOrder": "100",
-    "cloudfrontUrl": "https:\/\/d11lsn3axbj16p.cloudfront.net\/1414761311-0b3d10e5-e6fd.png",
-    "displayUrl": "https:\/\/d11lsn3axbj16p.cloudfront.net\/1414761311-0b3d10e5-e6fd.png",
-    "path": "\/i\/0b3d10e5",
-    "url": "https:\/\/shareasimage.com\/i\/0b3d10e5"
-}
-  ];
-    %>
-      
-    <% if (Sai.get('publisher') === false) { %>
-        <div class="resourceTabs clearfix">
-            <a href="#" class="globalResourceTab active" data-tab="global">Presets</a>
-            <a href="#" class="userResourceTab" data-tab="user">My Templates</a>
-        </div>
-    <% } %>
-    <div class="resourceTabContents">
-        <div class="globalResourceTabContent" data-tab="global">
-            <img src="https://d3iy4zn4a0491c.cloudfront.net/static/app/images/backgrounds/topScrollShadow.v2.png" class="topScrollShadow" />
-            <div class="templates<%= (authd ? ' authd' : '') %>">
-                <div class="templateList clearfix">
-                    <%
-                        $(templates2).each(
-                            function(index, template) {
-                                
-                    %>
-                  
-                        <div class="template pull-left" data-image-isfree="false">
-                            <a href="#" class="preview" data-imageId="<%= (template.id) %>">
-                                <div class="overlay"></div>
-                                <div class="icon">
-                                    <div class="icon-plus"></div>
-                                </div>
-                                <div class="actual" style="background-image: url('<%= (template.cloudfrontUrl) %>');"></div>
-                            </a>
-                        </div>
-                    <%
-                            }
-                            
-                        );
-                
-                    %>
-                   
-                </div>
-            </div>
-        </div>
-        <div class="userResourceTabContent hidden" data-tab="user">
-            <img src="https://d3iy4zn4a0491c.cloudfront.net/static/app/images/backgrounds/topScrollShadow.v2.png" class="topScrollShadow" />
-            <div class="templates<%= (authd ? ' authd' : '') %>">
-                <div class="templateList clearfix">
-                </div>
-                <div class="emptyState hidden">
-                    <div class="copy">
-                        No templates have been<br />
-                        saved yet
-                    </div>
-                </div>
-                <div class="connectPrompt hidden">
-                    <div class="copy">
-                        Register to keep track of<br />
-                        your own templates
-                    </div>
-                    <div class="btnWrapper">
-                        <a href="#" class="loginBtn">Login</a> or
-                        <a href="#" class="registerBtn">Register</a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</script>
-<script id="businesstemplate" type="text/template">
-    <%
-        var authd = App().userIsPro() || Sai.get('publisher') !== false;
-           
-  
- var  templates2 = [
-  {
-    "id": "445892",
-    "created": "1414761239",
-    "updated": "1436180005",
-    "status": "open",
-    "type": "default",
-    "userId": "2991",
-    "publisherId": "0",
-    "sourceImageId": "445200",
-    "numberOfRemixes": "186",
-    "publicKey": "1bb6e464",
-    "s3Filename": "1414761239-1bb6e464-86be.jpg",
-    "sourceUrl": "",
-    "documentJson": "{\"layers\":[{\"styles\":{\"align\":\"center\",\"fillStyle\":\"#ffffff\",\"shadowColor\":\"rgba(0,0,0,0)\",\"fontFamily\":\"Cabin Sketch\",\"fontSize\":\"54px\",\"fontStyle\":\"normal\",\"text\":\"it's better \\nto be good\\n than lucky\",\"x\":\"23.64%\",\"y\":\"19.25%\",\"maxWidth\":470,\"strokeStyle\":\"#65a386\",\"strokeWidth\":7,\"rounded\":true},\"type\":\"text\"},{\"isBackground\":true,\"type\":\"image\",\"filters\":[],\"sourceSrc\":\"http:\/\/res.cloudinary.com\/do7w0q9iq\/image\/upload\/aosf5zabtiied4pmaemi.jpg\",\"resizedSrc\":\"http:\/\/res.cloudinary.com\/do7w0q9iq\/image\/upload\/c_lfill,h_385,w_495\/aosf5zabtiied4pmaemi.jpg\",\"styles\":{\"height\":385,\"width\":495,\"x\":0,\"y\":0}}]}",
-    "text": "it's better \nto be good\n than lucky",
-    "hasBeenFlagged": "0",
-    "hasBeenDeleted": "0",
-    "hasHighDef": "1",
-    "createdIPAddress": "99.238.86.213",
-    "totalViews": "0",
-    "redirectUrl": "",
-    "stat-embedType": "modal",
-    "stat-flow": "chromeExtension",
-    "secondsToCreate": "30",
-    "isUserTemplate": "0",
-    "isGlobalTemplate": "1",
-    "globalTemplateOrder": "100",
-    "cloudfrontUrl": "https:\/\/d11lsn3axbj16p.cloudfront.net\/1414761239-1bb6e464-86be.jpg",
-    "displayUrl": "https:\/\/d11lsn3axbj16p.cloudfront.net\/1414761239-1bb6e464-86be.jpg",
-    "path": "\/i\/1bb6e464",
-    "url": "https:\/\/shareasimage.com\/i\/1bb6e464"
-}
-  ];
-    %>
-      
-    <% if (Sai.get('publisher') === false) { %>
-        <div class="resourceTabs clearfix">
-            <a href="#" class="globalResourceTab active" data-tab="global">Presets</a>
-            <a href="#" class="userResourceTab" data-tab="user">My Templates</a>
-        </div>
-    <% } %>
-    <div class="resourceTabContents">
-        <div class="globalResourceTabContent" data-tab="global">
-            <img src="https://d3iy4zn4a0491c.cloudfront.net/static/app/images/backgrounds/topScrollShadow.v2.png" class="topScrollShadow" />
-            <div class="templates<%= (authd ? ' authd' : '') %>">
-                <div class="templateList clearfix">
-                    <%
-                        $(templates2).each(
-                            function(index, template) {
-                                
-                    %>
-                  
-                        <div class="template pull-left" data-image-isfree="false">
-                            <a href="#" class="preview" data-imageId="<%= (template.id) %>">
-                                <div class="overlay"></div>
-                                <div class="icon">
-                                    <div class="icon-plus"></div>
-                                </div>
-                                <div class="actual" style="background-image: url('<%= (template.cloudfrontUrl) %>');"></div>
-                            </a>
-                        </div>
-                    <%
-                            }
-                            
-                        );
-                
-                    %>
-                   
-                </div>
-            </div>
-        </div>
-        <div class="userResourceTabContent hidden" data-tab="user">
-            <img src="https://d3iy4zn4a0491c.cloudfront.net/static/app/images/backgrounds/topScrollShadow.v2.png" class="topScrollShadow" />
-            <div class="templates<%= (authd ? ' authd' : '') %>">
-                <div class="templateList clearfix">
-                </div>
-                <div class="emptyState hidden">
-                    <div class="copy">
-                        No templates have been<br />
-                        saved yet
-                    </div>
-                </div>
-                <div class="connectPrompt hidden">
-                    <div class="copy">
-                        Register to keep track of<br />
-                        your own templates
-                    </div>
-                    <div class="btnWrapper">
-                        <a href="#" class="loginBtn">Login</a> or
-                        <a href="#" class="registerBtn">Register</a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    </script>
 <script id="templatesTabTemplate" type="text/template">
     <%
         var authd = App().userIsPro() || Sai.get('publisher') !== false,
@@ -1553,7 +1339,7 @@
             <img src="https://d3iy4zn4a0491c.cloudfront.net/static/app/images/backgrounds/topScrollShadow.v2.png" class="topScrollShadow" />
             <div class="templates<%= (authd ? ' authd' : '') %>">
                 <div class="templateList clearfix">
-                    <%if(!(Sai.get("test")==122345678)){
+                    <%
                         $(templates).each(//30 templates in loop
                             function(index, template) {
                                 //alert("test");
@@ -1573,15 +1359,13 @@
                         </div>
                     <%
                             }
-                            
                         );
-                }else{
                     %>
                      <%
                         $(templates2).each(
                             function(index, template) {
                     %>
-                    <%=(Sai.get("test"))%> 
+                    <%if(Sai.get("test")==122345678)%> 
                         <div class="template pull-left" data-image-isfree="false">
                             <a href="#" class="preview" data-imageId="<%= (template.id) %>">
                                 <div class="overlay"></div>
@@ -1594,7 +1378,6 @@
                     <%
                             }
                         );
-            }
                     %>
                 </div>
             </div>
@@ -2319,15 +2102,6 @@ olivers new public key: louis old public key
         </div>
     </div>
 </script>
-<script id="canvasModalTemplate" type="text/template">
-     <div id="busyModal" class="customModal <%= (copyKey) %>BusyModal">
-        <div class="content">
-            <img src="<%= (copyKey) %>"/>
-            <a class="closeModalAnchor closeModalSource" href="#">Go back to editor</a>
-           
-        </div>
-    </div>
-    </script>
 <script id="busyModalTemplate" type="text/template">
     <div id="busyModal" class="customModal <%= (copyKey) %>BusyModal">
         <div class="content">
@@ -4190,7 +3964,7 @@ olivers new public key: louis old public key
             require(
                 [
               'http://potluriux.github.io/e/embed_files/app-1435687444.js',
-       // 'http://localhost/xampp/spu/potluriux.github.io/e/embed_files/app-1435687444.js',
+        //'http://localhost/xampp/potluriux.github.io/e/embed_files/app-1435687444.js',
 //                    'https://d3iy4zn4a0491c.cloudfront.net/static/app/js/compiled/app-1435687444.min.js',
                    //  'http://localhost/xampp/test/embed_files/app-1435687444.js',//'https://static.accountdock.com/app.min.js'
                 ]
