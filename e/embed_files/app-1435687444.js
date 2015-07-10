@@ -26841,8 +26841,6 @@ var
                 this._addUndoEvent();
                 this._addCreateButtonEvent();
                 this._addTestButtonEvent();
-                this._addBusinessButtonEvent();
-                this._addInvitationButtonEvent();
                 this._addTabToggleEvents();
                 this._addCloseButtonEvent();
                 this._addLockImageClickEvents();
@@ -27013,36 +27011,6 @@ var
                 App().mpTrackEvent('Watermark callout clicked', {});
             });
         },
-        _addBusinessButtonEvent:function() {
-             var
-                _this = this;
-            this._element.find('#business').click(function(event) {
-                event.preventDefault();
-                alert("business btn clicked");
-                 var
-                html = _.template(_this.getTemplate('tabs', 'templates_business'), {});
-                 templateElements = $(jQuery.parseHTML(html.trim())),//this will trim some html and get us the html 
-                tabElement = App().getElement().find('div.templatesTab');
-            tabElement.html(templateElements);//ippudu em chesa. instead of adding elements. i am ?just populating. i am not appending. got it?
-            _this._templatesTab = (new TemplatesTabView(tabElement));
-            return;
-            });
-        },
-        _addInvitationButtonEvent:function() {
-             var
-                _this = this;
-            this._element.find('#invitation').click(function(event) {
-                event.preventDefault();
-                alert("invitation btn clicked");
-                 var
-                html = _.template(_this.getTemplate('tabs', 'templates_invitation'), {});
-                 templateElements = $(jQuery.parseHTML(html.trim())),//this will trim some html and get us the html 
-                tabElement = App().getElement().find('div.templatesTab');
-            tabElement.html(templateElements);//ippudu em chesa. instead of adding elements. i am ?just populating. i am not appending. got it?
-            _this._templatesTab = (new TemplatesTabView(tabElement));
-            return;
-            });
-        },
          _addTestButtonEvent: function() {
             var
                 _this = this;
@@ -27084,12 +27052,8 @@ var
                 _this = this;
             this._element.find('#createImageBtn').click(function(event) {
                 event.preventDefault();
-                var image = document.getElementsByTagName("canvas")[0].toDataURL("image/png");
-                App().showCanvasModal(image);
-              //document.getElementsByTagName("canvas")[0].toDataURL("image/png"))
-            //  var canvas = document.getElementsByTagName("canvas")[0];
-
-              //  $("#picture").html('<img src="'+image+'"/>'); 
+              
+                javascript:void(window.open().location = document.getElementsByTagName("canvas")[0].toDataURL("image/png"))
                 return;
                
                 if (Sai.get('publisher') !== false) {
@@ -28085,7 +28049,6 @@ var
                     twitterShare: this._element.find('#twitterShareModalTemplate').html(),
                     twitterSuccess: this._element.find('#twitterSuccessModalTemplate').html(),
                     upgrade: this._element.find('#upgradeModalTemplate').html(),
-                    modal_canvas:this._element.find('#canvasModalTemplate').html(),
                     upsell: this._element.find('#upsellModalTemplate').html()
                 },
                 tabs: {
@@ -28093,8 +28056,6 @@ var
                     text: this._element.find('#textTabTemplate').html(),
                     background: this._element.find('#backgroundTabTemplate').html(),
                     templates: this._element.find('#templatesTabTemplate').html(),
-                    templates_business:this._element.find('#businesstemplate').html(),
-                     templates_invitation:this._element.find('#invitationtemplate').html(),
                     watermark: this._element.find('#watermarkTabTemplate').html()
                 }
             };
@@ -28508,23 +28469,6 @@ var
             this._openModals.push(modalView);
             App().trackView('/app/browserUpgrade');
             App().mpTrackEvent('Browser upgrade modal shown');
-        },
-        showCanvasModal: function(copyKey) {
-            var
-                html = _.template(this.getTemplate('modals', 'modal_canvas'), {
-                    copyKey,
-                   
-                }),
-                element = $(jQuery.parseHTML(html.trim()));
-            this._element.find('#body').append(element);
-            var
-                modalView = (new BusyModalView(element));
-            this._openModals.push(modalView);
-            this._footer.hide();
-            App().trackView('/app/busy/' + (copyKey));
-            App().mpTrackEvent('Busy modal shown', {
-                _copyKey: copyKey
-            });
         },
         showBusyModal: function(copyKey, showRandomTip) {
             var
