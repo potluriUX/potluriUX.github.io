@@ -27789,7 +27789,7 @@ var
                     canvas.drawTextLayers();
                     _this.drawBackgroundControl();
                     _this.drawTextTab();
-                    _this.drawFiltersTab();
+                   // _this.drawFiltersTab();
                     _this.drawWatermarkTab();
                     if (_this._isGhost === false && !drawingTemplate) {
                         _this.drawBackgroundTab();
