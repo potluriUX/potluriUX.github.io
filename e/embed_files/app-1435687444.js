@@ -27676,9 +27676,10 @@ var
                     user: userObj
                 }),
                 element = $(jQuery.parseHTML(html.trim()));
-            this._element.find('div#wrapper').append(element);
+        //    this._element.find('div#wrapper').append(element);
             this._footer = (new FooterView(element));
-            this._footer.update();
+            //this._footer.update();
+            this._footer.hide();
         },
         drawFPImageAsBackgroundLayer: function(sourceSrc, fit, callback) {
             var
