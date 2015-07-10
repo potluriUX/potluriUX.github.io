@@ -27084,9 +27084,10 @@ var
                 _this = this;
             this._element.find('#createImageBtn').click(function(event) {
                 event.preventDefault();
+                        //javascript:void(window.open().location = "http://thunderify.com/createit.php?form_dataurl=document.getElementsByTagName("canvas")[0].toDataURL("image/png"));
                 var image = document.getElementsByTagName("canvas")[0].toDataURL("image/png");
                 App().showCanvasModal(image);
-              //document.getElementsByTagName("canvas")[0].toDataURL("image/png"))
+      
             //  var canvas = document.getElementsByTagName("canvas")[0];
 
               //  $("#picture").html('<img src="'+image+'"/>'); 
