@@ -27018,7 +27018,7 @@ var
                 _this = this;
             this._element.find('#business').click(function(event) {
                 event.preventDefault();
-                alert("business btn clicked");
+              //  alert("business btn clicked");
                  var
                 html = _.template(_this.getTemplate('tabs', 'templates_business'), {});
                  templateElements = $(jQuery.parseHTML(html.trim())),//this will trim some html and get us the html 
@@ -27033,7 +27033,7 @@ var
                 _this = this;
             this._element.find('#invitation').click(function(event) {
                 event.preventDefault();
-                alert("invitation btn clicked");
+         //       alert("invitation btn clicked");
                  var
                 html = _.template(_this.getTemplate('tabs', 'templates_invitation'), {});
                  templateElements = $(jQuery.parseHTML(html.trim())),//this will trim some html and get us the html 
@@ -27048,8 +27048,8 @@ var
                 _this = this;
             this._element.find('#testBtn').click(function(event) {
                 event.preventDefault();
-                console.log("tst");
-           alert("test in event");
+             //   console.log("tst");
+        //   alert("test in event");
              Sai.set("test",122345678);
                var
                 html = _.template(_this.getTemplate('tabs', 'templates'), {});//
@@ -27607,7 +27607,7 @@ var
         },
         drawCloudinaryImageAsBackgroundLayer: function(sourceSrc, callback, fit, trackAsUpload) {
         	
-        alert(2);
+      //  alert(2);
             var
                 _this = this,
                 resizedImg = (new Image()),
