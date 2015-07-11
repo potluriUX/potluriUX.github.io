@@ -29593,6 +29593,6 @@ isChrome = function() {
 App = function() {
     return Sai.getPageView();
 };
-log('pre: ', (new Date()).getTime() - start);
+//log('pre: ', (new Date()).getTime() - start);
 queue.process();
-log('post: ', (new Date()).getTime() - start);
+//log('post: ', (new Date()).getTime() - start);
