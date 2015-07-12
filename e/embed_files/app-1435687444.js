@@ -21896,8 +21896,8 @@ var
                         App().getImageDocument().addLayer(newLayer);
                         newLayer.getDrawing().draw();
                         newLayer.getDrawing().sendToBack();
-                        App().getFiltersTab().disable();
-                        App().getFiltersTab().reset();
+//                        App().getFiltersTab().disable();
+  //                      App().getFiltersTab().reset();
                         App().getCanvas().resize();
                     } else {
                         backgroundLayer.setStyle('fillStyle', hex);
@@ -27021,10 +27021,12 @@ var
               //  alert("business btn clicked");
                  var
                 html = _.template(_this.getTemplate('tabs', 'templates_business'), {});
+               
                  templateElements = $(jQuery.parseHTML(html.trim())),//this will trim some html and get us the html 
                 tabElement = App().getElement().find('div.templatesTab');
             tabElement.html(templateElements);//ippudu em chesa. instead of adding elements. i am ?just populating. i am not appending. got it?
             _this._templatesTab = (new TemplatesTabView(tabElement));
+            App().showTemplatesTab();
             return;
             });
         },
@@ -27040,6 +27042,7 @@ var
                 tabElement = App().getElement().find('div.templatesTab');
             tabElement.html(templateElements);//ippudu em chesa. instead of adding elements. i am ?just populating. i am not appending. got it?
             _this._templatesTab = (new TemplatesTabView(tabElement));
+            App().showTemplatesTab();
             return;
             });
         },
@@ -27068,6 +27071,7 @@ var
                 tabElement = App().getElement().find('div.templatesTab');
             tabElement.html(templateElements);//ippudu em chesa. instead of adding elements. i am ?just populating. i am not appending. got it?
             _this._templatesTab = (new TemplatesTabView(tabElement));
+            App().showTemplatesTab();
             //this function gets templateTabTemplate and puts the template, template2 variables data and puts it in which element 
             //i meant which div in dom templatetabtemplate2 lo peduthundi. no honey it gets the template html 
             //that way we dont need to string concatenate. andulo pettadu ye line lo techindi . 27021 ok gud 
@@ -27644,8 +27648,8 @@ var
                     },
                     newLayer = (new ImageLayer(properties));
                 _this._imageDocument.addLayer(newLayer);
-                _this.getFiltersTab().enable();
-                _this.getFiltersTab().reset();
+               // _this.getFiltersTab().enable();
+               // _this.getFiltersTab().reset();
                 newLayer.getDrawing().draw(function() {
                     newLayer.getDrawing().sendToBack();
                     _this.getCanvas().resize();
@@ -27710,8 +27714,8 @@ var
                     },
                     newLayer = (new ImageLayer(properties));
                 _this._imageDocument.addLayer(newLayer);
-                _this.getFiltersTab().enable();
-                _this.getFiltersTab().reset();
+           //     _this.getFiltersTab().enable();
+           //     _this.getFiltersTab().reset();
                 newLayer.getDrawing().draw(function() {
                     newLayer.getDrawing().sendToBack();
                     _this.getCanvas().resize();

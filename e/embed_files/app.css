@@ -5309,7 +5309,7 @@ a .icon-rotate-90:before, a .icon-rotate-180:before, a .icon-rotate-270:before, 
   content: "ï€Œ"; }
 
 .icon-remove:before {
-  content: "ï€"; }
+  content: "X"; }
 
 .icon-zoom-in:before {
   content: "ï€Ž"; }

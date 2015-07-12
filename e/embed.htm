@@ -14,6 +14,8 @@
         <!--[if lt IE 9]>
         <script src="https://html5shim.googlecode.com/svn/trunk/html5.js"></script>
         <![endif]-->
+        
+        
         <script type="text/javascript">
         //<![CDATA[
             var start=(new Date).getTime(),booted=[],included=false,required=[],js=function(e,t){if(arguments.length===0){t=function(){};e=[]}else if(arguments.length===1){t=e;e=[]}var n=function(e,t){var n=document.createElement("script"),r=document.getElementsByTagName("script"),s=r.length,o=function(){try{t&&t()}catch(e){i(e)}};n.setAttribute("type","text/javascript");n.setAttribute("charset","utf-8");if(n.readyState){n.onreadystatechange=function(){if(n.readyState==="loaded"||n.readyState==="complete"){n.onreadystatechange=null;o()}}}else{n.onload=o}n.setAttribute("src",e);document.body.insertBefore(n,r[s-1].nextSibling)},r=function(e,t){for(var n=0,r=e.length;n<r;++n){if(e[n]===t){return true}}return false},i=function(e){log("Caught Exception:");log(e.stack);log("")};if(included===false){if(typeof e==="string"){e=[e]}e=e.concat(required);included=true}if(typeof e==="string"){if(r(booted,e)){t()}else{booted.push(e);n(e,t)}}else if(e.constructor===Array){if(e.length!==0){js(e.shift(),function(){js(e,t)})}else{try{t&&t()}catch(s){i(s)}}}},log=function(){if(typeof console!=="undefined"&&console&&console.log){var e=arguments.length>1?arguments:arguments[0];console.log(e)}},queue=function(){var e=[];return{push:function(t){e.push(t)},process:function(){var t;while(t=e.shift()){t()}},unshift:function(t){e.unshift(t)}}}(),ready=function(e){var t=false,n=true,r=window.document,i=r.documentElement,s=r.addEventListener?"addEventListener":"attachEvent",o=r.addEventListener?"removeEventListener":"detachEvent",u=r.addEventListener?"":"on",a=function(n){if(n.type==="readystatechange"&&r.readyState!=="complete"){return}(n.type==="load"?window:r)[o](u+n.type,a,false);if(!t&&(t=true)){e()}},f=function(){try{i.doScroll("left")}catch(e){setTimeout(f,50);return}a("poll")};if(r.readyState==="complete"){e.call(window,"lazy")}else{if(r.createEventObject&&i.doScroll){try{n=!window.frameElement}catch(l){}if(n){f()}}r[s](u+"DOMContentLoaded",a,false);r[s](u+"readystatechange",a,false);window[s](u+"load",a,false)}},require=function(e){if(typeof e==="string"){e=[e]}required=required.concat(e)}
@@ -22,7 +24,7 @@
         <script type="text/javascript">
             queue.push(function() {
                 Sai.set('csrfToken', '228cb3d6385c81578ad11dc9ff228de0');
-                Sai.set('config', {"cloudfront":{"cloudinary":"dx5683gi1tv0w.cloudfront.net","filepicker":"d1k42gft2r86pe.cloudfront.net","saved":"d11lsn3axbj16p.cloudfront.net","static":"d3iy4zn4a0491c.cloudfront.net"},"cookies":{"host":"shareasimage.com"},"defaults":{"numberOfMoneyBackDays":7,"facebookActive":true,"twitterActive":true,"plansAreActive":false,"autoDetectImageFormat":true,"embedImageTemplateId":51788,"imageOutputFormat":"image\/jpeg","frequency":"yearly","maxFreeImages":3,"numberOfFreeTrialDays":0,"rate":1200,"yearlyRate":9600,"alternativeRate":800,"alternativeYearlyRate":7200,"runRateABTesting":false,"showFilepicker":true,"taxing":false},"geo":{"countryCode":"US"},"facebook":284487335033848000,"filepicker":{"key":"A10yJ6rhIQROiWXvdF2Ewz"},"role":"prod","stripe":{"publishableKey":"pk_live_ccSWlZlS9WNBeZqoL1tBOFzp"},"serverAddr":"172.31.45.2180","referer":"https:\/\/thunderify.com\/","watermark":{"filters":{"properties":{"strength":0},"type":"opacity"},"isWatermark":true,"resizedSrc":"http://res.cloudinary.com/do7w0q9iq/image/upload/c_scale,e_make_transparent/v1436382379/thundlogo.png"/*"http://res.cloudinary.com/do7w0q9iq/image/upload/c_scale,e_make_transparent/v1436382379/thundlogo.png"      "http://res.cloudinary.com/do7w0q9iq/image/upload/c_scale,e_make_transparent,h_1,w_1/v1436382379/onepixel.png" */,"size":"medium","sourceSrc":"https:\/\/d1k42gft2r86pe.cloudfront.net\/api\/file\/ktDscnsyQXqYsrJn7Fo2","styles":{"height":27,"width":200,"visible":true,"x":"0%","y":"92%"},"type":"image"}});
+                Sai.set('config', {"cloudfront":{"cloudinary":"res.cloudinary.com","filepicker":"d1k42gft2r86peold.cloudfront.net","saved":"d11lsn3axbj16pold.cloudfront.net","static":"d3iy4zn4a0491cold.cloudfront.net"},"cookies":{"host":"thunderify.com"},"defaults":{"numberOfMoneyBackDays":7,"facebookActive":true,"twitterActive":true,"plansAreActive":false,"autoDetectImageFormat":true,"embedImageTemplateId":51788,"imageOutputFormat":"image\/jpeg","frequency":"yearly","maxFreeImages":3,"numberOfFreeTrialDays":0,"rate":1200,"yearlyRate":9600,"alternativeRate":800,"alternativeYearlyRate":7200,"runRateABTesting":false,"showFilepicker":true,"taxing":false},"geo":{"countryCode":"US"},"facebook":284487335033848000,"filepicker":{"key":"A10yJ6rhIQROiWXvdF2Ewz"},"role":"prod","stripe":{"publishableKey":"pk_live_ccSWlZlS9WNBeZqoL1tBOFzp"},"serverAddr":"172.31.45.2180","referer":"https:\/\/thunderify.com\/","watermark":{"filters":{"properties":{"strength":0},"type":"opacity"},"isWatermark":true,"resizedSrc":"http://res.cloudinary.com/do7w0q9iq/image/upload/c_scale,e_make_transparent/v1436382379/thundlogo.png"/*"http://res.cloudinary.com/do7w0q9iq/image/upload/c_scale,e_make_transparent/v1436382379/thundlogo.png"      "http://res.cloudinary.com/do7w0q9iq/image/upload/c_scale,e_make_transparent,h_1,w_1/v1436382379/onepixel.png" */,"size":"medium","sourceSrc":"https:\/\/d1k42gft2r86pe.cloudfront.net\/api\/file\/ktDscnsyQXqYsrJn7Fo2","styles":{"height":27,"width":200,"visible":true,"x":"0%","y":"92%"},"type":"image"}});
                 Sai.set('provinces', [{"id":"1","created":"0","updated":"0","status":"open","type":"default","handle":"ab","name":"Alberta","hst":"0","gst":"5","pst":"0","total":"5","taxableRate":"5","taxName":"GST"},{"id":"2","created":"0","updated":"0","status":"open","type":"default","handle":"bc","name":"British Columbia","hst":"0","gst":"5","pst":"7","total":"12","taxableRate":"5","taxName":"GST"},{"id":"3","created":"0","updated":"0","status":"open","type":"default","handle":"mb","name":"Manitoba","hst":"0","gst":"5","pst":"8","total":"13","taxableRate":"5","taxName":"GST"},{"id":"4","created":"0","updated":"0","status":"open","type":"default","handle":"nb","name":"New Brunswick","hst":"13","gst":"0","pst":"0","total":"13","taxableRate":"13","taxName":"HST"},{"id":"5","created":"0","updated":"0","status":"open","type":"default","handle":"nl","name":"Newfoundland and Labrador","hst":"13","gst":"0","pst":"0","total":"13","taxableRate":"13","taxName":"HST"},{"id":"6","created":"0","updated":"0","status":"open","type":"default","handle":"nt","name":"Northwest Territories","hst":"0","gst":"5","pst":"0","total":"5","taxableRate":"5","taxName":"GST"},{"id":"7","created":"0","updated":"0","status":"open","type":"default","handle":"ns","name":"Nova Scotia","hst":"15","gst":"0","pst":"0","total":"15","taxableRate":"15","taxName":"HST"},{"id":"8","created":"0","updated":"0","status":"open","type":"default","handle":"nu","name":"Nunavut","hst":"0","gst":"5","pst":"0","total":"5","taxableRate":"5","taxName":"GST"},{"id":"9","created":"0","updated":"0","status":"open","type":"default","handle":"on","name":"Ontario","hst":"13","gst":"0","pst":"0","total":"13","taxableRate":"13","taxName":"HST"},{"id":"10","created":"0","updated":"0","status":"open","type":"default","handle":"pe","name":"Prince Edward Island","hst":"14","gst":"0","pst":"0","total":"14","taxableRate":"14","taxName":"HST"},{"id":"11","created":"0","updated":"0","status":"open","type":"default","handle":"qc","name":"Quebec","hst":"0","gst":"5","pst":"9.975","total":"14.975","taxableRate":"5","taxName":"GST"},{"id":"12","created":"0","updated":"0","status":"open","type":"default","handle":"sk","name":"Saskatchewan","hst":"0","gst":"5","pst":"5","total":"10","taxableRate":"5","taxName":"GST"},{"id":"13","created":"0","updated":"0","status":"open","type":"default","handle":"yt","name":"Yukon","hst":"0","gst":"5","pst":"0","total":"5","taxableRate":"5","taxName":"GST"}]);
                 Sai.set('loggedInUser', false);
                 Sai.set('uploads', []);
@@ -133,7 +135,7 @@
 }
 ,
 {
-        "id": "999150",
+        "id": "999199",
         "created": "1414761239",
         "updated": "1436180005",
         "status": "open",
@@ -1751,7 +1753,7 @@
         "path": "\/i\/3bc21f21",
         "url": "https:\/\/shareasimage.com\/i\/3bc21f21"
     }, {
-        "id": "999152",
+        "id": "999153",
         "created": "1414675762",
         "updated": "1436205174",
         "status": "open",
@@ -1782,7 +1784,7 @@
         "path": "\/i\/4c5f6b29",
         "url": "https:\/\/shareasimage.com\/i\/4c5f6b29"
     }, {
-        "id": "999153",
+        "id": "999154",
         "created": "1414676769",
         "updated": "1436201299",
         "status": "open",
@@ -1813,8 +1815,8 @@
         "path": "\/i\/9c4e21f1",
         "url": "https:\/\/shareasimage.com\/i\/9c4e21f1"
     }, {
-        "id": "999154",
-        "created": "1414677438",
+        "id": "999155",
+        "created": "414677438",
         "updated": "1436235745",
         "status": "open",
         "type": "default",
@@ -1844,7 +1846,7 @@
         "path": "\/i\/e9377036",
         "url": "https:\/\/shareasimage.com\/i\/e9377036"
     }, {
-        "id": "999155",
+        "id": "999156",
         "created": "1414677683",
         "updated": "1436241808",
         "status": "open",
@@ -1875,7 +1877,7 @@
         "path": "\/i\/ae1d1da7",
         "url": "https:\/\/shareasimage.com\/i\/ae1d1da7"
     }, {
-        "id": "999156",
+        "id": "999157",
         "created": "1414677929",
         "updated": "1435850055",
         "status": "open",
@@ -1906,7 +1908,7 @@
         "path": "\/i\/b2503089",
         "url": "https:\/\/shareasimage.com\/i\/b2503089"
     }, {
-        "id": "999157",
+        "id": "999158",
         "created": "1414678256",
         "updated": "1436204069",
         "status": "open",
@@ -1937,7 +1939,7 @@
         "path": "\/i\/7a9e49f0",
         "url": "https:\/\/shareasimage.com\/i\/7a9e49f0"
     }, {
-        "id": "999158",
+        "id": "999159",
         "created": "1414678433",
         "updated": "1435878737",
         "status": "open",
@@ -1968,9 +1970,9 @@
         "path": "\/i\/8ddaa4b2",
         "url": "https:\/\/shareasimage.com\/i\/8ddaa4b2"
     }, {
-        "id": "999159",
+        "id": "999160",
         "created": "1414678728",
-        "updated": "1436207566",
+        "updated": "436207566",
         "status": "open",
         "type": "default",
         "userId": "2991",
@@ -1999,7 +2001,7 @@
         "path": "\/i\/f86cc362",
         "url": "https:\/\/shareasimage.com\/i\/f86cc362"
     }, {
-        "id": "999160",
+        "id": "999161",
         "created": "1414680415",
         "updated": "1436069786",
         "status": "open",
@@ -2030,8 +2032,8 @@
         "path": "\/i\/f6fd8b8e",
         "url": "https:\/\/shareasimage.com\/i\/f6fd8b8e"
     }, {
-        "id": "999161",
-        "created": "1414680910",
+        "id": "999162",
+        "created": "414680910",
         "updated": "1436187489",
         "status": "open",
         "type": "default",
@@ -2061,7 +2063,7 @@
         "path": "\/i\/bd9b9f65",
         "url": "https:\/\/shareasimage.com\/i\/bd9b9f65"
     }, {
-        "id": "999162",
+        "id": "999163",
         "created": "1414681482",
         "updated": "1436203470",
         "status": "open",
@@ -2092,7 +2094,7 @@
         "path": "\/i\/7f550f43",
         "url": "https:\/\/shareasimage.com\/i\/7f550f43"
     }, {
-        "id": "999163",
+        "id": "999164",
         "created": "1414681610",
         "updated": "1436237457",
         "status": "open",
@@ -2123,7 +2125,7 @@
         "path": "\/i\/e1703fc4",
         "url": "https:\/\/shareasimage.com\/i\/e1703fc4"
     }, {
-        "id": "999164",
+        "id": "999165",
         "created": "1414675346",
         "updated": "1436173873",
         "status": "open",
@@ -2153,7 +2155,167 @@
         "displayUrl": "http://res.cloudinary.com/do7w0q9iq/image/upload/1414675346-aca4cf5c-a617.jpg",
         "path": "\/i\/aca4cf5c",
         "url": "https:\/\/shareasimage.com\/i\/aca4cf5c"
-    }
+    },
+   {
+    "id": "999166",
+    "created": "1414761239",
+    "updated": "1436180005",
+    "status": "open",
+    "type": "default",
+    "userId": "2991",
+    "publisherId": "0",
+    "sourceImageId": "445200",
+    "numberOfRemixes": "186",
+    "publicKey": "1bb6e464",
+    "s3Filename": "1414761239-1bb6e464-86be.jpg",
+    "sourceUrl": "",
+    "documentJson": "{\"layers\":[{\"styles\":{\"align\":\"center\",\"fillStyle\":\"#140606\",\"shadowColor\":\"rgba(0,0,0,0)\",\"fontFamily\":\"Cabin Sketch\",\"fontSize\":\"38px\",\"fontStyle\":\"normal\",\"text\":\"--Lucene Publishing--\",\"x\":\"22.02%\",\"y\":\"14.05%\",\"maxWidth\":470,\"strokeStyle\":\"#e3faef\",\"strokeWidth\":5,\"rounded\":true},\"type\":\"text\"},{\"isBackground\":true,\"type\":\"image\",\"filters\":[],\"sourceSrc\":\"http://res.cloudinary.com/do7w0q9iq/image/upload/party_17.png\",\"resizedSrc\":\"http://res.cloudinary.com/do7w0q9iq/image/upload/c_lfill,h_385,w_495/party_17.png\",\"styles\":{\"height\":385,\"width\":495,\"x\":0,\"y\":0}},{\"filters\":{\"properties\":{\"strength\":0},\"type\":\"opacity\"},\"isWatermark\":true,\"resizedSrc\":\"http://res.cloudinary.com/do7w0q9iq/image/upload/c_scale,e_make_transparent/v1436382379/thundlogo.png\",\"size\":\"medium\",\"sourceSrc\":\"https://d1k42gft2r86pe.cloudfront.net/api/file/ktDscnsyQXqYsrJn7Fo2\",\"styles\":{\"height\":27,\"width\":200,\"visible\":true,\"x\":\"0%\",\"y\":\"92%\"},\"type\":\"image\"},{\"styles\":{\"align\":\"center\",\"fillStyle\":\"#eb0505\",\"shadowColor\":\"rgba(0,0,0,0)\",\"fontFamily\":\"Cabin Sketch\",\"fontSize\":\"34px\",\"fontStyle\":\"normal\",\"text\":\"Annual Company Picnic\",\"x\":\"22.22%\",\"y\":\"41.49%\",\"maxWidth\":470,\"strokeStyle\":\"#65a386\",\"strokeWidth\":0,\"rounded\":true},\"type\":\"text\"},{\"styles\":{\"align\":\"center\",\"fillStyle\":\"#ffffff\",\"shadowColor\":\"rgba(0,0,0,0)\",\"fontFamily\":\"Cabin Sketch\",\"fontSize\":\"25px\",\"fontStyle\":\"normal\",\"text\":\"Aug 13 11am to 5pm\\n\",\"x\":\"46.26%\",\"y\":\"68.75%\",\"maxWidth\":470,\"strokeStyle\":\"#65a386\",\"strokeWidth\":4,\"rounded\":true},\"type\":\"text\"},{\"styles\":{\"align\":\"center\",\"fillStyle\":\"#ffffff\",\"shadowColor\":\"rgba(0,0,0,0)\",\"fontFamily\":\"Cabin Sketch\",\"fontSize\":\"23px\",\"fontStyle\":\"normal\",\"text\":\"oak wood park, \\ncalifornia\",\"x\":\"53.74%\",\"y\":\"80.43%\",\"maxWidth\":470,\"strokeStyle\":\"#65a386\",\"strokeWidth\":4,\"rounded\":true},\"type\":\"text\"},{\"styles\":{\"align\":\"center\",\"fillStyle\":\"#ffffff\",\"shadowColor\":\"rgba(0,0,0,0)\",\"fontFamily\":\"Cabin Sketch\",\"fontSize\":\"22px\",\"fontStyle\":\"normal\",\"text\":\"rsvp maria p\",\"x\":\"15.76%\",\"y\":\"80.94%\",\"maxWidth\":470,\"strokeStyle\":\"#65a386\",\"strokeWidth\":4,\"rounded\":true},\"type\":\"text\"}]}",
+    "text": "Event Title \nDate\n than lucky",
+    "hasBeenFlagged": "0",
+    "hasBeenDeleted": "0",
+    "hasHighDef": "1",
+    "createdIPAddress": "99.238.86.213",
+    "totalViews": "0",
+    "redirectUrl": "",
+    "stat-embedType": "modal",
+    "stat-flow": "chromeExtension",
+    "secondsToCreate": "30",
+    "isUserTemplate": "0",
+    "isGlobalTemplate": "1",
+    "globalTemplateOrder": "100",
+    "cloudfrontUrl": "http://res.cloudinary.com/do7w0q9iq/image/upload/party_17.png",
+    "displayUrl": "http://res.cloudinary.com/do7w0q9iq/image/upload/party_17.png",
+    "path": "/i/1bb6e464",
+    "url": "https://shareasimage.com/i/1bb6e464"
+}
+, {
+    "id": 999167,
+    "created": "1414761239",
+    "updated": "1436180005",
+    "status": "open",
+    "type": "default",
+    "userId": "2991",
+    "publisherId": "0",
+    "sourceImageId": "445200",
+    "numberOfRemixes": "186",
+    "publicKey": "1bb6e464",
+    "s3Filename": "1414761239-1bb6e464-86be.jpg",
+    "sourceUrl": "",
+    "documentJson": "{\"layers\":[{\"styles\":{\"align\":\"center\",\"fillStyle\":\"#140606\",\"shadowColor\":\"rgba(0,0,0,0)\",\"fontFamily\":\"Cabin Sketch\",\"fontSize\":\"38px\",\"fontStyle\":\"normal\",\"text\":\"--Lucene Publishing--\",\"x\":\"22.02%\",\"y\":\"14.05%\",\"maxWidth\":470,\"strokeStyle\":\"#e3faef\",\"strokeWidth\":5,\"rounded\":true},\"type\":\"text\"},{\"isBackground\":true,\"type\":\"image\",\"filters\":[],\"sourceSrc\":\"http://res.cloudinary.com/do7w0q9iq/image/upload/party_16.png\",\"resizedSrc\":\"http://res.cloudinary.com/do7w0q9iq/image/upload/c_lfill,h_385,w_495/party_16.png\",\"styles\":{\"height\":385,\"width\":495,\"x\":0,\"y\":0}},{\"filters\":{\"properties\":{\"strength\":0},\"type\":\"opacity\"},\"isWatermark\":true,\"resizedSrc\":\"http://res.cloudinary.com/do7w0q9iq/image/upload/c_scale,e_make_transparent/v1436382379/thundlogo.png\",\"size\":\"medium\",\"sourceSrc\":\"https://d1k42gft2r86pe.cloudfront.net/api/file/ktDscnsyQXqYsrJn7Fo2\",\"styles\":{\"height\":27,\"width\":200,\"visible\":true,\"x\":\"0%\",\"y\":\"92%\"},\"type\":\"image\"},{\"styles\":{\"align\":\"center\",\"fillStyle\":\"#eb0505\",\"shadowColor\":\"rgba(0,0,0,0)\",\"fontFamily\":\"Cabin Sketch\",\"fontSize\":\"34px\",\"fontStyle\":\"normal\",\"text\":\"Annual Company Picnic\",\"x\":\"22.22%\",\"y\":\"41.49%\",\"maxWidth\":470,\"strokeStyle\":\"#65a386\",\"strokeWidth\":0,\"rounded\":true},\"type\":\"text\"},{\"styles\":{\"align\":\"center\",\"fillStyle\":\"#ffffff\",\"shadowColor\":\"rgba(0,0,0,0)\",\"fontFamily\":\"Cabin Sketch\",\"fontSize\":\"25px\",\"fontStyle\":\"normal\",\"text\":\"Aug 13 11am to 5pm\\n\",\"x\":\"46.26%\",\"y\":\"68.75%\",\"maxWidth\":470,\"strokeStyle\":\"#65a386\",\"strokeWidth\":4,\"rounded\":true},\"type\":\"text\"},{\"styles\":{\"align\":\"center\",\"fillStyle\":\"#ffffff\",\"shadowColor\":\"rgba(0,0,0,0)\",\"fontFamily\":\"Cabin Sketch\",\"fontSize\":\"23px\",\"fontStyle\":\"normal\",\"text\":\"oak wood park, \\ncalifornia\",\"x\":\"53.74%\",\"y\":\"80.43%\",\"maxWidth\":470,\"strokeStyle\":\"#65a386\",\"strokeWidth\":4,\"rounded\":true},\"type\":\"text\"},{\"styles\":{\"align\":\"center\",\"fillStyle\":\"#ffffff\",\"shadowColor\":\"rgba(0,0,0,0)\",\"fontFamily\":\"Cabin Sketch\",\"fontSize\":\"22px\",\"fontStyle\":\"normal\",\"text\":\"rsvp maria p\",\"x\":\"15.76%\",\"y\":\"80.94%\",\"maxWidth\":470,\"strokeStyle\":\"#65a386\",\"strokeWidth\":4,\"rounded\":true},\"type\":\"text\"}]}",
+    "text": "Event Title \nDate\n than lucky",
+    "hasBeenFlagged": "0",
+    "hasBeenDeleted": "0",
+    "hasHighDef": "1",
+    "createdIPAddress": "99.238.86.213",
+    "totalViews": "0",
+    "redirectUrl": "",
+    "stat-embedType": "modal",
+    "stat-flow": "chromeExtension",
+    "secondsToCreate": "30",
+    "isUserTemplate": "0",
+    "isGlobalTemplate": "1",
+    "globalTemplateOrder": "100",
+    "cloudfrontUrl": "http://res.cloudinary.com/do7w0q9iq/image/upload/party_16.png",
+    "displayUrl": "http://res.cloudinary.com/do7w0q9iq/image/upload/party_16.png",
+    "path": "/i/1bb6e464",
+    "url": "https://shareasimage.com/i/1bb6e464"
+}
+, {
+    "id":999168,
+    "created": "1414761239",
+    "updated": "1436180005",
+    "status": "open",
+    "type": "default",
+    "userId": "2991",
+    "publisherId": "0",
+    "sourceImageId": "445200",
+    "numberOfRemixes": "186",
+    "publicKey": "1bb6e464",
+    "s3Filename": "1414761239-1bb6e464-86be.jpg",
+    "sourceUrl": "",
+    "documentJson": "{\"layers\":[{\"styles\":{\"align\":\"center\",\"fillStyle\":\"#140606\",\"shadowColor\":\"rgba(0,0,0,0)\",\"fontFamily\":\"Cabin Sketch\",\"fontSize\":\"38px\",\"fontStyle\":\"normal\",\"text\":\"--Lucene Publishing--\",\"x\":\"22.02%\",\"y\":\"14.05%\",\"maxWidth\":470,\"strokeStyle\":\"#e3faef\",\"strokeWidth\":5,\"rounded\":true},\"type\":\"text\"},{\"isBackground\":true,\"type\":\"image\",\"filters\":[],\"sourceSrc\":\"http://res.cloudinary.com/do7w0q9iq/image/upload/party_15.png\",\"resizedSrc\":\"http://res.cloudinary.com/do7w0q9iq/image/upload/c_lfill,h_385,w_495/party_15.png\",\"styles\":{\"height\":385,\"width\":495,\"x\":0,\"y\":0}},{\"filters\":{\"properties\":{\"strength\":0},\"type\":\"opacity\"},\"isWatermark\":true,\"resizedSrc\":\"http://res.cloudinary.com/do7w0q9iq/image/upload/c_scale,e_make_transparent/v1436382379/thundlogo.png\",\"size\":\"medium\",\"sourceSrc\":\"https://d1k42gft2r86pe.cloudfront.net/api/file/ktDscnsyQXqYsrJn7Fo2\",\"styles\":{\"height\":27,\"width\":200,\"visible\":true,\"x\":\"0%\",\"y\":\"92%\"},\"type\":\"image\"},{\"styles\":{\"align\":\"center\",\"fillStyle\":\"#eb0505\",\"shadowColor\":\"rgba(0,0,0,0)\",\"fontFamily\":\"Cabin Sketch\",\"fontSize\":\"34px\",\"fontStyle\":\"normal\",\"text\":\"Annual Company Picnic\",\"x\":\"22.22%\",\"y\":\"41.49%\",\"maxWidth\":470,\"strokeStyle\":\"#65a386\",\"strokeWidth\":0,\"rounded\":true},\"type\":\"text\"},{\"styles\":{\"align\":\"center\",\"fillStyle\":\"#ffffff\",\"shadowColor\":\"rgba(0,0,0,0)\",\"fontFamily\":\"Cabin Sketch\",\"fontSize\":\"25px\",\"fontStyle\":\"normal\",\"text\":\"Aug 13 11am to 5pm\\n\",\"x\":\"46.26%\",\"y\":\"68.75%\",\"maxWidth\":470,\"strokeStyle\":\"#65a386\",\"strokeWidth\":4,\"rounded\":true},\"type\":\"text\"},{\"styles\":{\"align\":\"center\",\"fillStyle\":\"#ffffff\",\"shadowColor\":\"rgba(0,0,0,0)\",\"fontFamily\":\"Cabin Sketch\",\"fontSize\":\"23px\",\"fontStyle\":\"normal\",\"text\":\"oak wood park, \\ncalifornia\",\"x\":\"53.74%\",\"y\":\"80.43%\",\"maxWidth\":470,\"strokeStyle\":\"#65a386\",\"strokeWidth\":4,\"rounded\":true},\"type\":\"text\"},{\"styles\":{\"align\":\"center\",\"fillStyle\":\"#ffffff\",\"shadowColor\":\"rgba(0,0,0,0)\",\"fontFamily\":\"Cabin Sketch\",\"fontSize\":\"22px\",\"fontStyle\":\"normal\",\"text\":\"rsvp maria p\",\"x\":\"15.76%\",\"y\":\"80.94%\",\"maxWidth\":470,\"strokeStyle\":\"#65a386\",\"strokeWidth\":4,\"rounded\":true},\"type\":\"text\"}]}",
+    "text": "Event Title \nDate\n than lucky",
+    "hasBeenFlagged": "0",
+    "hasBeenDeleted": "0",
+    "hasHighDef": "1",
+    "createdIPAddress": "99.238.86.213",
+    "totalViews": "0",
+    "redirectUrl": "",
+    "stat-embedType": "modal",
+    "stat-flow": "chromeExtension",
+    "secondsToCreate": "30",
+    "isUserTemplate": "0",
+    "isGlobalTemplate": "1",
+    "globalTemplateOrder": "100",
+    "cloudfrontUrl": "http://res.cloudinary.com/do7w0q9iq/image/upload/party_15.png",
+    "displayUrl": "http://res.cloudinary.com/do7w0q9iq/image/upload/party_15.png",
+    "path": "/i/1bb6e464",
+    "url": "https://shareasimage.com/i/1bb6e464"
+}
+, {
+    "id": 999169,
+    "created": "1414761239",
+    "updated": "1436180005",
+    "status": "open",
+    "type": "default",
+    "userId": "2991",
+    "publisherId": "0",
+    "sourceImageId": "445200",
+    "numberOfRemixes": "186",
+    "publicKey": "1bb6e464",
+    "s3Filename": "1414761239-1bb6e464-86be.jpg",
+    "sourceUrl": "",
+    "documentJson": "{\"layers\":[{\"styles\":{\"align\":\"center\",\"fillStyle\":\"#140606\",\"shadowColor\":\"rgba(0,0,0,0)\",\"fontFamily\":\"Cabin Sketch\",\"fontSize\":\"38px\",\"fontStyle\":\"normal\",\"text\":\"--Lucene Publishing--\",\"x\":\"22.02%\",\"y\":\"14.05%\",\"maxWidth\":470,\"strokeStyle\":\"#e3faef\",\"strokeWidth\":5,\"rounded\":true},\"type\":\"text\"},{\"isBackground\":true,\"type\":\"image\",\"filters\":[],\"sourceSrc\":\"http://res.cloudinary.com/do7w0q9iq/image/upload/party_14.png\",\"resizedSrc\":\"http://res.cloudinary.com/do7w0q9iq/image/upload/c_lfill,h_385,w_495/party_14.png\",\"styles\":{\"height\":385,\"width\":495,\"x\":0,\"y\":0}},{\"filters\":{\"properties\":{\"strength\":0},\"type\":\"opacity\"},\"isWatermark\":true,\"resizedSrc\":\"http://res.cloudinary.com/do7w0q9iq/image/upload/c_scale,e_make_transparent/v1436382379/thundlogo.png\",\"size\":\"medium\",\"sourceSrc\":\"https://d1k42gft2r86pe.cloudfront.net/api/file/ktDscnsyQXqYsrJn7Fo2\",\"styles\":{\"height\":27,\"width\":200,\"visible\":true,\"x\":\"0%\",\"y\":\"92%\"},\"type\":\"image\"},{\"styles\":{\"align\":\"center\",\"fillStyle\":\"#eb0505\",\"shadowColor\":\"rgba(0,0,0,0)\",\"fontFamily\":\"Cabin Sketch\",\"fontSize\":\"34px\",\"fontStyle\":\"normal\",\"text\":\"Annual Company Picnic\",\"x\":\"22.22%\",\"y\":\"41.49%\",\"maxWidth\":470,\"strokeStyle\":\"#65a386\",\"strokeWidth\":0,\"rounded\":true},\"type\":\"text\"},{\"styles\":{\"align\":\"center\",\"fillStyle\":\"#ffffff\",\"shadowColor\":\"rgba(0,0,0,0)\",\"fontFamily\":\"Cabin Sketch\",\"fontSize\":\"25px\",\"fontStyle\":\"normal\",\"text\":\"Aug 13 11am to 5pm\\n\",\"x\":\"46.26%\",\"y\":\"68.75%\",\"maxWidth\":470,\"strokeStyle\":\"#65a386\",\"strokeWidth\":4,\"rounded\":true},\"type\":\"text\"},{\"styles\":{\"align\":\"center\",\"fillStyle\":\"#ffffff\",\"shadowColor\":\"rgba(0,0,0,0)\",\"fontFamily\":\"Cabin Sketch\",\"fontSize\":\"23px\",\"fontStyle\":\"normal\",\"text\":\"oak wood park, \\ncalifornia\",\"x\":\"53.74%\",\"y\":\"80.43%\",\"maxWidth\":470,\"strokeStyle\":\"#65a386\",\"strokeWidth\":4,\"rounded\":true},\"type\":\"text\"},{\"styles\":{\"align\":\"center\",\"fillStyle\":\"#ffffff\",\"shadowColor\":\"rgba(0,0,0,0)\",\"fontFamily\":\"Cabin Sketch\",\"fontSize\":\"22px\",\"fontStyle\":\"normal\",\"text\":\"rsvp maria p\",\"x\":\"15.76%\",\"y\":\"80.94%\",\"maxWidth\":470,\"strokeStyle\":\"#65a386\",\"strokeWidth\":4,\"rounded\":true},\"type\":\"text\"}]}",
+    "text": "Event Title \nDate\n than lucky",
+    "hasBeenFlagged": "0",
+    "hasBeenDeleted": "0",
+    "hasHighDef": "1",
+    "createdIPAddress": "99.238.86.213",
+    "totalViews": "0",
+    "redirectUrl": "",
+    "stat-embedType": "modal",
+    "stat-flow": "chromeExtension",
+    "secondsToCreate": "30",
+    "isUserTemplate": "0",
+    "isGlobalTemplate": "1",
+    "globalTemplateOrder": "100",
+    "cloudfrontUrl": "http://res.cloudinary.com/do7w0q9iq/image/upload/party_14.png",
+    "displayUrl": "http://res.cloudinary.com/do7w0q9iq/image/upload/party_14.png",
+    "path": "/i/1bb6e464",
+    "url": "https://shareasimage.com/i/1bb6e464"
+}
+, {
+    "id": 999170,
+    "created": "1414761239",
+    "updated": "1436180005",
+    "status": "open",
+    "type": "default",
+    "userId": "2991",
+    "publisherId": "0",
+    "sourceImageId": "445200",
+    "numberOfRemixes": "186",
+    "publicKey": "1bb6e464",
+    "s3Filename": "1414761239-1bb6e464-86be.jpg",
+    "sourceUrl": "",
+    "documentJson": "{\"layers\":[{\"styles\":{\"align\":\"center\",\"fillStyle\":\"#140606\",\"shadowColor\":\"rgba(0,0,0,0)\",\"fontFamily\":\"Cabin Sketch\",\"fontSize\":\"38px\",\"fontStyle\":\"normal\",\"text\":\"--Lucene Publishing--\",\"x\":\"22.02%\",\"y\":\"14.05%\",\"maxWidth\":470,\"strokeStyle\":\"#e3faef\",\"strokeWidth\":5,\"rounded\":true},\"type\":\"text\"},{\"isBackground\":true,\"type\":\"image\",\"filters\":[],\"sourceSrc\":\"http://res.cloudinary.com/do7w0q9iq/image/upload/party_10.png\",\"resizedSrc\":\"http://res.cloudinary.com/do7w0q9iq/image/upload/c_lfill,h_385,w_495/party_10.png\",\"styles\":{\"height\":385,\"width\":495,\"x\":0,\"y\":0}},{\"filters\":{\"properties\":{\"strength\":0},\"type\":\"opacity\"},\"isWatermark\":true,\"resizedSrc\":\"http://res.cloudinary.com/do7w0q9iq/image/upload/c_scale,e_make_transparent/v1436382379/thundlogo.png\",\"size\":\"medium\",\"sourceSrc\":\"https://d1k42gft2r86pe.cloudfront.net/api/file/ktDscnsyQXqYsrJn7Fo2\",\"styles\":{\"height\":27,\"width\":200,\"visible\":true,\"x\":\"0%\",\"y\":\"92%\"},\"type\":\"image\"},{\"styles\":{\"align\":\"center\",\"fillStyle\":\"#eb0505\",\"shadowColor\":\"rgba(0,0,0,0)\",\"fontFamily\":\"Cabin Sketch\",\"fontSize\":\"34px\",\"fontStyle\":\"normal\",\"text\":\"Annual Company Picnic\",\"x\":\"22.22%\",\"y\":\"41.49%\",\"maxWidth\":470,\"strokeStyle\":\"#65a386\",\"strokeWidth\":0,\"rounded\":true},\"type\":\"text\"},{\"styles\":{\"align\":\"center\",\"fillStyle\":\"#ffffff\",\"shadowColor\":\"rgba(0,0,0,0)\",\"fontFamily\":\"Cabin Sketch\",\"fontSize\":\"25px\",\"fontStyle\":\"normal\",\"text\":\"Aug 13 11am to 5pm\\n\",\"x\":\"46.26%\",\"y\":\"68.75%\",\"maxWidth\":470,\"strokeStyle\":\"#65a386\",\"strokeWidth\":4,\"rounded\":true},\"type\":\"text\"},{\"styles\":{\"align\":\"center\",\"fillStyle\":\"#ffffff\",\"shadowColor\":\"rgba(0,0,0,0)\",\"fontFamily\":\"Cabin Sketch\",\"fontSize\":\"23px\",\"fontStyle\":\"normal\",\"text\":\"oak wood park, \\ncalifornia\",\"x\":\"53.74%\",\"y\":\"80.43%\",\"maxWidth\":470,\"strokeStyle\":\"#65a386\",\"strokeWidth\":4,\"rounded\":true},\"type\":\"text\"},{\"styles\":{\"align\":\"center\",\"fillStyle\":\"#ffffff\",\"shadowColor\":\"rgba(0,0,0,0)\",\"fontFamily\":\"Cabin Sketch\",\"fontSize\":\"22px\",\"fontStyle\":\"normal\",\"text\":\"rsvp maria p\",\"x\":\"15.76%\",\"y\":\"80.94%\",\"maxWidth\":470,\"strokeStyle\":\"#65a386\",\"strokeWidth\":4,\"rounded\":true},\"type\":\"text\"}]}",
+    "text": "Event Title \nDate\n than lucky",
+    "hasBeenFlagged": "0",
+    "hasBeenDeleted": "0",
+    "hasHighDef": "1",
+    "createdIPAddress": "99.238.86.213",
+    "totalViews": "0",
+    "redirectUrl": "",
+    "stat-embedType": "modal",
+    "stat-flow": "chromeExtension",
+    "secondsToCreate": "30",
+    "isUserTemplate": "0",
+    "isGlobalTemplate": "1",
+    "globalTemplateOrder": "100",
+    "cloudfrontUrl": "http://res.cloudinary.com/do7w0q9iq/image/upload/party_10.png",
+    "displayUrl": "http://res.cloudinary.com/do7w0q9iq/image/upload/party_10.png",
+    "path": "/i/1bb6e464",
+    "url": "https://shareasimage.com/i/1bb6e464"
+}
 
 ]        
         
@@ -2235,6 +2397,18 @@
             }(document, 'script', 'facebook-jssdk'));
         </script>
         <div id="wrapper">
+             <a href="#" id="testBtn" class="btn btn-primary">
+                        aLL
+                        <!-- <i class="icon-caret-right"></i> -->
+                    </a>
+                    <a href="#" id="business" class="btn btn-primary">
+                        Business
+                        <!-- <i class="icon-caret-right"></i> -->
+                    </a>
+                    <a href="#" id="invitation" class="btn btn-primary">
+                        Invitation
+                        <!-- <i class="icon-caret-right"></i> -->
+                    </a>
                     <a class="closeButton" href="#"></a>
                     <div id="body" class="clearfix">
                 <div id="editor">
@@ -2289,18 +2463,7 @@
                         Save &amp; Share
                         <!-- <i class="icon-caret-right"></i> -->
                     </a>
-                     <a href="#" id="testBtn" class="btn btn-primary">
-                        test
-                        <!-- <i class="icon-caret-right"></i> -->
-                    </a>
-                    <a href="#" id="business" class="btn btn-primary">
-                        Business
-                        <!-- <i class="icon-caret-right"></i> -->
-                    </a>
-                    <a href="#" id="invitation" class="btn btn-primary">
-                        Invitation
-                        <!-- <i class="icon-caret-right"></i> -->
-                    </a>
+                    
 <!--                    <div id="saveToTemplates" data-scope="templatesTab">
                         or
                         <a href="#">save as template</a>
@@ -3486,7 +3649,7 @@
                         $(templates).each(
                             function(index, value) {
                                // console.log(index);
-                              if(index>29)  {
+                              if(index>=50 && index<=70){
                     %>
                   
                         <div class="template pull-left" data-image-isfree="false">
@@ -3555,7 +3718,7 @@
                     <%
                         $(templates).each(
                             function(index, template) {
-                                if(index>29){
+                                if(index>=10 && index<=30 || index>=55 && index<=70){
                     %>
                   
                         <div class="template pull-left" data-image-isfree="false">
@@ -3623,9 +3786,10 @@
             <img src="https://d3iy4zn4a0491c.cloudfront.net/static/app/images/backgrounds/topScrollShadow.v2.png" class="topScrollShadow" />
             <div class="templates<%= (authd ? ' authd' : '') %>">
                 <div class="templateList clearfix">
-                    <%if(!(Sai.get("test")==122345678)){
+                    <%if(true){
                         $(templates).each(//30 templates in loop
                             function(index, template) {
+                                if((index>=0 && index<=20)||(index>=50 && index<=70)){
                                 //alert("test");
                             //console.log(Sai.get("test"));//i am so dumb i am wondering y i am not getting for two times 12345678. 
                             	//templates has only one image. templates2 has another image. 
@@ -3643,6 +3807,7 @@
                         </div>
                     <%
                             }
+                }
                             
                         );
                 }else{
