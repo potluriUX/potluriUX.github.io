@@ -26853,7 +26853,7 @@ var
                     var
                         config = Sai.get('config'),
                         errorImage = (new Image());
-                    errorImage.src = 'https://' + (config.cloudfront.static) + '/static/app/images/backgrounds/milk.png';
+                    errorImage.src = 'https://' + (config.cloudfront.static) + '/static/app/images/backgrounds/milk2.png';
                 }, 0);
                 setTimeout(function() {
                     var

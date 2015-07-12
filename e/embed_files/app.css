@@ -12058,7 +12058,7 @@ body {
           cursor: pointer;
           width: 111px;
           height: 107px;
-          background: url("./unlock.png") no-repeat center center;
+        //  background: url("./unlock.png") no-repeat center center;
           background-size: 111px 107px;
           position: absolute;
           right: 0;
