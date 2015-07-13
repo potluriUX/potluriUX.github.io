@@ -9,6 +9,22 @@
  * Designed and built with all the love in the world by @mdo and @fat.
  */
 /*! normalize.css v2.1.0 | MIT License | git.io/normalize */
+input[type='text']:focus,
+input[type='number']:focus,
+textarea:focus {
+	font-size: 16px;
+}
+ 
+/* disable auto-zoom on iphone input field focus */
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+ 
+	select:focus,
+	textarea:focus,
+	input:focus {
+		font-size: 16px;
+	}
+}
+
 article, aside, details, figcaption, figure, footer, header, hgroup, main, nav, section, summary {
   display: block; }
 
