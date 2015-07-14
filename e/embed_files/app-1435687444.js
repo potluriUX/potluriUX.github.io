@@ -26840,6 +26840,7 @@ var
                 this._addResizeEvents();
                 this._addUndoEvent();
                 this._addCreateButtonEvent();
+                this._addCreatepdfButtonEvent();
                 this._addTestButtonEvent();
                 this._addBusinessButtonEvent();
                 this._addInvitationButtonEvent();
@@ -27083,6 +27084,20 @@ var
                 return;
             });
          },
+         _addCreatepdfButtonEvent: function() {
+              var
+                _this = this;
+                 this._element.find('#save_pdf').click(function() {
+                        // on recupère le datatourl et on le stocke dans une variable et on valide le formulmaire
+                    alert("poo");
+                         
+                                                      document.getElementById('form_save').action = './pdf/tutorial/tuto2.php';
+                            document.getElementById('form_dataurl').value= document.getElementsByTagName("canvas")[0].toDataURL("image/png");
+                            document.getElementById('form_save').submit();
+                            //window.open(dataUrl);
+                          
+                      });
+         },
         _addCreateButtonEvent: function() {
             var
                 _this = this;
@@ -27090,8 +27105,9 @@ var
                 event.preventDefault();
                         //javascript:void(window.open().location = "http://thunderify.com/createit.php?form_dataurl=document.getElementsByTagName("canvas")[0].toDataURL("image/png"));
                 var image = document.getElementsByTagName("canvas")[0].toDataURL("image/png");
+                console.log(image);
                 App().showCanvasModal(image);
-      
+         
             //  var canvas = document.getElementsByTagName("canvas")[0];
 
               //  $("#picture").html('<img src="'+image+'"/>'); 
@@ -27205,24 +27221,24 @@ var
             });
         },
         _setupPingInterval: function() {
-            var
-                _this = this;
-            this._pingIntervalReference = setInterval(function() {
-                jQuery.get('./ping.php', {
-                    _: $.now()
-                }, function(response) {
-                    if (response.success === true) {
-                        Sai.set('csrfToken', response.data.csrfToken);
-                        _this._element.find('input[name="csrfToken"]').val(response.data.csrfToken);
-                    } else {
-                        if (_this.siteHasBeenLocked(response)) {
-                            _this.showLockedModal();
-                        }
-                    }
-                }, 'json').fail(function() {
-                 //   _this.showErrorModal(false, 'j1lk');
-                });
-            }, this._pingInterval);
+//            var
+//                _this = this;
+//            this._pingIntervalReference = setInterval(function() {
+//                jQuery.get('./ping.php', {
+//                    _: $.now()
+//                }, function(response) {
+//                    if (response.success === true) {
+//                        Sai.set('csrfToken', response.data.csrfToken);
+//                        _this._element.find('input[name="csrfToken"]').val(response.data.csrfToken);
+//                    } else {
+//                        if (_this.siteHasBeenLocked(response)) {
+//                            _this.showLockedModal();
+//                        }
+//                    }
+//                }, 'json').fail(function() {
+//                 //   _this.showErrorModal(false, 'j1lk');
+//                });
+//            }, this._pingInterval);
         },
         addToCallStack: function() {},
         resetCallStack: function() {
