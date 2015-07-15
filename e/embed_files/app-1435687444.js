@@ -27089,7 +27089,7 @@ var
                 _this = this;
                  this._element.find('#save_pdf').click(function() {
                         // on recupère le datatourl et on le stocke dans une variable et on valide le formulmaire
-                    alert("poo");
+                    //alert("poo");
                          
                                                       document.getElementById('form_save').action = './pdf/tutorial/tuto2.php';
                             document.getElementById('form_dataurl').value= document.getElementsByTagName("canvas")[0].toDataURL("image/png");
