@@ -5567,7 +5567,7 @@ a .icon-rotate-90:before, a .icon-rotate-180:before, a .icon-rotate-270:before, 
   content: "ï�?¦"; }
 
 .icon-plus:before {
-  content: "ï�?§"; }
+  content: "+"; }
 
 .icon-minus:before {
   content: "ï�?¨"; }
