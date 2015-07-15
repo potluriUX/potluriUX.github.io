@@ -3792,7 +3792,7 @@ var
                     align: 'center',
                     fillStyle: '#ffffff',
                     shadowColor: 'rgba(0,0,0,0.25)',
-                    fontFamily: 'Amaranth',
+                    fontFamily: 'Bad Script',
                     fontSize: '28px',
                     fontStyle: 'normal',
                     text: 'move me',
