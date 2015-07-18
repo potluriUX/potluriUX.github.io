@@ -4158,7 +4158,12 @@ var
                 this._addCreatepdfButtonEvent();
                 this._addTestButtonEvent();
                 this._addBusinessButtonEvent();
+                this._addCarButtonEvent();
                 this._addInvitationButtonEvent();
+                 this._addIndustryButtonEvent();
+                this._addNatureButtonEvent();
+                
+                this._addFlowerButtonEvent();
                 this._addTabToggleEvents();
                 this._addCloseButtonEvent();
                 this._addLockImageClickEvents();
@@ -4329,12 +4334,29 @@ var
                 App().mpTrackEvent('Watermark callout clicked', {});
             });
         },
+        _addCarButtonEvent:function() {
+             var
+                _this = this;
+            this._element.find('#car').click(function(event) {
+                event.preventDefault();
+             // alert("car btn clicked");
+                 var
+                html = _.template(_this.getTemplate('tabs', 'templates_car'), {});
+               
+                 templateElements = $(jQuery.parseHTML(html.trim())),//this will trim some html and get us the html 
+                tabElement = App().getElement().find('div.templatesTab');
+            tabElement.html(templateElements);//ippudu em chesa. instead of adding elements. i am ?just populating. i am not appending. got it?
+            _this._templatesTab = (new TemplatesTabView(tabElement));
+            App().showTemplatesTab();
+            return;
+            });
+        },
         _addBusinessButtonEvent:function() {
              var
                 _this = this;
             this._element.find('#business').click(function(event) {
                 event.preventDefault();
-              //  alert("business btn clicked");
+             // alert("business btn clicked");
                  var
                 html = _.template(_this.getTemplate('tabs', 'templates_business'), {});
                
@@ -4351,9 +4373,59 @@ var
                 _this = this;
             this._element.find('#invitation').click(function(event) {
                 event.preventDefault();
-         //       alert("invitation btn clicked");
+             // alert("invitation btn clicked");
                  var
                 html = _.template(_this.getTemplate('tabs', 'templates_invitation'), {});
+                 templateElements = $(jQuery.parseHTML(html.trim())),//this will trim some html and get us the html 
+                tabElement = App().getElement().find('div.templatesTab');
+            tabElement.html(templateElements);//ippudu em chesa. instead of adding elements. i am ?just populating. i am not appending. got it?
+            _this._templatesTab = (new TemplatesTabView(tabElement));
+            App().showTemplatesTab();
+            return;
+            });
+        },
+        _addIndustryButtonEvent:function() {
+             var
+                _this = this;
+            this._element.find('#industry').click(function(event) {
+                event.preventDefault();
+            //  alert("invitation btn clicked");
+                 var
+                html = _.template(_this.getTemplate('tabs', 'templates_industry'), {});
+                 templateElements = $(jQuery.parseHTML(html.trim())),//this will trim some html and get us the html 
+                tabElement = App().getElement().find('div.templatesTab');
+            tabElement.html(templateElements);//ippudu em chesa. instead of adding elements. i am ?just populating. i am not appending. got it?
+            _this._templatesTab = (new TemplatesTabView(tabElement));
+            App().showTemplatesTab();
+            return;
+            });
+        },
+        
+         _addFlowerButtonEvent:function() {
+             var
+                _this = this;
+            this._element.find('#flower').click(function(event) {
+                event.preventDefault();
+             // alert("invitation btn clicked");
+                 var
+                html = _.template(_this.getTemplate('tabs', 'templates_flower'), {});
+                 templateElements = $(jQuery.parseHTML(html.trim())),//this will trim some html and get us the html 
+                tabElement = App().getElement().find('div.templatesTab');
+            tabElement.html(templateElements);//ippudu em chesa. instead of adding elements. i am ?just populating. i am not appending. got it?
+            _this._templatesTab = (new TemplatesTabView(tabElement));
+            App().showTemplatesTab();
+            return;
+            });
+        },
+       
+         _addNatureButtonEvent:function() {
+             var
+                _this = this;
+            this._element.find('#nature').click(function(event) {
+                event.preventDefault();
+             // alert("invitation btn clicked");
+                 var
+                html = _.template(_this.getTemplate('tabs', 'templates_nature'), {});
                  templateElements = $(jQuery.parseHTML(html.trim())),//this will trim some html and get us the html 
                 tabElement = App().getElement().find('div.templatesTab');
             tabElement.html(templateElements);//ippudu em chesa. instead of adding elements. i am ?just populating. i am not appending. got it?
@@ -4368,7 +4440,7 @@ var
             this._element.find('#testBtn').click(function(event) {
                 event.preventDefault();
              //   console.log("tst");
-        //   alert("test in event");
+        // alert("test in event");
              Thu.set("test",122345678);
                var
                 html = _.template(_this.getTemplate('tabs', 'templates'), {});//
@@ -4420,7 +4492,7 @@ var
                 event.preventDefault();
                         //javascript:void(window.open().location = "http://thunderify.com/createit.php?form_dataurl=document.getElementsByTagName("canvas")[0].toDataURL("image/png"));
                 var image = document.getElementsByTagName("canvas")[0].toDataURL("image/png");
-                console.log(image);
+               // console.log(image);
                 App().showCanvasModal(image);
          
             //  var canvas = document.getElementsByTagName("canvas")[0];
@@ -5431,7 +5503,12 @@ var
                     background: this._element.find('#backgroundTabTemplate').html(),
                     templates: this._element.find('#templatesTabTemplate').html(),
                     templates_business:this._element.find('#businesstemplate').html(),
+                     templates_car:this._element.find('#carsTemplate').html(),
+                      templates_industry:this._element.find('#industryTemplate').html(),
                      templates_invitation:this._element.find('#invitationtemplate').html(),
+                     templates_nature:this._element.find('#naturetemplate').html(),
+                     //templates_water:this._element.find('#watertemplate').html(),
+                     templates_flower:this._element.find('#flowerstemplate').html(),
                     watermark: this._element.find('#watermarkTabTemplate').html()
                 }
             };
