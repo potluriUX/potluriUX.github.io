@@ -2677,6 +2677,7 @@ var
             this._super(element);
             this._addResourceTabEvents();
             this._setupTemplateEvents();
+            
             this.drawUserResourceTab();
             this._addLoginButtonEvent();
             this._addRegisterButtonEvent();
@@ -2728,7 +2729,8 @@ var
                             imageId = $(anchor).attr('data-imageId').toInt(),
                             imageObj;
                         $(templates).each(function(index, templateObj) {
-                            if (templateObj.id.toInt() === imageId) {
+                          if (templateObj.id.toInt() === imageId) {
+                           
                                 imageObj = templateObj;
                             }
                         });
@@ -2750,6 +2752,7 @@ var
                 }
             });
         },
+        
         drawUserResourceTab: function() {
             this._element.find('.userResourceTabContent .templateList .template').remove();
             var
@@ -3071,7 +3074,16 @@ var
             });
         }
     });
-
+var
+    ImgurModalView = ModalView.extend({
+        init: function(element) {
+            this._super(element);
+            this._bindImgurEvent();
+        },
+        _bindImgurEvent: function() {
+            App()._setupTemplateImgurEventsModal();
+        }
+    });
 var
     ImagesModalView = ModalView.extend({
         _images: [],
@@ -4162,7 +4174,7 @@ var
                 this._addInvitationButtonEvent();
                  this._addIndustryButtonEvent();
                 this._addNatureButtonEvent();
-                
+                this._setupTemplateImgurEvents();
                 this._addFlowerButtonEvent();
                 this._addTabToggleEvents();
                 this._addCloseButtonEvent();
@@ -4382,6 +4394,110 @@ var
             _this._templatesTab = (new TemplatesTabView(tabElement));
             App().showTemplatesTab();
             return;
+            });
+        },
+         _setupTemplateImgurEvents: function() {
+            var_setupTemplateImgurEvents:
+                _this = this;
+              
+           // this._element.find('.globalResourceTabContent .template a.preview').click(function(event) {
+           this._element.find('#createImgurBtn').click(function(event) {
+                event.preventDefault();
+               App().showImgurModal('adf');
+               return;
+                var
+                    hasTemplatePermissions = App().userIsPro() == true || $(this).parent().attr('data-image-isfree') === 'true' || Thu.get('publisher') !== false;
+                var
+                    templateSwitchCallback = function(anchor) {
+                        App().addToCallStack();
+                        App().usingReservedTemplate(!hasTemplatePermissions);
+                        App().resetSize();
+                        var
+                            templates = Thu.get('templates'),
+                            imageId = $(anchor).attr('data-imageId').toInt(),
+                            imageObj;
+                        $(templates).each(function(index, templateObj) {
+                           
+                           if (templateObj.id.toInt() === 999195) {
+                                imageObj = templateObj;
+                            }
+                        });
+                        App().remixImage(imageObj, 'loadingTemplate', function() {}, true);
+                    };
+                var
+                    anchor = this;
+                if (App().getImageDocument().getBackgroundLayer().containsManuallyUploadedBackgroundImage() === true) {
+                    App().showConfirmModal('backgroundImageChange', function(event) {
+                        event.preventDefault();
+                        App().closeConfirmModal();
+                        templateSwitchCallback(anchor);
+                    }, function(event) {
+                        event.preventDefault();
+                        App().closeConfirmModal();
+                    });
+                } else {
+                    templateSwitchCallback(anchor);
+                }
+            });
+        },
+          _setupTemplateImgurEventsModal: function() {
+            var_setupTemplateImgurEvents:
+                _this = this;
+              
+           // this._element.find('.globalResourceTabContent .template a.preview').click(function(event) {
+           this._element.find('.createImgurBtn2').click(function(event) {
+              
+                event.preventDefault();
+               App().showImgurModal('adf');
+               
+                var
+                    hasTemplatePermissions = App().userIsPro() == true || $(this).parent().attr('data-image-isfree') === 'true' || Thu.get('publisher') !== false;
+                var
+                    templateSwitchCallback = function(anchor) {
+                        App().addToCallStack();
+                        App().usingReservedTemplate(!hasTemplatePermissions);
+                        App().resetSize();
+                        var
+                            templates = Thu.get('templates'),
+                           // imageId = $(anchor).attr('data-imageId').toInt(),
+                            imageObj;
+                            if($("#imgurlink").val()!=''){
+                        $(templates).each(function(index, templateObj) {
+                           
+                           if (templateObj.id.toInt() === 999195) {
+                                imageObj = templateObj;
+                                
+                                 var configsource=[$("#imgurlink").val()];//namefthumbnailimg
+     var configsource2=[$("#imgurlink").val()];//namefimg
+//if plain then configsource == configsource2 no thumbnail text
+   var documentJson=$.parseJSON(imageObj.documentJson);
+      var resizedSrc =  $.parseJSON(imageObj.documentJson)['layers']['1']['resizedSrc'];
+      var sourceSrc =  $.parseJSON(imageObj.documentJson)['layers']['1']['sourceSrc'];
+           documentJson['layers']['1']['resizedSrc'] = configsource[0];
+            documentJson['layers']['1']['sourceSrc'] = configsource[0];
+            imageObj.documentJson = JSON.stringify(documentJson);
+            imageObj.cloudfrontUrl =  configsource2[0]
+           imageObj.displayUrl = configsource2[0]
+           
+                            }
+                        });
+                        App().remixImage(imageObj, 'loadingTemplate', function() {}, true);
+                    }
+                };
+                var
+                    anchor = this;
+                if (App().getImageDocument().getBackgroundLayer().containsManuallyUploadedBackgroundImage() === true) {
+                    App().showConfirmModal('backgroundImageChange', function(event) {
+                        event.preventDefault();
+                        App().closeConfirmModal();
+                        templateSwitchCallback(anchor);
+                    }, function(event) {
+                        event.preventDefault();
+                        App().closeConfirmModal();
+                    });
+                } else {
+                    templateSwitchCallback(anchor);
+                }
             });
         },
         _addIndustryButtonEvent:function() {
@@ -5495,6 +5611,7 @@ var
                     twitterSuccess: this._element.find('#twitterSuccessModalTemplate').html(),
                     upgrade: this._element.find('#upgradeModalTemplate').html(),
                     modal_canvas:this._element.find('#canvasModalTemplate').html(),
+                    modal_imgur:this._element.find('#imgurModalTemplate').html(),
                     upsell: this._element.find('#upsellModalTemplate').html()
                 },
                 tabs: {
@@ -5933,6 +6050,23 @@ var
             this._element.find('#body').append(element);
             var
                 modalView = (new BusyModalView(element));
+            this._openModals.push(modalView);
+            this._footer.hide();
+            App().trackView('/app/busy/' + (copyKey));
+            App().mpTrackEvent('Busy modal shown', {
+                _copyKey: copyKey
+            });
+        },
+             showImgurModal: function(copyKey) {
+            var
+                html = _.template(this.getTemplate('modals', 'modal_imgur'), {
+                    copyKey: copyKey
+                   
+                }),
+                element = $(jQuery.parseHTML(html.trim()));
+            this._element.find('#body').append(element);
+            var
+                modalView = (new ImgurModalView(element));
             this._openModals.push(modalView);
             this._footer.hide();
             App().trackView('/app/busy/' + (copyKey));
