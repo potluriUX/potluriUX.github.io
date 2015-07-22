@@ -49,7 +49,7 @@
     "cloudfrontUrl": "http://res.cloudinary.com/do7w0q9iq/image/upload/v1436539010/thunderify/Sales/10",
     "displayUrl": "http://res.cloudinary.com/do7w0q9iq/image/upload/v1436625522/sales_10",
     "path": "/i/1bb6e464",
-    "url": "https://shareasimage.com/i/1bb6e464"
+    "url": "https://thunderify.com/i/1bb6e464"
 },
 {
         "id": "999103",
@@ -81,7 +81,7 @@
         "cloudfrontUrl": "http://res.cloudinary.com/do7w0q9iq/image/upload/thunderify/Signs/4",
         "displayUrl": "http://res.cloudinary.com/do7w0q9iq/image/upload/thunderify/Signs/4",
         "path": "/i/1bb6e464",
-        "url": "https://shareasimage.com/i/1bb6e464"
+        "url": "https://thunderify.com/i/1bb6e464"
     }, 
     
     {
@@ -114,7 +114,7 @@
     "cloudfrontUrl": "http://res.cloudinary.com/do7w0q9iq/image/upload/thunderify/Sales/11",
     "displayUrl": "http://res.cloudinary.com/do7w0q9iq/image/upload/thunderify/Sales/11",
     "path": "/i/1bb6e464",
-    "url": "https://shareasimage.com/i/1bb6e464"
+    "url": "https://thunderify.com/i/1bb6e464"
 }
 ,
 {
@@ -147,7 +147,7 @@
         "cloudfrontUrl": "http:\/\/res.cloudinary.com\/do7w0q9iq\/image\/upload\/thunderify\/Birthday\/4",
         "displayUrl": "http:\/\/res.cloudinary.com\/do7w0q9iq\/image\/upload\/thunderify\/Birthday\/4",
         "path": "\/i\/1bb6e464",
-        "url": "https:\/\/shareasimage.com\/i\/1bb6e464"
+        "url": "https:\/\/thunderify.com\/i\/1bb6e464"
     },
 {
     "id": "999105",
@@ -179,7 +179,7 @@
     "cloudfrontUrl": "http://res.cloudinary.com/do7w0q9iq/image/upload/thunderify/Signs/5",
     "displayUrl": "http://res.cloudinary.com/do7w0q9iq/image/upload/thunderify/Signs/5",
     "path": "/i/1bb6e464",
-    "url": "https://shareasimage.com/i/1bb6e464"
+    "url": "https://thunderify.com/i/1bb6e464"
 },
 {
     "id": "999106",
@@ -211,7 +211,7 @@
     "cloudfrontUrl": "http://res.cloudinary.com/do7w0q9iq/image/upload/thunderify/Sales/6",
     "displayUrl": "http://res.cloudinary.com/do7w0q9iq/image/upload/thunderify/Sales/6",
     "path": "/i/1bb6e464",
-    "url": "https://shareasimage.com/i/1bb6e464"
+    "url": "https://thunderify.com/i/1bb6e464"
 },{
     "id": "999107",
     "created": "1414761239",
@@ -241,7 +241,7 @@
     "cloudfrontUrl": "http://res.cloudinary.com/do7w0q9iq/image/upload/thunderify/Party/18",
     "displayUrl": "http://res.cloudinary.com/do7w0q9iq/image/upload/thunderify/Party/18",
     "path": "/i/1bb6e464",
-    "url": "https://shareasimage.com/i/1bb6e464"
+    "url": "https://thunderify.com/i/1bb6e464"
 },
 {
     "id": "999108",
@@ -272,7 +272,7 @@
     "cloudfrontUrl": "http://res.cloudinary.com/do7w0q9iq/image/upload/thunderify/Party/1.jpeg",
     "displayUrl": "http://res.cloudinary.com/do7w0q9iq/image/upload/thunderify/Party/1.jpeg",
     "path": "/i/1bb6e464",
-    "url": "https://shareasimage.com/i/1bb6e464"
+    "url": "https://thunderify.com/i/1bb6e464"
 },
 {
     "id": "999109",
@@ -303,7 +303,7 @@
     "cloudfrontUrl": "http://res.cloudinary.com/do7w0q9iq/image/upload/thunderify/Party/4",
     "displayUrl": "http://res.cloudinary.com/do7w0q9iq/image/upload/thunderify/Party/4",
     "path": "/i/1bb6e464",
-    "url": "https://shareasimage.com/i/1bb6e464"
+    "url": "https://thunderify.com/i/1bb6e464"
 },
 {
     "id": "999110",
@@ -334,7 +334,7 @@
     "cloudfrontUrl": "http://res.cloudinary.com/do7w0q9iq/image/upload/thunderify/Party/6",
     "displayUrl": "http://res.cloudinary.com/do7w0q9iq/image/upload/thunderify/Party/6",
     "path": "/i/1bb6e464",
-    "url": "https://shareasimage.com/i/1bb6e464"
+    "url": "https://thunderify.com/i/1bb6e464"
 },
 {
     "id": "999111",
@@ -365,7 +365,7 @@
     "cloudfrontUrl": "http://res.cloudinary.com/do7w0q9iq/image/upload/thunderify/Party/19",
     "displayUrl": "http://res.cloudinary.com/do7w0q9iq/image/upload/thunderify/Party/19",
     "path": "/i/1bb6e464",
-    "url": "https://shareasimage.com/i/1bb6e464"
+    "url": "https://thunderify.com/i/1bb6e464"
 },
 {
     "id": "999112",
@@ -397,7 +397,7 @@
     "cloudfrontUrl": "http://res.cloudinary.com/do7w0q9iq/image/upload/thunderify/Events/9",
     "displayUrl": "http://res.cloudinary.com/do7w0q9iq/image/upload/thunderify/Events/9",
     "path": "/i/1bb6e464",
-    "url": "https://shareasimage.com/i/1bb6e464"
+    "url": "https://thunderify.com/i/1bb6e464"
 },
 
 {
@@ -430,7 +430,7 @@
     "cloudfrontUrl": "http://res.cloudinary.com/do7w0q9iq/image/upload/thunderify/Invitation/9",
     "displayUrl": "http://res.cloudinary.com/do7w0q9iq/image/upload/thunderify/Invitation/9",
     "path": "/i/1bb6e464",
-    "url": "https://shareasimage.com/i/1bb6e464"
+    "url": "https://thunderify.com/i/1bb6e464"
 }
 
 ,
@@ -465,7 +465,7 @@
     "cloudfrontUrl": "http://res.cloudinary.com/do7w0q9iq/image/upload/thunderify/BandW/16",
     "displayUrl": "http://res.cloudinary.com/do7w0q9iq/image/upload/thunderify/BandW/16",
     "path": "/i/1bb6e464",
-    "url": "https://shareasimage.com/i/1bb6e464"
+    "url": "https://thunderify.com/i/1bb6e464"
 }
 
 ,
@@ -500,7 +500,7 @@
     "cloudfrontUrl": "http://res.cloudinary.com/do7w0q9iq/image/upload/thunderify/BandW/15",
     "displayUrl": "http://res.cloudinary.com/do7w0q9iq/image/upload/thunderify/BandW/15",
     "path": "/i/1bb6e464",
-    "url": "https://shareasimage.com/i/1bb6e464"
+    "url": "https://thunderify.com/i/1bb6e464"
 }
 
 ,
@@ -535,7 +535,7 @@
     "cloudfrontUrl": "http://res.cloudinary.com/do7w0q9iq/image/upload/thunderify/BandW/2",
     "displayUrl": "http://res.cloudinary.com/do7w0q9iq/image/upload/thunderify/BandW/2",
     "path": "/i/1bb6e464",
-    "url": "https://shareasimage.com/i/1bb6e464"
+    "url": "https://thunderify.com/i/1bb6e464"
 }
 
 ,
@@ -570,7 +570,7 @@
     "cloudfrontUrl": "http://res.cloudinary.com/do7w0q9iq/image/upload/thunderify/BandW/3",
     "displayUrl": "http://res.cloudinary.com/do7w0q9iq/image/upload/thunderify/BandW/3",
     "path": "/i/1bb6e464",
-    "url": "https://shareasimage.com/i/1bb6e464"
+    "url": "https://thunderify.com/i/1bb6e464"
 }
 
 ,
@@ -605,7 +605,7 @@
     "cloudfrontUrl": "http://res.cloudinary.com/do7w0q9iq/image/upload/thunderify/BandW/5",
     "displayUrl": "http://res.cloudinary.com/do7w0q9iq/image/upload/thunderify/BandW/5",
     "path": "/i/1bb6e464",
-    "url": "https://shareasimage.com/i/1bb6e464"
+    "url": "https://thunderify.com/i/1bb6e464"
 }
 
 ,
@@ -640,7 +640,7 @@
     "cloudfrontUrl": "http://res.cloudinary.com/do7w0q9iq/image/upload/thunderify/BandW/7",
     "displayUrl": "http://res.cloudinary.com/do7w0q9iq/image/upload/thunderify/BandW/7",
     "path": "/i/1bb6e464",
-    "url": "https://shareasimage.com/i/1bb6e464"
+    "url": "https://thunderify.com/i/1bb6e464"
 }
 
 ,
@@ -675,7 +675,7 @@
     "cloudfrontUrl": "http://res.cloudinary.com/do7w0q9iq/image/upload/thunderify/Logo/1",
     "displayUrl": "http://res.cloudinary.com/do7w0q9iq/image/upload/thunderify/Logo/1",
     "path": "/i/1bb6e464",
-    "url": "https://shareasimage.com/i/1bb6e464"
+    "url": "https://thunderify.com/i/1bb6e464"
 }
 
 ,
@@ -710,7 +710,7 @@
     "cloudfrontUrl": "http://res.cloudinary.com/do7w0q9iq/image/upload/thunderify/Logo/2",
     "displayUrl": "http://res.cloudinary.com/do7w0q9iq/image/upload/thunderify/Logo/2",
     "path": "/i/1bb6e464",
-    "url": "https://shareasimage.com/i/1bb6e464"
+    "url": "https://thunderify.com/i/1bb6e464"
 }
 
 ,
@@ -745,7 +745,7 @@
     "cloudfrontUrl": "http://res.cloudinary.com/do7w0q9iq/image/upload/thunderify/Logo/3",
     "displayUrl": "http://res.cloudinary.com/do7w0q9iq/image/upload/thunderify/Logo/3",
     "path": "/i/1bb6e464",
-    "url": "https://shareasimage.com/i/1bb6e464"
+    "url": "https://thunderify.com/i/1bb6e464"
 }
 
 ,
@@ -780,7 +780,7 @@
     "cloudfrontUrl": "http://res.cloudinary.com/do7w0q9iq/image/upload/thunderify/Logo/4",
     "displayUrl": "http://res.cloudinary.com/do7w0q9iq/image/upload/thunderify/Logo/4",
     "path": "/i/1bb6e464",
-    "url": "https://shareasimage.com/i/1bb6e464"
+    "url": "https://thunderify.com/i/1bb6e464"
 }
 
 ,
@@ -815,7 +815,7 @@
     "cloudfrontUrl": "http://res.cloudinary.com/do7w0q9iq/image/upload/thunderify/BandW/5",
     "displayUrl": "http://res.cloudinary.com/do7w0q9iq/image/upload/thunderify/BandW/5",
     "path": "/i/1bb6e464",
-    "url": "https://shareasimage.com/i/1bb6e464"
+    "url": "https://thunderify.com/i/1bb6e464"
 }
 
 ,
@@ -850,7 +850,7 @@
     "cloudfrontUrl": "http://res.cloudinary.com/do7w0q9iq/image/upload/thunderify/undefined",
     "displayUrl": "http://res.cloudinary.com/do7w0q9iq/image/upload/thunderify/undefined",
     "path": "/i/1bb6e464",
-    "url": "https://shareasimage.com/i/1bb6e464"
+    "url": "https://thunderify.com/i/1bb6e464"
 }
 
 ,
@@ -885,7 +885,7 @@
     "cloudfrontUrl": "http://res.cloudinary.com/do7w0q9iq/image/upload/thunderify/Christmas/1",
     "displayUrl": "http://res.cloudinary.com/do7w0q9iq/image/upload/thunderify/Christmas/1",
     "path": "/i/1bb6e464",
-    "url": "https://shareasimage.com/i/1bb6e464"
+    "url": "https://thunderify.com/i/1bb6e464"
 }
 
 ,
@@ -920,7 +920,7 @@
     "cloudfrontUrl": "http://res.cloudinary.com/do7w0q9iq/image/upload/thunderify/Christmas/4",
     "displayUrl": "http://res.cloudinary.com/do7w0q9iq/image/upload/thunderify/Christmas/4",
     "path": "/i/1bb6e464",
-    "url": "https://shareasimage.com/i/1bb6e464"
+    "url": "https://thunderify.com/i/1bb6e464"
 }
 
 ,
@@ -955,7 +955,7 @@
     "cloudfrontUrl": "http://res.cloudinary.com/do7w0q9iq/image/upload/thunderify/Christmas/3",
     "displayUrl": "http://res.cloudinary.com/do7w0q9iq/image/upload/thunderify/Christmas/3",
     "path": "/i/1bb6e464",
-    "url": "https://shareasimage.com/i/1bb6e464"
+    "url": "https://thunderify.com/i/1bb6e464"
 }
 
 
@@ -992,7 +992,7 @@
     "cloudfrontUrl": "http://res.cloudinary.com/do7w0q9iq/image/upload/thunderify/Abstract/1",
     "displayUrl": "http://res.cloudinary.com/do7w0q9iq/image/upload/thunderify/Abstract/1",
     "path": "/i/1bb6e464",
-    "url": "https://shareasimage.com/i/1bb6e464"
+    "url": "https://thunderify.com/i/1bb6e464"
 }
 
 ,
@@ -1027,7 +1027,7 @@
     "cloudfrontUrl": "http://res.cloudinary.com/do7w0q9iq/image/upload/thunderify/Abstract/5",
     "displayUrl": "http://res.cloudinary.com/do7w0q9iq/image/upload/thunderify/Abstract/5",
     "path": "/i/1bb6e464",
-    "url": "https://shareasimage.com/i/1bb6e464"
+    "url": "https://thunderify.com/i/1bb6e464"
 }
 
 ,
@@ -1062,7 +1062,7 @@
     "cloudfrontUrl": "http://res.cloudinary.com/do7w0q9iq/image/upload/thunderify/Plain/1",
     "displayUrl": "http://res.cloudinary.com/do7w0q9iq/image/upload/thunderify/Plain/1",
     "path": "/i/1bb6e464",
-    "url": "https://shareasimage.com/i/1bb6e464"
+    "url": "https://thunderify.com/i/1bb6e464"
 }
 
 ,
@@ -1097,7 +1097,7 @@
     "cloudfrontUrl": "http://res.cloudinary.com/do7w0q9iq/image/upload/thunderify/Plain/3",
     "displayUrl": "http://res.cloudinary.com/do7w0q9iq/image/upload/thunderify/Plain/3",
     "path": "/i/1bb6e464",
-    "url": "https://shareasimage.com/i/1bb6e464"
+    "url": "https://thunderify.com/i/1bb6e464"
 }
 
 ,
@@ -1132,7 +1132,7 @@
     "cloudfrontUrl": "http://res.cloudinary.com/do7w0q9iq/image/upload/thunderify/Plain/4",
     "displayUrl": "http://res.cloudinary.com/do7w0q9iq/image/upload/thunderify/Plain/4",
     "path": "/i/1bb6e464",
-    "url": "https://shareasimage.com/i/1bb6e464"
+    "url": "https://thunderify.com/i/1bb6e464"
 }
 
 ,
@@ -1167,7 +1167,7 @@
     "cloudfrontUrl": "http://res.cloudinary.com/do7w0q9iq/image/upload/thunderify/Plain/5",
     "displayUrl": "http://res.cloudinary.com/do7w0q9iq/image/upload/thunderify/Plain/5",
     "path": "/i/1bb6e464",
-    "url": "https://shareasimage.com/i/1bb6e464"
+    "url": "https://thunderify.com/i/1bb6e464"
 }
 
 ,
@@ -1202,7 +1202,7 @@
     "cloudfrontUrl": "http://res.cloudinary.com/do7w0q9iq/image/upload/thunderify/Plain/7",
     "displayUrl": "http://res.cloudinary.com/do7w0q9iq/image/upload/thunderify/Plain/7",
     "path": "/i/1bb6e464",
-    "url": "https://shareasimage.com/i/1bb6e464"
+    "url": "https://thunderify.com/i/1bb6e464"
 }
 ,
             
@@ -1238,7 +1238,7 @@
         "cloudfrontUrl": "http://res.cloudinary.com/do7w0q9iq/image/upload/1414680749-0ad23036-ae1b",
         "displayUrl": "http://res.cloudinary.com/do7w0q9iq/image/upload/1414680749-0ad23036-ae1b",
         "path": "\/i\/0ad23036",
-        "url": "https:\/\/shareasimage.com\/i\/0ad23036"
+        "url": "https:\/\/thunderify.com\/i\/0ad23036"
     }, {
         "id": "999137",
         "created": "1414699801",
@@ -1269,7 +1269,7 @@
         "cloudfrontUrl": "http://res.cloudinary.com/do7w0q9iq/image/upload/1414699801-bafec290-cba0",
         "displayUrl": "http://res.cloudinary.com/do7w0q9iq/image/upload/1414699801-bafec290-cba0",
         "path": "\/i\/bafec290",
-        "url": "https:\/\/shareasimage.com\/i\/bafec290"
+        "url": "https:\/\/thunderify.com\/i\/bafec290"
     }, {
         "id": "999138",
         "created": "1414676038",
@@ -1300,7 +1300,7 @@
         "cloudfrontUrl": "http://res.cloudinary.com/do7w0q9iq/image/upload/1414676038-ebdb7932-fb3e",
         "displayUrl": "http://res.cloudinary.com/do7w0q9iq/image/upload/1414676038-ebdb7932-fb3e",
         "path": "\/i\/ebdb7932",
-        "url": "https:\/\/shareasimage.com\/i\/ebdb7932"
+        "url": "https:\/\/thunderify.com\/i\/ebdb7932"
     }, {
         "id": "999139",
         "created": "1414761958",
@@ -1331,7 +1331,7 @@
         "cloudfrontUrl": "http://res.cloudinary.com/do7w0q9iq/image/upload/1414761958-becacd04-0124",
         "displayUrl": "http://res.cloudinary.com/do7w0q9iq/image/upload/1414761958-becacd04-0124",
         "path": "\/i\/becacd04",
-        "url": "https:\/\/shareasimage.com\/i\/becacd04"
+        "url": "https:\/\/thunderify.com\/i\/becacd04"
     }, {
         "id": "999140",
         "created": "1414696544",
@@ -1344,7 +1344,7 @@
         "numberOfRemixes": "672",
         "publicKey": "d462855a",
         "s3Filename": "1414696544-d462855a-8892",
-        "sourceUrl": "https:\/\/shareasimage.com\/i\/b048e460",
+        "sourceUrl": "https:\/\/thunderify.com\/i\/b048e460",
         "documentJson": "{\"layers\":[{\"styles\":{\"align\":\"center\",\"fillStyle\":\"#ffffff\",\"shadowColor\":\"rgba(0,0,0,0.25)\",\"fontFamily\":\"Buenard\",\"fontSize\":\"37px\",\"fontStyle\":\"normal\",\"text\":\"Today is the first day of the rest of your life. \",\"x\":\"8.08%\",\"y\":\"30.65%\",\"maxWidth\":470},\"type\":\"text\"},{\"isBackground\":true,\"type\":\"image\",\"filters\":[],\"sourceSrc\":\"http:\/\/res.cloudinary.com\/do7w0q9iq\/image\/upload\/bki3vznv5hznf7vlqv1g\",\"resizedSrc\":\"http:\/\/res.cloudinary.com\/do7w0q9iq\/image\/upload\/c_lfill,h_385,w_495\/bki3vznv5hznf7vlqv1g\",\"styles\":{\"height\":385,\"width\":495,\"x\":0,\"y\":0}},{\"styles\":{\"align\":\"center\",\"fillStyle\":\"#050505\",\"shadowColor\":\"rgba(255,255,255,0.25)\",\"fontFamily\":\"Satisfy\",\"fontSize\":\"29px\",\"fontStyle\":\"normal\",\"text\":\"Albert Hoffman\",\"x\":\"32.93%\",\"y\":\"65.13%\",\"maxWidth\":470},\"type\":\"text\"}]}",
         "text": "Today is the first day of the rest of your life.  \/ Albert Hoffman",
         "hasBeenFlagged": "0",
@@ -1362,7 +1362,7 @@
         "cloudfrontUrl": "http://res.cloudinary.com/do7w0q9iq/image/upload/1414696544-d462855a-8892",
         "displayUrl": "http://res.cloudinary.com/do7w0q9iq/image/upload/1414696544-d462855a-8892",
         "path": "\/i\/d462855a",
-        "url": "https:\/\/shareasimage.com\/i\/d462855a"
+        "url": "https:\/\/thunderify.com\/i\/d462855a"
     }, {
         "id": "999141",
         "created": "1414699304",
@@ -1393,7 +1393,7 @@
         "cloudfrontUrl": "http://res.cloudinary.com/do7w0q9iq/image/upload/1414699304-b705dbfa-e21a",
         "displayUrl": "http://res.cloudinary.com/do7w0q9iq/image/upload/1414699304-b705dbfa-e21a",
         "path": "\/i\/b705dbfa",
-        "url": "https:\/\/shareasimage.com\/i\/b705dbfa"
+        "url": "https:\/\/thunderify.com\/i\/b705dbfa"
     }, {
         "id": "999142",
         "created": "1414700225",
@@ -1424,7 +1424,7 @@
         "cloudfrontUrl": "http://res.cloudinary.com/do7w0q9iq/image/upload/1414700225-29bb6a70-c9f7",
         "displayUrl": "http://res.cloudinary.com/do7w0q9iq/image/upload/1414700225-29bb6a70-c9f7",
         "path": "\/i\/29bb6a70",
-        "url": "https:\/\/shareasimage.com\/i\/29bb6a70"
+        "url": "https:\/\/thunderify.com\/i\/29bb6a70"
     }, {
         "id": "999143",
         "created": "1414761239",
@@ -1455,7 +1455,7 @@
         "cloudfrontUrl": "http://res.cloudinary.com/do7w0q9iq/image/upload/1414761239-1bb6e464-86be",
         "displayUrl": "http://res.cloudinary.com/do7w0q9iq/image/upload/1414761239-1bb6e464-86be",
         "path": "\/i\/1bb6e464",
-        "url": "https:\/\/shareasimage.com\/i\/1bb6e464"
+        "url": "https:\/\/thunderify.com\/i\/1bb6e464"
     }, {
         "id": "999144",
         "created": "1414761311",
@@ -1486,7 +1486,7 @@
         "cloudfrontUrl": "http://res.cloudinary.com/do7w0q9iq/image/upload/1414761311-0b3d10e5-e6fd",
         "displayUrl": "http://res.cloudinary.com/do7w0q9iq/image/upload/1414761311-0b3d10e5-e6fd",
         "path": "\/i\/0b3d10e5",
-        "url": "https:\/\/shareasimage.com\/i\/0b3d10e5"
+        "url": "https:\/\/thunderify.com\/i\/0b3d10e5"
     }, {
     "id": "999145",
     "created": "1414761430",
@@ -1517,7 +1517,7 @@
     "cloudfrontUrl": "http://res.cloudinary.com/do7w0q9iq/image/upload/tkcwmz3syelydwdjkgi0",
     "displayUrl": "http://res.cloudinary.com/do7w0q9iq/image/upload/tkcwmz3syelydwdjkgi0",
     "path": "\/i\/dd943a75",
-    "url": "https:\/\/shareasimage.com\/i\/dd943a75"
+    "url": "https:\/\/thunderify.com\/i\/dd943a75"
 }, {
         "id": "999146",
         "created": "1414761464",
@@ -1548,7 +1548,7 @@
         "cloudfrontUrl": "http://res.cloudinary.com/do7w0q9iq/image/upload/1414761464-aeb1718d-ba56",
         "displayUrl": "http://res.cloudinary.com/do7w0q9iq/image/upload/1414761464-aeb1718d-ba56",
         "path": "\/i\/aeb1718d",
-        "url": "https:\/\/shareasimage.com\/i\/aeb1718d"
+        "url": "https:\/\/thunderify.com\/i\/aeb1718d"
     }, {
         "id": "999147",
         "created": "1414761534",
@@ -1579,7 +1579,7 @@
         "cloudfrontUrl": "http://res.cloudinary.com/do7w0q9iq/image/upload/1414761533-d57c799c-9d54",
         "displayUrl": "http://res.cloudinary.com/do7w0q9iq/image/upload/1414761533-d57c799c-9d54",
         "path": "\/i\/d57c799c",
-        "url": "https:\/\/shareasimage.com\/i\/d57c799c"
+        "url": "https:\/\/thunderify.com\/i\/d57c799c"
     }, {
         "id": "999148",
         "created": "1414761611",
@@ -1610,7 +1610,7 @@
         "cloudfrontUrl": "http://res.cloudinary.com/do7w0q9iq/image/upload/1414761611-dc73e40c-5bf3",
         "displayUrl": "http://res.cloudinary.com/do7w0q9iq/image/upload/1414761611-dc73e40c-5bf3",
         "path": "\/i\/dc73e40c",
-        "url": "https:\/\/shareasimage.com\/i\/dc73e40c"
+        "url": "https:\/\/thunderify.com\/i\/dc73e40c"
     }, {
         "id": "999149",
         "created": "1414761668",
@@ -1641,7 +1641,7 @@
         "cloudfrontUrl": "http://res.cloudinary.com/do7w0q9iq/image/upload/1414761668-669eee58-852c",
         "displayUrl": "http://res.cloudinary.com/do7w0q9iq/image/upload/1414761668-669eee58-852c",
         "path": "\/i\/669eee58",
-        "url": "https:\/\/shareasimage.com\/i\/669eee58"
+        "url": "https:\/\/thunderify.com\/i\/669eee58"
     }, {
         "id": "999150",
         "created": "1414761924",
@@ -1672,7 +1672,7 @@
         "cloudfrontUrl": "http://res.cloudinary.com/do7w0q9iq/image/upload/1414761924-cb322015-28eb",
         "displayUrl": "http://res.cloudinary.com/do7w0q9iq/image/upload/1414761924-cb322015-28eb",
         "path": "\/i\/cb322015",
-        "url": "https:\/\/shareasimage.com\/i\/cb322015"
+        "url": "https:\/\/thunderify.com\/i\/cb322015"
     }, {
         "id": "999151",
         "created": "1414695567",
@@ -1703,7 +1703,7 @@
         "cloudfrontUrl": "http://res.cloudinary.com/do7w0q9iq/image/upload/1414695567-8da254e6-e474",
         "displayUrl": "http://res.cloudinary.com/do7w0q9iq/image/upload/1414695567-8da254e6-e474",
         "path": "\/i\/8da254e6",
-        "url": "https:\/\/shareasimage.com\/i\/8da254e6"
+        "url": "https:\/\/thunderify.com\/i\/8da254e6"
     }, {
         "id": "999152",
         "created": "1414693866",
@@ -1734,7 +1734,7 @@
         "cloudfrontUrl": "http://res.cloudinary.com/do7w0q9iq/image/upload/kw0xlihc732gexhujbss",
         "displayUrl": "http://res.cloudinary.com/do7w0q9iq/image/upload/kw0xlihc732gexhujbss",
         "path": "\/i\/3bc21f21",
-        "url": "https:\/\/shareasimage.com\/i\/3bc21f21"
+        "url": "https:\/\/thunderify.com\/i\/3bc21f21"
     }, {
         "id": "999153",
         "created": "1414675762",
@@ -1765,7 +1765,7 @@
         "cloudfrontUrl": "http://res.cloudinary.com/do7w0q9iq/image/upload/1414675762-4c5f6b29-b033",
         "displayUrl": "http://res.cloudinary.com/do7w0q9iq/image/upload/1414675762-4c5f6b29-b033",
         "path": "\/i\/4c5f6b29",
-        "url": "https:\/\/shareasimage.com\/i\/4c5f6b29"
+        "url": "https:\/\/thunderify.com\/i\/4c5f6b29"
     }, {
         "id": "999154",
         "created": "1414676769",
@@ -1796,7 +1796,7 @@
         "cloudfrontUrl": "http://res.cloudinary.com/do7w0q9iq/image/upload/1414676769-9c4e21f1-7969",
         "displayUrl": "http://res.cloudinary.com/do7w0q9iq/image/upload/1414676769-9c4e21f1-7969",
         "path": "\/i\/9c4e21f1",
-        "url": "https:\/\/shareasimage.com\/i\/9c4e21f1"
+        "url": "https:\/\/thunderify.com\/i\/9c4e21f1"
     }, {
         "id": "999155",
         "created": "414677438",
@@ -1827,7 +1827,7 @@
         "cloudfrontUrl": "http://res.cloudinary.com/do7w0q9iq/image/upload/1414677438-e9377036-b4ad",
         "displayUrl": "http://res.cloudinary.com/do7w0q9iq/image/upload/1414677438-e9377036-b4ad",
         "path": "\/i\/e9377036",
-        "url": "https:\/\/shareasimage.com\/i\/e9377036"
+        "url": "https:\/\/thunderify.com\/i\/e9377036"
     }, {
         "id": "999156",
         "created": "1414677683",
@@ -1858,7 +1858,7 @@
         "cloudfrontUrl": "http://res.cloudinary.com/do7w0q9iq/image/upload/1414677683-ae1d1da7-c8d5",
         "displayUrl": "http://res.cloudinary.com/do7w0q9iq/image/upload/1414677683-ae1d1da7-c8d5",
         "path": "\/i\/ae1d1da7",
-        "url": "https:\/\/shareasimage.com\/i\/ae1d1da7"
+        "url": "https:\/\/thunderify.com\/i\/ae1d1da7"
     }, {
         "id": "999157",
         "created": "1414677929",
@@ -1889,7 +1889,7 @@
         "cloudfrontUrl": "http://res.cloudinary.com/do7w0q9iq/image/upload/1414677929-b2503089-8487",
         "displayUrl": "http://res.cloudinary.com/do7w0q9iq/image/upload/1414677929-b2503089-8487",
         "path": "\/i\/b2503089",
-        "url": "https:\/\/shareasimage.com\/i\/b2503089"
+        "url": "https:\/\/thunderify.com\/i\/b2503089"
     }, {
         "id": "999158",
         "created": "1414678256",
@@ -1920,7 +1920,7 @@
         "cloudfrontUrl": "http://res.cloudinary.com/do7w0q9iq/image/upload/1414678256-7a9e49f0-0839",
         "displayUrl": "http://res.cloudinary.com/do7w0q9iq/image/upload/1414678256-7a9e49f0-0839",
         "path": "\/i\/7a9e49f0",
-        "url": "https:\/\/shareasimage.com\/i\/7a9e49f0"
+        "url": "https:\/\/thunderify.com\/i\/7a9e49f0"
     }, {
         "id": "999159",
         "created": "1414678433",
@@ -1951,7 +1951,7 @@
         "cloudfrontUrl": "http://res.cloudinary.com/do7w0q9iq/image/upload/1414678433-8ddaa4b2-487c",
         "displayUrl": "http://res.cloudinary.com/do7w0q9iq/image/upload/1414678433-8ddaa4b2-487c",
         "path": "\/i\/8ddaa4b2",
-        "url": "https:\/\/shareasimage.com\/i\/8ddaa4b2"
+        "url": "https:\/\/thunderify.com\/i\/8ddaa4b2"
     }, {
         "id": "999160",
         "created": "1414678728",
@@ -1982,7 +1982,7 @@
         "cloudfrontUrl": "http://res.cloudinary.com/do7w0q9iq/image/upload/1414678728-f86cc362-3614",
         "displayUrl": "http://res.cloudinary.com/do7w0q9iq/image/upload/1414678728-f86cc362-3614",
         "path": "\/i\/f86cc362",
-        "url": "https:\/\/shareasimage.com\/i\/f86cc362"
+        "url": "https:\/\/thunderify.com\/i\/f86cc362"
     }, {
         "id": "999161",
         "created": "1414680415",
@@ -2013,7 +2013,7 @@
         "cloudfrontUrl": "http://res.cloudinary.com/do7w0q9iq/image/upload/1414680415-f6fd8b8e-16f4",
         "displayUrl": "http://res.cloudinary.com/do7w0q9iq/image/upload/1414680415-f6fd8b8e-16f4",
         "path": "\/i\/f6fd8b8e",
-        "url": "https:\/\/shareasimage.com\/i\/f6fd8b8e"
+        "url": "https:\/\/thunderify.com\/i\/f6fd8b8e"
     }, {
         "id": "999162",
         "created": "414680910",
@@ -2044,7 +2044,7 @@
         "cloudfrontUrl": "http://res.cloudinary.com/do7w0q9iq/image/upload/1414680910-bd9b9f65-42fc",
         "displayUrl": "http://res.cloudinary.com/do7w0q9iq/image/upload/1414680910-bd9b9f65-42fc",
         "path": "\/i\/bd9b9f65",
-        "url": "https:\/\/shareasimage.com\/i\/bd9b9f65"
+        "url": "https:\/\/thunderify.com\/i\/bd9b9f65"
     }, {
         "id": "999163",
         "created": "1414681482",
@@ -2075,7 +2075,7 @@
         "cloudfrontUrl": "http://res.cloudinary.com/do7w0q9iq/image/upload/1414681482-7f550f43-e39c",
         "displayUrl": "http://res.cloudinary.com/do7w0q9iq/image/upload/1414681482-7f550f43-e39c",
         "path": "\/i\/7f550f43",
-        "url": "https:\/\/shareasimage.com\/i\/7f550f43"
+        "url": "https:\/\/thunderify.com\/i\/7f550f43"
     }, {
         "id": "999164",
         "created": "1414681610",
@@ -2106,7 +2106,7 @@
         "cloudfrontUrl": "http://res.cloudinary.com/do7w0q9iq/image/upload/1414681610-e1703fc4-7bae",
         "displayUrl": "http://res.cloudinary.com/do7w0q9iq/image/upload/1414681610-e1703fc4-7bae",
         "path": "\/i\/e1703fc4",
-        "url": "https:\/\/shareasimage.com\/i\/e1703fc4"
+        "url": "https:\/\/thunderify.com\/i\/e1703fc4"
     }, {
         "id": "999165",
         "created": "1414675346",
@@ -2137,7 +2137,7 @@
         "cloudfrontUrl": "http://res.cloudinary.com/do7w0q9iq/image/upload/1414675346-aca4cf5c-a617",
         "displayUrl": "http://res.cloudinary.com/do7w0q9iq/image/upload/1414675346-aca4cf5c-a617",
         "path": "\/i\/aca4cf5c",
-        "url": "https:\/\/shareasimage.com\/i\/aca4cf5c"
+        "url": "https:\/\/thunderify.com\/i\/aca4cf5c"
     },
    {
     "id": "999166",
@@ -2169,7 +2169,7 @@
     "cloudfrontUrl": "http://res.cloudinary.com/do7w0q9iq/image/upload/party_17",
     "displayUrl": "http://res.cloudinary.com/do7w0q9iq/image/upload/party_17",
     "path": "/i/1bb6e464",
-    "url": "https://shareasimage.com/i/1bb6e464"
+    "url": "https://thunderify.com/i/1bb6e464"
 }
 , {
     "id": 999167,
@@ -2201,7 +2201,7 @@
     "cloudfrontUrl": "http://res.cloudinary.com/do7w0q9iq/image/upload/party_16",
     "displayUrl": "http://res.cloudinary.com/do7w0q9iq/image/upload/party_16",
     "path": "/i/1bb6e464",
-    "url": "https://shareasimage.com/i/1bb6e464"
+    "url": "https://thunderify.com/i/1bb6e464"
 }
 , {
     "id":999168,
@@ -2233,7 +2233,7 @@
     "cloudfrontUrl": "http://res.cloudinary.com/do7w0q9iq/image/upload/party_15",
     "displayUrl": "http://res.cloudinary.com/do7w0q9iq/image/upload/party_15",
     "path": "/i/1bb6e464",
-    "url": "https://shareasimage.com/i/1bb6e464"
+    "url": "https://thunderify.com/i/1bb6e464"
 }
 , {
     "id": 999169,
@@ -2265,7 +2265,7 @@
     "cloudfrontUrl": "http://res.cloudinary.com/do7w0q9iq/image/upload/party_14",
     "displayUrl": "http://res.cloudinary.com/do7w0q9iq/image/upload/party_14",
     "path": "/i/1bb6e464",
-    "url": "https://shareasimage.com/i/1bb6e464"
+    "url": "https://thunderify.com/i/1bb6e464"
 }
 , {
     "id": 999170,
@@ -2297,7 +2297,7 @@
     "cloudfrontUrl": "http://res.cloudinary.com/do7w0q9iq/image/upload/party_10",
     "displayUrl": "http://res.cloudinary.com/do7w0q9iq/image/upload/party_10",
     "path": "/i/1bb6e464",
-    "url": "https://shareasimage.com/i/1bb6e464"
+    "url": "https://thunderify.com/i/1bb6e464"
 },
 
 {
@@ -2330,7 +2330,7 @@
     "cloudfrontUrl": "http://res.cloudinary.com/do7w0q9iq/image/upload/city-sky-lights-night",
     "displayUrl": "http://res.cloudinary.com/do7w0q9iq/image/upload/city-sky-lights-night",
     "path": "/i/f6fd8b8e",
-    "url": "https://shareasimage.com/i/f6fd8b8e"
+    "url": "https://thunderify.com/i/f6fd8b8e"
 },
 {
     "id": "999172",
@@ -2362,7 +2362,7 @@
     "cloudfrontUrl": "http://res.cloudinary.com/do7w0q9iq/image/upload/car_02",
     "displayUrl": "http://res.cloudinary.com/do7w0q9iq/image/upload/car_02",
     "path": "/i/f6fd8b8e",
-    "url": "https://shareasimage.com/i/f6fd8b8e"
+    "url": "https://thunderify.com/i/f6fd8b8e"
 },
 
 {
@@ -2395,7 +2395,7 @@
     "cloudfrontUrl": "http://res.cloudinary.com/do7w0q9iq/image/upload/car_03",
     "displayUrl": "http://res.cloudinary.com/do7w0q9iq/image/upload/car_03",
     "path": "/i/1bb6e464",
-    "url": "https://shareasimage.com/i/1bb6e464"
+    "url": "https://thunderify.com/i/1bb6e464"
 },
 {
     "id": "999174",
@@ -2427,7 +2427,7 @@
     "cloudfrontUrl": "http://res.cloudinary.com/do7w0q9iq/image/upload/car_04",
     "displayUrl": "http://res.cloudinary.com/do7w0q9iq/image/upload/car_04",
     "path": "/i/b2503089",
-    "url": "https://shareasimage.com/i/b2503089"
+    "url": "https://thunderify.com/i/b2503089"
 },
 {
     "id": "999175",
@@ -2459,7 +2459,7 @@
     "cloudfrontUrl": "http://res.cloudinary.com/do7w0q9iq/image/upload/car_05",
     "displayUrl": "http://res.cloudinary.com/do7w0q9iq/image/upload/car_05",
     "path": "/i/1bb6e464",
-    "url": "https://shareasimage.com/i/1bb6e464"
+    "url": "https://thunderify.com/i/1bb6e464"
 },
 
 {
@@ -2492,7 +2492,7 @@
     "cloudfrontUrl": "http://res.cloudinary.com/do7w0q9iq/image/upload/car_07",
     "displayUrl": "http://res.cloudinary.com/do7w0q9iq/image/upload/car_07",
     "path": "/i/b2503089",
-    "url": "https://shareasimage.com/i/b2503089"
+    "url": "https://thunderify.com/i/b2503089"
 },
 {
     "id": "999176",
@@ -2524,7 +2524,7 @@
     "cloudfrontUrl": "http://res.cloudinary.com/do7w0q9iq/image/upload/car_06",
     "displayUrl": "http://res.cloudinary.com/do7w0q9iq/image/upload/car_06",
     "path": "/i/b2503089",
-    "url": "https://shareasimage.com/i/b2503089"
+    "url": "https://thunderify.com/i/b2503089"
 },
 {
     "id": "999178",
@@ -2556,7 +2556,7 @@
     "cloudfrontUrl": "http://res.cloudinary.com/do7w0q9iq/image/upload/industry_01",
     "displayUrl": "http://res.cloudinary.com/do7w0q9iq/image/upload/industry_01",
     "path": "/i/1bb6e464",
-    "url": "https://shareasimage.com/i/1bb6e464"
+    "url": "https://thunderify.com/i/1bb6e464"
 },
 {
     "id": "999179",
@@ -2588,7 +2588,7 @@
     "cloudfrontUrl": "http://res.cloudinary.com/do7w0q9iq/image/upload/industry_02",
     "displayUrl": "http://res.cloudinary.com/do7w0q9iq/image/upload/industry_02",
     "path": "/i/1bb6e464",
-    "url": "https://shareasimage.com/i/1bb6e464"
+    "url": "https://thunderify.com/i/1bb6e464"
 },
 
 {
@@ -2621,7 +2621,7 @@
     "cloudfrontUrl": "http://res.cloudinary.com/do7w0q9iq/image/upload/industry_03",
     "displayUrl": "http://res.cloudinary.com/do7w0q9iq/image/upload/industry_03",
     "path": "/i/1bb6e464",
-    "url": "https://shareasimage.com/i/1bb6e464"
+    "url": "https://thunderify.com/i/1bb6e464"
 },
 {
     "id": "999181",
@@ -2653,7 +2653,7 @@
     "cloudfrontUrl": "http://res.cloudinary.com/do7w0q9iq/image/upload/industry_04",
     "displayUrl": "http://res.cloudinary.com/do7w0q9iq/image/upload/industry_04",
     "path": "/i/becacd04",
-    "url": "https://shareasimage.com/i/becacd04"
+    "url": "https://thunderify.com/i/becacd04"
 },
 {
     "id": "999182",
@@ -2685,7 +2685,7 @@
     "cloudfrontUrl": "http://res.cloudinary.com/do7w0q9iq/image/upload/flower_01",
     "displayUrl": "http://res.cloudinary.com/do7w0q9iq/image/upload/flower_01",
     "path": "/i/becacd04",
-    "url": "https://shareasimage.com/i/becacd04"
+    "url": "https://thunderify.com/i/becacd04"
 },
 {
     "id": "999183",
@@ -2717,7 +2717,7 @@
     "cloudfrontUrl": "http://res.cloudinary.com/do7w0q9iq/image/upload/flower_02",
     "displayUrl": "http://res.cloudinary.com/do7w0q9iq/image/upload/flower_02",
     "path": "/i/becacd04",
-    "url": "https://shareasimage.com/i/becacd04"
+    "url": "https://thunderify.com/i/becacd04"
 },
 {
     "id": "999184",
@@ -2749,7 +2749,7 @@
     "cloudfrontUrl": "http://res.cloudinary.com/do7w0q9iq/image/upload/flower_03",
     "displayUrl": "http://res.cloudinary.com/do7w0q9iq/image/upload/flower_03",
     "path": "/i/1bb6e464",
-    "url": "https://shareasimage.com/i/1bb6e464"
+    "url": "https://thunderify.com/i/1bb6e464"
 },
 {
     "id": "999185",
@@ -2781,7 +2781,7 @@
     "cloudfrontUrl": "http://res.cloudinary.com/do7w0q9iq/image/upload/flower_04",
     "displayUrl": "http://res.cloudinary.com/do7w0q9iq/image/upload/flower_04",
     "path": "/i/1bb6e464",
-    "url": "https://shareasimage.com/i/1bb6e464"
+    "url": "https://thunderify.com/i/1bb6e464"
 },
 {
     "id": "999186",
@@ -2813,7 +2813,7 @@
     "cloudfrontUrl": "http://res.cloudinary.com/do7w0q9iq/image/upload/flower_05",
     "displayUrl": "http://res.cloudinary.com/do7w0q9iq/image/upload/flower_05",
     "path": "/i/1bb6e464",
-    "url": "https://shareasimage.com/i/1bb6e464"
+    "url": "https://thunderify.com/i/1bb6e464"
 },
 {
     "id": "999187",
@@ -2845,7 +2845,7 @@
     "cloudfrontUrl": "http://res.cloudinary.com/do7w0q9iq/image/upload/flower_06",
     "displayUrl": "http://res.cloudinary.com/do7w0q9iq/image/upload/flower_06",
     "path": "/i/1bb6e464",
-    "url": "https://shareasimage.com/i/1bb6e464"
+    "url": "https://thunderify.com/i/1bb6e464"
 },
 {
     "id": "999188",
@@ -2877,7 +2877,7 @@
     "cloudfrontUrl": "http://res.cloudinary.com/do7w0q9iq/image/upload/sky_01",
     "displayUrl": "http://res.cloudinary.com/do7w0q9iq/image/upload/sky_01",
     "path": "/i/9c4e21f1",
-    "url": "https://shareasimage.com/i/9c4e21f1"
+    "url": "https://thunderify.com/i/9c4e21f1"
 },
 {
     "id": "999189",
@@ -2909,7 +2909,7 @@
     "cloudfrontUrl": "http://res.cloudinary.com/do7w0q9iq/image/upload/sky_02",
     "displayUrl": "http://res.cloudinary.com/do7w0q9iq/image/upload/sky_02",
     "path": "/i/9c4e21f1",
-    "url": "https://shareasimage.com/i/9c4e21f1"
+    "url": "https://thunderify.com/i/9c4e21f1"
 },
 {
     "id": "999190",
@@ -2941,7 +2941,7 @@
     "cloudfrontUrl": "http://res.cloudinary.com/do7w0q9iq/image/upload/sky_03",
     "displayUrl": "http://res.cloudinary.com/do7w0q9iq/image/upload/sky_03",
     "path": "/i/9c4e21f1",
-    "url": "https://shareasimage.com/i/9c4e21f1"
+    "url": "https://thunderify.com/i/9c4e21f1"
 },
 {
     "id": "999191",
@@ -2973,7 +2973,7 @@
     "cloudfrontUrl": "http://res.cloudinary.com/do7w0q9iq/image/upload/sky_04",
     "displayUrl": "http://res.cloudinary.com/do7w0q9iq/image/upload/sky_04",
     "path": "/i/1bb6e464",
-    "url": "https://shareasimage.com/i/1bb6e464"
+    "url": "https://thunderify.com/i/1bb6e464"
 },
 {
     "id": "999192",
@@ -3005,7 +3005,7 @@
     "cloudfrontUrl": "http://res.cloudinary.com/do7w0q9iq/image/upload/sky_05",
     "displayUrl": "http://res.cloudinary.com/do7w0q9iq/image/upload/sky_05",
     "path": "/i/1bb6e464",
-    "url": "https://shareasimage.com/i/1bb6e464"
+    "url": "https://thunderify.com/i/1bb6e464"
 },
 {
     "id": "999193",
@@ -3037,7 +3037,7 @@
     "cloudfrontUrl": "http://res.cloudinary.com/do7w0q9iq/image/upload/water_01",
     "displayUrl": "http://res.cloudinary.com/do7w0q9iq/image/upload/water_01",
     "path": "/i/1bb6e464",
-    "url": "https://shareasimage.com/i/1bb6e464"
+    "url": "https://thunderify.com/i/1bb6e464"
 },
 {
     "id": "999194",
@@ -3069,7 +3069,7 @@
     "cloudfrontUrl": "http://res.cloudinary.com/do7w0q9iq/image/upload/water_02",
     "displayUrl": "http://res.cloudinary.com/do7w0q9iq/image/upload/water_02",
     "path": "/i/1bb6e464",
-    "url": "https://shareasimage.com/i/1bb6e464"
+    "url": "https://thunderify.com/i/1bb6e464"
 },
 {
     "id": "999195",
@@ -3101,7 +3101,7 @@
     "cloudfrontUrl": "http://i.imgur.com/EnpentGb.jpg",
     "displayUrl": "http://i.imgur.com/EnpentGb.jpg",
     "path": "/i/9c4e21f1",
-    "url": "https://shareasimage.com/i/9c4e21f1"
+    "url": "https://thunderify.com/i/9c4e21f1"
 }
 
 ]        
@@ -3114,7 +3114,7 @@
                 Thu.set('mrr', false);
                 Thu.set('yrr', false);
                 Thu.set('actives', {"daily":false,"weekly":false,"monthly":false});
-                Thu.set('bookmarkletEmbedCode', "(function() {\n    if (\n        navigator.userAgent.indexOf('Safari') > -1\n        && navigator.userAgent.indexOf('Chrome') === -1\n    ) {\n        window.open(\n            'https:\/\/shareasimage.com\/quick',\n            'Quick fix',\n            'width=50, height=50'\n        );\n    }\n    window.Thu = window.Thu || {};\n    if (Thu.bookmarklet) {\n        Thu.bookmarklet.App.toggle();\n    } else {\n        var blacklist = [\n                'facebook.com',\n                'developers.facebook.com',\n                'github.com'\n            ],\n            contains = function (arr, value) {\n                var i = arr.length;\n                while (i--) {\n                    if (arr[i] === value) {\n                        return true;\n                    }\n                }\n                return false;\n            },\n            host = location.host.replace(\/^www\\.\/, '');\n        Thu.bookmarklet = {};\n        if (contains(blacklist, host) === false) {\n\n            \/\/ Build\n            var scriptElement = document.createElement('script');\n            scriptElement.type = 'text\/javascript';\n            scriptElement.async = true;\n            scriptElement.src = 'https:\/\/d3iy4zn4a0491c.cloudfront.net\/static\/app\/js\/compiled\/bookmarklet.js';\n\n            \/\/ Append (have to consider no scripts on the page)\n            var lastElement = document.getElementsByTagName('script')[0];\n            if (lastElement) {\n                lastElement.parentNode.insertBefore(scriptElement, lastElement);   \n            } else {\n                document.body.appendChild(scriptElement);\n            }\n        } else {\n        \n\/* Simple JavaScript Inheritance\n * By John Resig http:\/\/ejohn.org\/\n * MIT Licensed.\n *\/\n\/\/ Inspired by base2 and Prototype\n(function(){\n  var initializing = false, fnTest = \/xyz\/.test(function(){xyz;}) ? \/\\b_super\\b\/ : \/.*\/;\n \n  \/\/ The base Class implementation (does nothing)\n  this.Class = function(){};\n \n  \/\/ Create a new Class that inherits from this class\n  Class.extend = function(prop) {\n    var _super = this.prototype;\n   \n    \/\/ Instantiate a base class (but only create the instance,\n    \/\/ don't run the init constructor)\n    initializing = true;\n    var prototype = new this();\n    initializing = false;\n   \n    \/\/ Copy the properties over onto the new prototype\n    for (var name in prop) {\n      \/\/ Check if we're overwriting an existing function\n      prototype[name] = typeof prop[name] == \"function\" &&\n        typeof _super[name] == \"function\" && fnTest.test(prop[name]) ?\n        (function(name, fn){\n          return function() {\n            var tmp = this._super;\n           \n            \/\/ Add a new ._super() method that is the same method\n            \/\/ but on the super-class\n            this._super = _super[name];\n           \n            \/\/ The method only need to be bound temporarily, so we\n            \/\/ remove it when we're done executing\n            var ret = fn.apply(this, arguments);        \n            this._super = tmp;\n           \n            return ret;\n          };\n        })(name, prop[name]) :\n        prop[name];\n    }\n   \n    \/\/ The dummy class constructor\n    function Class() {\n      \/\/ All construction is actually done in the init method\n      if ( !initializing && this.init )\n        this.init.apply(this, arguments);\n    }\n   \n    \/\/ Populate our constructed prototype object\n    Class.prototype = prototype;\n   \n    \/\/ Enforce the constructor to be what we expect\n    Class.prototype.constructor = Class;\n \n    \/\/ And make this class extendable\n    Class.extend = arguments.callee;\n   \n    return Class;\n  };\n})();\n\n\/**\n * (closure)\n * \n *\/\n(function() {\n\n    \/**\n     * Thu.IFrame\n     * \n     * Instantiable\n     * \n     * @extends Class\n     *\/\n    Thu.IFrame = Class.extend({\n\n        \/**\n         * _animationDuration\n         * \n         * @private\n         * @var     Number (default: 500)\n         *\/\n        _animationDuration: 500,\n\n        \/**\n         * _element\n         * \n         * @private\n         * @var     HTMLIFrameElement (default: null)\n         *\/\n        _element: null,\n\n        \/**\n         * _host\n         * \n         * @private\n         * @var     String\n         *\/\n        _host: \"shareasimage.com\",\n\n        \/**\n         * init\n         * \n         * @public\n         * @return void\n         *\/\n        init: function() {\n        },\n\n        \/**\n         * _addClass\n         * \n         * @private\n         * @param   HTMLElement elem\n         * @param   String className\n         * @return  void\n         *\/\n        _addClass: function(elem, className) {\n            if (!this._hasClass(elem, className)) {\n                elem.className += ' ' + className;\n            }\n        },\n\n        \/**\n         * _hasClass\n         * \n         * @private\n         * @param   HTMLElement elem\n         * @param   String className\n         * @return  Boolean\n         *\/\n        _hasClass: function(elem, className) {\n            return new RegExp(' ' + className + ' ').test(' ' + elem.className + ' ');\n        },\n\n        \/**\n         * _removeClass\n         * \n         * @private\n         * @param   HTMLElement elem\n         * @param   String className\n         * @return  void\n         *\/\n        _removeClass: function(elem, className) {\n            var newClass = ' ' + elem.className.replace( \/[\\t\\r\\n]\/g, ' ') + ' ';\n            if (this._hasClass(elem, className)) {\n                while (newClass.indexOf(' ' + className + ' ') >= 0 ) {\n                    newClass = newClass.replace(' ' + className + ' ', ' ');\n                }\n                elem.className = newClass.replace(\/^\\s+|\\s+$\/g, '');\n            }\n        },\n\n        \/**\n         * _draw\n         * \n         * @private\n         * @param   Boolean isInline\n         * @return  void\n         *\/\n        _draw: function(isInline) {\n            var element = document.createElement('iframe'),\n                className = 'thu-iFrame thu-hidden';\n            if (isInline) {\n                className += ' thu-inlineIFrame';\n            }\n            element.setAttribute('class', className);\n            element.setAttribute('scrolling', 'no');\n            element.setAttribute('frameborder', '0');\n            element.setAttribute('allowtransparency', 'true');\n            this._element = element;\n        },\n\n        \/**\n         * append\n         * \n         * @public\n         * @param  HTMLElement parentElement\n         * @return void\n         *\/\n        append: function(parentElement) {\n            parentElement.appendChild(this._element);\n        },\n\n        \/**\n         * getElements\n         * \n         * @public\n         * @return Object\n         *\/\n        getElement: function() {\n            return this._element;\n        },\n\n        \/**\n         * getPath\n         * \n         * @public\n         * @return String\n         *\/\n        getPath: function() {\n            if (this._element) {\n                var src = this._element.getAttribute('src');\n                if (src === null) {\n                    return null;\n                }\n                var piece = src.split('.com\/embed?');\n                return '\/embed?' + (piece.pop());\n            }\n            return null;\n        },\n\n        \/**\n         * hide\n         * \n         * @public\n         * @return void\n         *\/\n        hide: function() {\n            var _this = this;\n            setTimeout(\n                function() {\n                    _this._addClass(_this._element, 'thu-hidden');\n                },\n                this._animationDuration\n            );\n        },\n\n        \/**\n         * remove\n         * \n         * @public\n         * @return void\n         *\/\n        remove: function() {\n            this._element.parentNode.removeChild(this._element);\n        },\n\n        \/**\n         * setIFrame\n         * \n         * @see    http:\/\/bugs.jquery.com\/ticket\/13936\n         * @see    http:\/\/stackoverflow.com\/questions\/4334520\/load-event-for-iframe-not-fired-in-ie\n         * @see    http:\/\/stackoverflow.com\/a\/18280339\/115025\n         * @see    http:\/\/stackoverflow.com\/questions\/9241495\/ie-dynamically-created-iframes-onload-function-never-called\n         * @public\n         * @param  String path\n         * @param  HTMLElement parentElement\n         * @param  Boolean isInline\n         * @return void\n         *\/\n        setIFrame: function(path, parentElement, isInline) {\n            this._element && this.remove();\n            this._draw(isInline);\n            this.setPath(path);\n            this.append(parentElement);\n            isInline && this.show();\/\/ Show right away if inline\n        },\n\n        \/**\n         * show\n         * \n         * @public\n         * @return void\n         *\/\n        show: function() {\n            this._removeClass(this._element, 'thu-hidden');\n        },\n\n        \/**\n         * setPath\n         * \n         * @public\n         * @param  String path\n         * @return void\n         *\/\n        setPath: function(path) {\n            var src = 'https:\/\/' + (this._host) + (path);\n            this._element.setAttribute('src', src);\n        }\n    });\n})();\n\n\/**\n * (closure)\n * \n *\/\n(function() {\n\n    \/**\n     * Thu.Overlay\n     * \n     * @extends Class\n     *\/\n    Thu.Overlay = Class.extend({\n\n        \/**\n         * _animationDuration\n         * \n         * @private\n         * @var     Number (default: 500)\n         *\/\n        _animationDuration: 500,\n\n        \/**\n         * _element\n         * \n         * @private\n         * @var     HTMLDivElement (default: null)\n         *\/\n        _element: null,\n\n        \/**\n         * init\n         * \n         * @public\n         * @return void\n         *\/\n        init: function() {\n            this._draw();\n        },\n\n        \/**\n         * _addClass\n         * \n         * @private\n         * @param   HTMLElement elem\n         * @param   String className\n         * @return  void\n         *\/\n        _addClass: function(elem, className) {\n            if (!this._hasClass(elem, className)) {\n                elem.className += ' ' + className;\n            }\n        },\n\n        \/**\n         * _hasClass\n         * \n         * @private\n         * @param   HTMLElement elem\n         * @param   String className\n         * @return  Boolean\n         *\/\n        _hasClass: function(elem, className) {\n            return new RegExp(' ' + className + ' ').test(' ' + elem.className + ' ');\n        },\n\n        \/**\n         * _removeClass\n         * \n         * @private\n         * @param   HTMLElement elem\n         * @param   String className\n         * @return  void\n         *\/\n        _removeClass: function(elem, className) {\n            var newClass = ' ' + elem.className.replace( \/[\\t\\r\\n]\/g, ' ') + ' ';\n            if (this._hasClass(elem, className)) {\n                while (newClass.indexOf(' ' + className + ' ') >= 0 ) {\n                    newClass = newClass.replace(' ' + className + ' ', ' ');\n                }\n                elem.className = newClass.replace(\/^\\s+|\\s+$\/g, '');\n            }\n        },\n\n        \/**\n         * _draw\n         * \n         * @private\n         * @return  void\n         *\/\n        _draw: function() {\n\n            \/\/ Wrapper\n            var element = document.createElement('div');\n            element.setAttribute(\n                'class',\n                'thu-overlay thu-hidden thu-invisible'\n            );\n            this._element = element;\n\n            \/\/ Append\n            document.getElementsByTagName('body')[0].appendChild(element);\n        },\n\n        \/**\n         * hide\n         * \n         * @public\n         * @return void\n         *\/\n        hide: function() {\n            var _this = this;\n            this._addClass(this._element, 'thu-invisible');\n            setTimeout(\n                function() {\n                    _this._addClass(_this._element, 'thu-hidden');\n                },\n                this._animationDuration\n            );\n        },\n\n        \/**\n         * show\n         * \n         * @public\n         * @return void\n         *\/\n        show: function() {\n            var _this = this;\n            this._removeClass(this._element, 'thu-hidden');\n            setTimeout(\n                function() {\n                    _this._removeClass(_this._element, 'thu-invisible');\n                },\n                10\/\/ Otherwise it doesn't kick in\n            );\n        }\n    });\n})();\n\n\/**\n * (closure)\n * \n *\/\n(function() {\n\n    \/**\n     * Thu.Placeholder\n     * \n     * @extends Class\n     *\/\n    Thu.Placeholder = Class.extend({\n\n        \/**\n         * _animationDuration\n         * \n         * @private\n         * @var     Number (default: 500)\n         *\/\n        _animationDuration: 500,\n\n        \/**\n         * _element\n         * \n         * @private\n         * @var     HTMLDivElement (default: null)\n         *\/\n        _element: null,\n\n        \/**\n         * init\n         * \n         * @public\n         * @return void\n         *\/\n        init: function() {\n            this._draw();\n        },\n\n        \/**\n         * _addClass\n         * \n         * @private\n         * @param   HTMLElement elem\n         * @param   String className\n         * @return  void\n         *\/\n        _addClass: function(elem, className) {\n            if (!this._hasClass(elem, className)) {\n                elem.className += ' ' + className;\n            }\n        },\n\n        \/**\n         * _hasClass\n         * \n         * @private\n         * @param   HTMLElement elem\n         * @param   String className\n         * @return  Boolean\n         *\/\n        _hasClass: function(elem, className) {\n            return new RegExp(' ' + className + ' ').test(' ' + elem.className + ' ');\n        },\n\n        \/**\n         * _removeClass\n         * \n         * @private\n         * @param   HTMLElement elem\n         * @param   String className\n         * @return  void\n         *\/\n        _removeClass: function(elem, className) {\n            var newClass = ' ' + elem.className.replace( \/[\\t\\r\\n]\/g, ' ') + ' ';\n            if (this._hasClass(elem, className)) {\n                while (newClass.indexOf(' ' + className + ' ') >= 0 ) {\n                    newClass = newClass.replace(' ' + className + ' ', ' ');\n                }\n                elem.className = newClass.replace(\/^\\s+|\\s+$\/g, '');\n            }\n        },\n\n        \/**\n         * _draw\n         * \n         * @private\n         * @return  void\n         *\/\n        _draw: function() {\n\n            \/\/ Wrapper\n            var element = document.createElement('div');\n            element.setAttribute(\n                'class',\n                'thu-placeholder thu-hidden thu-invisible'\n            );\n            this._element = element;\n\n            \/\/ Box\n            var box = document.createElement('div');\n            box.setAttribute('class', 'thu-placeholderBox');\n\n            \/\/ Dots\n            var dot1 = document.createElement('div'),\n                dot2 = document.createElement('div'),\n                dot3 = document.createElement('div'),\n                dot4 = document.createElement('div');\n            dot1.setAttribute('class', 'thu-placeholderBoxDot');\n            dot2.setAttribute('class', 'thu-placeholderBoxDot');\n            dot3.setAttribute('class', 'thu-placeholderBoxDot');\n            dot4.setAttribute('class', 'thu-placeholderBoxDot');\n\n            \/\/ Build\n            box.appendChild(dot1);\n            box.appendChild(dot2);\n            box.appendChild(dot3);\n            box.appendChild(dot4);\n            element.appendChild(box);\n\n            \/\/ Append\n            document.getElementsByTagName('body')[0].appendChild(element);\n        },\n\n        \/**\n         * hide\n         * \n         * @public\n         * @return void\n         *\/\n        hide: function() {\n            var _this = this;\n            this._addClass(this._element, 'thu-invisible');\n            setTimeout(\n                function() {\n                    _this._addClass(_this._element, 'thu-hidden');\n                },\n                this._animationDuration\n            );\n        },\n\n        \/**\n         * show\n         * \n         * @public\n         * @return void\n         *\/\n        show: function() {\n            var _this = this;\n            this._removeClass(this._element, 'thu-hidden');\n            setTimeout(\n                function() {\n                    _this._removeClass(_this._element, 'thu-invisible');\n                },\n                10\/\/ Otherwise it doesn't kick in\n            );\n        }\n    });\n})();\n\n\/**\n * (closure)\n * \n * @note   Encoding\n * @see    http:\/\/betterexplained.com\/articles\/how-to-make-a-bookmarklet-for-your-web-application\/\n * @see    https:\/\/github.com\/chriszarate\/bookmarkleter\n * @see    http:\/\/daringfireball.net\/2007\/03\/javascript_bookmarklet_builder\n * @see    http:\/\/mrcoles.com\/bookmarklet\/\n * @see    https:\/\/news.ycombinator.com\/item?id=2643118\n * \n * @note   Needs to be set on window to ensure proper scope\n * @see    http:\/\/msdn.microsoft.com\/en-us\/hh563496.aspx\n * @see    http:\/\/developer.chrome.com\/extensions\/contentSecurityPolicy.html\n * @see    https:\/\/getsatisfaction.com\/crossrider\/topics\/facebook_with_chrome_error_refused_to_connect_to_loading_script\n * @see    http:\/\/stackoverflow.com\/questions\/12129077\/content-security-policy-cannot-load-google-api-in-chrome-extension\n * @see    http:\/\/pandawhale.com\/post\/10629\/facebook-growing-increasingly-paranoid-now-preventing-users-from-extracting-own-data-with-javascript-tools\n *\/\n(function() {\n\n    \/**\n     * Thu.bookmarklet.App\n     * \n     * Singelton\n     * \n     * @public\n     * @var    Object\n     *\/\n    Thu.bookmarklet.App = (function() {\n\n        \/**\n         * _iFrame\n         * \n         * @private\n         * @var     Thu.IFrame (default: null)\n         *\/\n        var _iFrame = null;\n\n        \/**\n         * _iFrameIsShowing\n         * \n         * @private\n         * @var     Boolean (default: false)\n         *\/\n        var _iFrameIsShowing = false;\n\n        \/**\n         * _maxCharacters\n         * \n         * @private\n         * @var     Number (default: 2000)\n         *\/\n        var _maxCharacters = 2000;\n\n        \/**\n         * _overlay\n         * \n         * @private\n         * @var     Thu.Overlay (default: null)\n         *\/\n        var _overlay = null;\n\n        \/**\n         * _placeholder\n         * \n         * @private\n         * @var     Thu.Placeholder (default: null)\n         *\/\n        var _placeholder = null;\n\n        \/**\n         * _staticCdn\n         * \n         * @private\n         * @var     String\n         *\/\n        var _staticCdn = \"d3iy4zn4a0491c.cloudfront.net\";\n\n        \/**\n         * _addPostMessageListeners\n         * \n         * @private\n         * @return  void\n         *\/\n        var _addPostMessageListeners = function() {\n            var listener = function(event) {\n                if (\n                    event.origin === 'https:\/\/local.shareasimage.com'\n                    || event.origin === 'https:\/\/dev.shareasimage.com'\n                    || event.origin === 'https:\/\/shareasimage.com'\n                ) {\n                    if (event.source === _iFrame._element.contentWindow) {\n                        var data = JSON.parse(event.data);\n                        if (data.action === 'saveCallback') {\n                            Thu.bookmarklet.App.hide(data.data);\n                            _overlay.hide();\n                        } else if (data.action === 'hide') {\n                            Thu.bookmarklet.App.hide();\n                            _overlay.hide();\n                        } else if (data.action === 'opened') {\n                            _placeholder.hide();\n                            _iFrame.show();\n                        }   \n                    }\n                }\n            };\n            if (window.addEventListener) {\n                addEventListener('message', listener, false);\n            } else {\n                attachEvent('onmessage', listener);\n            }\n        };\n\n        \/**\n         * _cleanText\n         * \n         * @todo    Implement excessive whitespace control\n         * @see     http:\/\/stackoverflow.com\/questions\/6163169\/removing-whitespace-from-string-in-javascript\n         * @private\n         * @param   String str\n         * @return  String\n         *\/\n        var _cleanText = function(str) {\n\n            \/\/ Trim it\n            var cleaned = _trimString(str);\n\n            \/\/ Get rid of excessive whitespace (in IE)\n            \/\/ There is a bug with this, in that it doesn't take proper account of break tags (see docs)\n            if (document.selection) {\n                cleaned = cleaned.replace(\/\\n[\\s]+\/g, '\\n');\n            }\n\n            \/\/ Truncate\n            return cleaned.substring(0, _maxCharacters);\n        };\n\n        \/**\n         * _getHighlightedText\n         * \n         * @see     http:\/\/stackoverflow.com\/questions\/14553534\/how-to-get-selected-text-with-javascript\n         * @see     http:\/\/jsfiddle.net\/L9bvU\/1\/\n         * @see     http:\/\/stackoverflow.com\/questions\/6251937\/how-to-get-selecteduser-highlighted-text-in-contenteditable-element-and-replac\n         * @private\n         * @return  String\n         *\/\n        var _getHighlightedText = function() {\n            if (window.getSelection) {\n                return window.getSelection().toString();\n            }\n            return document.selection.createRange().text;\n        };\n\n        \/**\n         * _getPath\n         * \n         * @private\n         * @return  String\n         *\/\n        var _getPath = function() {\n\n            \/\/ Pass along text (if any)\n            var path = '\/embed?embedType=modal&flow=bookmarklet&',\n                hightlightedText = _getHighlightedText(),\n                referer = location.href,\n                sourceUrl = false,\n                imageUrl = false;\n            if (hightlightedText !== '') {\n\n                \/\/ Clean and pass along the text\n                var text = _cleanText(hightlightedText);\n                path += 'text=' + encodeURIComponent(text) + '&';\n\n                \/\/ Pass along source\n                sourceUrl = location.href;\n            }\n\n            \/**\n             * Pinterest\n             * \n             *\/\n\n            \/\/ On a photo page\n            if (location.href.match('pinterest.com\/pin\/[0-9]+\/')) {\n\n                \/\/ Check inline\n                if ($ && $('.pinImage').length > 0 && $('.pingImage').attr) {\n                    imageUrl = $('.pinImage').attr('src');\n                    sourceUrl = location.href;\n                }\n            }\n\n            \/**\n             * Instagram\n             * \n             *\/\n\n            \/\/ On a photo page\n            if (location.href.match('instagram.com\/p\/')) {\n\n                \/\/ Check inline\n                if ($('.Image.Frame').length > 0) {\n                    var backgroundImageStyle = $('.Image.Frame').css('background-image'),\n                        matches = backgroundImageStyle.match('url\\\\(([^\\)]+)');\n                    if (matches && matches[1]) {\n                        imageUrl = matches[1];\n                        imageUrl = imageUrl.replace(\/^\"\/, '');\n                        imageUrl = imageUrl.replace(\/\"$\/, '');\n                        sourceUrl = location.href;\n                    }\n                }\n\n                \/\/ Check open graph\n                if (imageUrl === false) {\n                    var headElement = document.getElementsByTagName('head')[0];\n                    if (headElement) {\n                        var matches = headElement.innerHTML.match('<meta property=\"og:image\" content=\"([^\"]+)');\n                        if (matches && matches[1]) {\n                            imageUrl = matches[1];\n                            sourceUrl = location.href;\n                        }\n                    }\n                }\n            }\n\n            \/**\n             * Facebook\n             * \n             *\/\n\n            \/\/ On a photo page\n            if (location.href.match('facebook.com\/photo.php?')) {\n\n                \/\/ Check inline\n                if (\n                    document.getElementsByClassName\n                    && document.getElementsByClassName('spotlight').length > 0\n                ) {\n                    var $img = document.getElementsByClassName('spotlight')[0];\n                    imageUrl = $img.src;\n                    sourceUrl = location.href;\n                }\n\n                \/\/ The photo page has been directly accessed\n                if (imageUrl === false) {\n                    var bodyElement = document.getElementsByTagName('body')[0];\n                    if (bodyElement) {\n                        var matches = bodyElement.innerHTML.match(' id=\"fbPhotoImage\" src=\"([^\"]+)');\n                        if (matches && matches[1]) {\n                            imageUrl = matches[1];\n                            sourceUrl = location.href;\n                        }\n                    }\n                }\n            }\n\n            \/**\n             * Tab is an image\n             * \n             *\/\n\n            \/\/ If on a presumed image page (extension based)\n            if (\n                location.href.match(\/png$\/i)\n                || location.href.match(\/jpeg$\/i)\n                || location.href.match(\/jpg$\/i)\n            ) {\n                imageUrl = location.href;\n                sourceUrl = false;\n            } else {\n\n                \/\/ Inline image detection\n                if (document && document.body) {\n                    var innerHTML = document.body.innerHTML;\n\n                    \/**\n                     * Webkit check\n                     * \n                     * Webkit inserts an <img> tag as the first child of the\n                     * <body> element. Here, I check if the that's the case\n                     *\/\n                    if (innerHTML.search('<img style=\"-webkit-user-select: none\" src=\"') === 0) {\n                        var matches = innerHTML.match('src=\"([^\"]+)');\n                        if (matches && matches[1]) {\n                            imageUrl = matches[1];\n                            sourceUrl = false;\n                        }\n                    }\n                    \/**\n                     * Firefox check\n                     * \n                     * Firefox does the same, but has different attributes and\n                     * ordering\n                     *\/\n                    else if (innerHTML.search('<img class=\"decoded\" alt=\"') === 0) {\n                        var matches = innerHTML.match('src=\"([^\"]+)');\n                        if (matches && matches[1]) {\n                            imageUrl = matches[1];\n                            sourceUrl = false;\n                        }\n                    }\n                }\n            }\n\n            \/\/ Set source url\n            if (sourceUrl !== false) {\n                path += 'sourceUrl=' + encodeURIComponent(sourceUrl) + '&';\n            }\n\n            \/\/ Referer\n            path += 'referer=' + encodeURIComponent(referer) + '&';\n\n            \/\/ Set image url\n            if (imageUrl !== false) {\n                path += 'imageUrl=' + encodeURIComponent(imageUrl) + '&';\n            }\n\n            \/\/ Done\n            return path;\n        };\n\n        \/**\n         * _insertStyleSheet\n         * \n         * @public\n         * @return void\n         *\/\n        var _insertStyleSheet = function() {\n            var url = 'https:\/\/' + (_staticCdn) + '\/static\/app\/css\/bookmarklet.css',\n                le = document.createElement('link');\n            le.setAttribute('rel', 'stylesheet');\n            le.setAttribute('type', 'text\/css');\n            le.setAttribute('href', url);\n            var lse = document.getElementsByTagName('script')[0];\n            lse.parentNode.insertBefore(le, lse);\n        };\n\n        \/**\n         * _isSafari\n         * \n         * @private\n         * @return  Boolean\n         *\/\n        var _isSafari = function() {\n            return navigator.userAgent.indexOf('Safari') > -1\n                && navigator.userAgent.indexOf('Chrome') === -1;\n        };\n\n        \/**\n         * _trimString\n         * \n         * @private\n         * @param   String str\n         * @return  String\n         *\/\n        var _trimString = function(str) {\n            return str.replace(\/^\\s+|\\s+$\/g, '');\n        };\n\n        \/**\n         * _postMessage\n         * \n         * @private\n         * @param   String action\n         * @return  void\n         *\/\n        var _postMessage = function(action) {\n            var data = {\n                action: action\n            };\n            _iFrame.getElement().contentWindow.postMessage(\n                JSON.stringify(data),\n                '*'\n            );\n        };\n\n        \/\/ Public\n        return {\n\n            \/**\n             * hide\n             * \n             * Used when the bookmarklet is clicked when the app is already open\n             * \n             * @public\n             * @return void\n             *\/\n            hide: function() {\n                _iFrameIsShowing = false;\n                _iFrame.hide();\n            },\n\n            \/**\n             * init\n             * \n             * @public\n             * @return void\n             *\/\n            init: function() {\n                _overlay = (new Thu.Overlay());\n                _placeholder = (new Thu.Placeholder());\n                _addPostMessageListeners();\n                _iFrame = (new Thu.IFrame());\n                _insertStyleSheet();\n                Thu.bookmarklet.App.show();\n            },\n\n            \/**\n             * show\n             * \n             * @public\n             * @return void\n             *\/\n            show: function() {\n\n                \/\/ Tracking\n                _iFrameIsShowing = true;\n\n                \/\/ Safari quick workaround\n                var timeout = 0;\n                if (_isSafari() === true) {\n                    \/\/ timeout = 1000;\n                }\n\n                \/\/ Delay for Safari fix\n                var path = _getPath();\n                setTimeout(function() {\n\n                    \/\/ If the path is different, show placeholder and redraw iframe\n                    if (path !== _iFrame.getPath()) {\n                        _placeholder.show();\n                        _overlay.show();\n                        _iFrame.setIFrame(\n                            path,\n                            document.getElementsByTagName('body')[0],\n                            false\n                        );\n                    }\n                    \/\/ Otherwise show it right away\n                    else {\n                        _iFrame.show();\n                        _overlay.show();\n                        _postMessage('open');\n                    }\n                }, timeout);\n            },\n\n            \/**\n             * toggle\n             * \n             * @public\n             * @return void\n             *\/\n            toggle: function() {\n                if (_iFrameIsShowing === true) {\n                    Thu.bookmarklet.App.hide();\n                    _postMessage('close');\n                } else {\n                    Thu.bookmarklet.App.show();\n                }\n            }\n        };\n    })();\n\n    \/\/ Let's do this!\n    Thu.bookmarklet.App.init();\n})();\n        }\n    }\n})();\n");
+                Thu.set('bookmarkletEmbedCode', "(function() {\n    if (\n        navigator.userAgent.indexOf('Safari') > -1\n        && navigator.userAgent.indexOf('Chrome') === -1\n    ) {\n        window.open(\n            'https:\/\/thunderify.com\/quick',\n            'Quick fix',\n            'width=50, height=50'\n        );\n    }\n    window.Thu = window.Thu || {};\n    if (Thu.bookmarklet) {\n        Thu.bookmarklet.App.toggle();\n    } else {\n        var blacklist = [\n                'facebook.com',\n                'developers.facebook.com',\n                'github.com'\n            ],\n            contains = function (arr, value) {\n                var i = arr.length;\n                while (i--) {\n                    if (arr[i] === value) {\n                        return true;\n                    }\n                }\n                return false;\n            },\n            host = location.host.replace(\/^www\\.\/, '');\n        Thu.bookmarklet = {};\n        if (contains(blacklist, host) === false) {\n\n            \/\/ Build\n            var scriptElement = document.createElement('script');\n            scriptElement.type = 'text\/javascript';\n            scriptElement.async = true;\n            scriptElement.src = 'https:\/\/d3iy4zn4a0491c.cloudfront.net\/static\/app\/js\/compiled\/bookmarklet.js';\n\n            \/\/ Append (have to consider no scripts on the page)\n            var lastElement = document.getElementsByTagName('script')[0];\n            if (lastElement) {\n                lastElement.parentNode.insertBefore(scriptElement, lastElement);   \n            } else {\n                document.body.appendChild(scriptElement);\n            }\n        } else {\n        \n\/* Simple JavaScript Inheritance\n * By John Resig http:\/\/ejohn.org\/\n * MIT Licensed.\n *\/\n\/\/ Inspired by base2 and Prototype\n(function(){\n  var initializing = false, fnTest = \/xyz\/.test(function(){xyz;}) ? \/\\b_super\\b\/ : \/.*\/;\n \n  \/\/ The base Class implementation (does nothing)\n  this.Class = function(){};\n \n  \/\/ Create a new Class that inherits from this class\n  Class.extend = function(prop) {\n    var _super = this.prototype;\n   \n    \/\/ Instantiate a base class (but only create the instance,\n    \/\/ don't run the init constructor)\n    initializing = true;\n    var prototype = new this();\n    initializing = false;\n   \n    \/\/ Copy the properties over onto the new prototype\n    for (var name in prop) {\n      \/\/ Check if we're overwriting an existing function\n      prototype[name] = typeof prop[name] == \"function\" &&\n        typeof _super[name] == \"function\" && fnTest.test(prop[name]) ?\n        (function(name, fn){\n          return function() {\n            var tmp = this._super;\n           \n            \/\/ Add a new ._super() method that is the same method\n            \/\/ but on the super-class\n            this._super = _super[name];\n           \n            \/\/ The method only need to be bound temporarily, so we\n            \/\/ remove it when we're done executing\n            var ret = fn.apply(this, arguments);        \n            this._super = tmp;\n           \n            return ret;\n          };\n        })(name, prop[name]) :\n        prop[name];\n    }\n   \n    \/\/ The dummy class constructor\n    function Class() {\n      \/\/ All construction is actually done in the init method\n      if ( !initializing && this.init )\n        this.init.apply(this, arguments);\n    }\n   \n    \/\/ Populate our constructed prototype object\n    Class.prototype = prototype;\n   \n    \/\/ Enforce the constructor to be what we expect\n    Class.prototype.constructor = Class;\n \n    \/\/ And make this class extendable\n    Class.extend = arguments.callee;\n   \n    return Class;\n  };\n})();\n\n\/**\n * (closure)\n * \n *\/\n(function() {\n\n    \/**\n     * Thu.IFrame\n     * \n     * Instantiable\n     * \n     * @extends Class\n     *\/\n    Thu.IFrame = Class.extend({\n\n        \/**\n         * _animationDuration\n         * \n         * @private\n         * @var     Number (default: 500)\n         *\/\n        _animationDuration: 500,\n\n        \/**\n         * _element\n         * \n         * @private\n         * @var     HTMLIFrameElement (default: null)\n         *\/\n        _element: null,\n\n        \/**\n         * _host\n         * \n         * @private\n         * @var     String\n         *\/\n        _host: \"thunderify.com\",\n\n        \/**\n         * init\n         * \n         * @public\n         * @return void\n         *\/\n        init: function() {\n        },\n\n        \/**\n         * _addClass\n         * \n         * @private\n         * @param   HTMLElement elem\n         * @param   String className\n         * @return  void\n         *\/\n        _addClass: function(elem, className) {\n            if (!this._hasClass(elem, className)) {\n                elem.className += ' ' + className;\n            }\n        },\n\n        \/**\n         * _hasClass\n         * \n         * @private\n         * @param   HTMLElement elem\n         * @param   String className\n         * @return  Boolean\n         *\/\n        _hasClass: function(elem, className) {\n            return new RegExp(' ' + className + ' ').test(' ' + elem.className + ' ');\n        },\n\n        \/**\n         * _removeClass\n         * \n         * @private\n         * @param   HTMLElement elem\n         * @param   String className\n         * @return  void\n         *\/\n        _removeClass: function(elem, className) {\n            var newClass = ' ' + elem.className.replace( \/[\\t\\r\\n]\/g, ' ') + ' ';\n            if (this._hasClass(elem, className)) {\n                while (newClass.indexOf(' ' + className + ' ') >= 0 ) {\n                    newClass = newClass.replace(' ' + className + ' ', ' ');\n                }\n                elem.className = newClass.replace(\/^\\s+|\\s+$\/g, '');\n            }\n        },\n\n        \/**\n         * _draw\n         * \n         * @private\n         * @param   Boolean isInline\n         * @return  void\n         *\/\n        _draw: function(isInline) {\n            var element = document.createElement('iframe'),\n                className = 'thu-iFrame thu-hidden';\n            if (isInline) {\n                className += ' thu-inlineIFrame';\n            }\n            element.setAttribute('class', className);\n            element.setAttribute('scrolling', 'no');\n            element.setAttribute('frameborder', '0');\n            element.setAttribute('allowtransparency', 'true');\n            this._element = element;\n        },\n\n        \/**\n         * append\n         * \n         * @public\n         * @param  HTMLElement parentElement\n         * @return void\n         *\/\n        append: function(parentElement) {\n            parentElement.appendChild(this._element);\n        },\n\n        \/**\n         * getElements\n         * \n         * @public\n         * @return Object\n         *\/\n        getElement: function() {\n            return this._element;\n        },\n\n        \/**\n         * getPath\n         * \n         * @public\n         * @return String\n         *\/\n        getPath: function() {\n            if (this._element) {\n                var src = this._element.getAttribute('src');\n                if (src === null) {\n                    return null;\n                }\n                var piece = src.split('.com\/embed?');\n                return '\/embed?' + (piece.pop());\n            }\n            return null;\n        },\n\n        \/**\n         * hide\n         * \n         * @public\n         * @return void\n         *\/\n        hide: function() {\n            var _this = this;\n            setTimeout(\n                function() {\n                    _this._addClass(_this._element, 'thu-hidden');\n                },\n                this._animationDuration\n            );\n        },\n\n        \/**\n         * remove\n         * \n         * @public\n         * @return void\n         *\/\n        remove: function() {\n            this._element.parentNode.removeChild(this._element);\n        },\n\n        \/**\n         * setIFrame\n         * \n         * @see    http:\/\/bugs.jquery.com\/ticket\/13936\n         * @see    http:\/\/stackoverflow.com\/questions\/4334520\/load-event-for-iframe-not-fired-in-ie\n         * @see    http:\/\/stackoverflow.com\/a\/18280339\/115025\n         * @see    http:\/\/stackoverflow.com\/questions\/9241495\/ie-dynamically-created-iframes-onload-function-never-called\n         * @public\n         * @param  String path\n         * @param  HTMLElement parentElement\n         * @param  Boolean isInline\n         * @return void\n         *\/\n        setIFrame: function(path, parentElement, isInline) {\n            this._element && this.remove();\n            this._draw(isInline);\n            this.setPath(path);\n            this.append(parentElement);\n            isInline && this.show();\/\/ Show right away if inline\n        },\n\n        \/**\n         * show\n         * \n         * @public\n         * @return void\n         *\/\n        show: function() {\n            this._removeClass(this._element, 'thu-hidden');\n        },\n\n        \/**\n         * setPath\n         * \n         * @public\n         * @param  String path\n         * @return void\n         *\/\n        setPath: function(path) {\n            var src = 'https:\/\/' + (this._host) + (path);\n            this._element.setAttribute('src', src);\n        }\n    });\n})();\n\n\/**\n * (closure)\n * \n *\/\n(function() {\n\n    \/**\n     * Thu.Overlay\n     * \n     * @extends Class\n     *\/\n    Thu.Overlay = Class.extend({\n\n        \/**\n         * _animationDuration\n         * \n         * @private\n         * @var     Number (default: 500)\n         *\/\n        _animationDuration: 500,\n\n        \/**\n         * _element\n         * \n         * @private\n         * @var     HTMLDivElement (default: null)\n         *\/\n        _element: null,\n\n        \/**\n         * init\n         * \n         * @public\n         * @return void\n         *\/\n        init: function() {\n            this._draw();\n        },\n\n        \/**\n         * _addClass\n         * \n         * @private\n         * @param   HTMLElement elem\n         * @param   String className\n         * @return  void\n         *\/\n        _addClass: function(elem, className) {\n            if (!this._hasClass(elem, className)) {\n                elem.className += ' ' + className;\n            }\n        },\n\n        \/**\n         * _hasClass\n         * \n         * @private\n         * @param   HTMLElement elem\n         * @param   String className\n         * @return  Boolean\n         *\/\n        _hasClass: function(elem, className) {\n            return new RegExp(' ' + className + ' ').test(' ' + elem.className + ' ');\n        },\n\n        \/**\n         * _removeClass\n         * \n         * @private\n         * @param   HTMLElement elem\n         * @param   String className\n         * @return  void\n         *\/\n        _removeClass: function(elem, className) {\n            var newClass = ' ' + elem.className.replace( \/[\\t\\r\\n]\/g, ' ') + ' ';\n            if (this._hasClass(elem, className)) {\n                while (newClass.indexOf(' ' + className + ' ') >= 0 ) {\n                    newClass = newClass.replace(' ' + className + ' ', ' ');\n                }\n                elem.className = newClass.replace(\/^\\s+|\\s+$\/g, '');\n            }\n        },\n\n        \/**\n         * _draw\n         * \n         * @private\n         * @return  void\n         *\/\n        _draw: function() {\n\n            \/\/ Wrapper\n            var element = document.createElement('div');\n            element.setAttribute(\n                'class',\n                'thu-overlay thu-hidden thu-invisible'\n            );\n            this._element = element;\n\n            \/\/ Append\n            document.getElementsByTagName('body')[0].appendChild(element);\n        },\n\n        \/**\n         * hide\n         * \n         * @public\n         * @return void\n         *\/\n        hide: function() {\n            var _this = this;\n            this._addClass(this._element, 'thu-invisible');\n            setTimeout(\n                function() {\n                    _this._addClass(_this._element, 'thu-hidden');\n                },\n                this._animationDuration\n            );\n        },\n\n        \/**\n         * show\n         * \n         * @public\n         * @return void\n         *\/\n        show: function() {\n            var _this = this;\n            this._removeClass(this._element, 'thu-hidden');\n            setTimeout(\n                function() {\n                    _this._removeClass(_this._element, 'thu-invisible');\n                },\n                10\/\/ Otherwise it doesn't kick in\n            );\n        }\n    });\n})();\n\n\/**\n * (closure)\n * \n *\/\n(function() {\n\n    \/**\n     * Thu.Placeholder\n     * \n     * @extends Class\n     *\/\n    Thu.Placeholder = Class.extend({\n\n        \/**\n         * _animationDuration\n         * \n         * @private\n         * @var     Number (default: 500)\n         *\/\n        _animationDuration: 500,\n\n        \/**\n         * _element\n         * \n         * @private\n         * @var     HTMLDivElement (default: null)\n         *\/\n        _element: null,\n\n        \/**\n         * init\n         * \n         * @public\n         * @return void\n         *\/\n        init: function() {\n            this._draw();\n        },\n\n        \/**\n         * _addClass\n         * \n         * @private\n         * @param   HTMLElement elem\n         * @param   String className\n         * @return  void\n         *\/\n        _addClass: function(elem, className) {\n            if (!this._hasClass(elem, className)) {\n                elem.className += ' ' + className;\n            }\n        },\n\n        \/**\n         * _hasClass\n         * \n         * @private\n         * @param   HTMLElement elem\n         * @param   String className\n         * @return  Boolean\n         *\/\n        _hasClass: function(elem, className) {\n            return new RegExp(' ' + className + ' ').test(' ' + elem.className + ' ');\n        },\n\n        \/**\n         * _removeClass\n         * \n         * @private\n         * @param   HTMLElement elem\n         * @param   String className\n         * @return  void\n         *\/\n        _removeClass: function(elem, className) {\n            var newClass = ' ' + elem.className.replace( \/[\\t\\r\\n]\/g, ' ') + ' ';\n            if (this._hasClass(elem, className)) {\n                while (newClass.indexOf(' ' + className + ' ') >= 0 ) {\n                    newClass = newClass.replace(' ' + className + ' ', ' ');\n                }\n                elem.className = newClass.replace(\/^\\s+|\\s+$\/g, '');\n            }\n        },\n\n        \/**\n         * _draw\n         * \n         * @private\n         * @return  void\n         *\/\n        _draw: function() {\n\n            \/\/ Wrapper\n            var element = document.createElement('div');\n            element.setAttribute(\n                'class',\n                'thu-placeholder thu-hidden thu-invisible'\n            );\n            this._element = element;\n\n            \/\/ Box\n            var box = document.createElement('div');\n            box.setAttribute('class', 'thu-placeholderBox');\n\n            \/\/ Dots\n            var dot1 = document.createElement('div'),\n                dot2 = document.createElement('div'),\n                dot3 = document.createElement('div'),\n                dot4 = document.createElement('div');\n            dot1.setAttribute('class', 'thu-placeholderBoxDot');\n            dot2.setAttribute('class', 'thu-placeholderBoxDot');\n            dot3.setAttribute('class', 'thu-placeholderBoxDot');\n            dot4.setAttribute('class', 'thu-placeholderBoxDot');\n\n            \/\/ Build\n            box.appendChild(dot1);\n            box.appendChild(dot2);\n            box.appendChild(dot3);\n            box.appendChild(dot4);\n            element.appendChild(box);\n\n            \/\/ Append\n            document.getElementsByTagName('body')[0].appendChild(element);\n        },\n\n        \/**\n         * hide\n         * \n         * @public\n         * @return void\n         *\/\n        hide: function() {\n            var _this = this;\n            this._addClass(this._element, 'thu-invisible');\n            setTimeout(\n                function() {\n                    _this._addClass(_this._element, 'thu-hidden');\n                },\n                this._animationDuration\n            );\n        },\n\n        \/**\n         * show\n         * \n         * @public\n         * @return void\n         *\/\n        show: function() {\n            var _this = this;\n            this._removeClass(this._element, 'thu-hidden');\n            setTimeout(\n                function() {\n                    _this._removeClass(_this._element, 'thu-invisible');\n                },\n                10\/\/ Otherwise it doesn't kick in\n            );\n        }\n    });\n})();\n\n\/**\n * (closure)\n * \n * @note   Encoding\n * @see    http:\/\/betterexplained.com\/articles\/how-to-make-a-bookmarklet-for-your-web-application\/\n * @see    https:\/\/github.com\/chriszarate\/bookmarkleter\n * @see    http:\/\/daringfireball.net\/2007\/03\/javascript_bookmarklet_builder\n * @see    http:\/\/mrcoles.com\/bookmarklet\/\n * @see    https:\/\/news.ycombinator.com\/item?id=2643118\n * \n * @note   Needs to be set on window to ensure proper scope\n * @see    http:\/\/msdn.microsoft.com\/en-us\/hh563496.aspx\n * @see    http:\/\/developer.chrome.com\/extensions\/contentSecurityPolicy.html\n * @see    https:\/\/getsatisfaction.com\/crossrider\/topics\/facebook_with_chrome_error_refused_to_connect_to_loading_script\n * @see    http:\/\/stackoverflow.com\/questions\/12129077\/content-security-policy-cannot-load-google-api-in-chrome-extension\n * @see    http:\/\/pandawhale.com\/post\/10629\/facebook-growing-increasingly-paranoid-now-preventing-users-from-extracting-own-data-with-javascript-tools\n *\/\n(function() {\n\n    \/**\n     * Thu.bookmarklet.App\n     * \n     * Singelton\n     * \n     * @public\n     * @var    Object\n     *\/\n    Thu.bookmarklet.App = (function() {\n\n        \/**\n         * _iFrame\n         * \n         * @private\n         * @var     Thu.IFrame (default: null)\n         *\/\n        var _iFrame = null;\n\n        \/**\n         * _iFrameIsShowing\n         * \n         * @private\n         * @var     Boolean (default: false)\n         *\/\n        var _iFrameIsShowing = false;\n\n        \/**\n         * _maxCharacters\n         * \n         * @private\n         * @var     Number (default: 2000)\n         *\/\n        var _maxCharacters = 2000;\n\n        \/**\n         * _overlay\n         * \n         * @private\n         * @var     Thu.Overlay (default: null)\n         *\/\n        var _overlay = null;\n\n        \/**\n         * _placeholder\n         * \n         * @private\n         * @var     Thu.Placeholder (default: null)\n         *\/\n        var _placeholder = null;\n\n        \/**\n         * _staticCdn\n         * \n         * @private\n         * @var     String\n         *\/\n        var _staticCdn = \"d3iy4zn4a0491c.cloudfront.net\";\n\n        \/**\n         * _addPostMessageListeners\n         * \n         * @private\n         * @return  void\n         *\/\n        var _addPostMessageListeners = function() {\n            var listener = function(event) {\n                if (\n                    event.origin === 'https:\/\/local.thunderify.com'\n                    || event.origin === 'https:\/\/dev.thunderify.com'\n                    || event.origin === 'https:\/\/thunderify.com'\n                ) {\n                    if (event.source === _iFrame._element.contentWindow) {\n                        var data = JSON.parse(event.data);\n                        if (data.action === 'saveCallback') {\n                            Thu.bookmarklet.App.hide(data.data);\n                            _overlay.hide();\n                        } else if (data.action === 'hide') {\n                            Thu.bookmarklet.App.hide();\n                            _overlay.hide();\n                        } else if (data.action === 'opened') {\n                            _placeholder.hide();\n                            _iFrame.show();\n                        }   \n                    }\n                }\n            };\n            if (window.addEventListener) {\n                addEventListener('message', listener, false);\n            } else {\n                attachEvent('onmessage', listener);\n            }\n        };\n\n        \/**\n         * _cleanText\n         * \n         * @todo    Implement excessive whitespace control\n         * @see     http:\/\/stackoverflow.com\/questions\/6163169\/removing-whitespace-from-string-in-javascript\n         * @private\n         * @param   String str\n         * @return  String\n         *\/\n        var _cleanText = function(str) {\n\n            \/\/ Trim it\n            var cleaned = _trimString(str);\n\n            \/\/ Get rid of excessive whitespace (in IE)\n            \/\/ There is a bug with this, in that it doesn't take proper account of break tags (see docs)\n            if (document.selection) {\n                cleaned = cleaned.replace(\/\\n[\\s]+\/g, '\\n');\n            }\n\n            \/\/ Truncate\n            return cleaned.substring(0, _maxCharacters);\n        };\n\n        \/**\n         * _getHighlightedText\n         * \n         * @see     http:\/\/stackoverflow.com\/questions\/14553534\/how-to-get-selected-text-with-javascript\n         * @see     http:\/\/jsfiddle.net\/L9bvU\/1\/\n         * @see     http:\/\/stackoverflow.com\/questions\/6251937\/how-to-get-selecteduser-highlighted-text-in-contenteditable-element-and-replac\n         * @private\n         * @return  String\n         *\/\n        var _getHighlightedText = function() {\n            if (window.getSelection) {\n                return window.getSelection().toString();\n            }\n            return document.selection.createRange().text;\n        };\n\n        \/**\n         * _getPath\n         * \n         * @private\n         * @return  String\n         *\/\n        var _getPath = function() {\n\n            \/\/ Pass along text (if any)\n            var path = '\/embed?embedType=modal&flow=bookmarklet&',\n                hightlightedText = _getHighlightedText(),\n                referer = location.href,\n                sourceUrl = false,\n                imageUrl = false;\n            if (hightlightedText !== '') {\n\n                \/\/ Clean and pass along the text\n                var text = _cleanText(hightlightedText);\n                path += 'text=' + encodeURIComponent(text) + '&';\n\n                \/\/ Pass along source\n                sourceUrl = location.href;\n            }\n\n            \/**\n             * Pinterest\n             * \n             *\/\n\n            \/\/ On a photo page\n            if (location.href.match('pinterest.com\/pin\/[0-9]+\/')) {\n\n                \/\/ Check inline\n                if ($ && $('.pinImage').length > 0 && $('.pingImage').attr) {\n                    imageUrl = $('.pinImage').attr('src');\n                    sourceUrl = location.href;\n                }\n            }\n\n            \/**\n             * Instagram\n             * \n             *\/\n\n            \/\/ On a photo page\n            if (location.href.match('instagram.com\/p\/')) {\n\n                \/\/ Check inline\n                if ($('.Image.Frame').length > 0) {\n                    var backgroundImageStyle = $('.Image.Frame').css('background-image'),\n                        matches = backgroundImageStyle.match('url\\\\(([^\\)]+)');\n                    if (matches && matches[1]) {\n                        imageUrl = matches[1];\n                        imageUrl = imageUrl.replace(\/^\"\/, '');\n                        imageUrl = imageUrl.replace(\/\"$\/, '');\n                        sourceUrl = location.href;\n                    }\n                }\n\n                \/\/ Check open graph\n                if (imageUrl === false) {\n                    var headElement = document.getElementsByTagName('head')[0];\n                    if (headElement) {\n                        var matches = headElement.innerHTML.match('<meta property=\"og:image\" content=\"([^\"]+)');\n                        if (matches && matches[1]) {\n                            imageUrl = matches[1];\n                            sourceUrl = location.href;\n                        }\n                    }\n                }\n            }\n\n            \/**\n             * Facebook\n             * \n             *\/\n\n            \/\/ On a photo page\n            if (location.href.match('facebook.com\/photo.php?')) {\n\n                \/\/ Check inline\n                if (\n                    document.getElementsByClassName\n                    && document.getElementsByClassName('spotlight').length > 0\n                ) {\n                    var $img = document.getElementsByClassName('spotlight')[0];\n                    imageUrl = $img.src;\n                    sourceUrl = location.href;\n                }\n\n                \/\/ The photo page has been directly accessed\n                if (imageUrl === false) {\n                    var bodyElement = document.getElementsByTagName('body')[0];\n                    if (bodyElement) {\n                        var matches = bodyElement.innerHTML.match(' id=\"fbPhotoImage\" src=\"([^\"]+)');\n                        if (matches && matches[1]) {\n                            imageUrl = matches[1];\n                            sourceUrl = location.href;\n                        }\n                    }\n                }\n            }\n\n            \/**\n             * Tab is an image\n             * \n             *\/\n\n            \/\/ If on a presumed image page (extension based)\n            if (\n                location.href.match(\/png$\/i)\n                || location.href.match(\/jpeg$\/i)\n                || location.href.match(\/jpg$\/i)\n            ) {\n                imageUrl = location.href;\n                sourceUrl = false;\n            } else {\n\n                \/\/ Inline image detection\n                if (document && document.body) {\n                    var innerHTML = document.body.innerHTML;\n\n                    \/**\n                     * Webkit check\n                     * \n                     * Webkit inserts an <img> tag as the first child of the\n                     * <body> element. Here, I check if the that's the case\n                     *\/\n                    if (innerHTML.search('<img style=\"-webkit-user-select: none\" src=\"') === 0) {\n                        var matches = innerHTML.match('src=\"([^\"]+)');\n                        if (matches && matches[1]) {\n                            imageUrl = matches[1];\n                            sourceUrl = false;\n                        }\n                    }\n                    \/**\n                     * Firefox check\n                     * \n                     * Firefox does the same, but has different attributes and\n                     * ordering\n                     *\/\n                    else if (innerHTML.search('<img class=\"decoded\" alt=\"') === 0) {\n                        var matches = innerHTML.match('src=\"([^\"]+)');\n                        if (matches && matches[1]) {\n                            imageUrl = matches[1];\n                            sourceUrl = false;\n                        }\n                    }\n                }\n            }\n\n            \/\/ Set source url\n            if (sourceUrl !== false) {\n                path += 'sourceUrl=' + encodeURIComponent(sourceUrl) + '&';\n            }\n\n            \/\/ Referer\n            path += 'referer=' + encodeURIComponent(referer) + '&';\n\n            \/\/ Set image url\n            if (imageUrl !== false) {\n                path += 'imageUrl=' + encodeURIComponent(imageUrl) + '&';\n            }\n\n            \/\/ Done\n            return path;\n        };\n\n        \/**\n         * _insertStyleSheet\n         * \n         * @public\n         * @return void\n         *\/\n        var _insertStyleSheet = function() {\n            var url = 'https:\/\/' + (_staticCdn) + '\/static\/app\/css\/bookmarklet.css',\n                le = document.createElement('link');\n            le.setAttribute('rel', 'stylesheet');\n            le.setAttribute('type', 'text\/css');\n            le.setAttribute('href', url);\n            var lse = document.getElementsByTagName('script')[0];\n            lse.parentNode.insertBefore(le, lse);\n        };\n\n        \/**\n         * _isSafari\n         * \n         * @private\n         * @return  Boolean\n         *\/\n        var _isSafari = function() {\n            return navigator.userAgent.indexOf('Safari') > -1\n                && navigator.userAgent.indexOf('Chrome') === -1;\n        };\n\n        \/**\n         * _trimString\n         * \n         * @private\n         * @param   String str\n         * @return  String\n         *\/\n        var _trimString = function(str) {\n            return str.replace(\/^\\s+|\\s+$\/g, '');\n        };\n\n        \/**\n         * _postMessage\n         * \n         * @private\n         * @param   String action\n         * @return  void\n         *\/\n        var _postMessage = function(action) {\n            var data = {\n                action: action\n            };\n            _iFrame.getElement().contentWindow.postMessage(\n                JSON.stringify(data),\n                '*'\n            );\n        };\n\n        \/\/ Public\n        return {\n\n            \/**\n             * hide\n             * \n             * Used when the bookmarklet is clicked when the app is already open\n             * \n             * @public\n             * @return void\n             *\/\n            hide: function() {\n                _iFrameIsShowing = false;\n                _iFrame.hide();\n            },\n\n            \/**\n             * init\n             * \n             * @public\n             * @return void\n             *\/\n            init: function() {\n                _overlay = (new Thu.Overlay());\n                _placeholder = (new Thu.Placeholder());\n                _addPostMessageListeners();\n                _iFrame = (new Thu.IFrame());\n                _insertStyleSheet();\n                Thu.bookmarklet.App.show();\n            },\n\n            \/**\n             * show\n             * \n             * @public\n             * @return void\n             *\/\n            show: function() {\n\n                \/\/ Tracking\n                _iFrameIsShowing = true;\n\n                \/\/ Safari quick workaround\n                var timeout = 0;\n                if (_isSafari() === true) {\n                    \/\/ timeout = 1000;\n                }\n\n                \/\/ Delay for Safari fix\n                var path = _getPath();\n                setTimeout(function() {\n\n                    \/\/ If the path is different, show placeholder and redraw iframe\n                    if (path !== _iFrame.getPath()) {\n                        _placeholder.show();\n                        _overlay.show();\n                        _iFrame.setIFrame(\n                            path,\n                            document.getElementsByTagName('body')[0],\n                            false\n                        );\n                    }\n                    \/\/ Otherwise show it right away\n                    else {\n                        _iFrame.show();\n                        _overlay.show();\n                        _postMessage('open');\n                    }\n                }, timeout);\n            },\n\n            \/**\n             * toggle\n             * \n             * @public\n             * @return void\n             *\/\n            toggle: function() {\n                if (_iFrameIsShowing === true) {\n                    Thu.bookmarklet.App.hide();\n                    _postMessage('close');\n                } else {\n                    Thu.bookmarklet.App.show();\n                }\n            }\n        };\n    })();\n\n    \/\/ Let's do this!\n    Thu.bookmarklet.App.init();\n})();\n        }\n    }\n})();\n");
             });
 
             
