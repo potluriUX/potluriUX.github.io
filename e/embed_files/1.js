@@ -4175,6 +4175,7 @@ var
                  this._addIndustryButtonEvent();
                 this._addNatureButtonEvent();
                 this._setupTemplateImgurEvents();
+                this._setupTemplateProEvents();
                 this._addFlowerButtonEvent();
                 this._addTabToggleEvents();
                 this._addCloseButtonEvent();
@@ -4396,6 +4397,50 @@ var
             return;
             });
         },
+        _setupTemplateProEvents: function() {
+            var_setupTemplateImgurEvents:
+                _this = this;
+              
+           // this._element.find('.globalResourceTabContent .template a.preview').click(function(event) {
+           this._element.find('#proBtn').click(function(event) {
+                event.preventDefault();
+               App().showProModal('adf');
+               return;
+//                var
+//                    hasTemplatePermissions = App().userIsPro() == true || $(this).parent().attr('data-image-isfree') === 'true' || Thu.get('publisher') !== false;
+//                var
+//                    templateSwitchCallback = function(anchor) {
+//                        App().addToCallStack();
+//                        App().usingReservedTemplate(!hasTemplatePermissions);
+//                        App().resetSize();
+//                        var
+//                            templates = Thu.get('templates'),
+//                            imageId = $(anchor).attr('data-imageId').toInt(),
+//                            imageObj;
+//                        $(templates).each(function(index, templateObj) {
+//                           
+//                           if (templateObj.id.toInt() === 999195) {
+//                                imageObj = templateObj;
+//                            }
+//                        });
+//                        App().remixImage(imageObj, 'loadingTemplate', function() {}, true);
+//                    };
+//                var
+//                    anchor = this;
+//                if (App().getImageDocument().getBackgroundLayer().containsManuallyUploadedBackgroundImage() === true) {
+//                    App().showConfirmModal('backgroundImageChange', function(event) {
+//                        event.preventDefault();
+//                        App().closeConfirmModal();
+//                        templateSwitchCallback(anchor);
+//                    }, function(event) {
+//                        event.preventDefault();
+//                        App().closeConfirmModal();
+//                    });
+//                } else {
+//                    templateSwitchCallback(anchor);
+//                }
+            });
+        },
          _setupTemplateImgurEvents: function() {
             var_setupTemplateImgurEvents:
                 _this = this;
@@ -4448,7 +4493,7 @@ var
            this._element.find('.createImgurBtn2').click(function(event) {
               
                 event.preventDefault();
-               App().showImgurModal('adf');
+               //App().showImgurModal('adf');
                
                 var
                     hasTemplatePermissions = App().userIsPro() == true || $(this).parent().attr('data-image-isfree') === 'true' || Thu.get('publisher') !== false;
@@ -5612,6 +5657,7 @@ var
                     upgrade: this._element.find('#upgradeModalTemplate').html(),
                     modal_canvas:this._element.find('#canvasModalTemplate').html(),
                     modal_imgur:this._element.find('#imgurModalTemplate').html(),
+                    modal_pro:this._element.find('#proModalTemplate').html(),
                     upsell: this._element.find('#upsellModalTemplate').html()
                 },
                 tabs: {
@@ -6060,6 +6106,23 @@ var
              showImgurModal: function(copyKey) {
             var
                 html = _.template(this.getTemplate('modals', 'modal_imgur'), {
+                    copyKey: copyKey
+                   
+                }),
+                element = $(jQuery.parseHTML(html.trim()));
+            this._element.find('#body').append(element);
+            var
+                modalView = (new ImgurModalView(element));
+            this._openModals.push(modalView);
+            this._footer.hide();
+            App().trackView('/app/busy/' + (copyKey));
+            App().mpTrackEvent('Busy modal shown', {
+                _copyKey: copyKey
+            });
+        },
+          showProModal: function(copyKey) {
+            var
+                html = _.template(this.getTemplate('modals', 'modal_pro'), {
                     copyKey: copyKey
                    
                 }),
