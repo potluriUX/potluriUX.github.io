@@ -95,6 +95,7 @@ vertical-align: middle;
 
 
 #section {
+    
 display:none;
 position:fixed;
 background:#CCC;
@@ -170,16 +171,17 @@ border-color:rgb(19, 221, 227);
 
 background:url(../ASSETS/img/granted.gif);
 padding:20px;
-border:2px solid #83f352;
+border:2px solid #F00;
 text-align:center;
-color:#83f352;
+color:#F00;
+height:80px;
 width:300px;
 position:fixed;
 background-repeat:repeat;
 top: 50%;
-left: 50%;
-margin-top: -50px;
-margin-left: -160px;
+left: 30%;
+/*margin-top: -50px;*/
+/*margin-left: -160px;*/
 text-shadow: 0.1em 0.1em 0.2em #000;
 }
 
@@ -195,9 +197,9 @@ width:300px;
 position:fixed;
 background-repeat:repeat;
 top: 50%;
-left: 50%;
-margin-top: -50px;
-margin-left: -160px;
+left: 30%;
+/*margin-top: -50px;*/
+/*margin-left: -160px;*/
 text-shadow: 0.1em 0.1em 0.2em #000;
 
 }
@@ -214,9 +216,9 @@ width:300px;
 position:fixed;
 background-repeat:repeat;
 top: 50%;
-left: 50%;
+left: 100px;
 margin-top: -50px;
-margin-left: -160px;
+/*margin-left: -160px;*/
 text-shadow: 0.1em 0.1em 0.2em #000;
 
 }
@@ -230,7 +232,7 @@ color:#83f352;
 left: 100px;
 margin-top: -150px;
 background:#000;
-margin-left: -330px;
+/*margin-left: -330px;*/
 text-align:center;
 font-size:16px;
 padding:20px;
@@ -239,16 +241,31 @@ border:3px solid #83f352;
 border-top:20px solid #83f352;
 
 }
-
+#Initializing {
+position:fixed;
+width:60%;
+top: 50%;
+left: 100px;
+margin-top: -150px;
+color:#83f352;
+/*margin-left: -227px;*/
+text-align:center;
+font-size:16px;
+padding:20px;
+background:#000;
+text-shadow: 0.1em 0.1em 0.2em #000;
+border:3px solid #83f352;
+border-top:20px solid #83f352;
+}
 #Query {
 position:fixed;
 width:60%;
 top: 50%;
-left: 50%;
+left: 100px;
 color:#83f352;
 margin-top: -150px;
 background:#000;
-margin-left: -330px;
+/*margin-left: -330px;*/
 text-align:center;
 font-size:16px;
 padding:20px;
@@ -282,10 +299,10 @@ border-top-width:20px;
 position:fixed;
 width:60%;
 top: 50%;
-left: 50%;
+left: 100px;
 margin-top: -150px;
 background:#000;
-margin-left: -330px;
+/*margin-left: -330px;*/
 text-align:center;
 font-size:16px;
 padding:20px;
@@ -299,10 +316,10 @@ border-top-width:20px;
 position:fixed;
 width:60%;
 top: 50%;
-left: 50%;
+left: 100px;
 margin-top: -220px;
 background:#000;
-margin-left: -330px;
+/*margin-left: -330px;*/
 color:#83f352;
 text-align:center;
 font-size:16px;
@@ -315,10 +332,10 @@ border-top:20px solid #83f352;
 position:fixed;
 width:60%;
 top: 50%;
-left: 50%;
+left: 100px;
 margin-top: -220px;
 background:#000;
-margin-left: -330px;
+/*margin-left: -330px;*/
 text-align:center;
 font-size:16px;
 padding:20px;
@@ -332,10 +349,10 @@ border-top-width:20px;
 position:fixed;
 width:60%;
 top: 50%;
-left: 50%;
+left: 100px;
 margin-top: -250px;
 background:#000;
-margin-left: -330px;
+/*margin-left: -330px;*/
 text-align:center;
 font-size:16px;
 padding:20px;
@@ -349,10 +366,10 @@ border-top:20px solid #83f352;
 position:fixed;
 width:60%;
 top: 50%;
-left: 50%;
+left: 100px;
 margin-top: -130px;
 background:#000;
-margin-left: -330px;
+/*margin-left: -330px;*/
 text-align:center;
 font-size:16px;
 padding:20px;
@@ -366,10 +383,10 @@ border-top:20px solid #F00;
 position:fixed;
 width:60%;
 top: 50%;
-left: 50%;
+left: 100px;
 margin-top: -130px;
 background:#000;
-margin-left: -330px;
+/*margin-left: -330px;*/
 text-align:center;
 font-size:16px;
 padding:20px;
@@ -384,10 +401,10 @@ border-top-width:20px;
 position:fixed;
 width:60%;
 top: 50%;
-left: 50%;
+left: 100px;
 margin-top: -130px;
 background:#000;
-margin-left: -330px;
+/*margin-left: -330px;*/
 text-align:center;
 font-size:16px;
 padding:20px;
@@ -401,11 +418,11 @@ border-top:20px solid #F00;
 position:fixed;
 width:60%;
 top: 50%;
-left: 50%;
+left: 100px;
 color:#F00;
 margin-top: -250px;
 background:#000;
-margin-left: -330px;
+/*margin-left: -330px;*/
 text-align:center;
 font-size:16px;
 padding:20px;
@@ -423,12 +440,12 @@ background:#FF0;
 position:fixed;
 width:60%;
 top: 50%;
-left: 50%;
+left: 100px;
 color:#F00;
 color:#83f352;
 margin-top: -175px;
 background:#000;
-margin-left: -250px;
+/*margin-left: -250px;*/
 text-align:center;
 font-size:16px;
 padding:20px;
@@ -438,22 +455,7 @@ border-top:20px solid #F00;
 }
 
 
-#Initializing {
-position:fixed;
-width:60%;
-top: 50%;
-left: 50%;
-margin-top: -195px;
-color:#83f352;
-margin-left: -227px;
-text-align:center;
-font-size:16px;
-padding:20px;
-background:#000;
-text-shadow: 0.1em 0.1em 0.2em #000;
-border:3px solid #83f352;
-border-top:20px solid #83f352;
-}
+
 
 
 #Deploy {
@@ -461,9 +463,9 @@ position:fixed;
 width:60%;
 color:#83f352;
 top: 50%;
-left: 50%;
+left: 100px;
 margin-top: -195px;
-margin-left: -227px;
+/*margin-left: -227px;*/
 text-align:center;
 font-size:16px;
 padding:20px;
@@ -479,9 +481,9 @@ position:fixed;
 width:60%;
 top: 50%;
 color:#83f352;
-left: 50%;
+left: 100px;
 margin-top: -250px;
-margin-left: -350px;
+/*margin-left: -350px;*/
 text-align:center;
 font-size:16px;
 padding:20px;
@@ -499,10 +501,10 @@ border-top:20px solid #83f352;
 position:fixed;
 width:60%;
 top: 50%;
-left: 50%;
+left: 100px;
 margin-top: -250px;
 background:#000;
-margin-left: -330px;
+/*margin-left: -330px;*/
 text-align:center;
 font-size:16px;
 color:#83f352;
@@ -516,12 +518,12 @@ border-top:20px solid #83f352;
 position:fixed;
 border:2px solid #F00;
 top: 50%;
-left: 50%;
+left: 100px;
 padding:20px;
 width:60%;
 background:#000;
 margin-top: -200px;
-margin-left: -280px;
+/*margin-left: -280px;*/
 text-align:center;
 color:#F00;
 border-top:20px solid #F00;
@@ -545,7 +547,7 @@ position:fixed;
 padding:20px;
 width:60%;
 top: 50%;
-left: 50%;
+left: 100px;
 margin-top: -152px;
 /*margin-left: -450px;*/
 z-index:499;
@@ -573,11 +575,11 @@ z-index:-1;
 position:fixed;
 width:60%;
 top: 50%;
-left: 50%;
+left: 100px;
 margin-top: -250px;
 background:#000;
 color:#83f352;
-margin-left: -330px;
+/*margin-left: -330px;*/
 text-align:center;
 font-size:16px;
 padding:20px;
@@ -593,9 +595,9 @@ background:url(../ASSETS/img/ani-system_failure.gif) center center no-repeat #00
 width:99.8%;
 height:99.8%;
 top:0;
-left:0;
+left: 100px;
 margin-top: 0;
-margin-left: 0;
+/*margin-left: 0;*/
 text-align:center;
 color:#83f352;
 z-index:998;
@@ -611,7 +613,7 @@ left:0;
 margin-top: 0;
 font-size:24px;
 padding-top:25%;
-margin-left: 0;
+/*margin-left: 0;*/
 text-align:center;
 color:#F00;
 z-index:999;
@@ -628,9 +630,9 @@ text-shadow: 0.1em 0.1em 0.2em #000;
 width:60%;
 height:160px;
 top: 50%;
-left: 50%;
+left: 100px;
 margin-top: -80px;
-margin-left: -160px;
+/*margin-left: -160px;*/
 text-align:center;
 color:#F00;
 }
@@ -638,9 +640,9 @@ color:#F00;
 position:fixed;
 border:2px solid #F00;
 top: 50%;
-left: 50%;
+left: 100px;
 margin-top: -200px;
-margin-left: -280px;
+/*margin-left: -280px;*/
 text-align:center;
 color:#F00;
 }
@@ -670,9 +672,9 @@ width:128px;
 position:fixed;
 border:2px solid #F00;
 top: 50%;
-left: 50%;
+left: 100px;
 margin-top: -240px;
-margin-left: -320px;
+/*margin-left: -320px;*/
 overflow:hidden;
 width:60%;
 height:480px;
@@ -684,11 +686,11 @@ color:#F00;
 
  .centerblocklogin {
 position:absolute;
-left:50%;
+left: 100px;
 top:50%;
 height:380px;
 margin-top:-232px;
-margin-left: -250px; 
+/*margin-left: -250px;*/ 
 width:60%; 
 background-color:#000;
 padding:30px;
