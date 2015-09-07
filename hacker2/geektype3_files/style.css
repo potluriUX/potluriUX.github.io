@@ -223,6 +223,42 @@ text-shadow: 0.1em 0.1em 0.2em #000;
 
 }
 
+#CountDown{
+-webkit-user-drag: auto | element | none;
+position:fixed;
+width:60%;
+top: 50%;
+color:#83f352;
+left: 100px;
+margin-top: -150px;
+background:#000;
+/*margin-left: -330px;*/
+text-align:center;
+font-size:16px;
+padding:20px;
+text-shadow: 0.1em 0.1em 0.2em #000;
+border:3px solid #83f352;
+border-top:20px solid #83f352;
+
+}
+#Download2 {
+-webkit-user-drag: auto | element | none;
+position:fixed;
+width:60%;
+top: 50%;
+color:#83f352;
+left: 100px;
+margin-top: -150px;
+background:#000;
+/*margin-left: -330px;*/
+text-align:center;
+font-size:16px;
+padding:20px;
+text-shadow: 0.1em 0.1em 0.2em #000;
+border:3px solid #83f352;
+border-top:20px solid #83f352;
+
+}
 #Downloading {
 -webkit-user-drag: auto | element | none;
 position:fixed;
@@ -477,6 +513,23 @@ border-top:20px solid #83f352;
 
 
 #Console {
+position:fixed;
+width:60%;
+top: 50%;
+color:#83f352;
+left: 100px;
+margin-top: -250px;
+/*margin-left: -350px;*/
+text-align:center;
+font-size:16px;
+padding:20px;
+background:#000;
+text-shadow: 0.1em 0.1em 0.2em #000;
+border:3px solid #83f352;
+border-top:20px solid #83f352;
+}
+
+#Console2 {
 position:fixed;
 width:60%;
 top: 50%;

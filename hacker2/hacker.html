@@ -511,6 +511,10 @@ Shift for Access Granted<br>
 <div id="Breach" class="dragme" ondragstart="return false;" style="display: none; border-color: rgb(255, 0, 0); color: rgb(255, 0, 0);">
     <img id="close" src="geektype3_files/close1.png">
     <h1> ALERT</h1><img src="geektype3_files/200_s.gif"></div>
+
+<div id="CountDown" class="dragme" ondragstart="return false;" style="display: none; border-color: rgb(255, 0, 0); color: rgb(255, 0, 0);">
+    <img id="close" src="geektype3_files/close1.png">
+    <h1> ALERT</h1><img src="geektype3_files/200_s.gif"></div>
 <div id="Download2" class="dragme" ondragstart="return false;" style="display: none; border-color: rgb(255, 0, 0); color: rgb(255, 0, 0);">
     <img id="close" src="geektype3_files/close1.png">
     <h1> Download</h1><img src="geektype3_files/200.gif"></div>
@@ -523,6 +527,9 @@ Shift for Access Granted<br>
 <div id="Console" class="dragme" ondragstart="return false;" style="display: none; border-color: rgb(255, 0, 0); color: rgb(255, 0, 0);">
     <img id="close" src="geektype3_files/close1.png">Compiling Nodes<br><br>
     <img src="geektype3_files/console2.gif"></div>
+<div id="Console2" class="dragme" ondragstart="return false;" style="display: none; border-color: rgb(255, 0, 0); color: rgb(255, 0, 0);">
+    <img id="close" src="geektype3_files/close1.png">Kernel TV<br><br>
+    <img src="geektype3_files/kernel2.gif"></div>
 <div id="Deploy" class="dragme" ondragstart="return false;" style="display: none; border-color: rgb(255, 0, 0); color: rgb(255, 0, 0);">
     <img id="close" src="geektype3_files/close1.png"><h1>Activating </h1>Engage all enemy vehicles
     <img src="geektype3_files/facilities2.gif"></div>
@@ -542,6 +549,7 @@ Shift for Access Granted<br>
 <div style="background-color: rgb(255, 0, 0);" class="folder" onclick='showDraggable("#Downloading");'><p>Download</p></div>
 <div style="background-color: rgb(255, 0, 0);" class="folder" onclick='showDraggable("#Hash");'><p>Hash Pwd</p></div>
 <div style="background-color: rgb(255, 0, 0);" class="folder" onclick='showDraggable("#Console");'><p>Kernel</p></div>
+<div style="background-color: rgb(255, 0, 0);" class="folder" onclick='showDraggable("#Console2");'><p>Kernel TV</p></div>
 <div style="background-color: rgb(255, 0, 0);" class="folder" onclick='showDraggable("#Initializing");'><p>Decryptor</p></div>
 <div style="background-color: rgb(255, 0, 0);" class="folder" onclick='showDraggable("#Map");'><p>Nuke</p></div>
 <div style="background-color: rgb(255, 0, 0);" class="folder" onclick='showDraggable("#Scan");'><p>Rat Attack</p></div>
@@ -550,6 +558,7 @@ Shift for Access Granted<br>
 <div style="background-color: rgb(255, 0, 0);" class="folder" onclick='showDraggable("#Irc");'><p>Talk</p></div>
 <div style="background-color: rgb(255, 0, 0);" class="folder" onclick='showDraggable("#Tracing");'><p>Trace</p></div>
 <div style="background-color: rgb(255, 0, 0);" class="folder" onclick='showDraggable("#Neurotoxin");'><p>Flood Facility</p></div>
+<div style="background-color: rgb(255, 0, 0);" class="folder" onclick='showDraggable("#CountDown");'><p>CountDown</p></div>
 <div style="background-color: rgb(255, 0, 0);" class="folder" onclick='showDraggable("#Rat");'><p>Virus</p></div>
 <div style="background-color: rgb(255, 0, 0);" class="folder" onclick='showDraggable("#AccessDenied");'><p>Denied</p></div>
 <div style="background-color: rgb(255, 0, 0);" class="folder" onclick='showDraggable("#Download2");'><p>Hacked</p></div>
@@ -580,11 +589,12 @@ Shift for Access Granted<br>
 
 
 <div style="font-family: Arial; display: block;" id="folders">
+    <div style="background-color: rgb(255, 0, 0);" class="folder" onclick='$("#BigFolder").toggle();'><p>ALL ACTIONS</p></div>
 <div style="background-color: rgb(255, 0, 0);" class="folder" onclick='showDraggable("#Downloading");'><p>Download</p></div>
 <!--<div style="background-color: rgb(255, 0, 0);" class="folder" onclick='showDraggable("#Console");'><p>Terminal</p></div>
 <div style="background-color: rgb(255, 0, 0);" class="folder" onclick='showDraggable("#Hash");'><p>Decryptor</p></div>-->
 <div style="background-color: rgb(255, 0, 0);" class="folder" onclick='$("#section").toggle();'><p>Settings</p></div>
-<div style="background-color: rgb(255, 0, 0);" class="folder" onclick='$("#BigFolder").toggle();'><p>ALL ACTIONS</p></div>
+
 <div style="background-color: rgb(255, 0, 0);" class="folder" onclick='$("#Help").toggle();'><p>Options/Help</p></div>
 <div id="result2"></div>
 </div>
