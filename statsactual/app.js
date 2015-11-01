@@ -49,7 +49,8 @@ var StatsApp = angular.module('StatsApp', ["highcharts-ng", 'ngRoute', 'StatsCon
 /*@potluri multiple properties are shared across. some times ajax calls have been cached too with following code
  * its used in reportcontroller and logincontroller. search for sharedproperties in thos controllers.
  */
-var sitedevlink = 'http://localhost/xampp/spu/statsactual/';//'http://stats-dev.internal.digital.scholastic.com/newlogin';//
+var sitedevlink = 'http://thunderify.com/statsactual/';
+        //'http://localhost/xampp/spu/potluriUX.github.io/statsactual/';//'http://stats-dev.internal.digital.scholastic.com/newlogin';//
 var str_window = window.location + " ";
 //  alert(str_window.split("#")[0]);
 StatsApp.service('sharedProperties', function() {
