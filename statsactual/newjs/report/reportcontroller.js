@@ -70,7 +70,7 @@ StatsControllers.controller("ReportController", ['$scope', '$http', '$location',
 //           console.log($scope.productinfo);
 //           console.log($scope.rpt.prodfamily);
            if($scope.rpt.prodfamily == 'GO') {
-            $scope.rpt.prod_title = "Scholastic GO";
+            $scope.rpt.prod_title = "Thunderify GO";
         }
         else{
              $scope.rpt.prod_title = $scope.productinfo[$scope.rpt.prodfamily];
@@ -115,6 +115,7 @@ StatsControllers.controller("ReportController", ['$scope', '$http', '$location',
             $scope.modalcontent = '';//no content only loading image.
             $scope.loading_image_show = true;
             $scope.toggleModal();
+            
             usageSummary.usageinfo($scope.backenddata.result.customerid, startdate,
                     posted_data.year, prodfamily_arr, customers)
                     .success(function(data) {//success callback
@@ -141,12 +142,15 @@ StatsControllers.controller("ReportController", ['$scope', '$http', '$location',
                         }
 
                     }).error(function() {
+                        
                 $scope.toggleModal();//hide the modal
+                $location.path('/chart');
             }).finally(function() {
-                document.title = 'Scholastic Statistical Reporting';
+                document.title = 'Thunderify Statistical Reporting';
             });
-
+$location.path('/chart');
         }
+        
 
         $scope.modalShown = false;//on page load no modal shown
         $scope.toggleModal = function() {

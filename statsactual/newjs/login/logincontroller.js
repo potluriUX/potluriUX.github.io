@@ -115,7 +115,7 @@
                     }).finally(function() {
                         // called no matter success or failure
                         $scope.loading_gif_image_show = false;
-                          document.title = 'Scholastic Statistical Reporting';
+                          document.title = 'thunderify Statistical Reporting';
                     });
                     ;
 

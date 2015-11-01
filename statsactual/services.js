@@ -16,7 +16,7 @@ StatsApp.service('sharedProperties', function() {
             //  return property;
 
 //           / alert(str_window.split("#")[0]); // i am splitting because str will have 
-            //http://stats-dev.internal.digital.scholastic.com/newlogin#login 
+          
             //ala . so splitting by #
             if (str_window.split("#")[0] == sitedevlink)//if stats dev . 
                 //below is for dev only return without groups. internal/stats account mary kurtz

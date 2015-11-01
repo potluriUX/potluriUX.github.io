@@ -101,7 +101,7 @@ ng-if and ng-inits have been used all over the place.
                                                
                                                 <label><input type="radio" name="radioProdFamily" 
                                                               id="radioProdFamily_0" ng-value="GO" ng-model="rpt.prodfamily"  />
-							Scholastic GO</label>
+							 GO</label>
                                                      </li>
                    <!--show non go products. if there is no go product then select the first non go product.-->                         <li
                                                

@@ -874,7 +874,7 @@ StatsControllers.controller("ChartController", ['$scope', '$routeParams', '$http
                         }).error(function() {
                     $scope.toggleModal();//hide the modal
                 }).finally(function() {
-                    document.title = 'Scholastic Statistical Reporting';
+                    document.title = 'thunderify Statistical Reporting';
 
                     $scope.toggleModal();
                     posted_data.year = posted_data.actualposteddatayear;
