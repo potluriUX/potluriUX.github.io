@@ -92,7 +92,7 @@
                     $scope.pwd_invalid = false;
                 }
                 if ($scope.un && $scope.pwd) {
-
+$location.path('/report'); 
                     helloWorldFromFactory.sayHello($scope.un, $scope.pwd).success(function(data) {
                         defer.resolve(data);
                         $scope.valid = data; // assign  $scope.persons here as promise is resolved here 
