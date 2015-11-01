@@ -208,7 +208,6 @@ ng-if and ng-inits have been used all over the place.
 			<div class="runRptBlock" >
                             <!--ng-if="rpt.radioincludesites"-->
 		<!--finally create report will call a service and store the post variables ready to be grabbed by any other controller-->			<a id="runRptBtn" href="" ng-click="run()">Create Report</a>
-                <a id="runRptBtn" href="" ng-click="run2()">Create Report2</a>
 				</div>
 			<!-- end .col3 --></div>
 		</form>
@@ -216,19 +215,10 @@ ng-if and ng-inits have been used all over the place.
 	<!-- end .cols3 --></div>
   	<!-- end .content --></div>
 <div footer></div>
-<a ng-click="toggleModal()" href=''>ilaokati pettu annana.</a>
+<!--{{loading_image_show}}--><!--left side variable changes if the info variable is changed in the directive. directive to controller-->
 <modal-dialog show='modalShown' width='400px' height='150px' info='loading_image_show'>
        <!-- {{rpt.rpt_type}}-->
       <p><br><br>{{modalcontent}}
-          <img ng-if='loading_image_show' class="loading" src="../../css/statsrep5_images/graph-loading-1.gif" 
+          <img ng-if='loading_image_show' class="loading" src="/statsrep5_images/graph-loading-1.gif" 
                width="100" height="65" alt="loading..." /></p>
     </modal-dialog>
-
-<modal-dialoge show='modalShown2' width='400px' height='150px' >
-    
-    yguygughyg
-       <!-- {{rpt.rpt_type}}-->
-<!--      <p><br><br>{{modalcontent}}-->
-<!--          <img ng-if='loading_image_show' class="loading" src="../../css/statsrep5_images/graph-loading-1.gif" -->
-<!--               width="100" height="65" alt="loading..." /></p>-->
-    </modal-dialoge>

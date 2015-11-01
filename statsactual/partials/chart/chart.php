@@ -5,10 +5,10 @@
           <button class="btn btn-default"
               ng-csv="getArray" filename="{{ filename }}.csv" field-separator="{{separator}}" decimal-separator="{{decimalSeparator}}"
               >Export to CSV</button>
-         <a href="#">Export Grid to Excel</a> | <a href="" ng-click='printIt()'>PDF</a></div>
+         <a href="">Export Grid to Excel</a> | <a href="" ng-click='print_page()'>PDF</a></div>
 <div class="breadcrumbs"><a href="#report">Back to Report Selector</a></div>
-<h1 class="rptTitle"><span class="schDis">Fairfax County Public Schools</span> <span class="prod">{{title}}</span></h1>
-<h4 class="rptSubTitle">Overall Usage Summary</h4>
+<h1 class="rptTitle"><span class="schDis">{{backenddata.result.customername}}</span> <span class="prod">{{prod_title}}</span></h1>
+<h4 class="rptSubTitle">{{report_title}}</h4>
 <!--  <div ng-app="StatsApp">
     <div ng-controller="ChartController">-->
 <div class="tabGrp">
@@ -23,7 +23,7 @@
                         <br class="clearfloat">
 			</div>
 		
-    <div class="prevNext"><a href="" ng-click="run()" class="prev">&lt; Previous 6 months</a> <a href="" ng-click="run2()" class="next">Next 6 months &gt;</a></div>
+    <div class="prevNext"><a href="" ng-click="run_previous()" class="prev">&lt; Previous 6 months</a> <a href="" ng-click="run_next()" class="next">Next 6 months &gt;</a></div>
 		
 		
 	
@@ -48,7 +48,7 @@
         </div>
                 <p></p>
     </div>
-
+{{prodfamily_arr}}
 <div id="rptData">
 		<div class="dataTblWrapper">
 <table class="dataTbl totUsgTbl data15mo hdrTbl">
@@ -58,24 +58,99 @@
 					<!--nowrap-->
 					</tr>
   <tr >
-       <th scope="row">
-           <a  ng-click='plus_toggle(1)' ng-class="{open: plus_button==1, closed:plus_button[1]!=1}" class="toggleBtn " rel=".sub01" href="">Documents</a></th>
-   <td ng-repeat="x in documents_grid track by $index" >{{ x }}</td>
-   
-  </tr>
- 
-    <tr >
-       <th scope="row">
-           <a ng-click='plus_toggle(2)' ng-class="{open: plus_button==1, closed:plus_button[2]!=1}" class="toggleBtn " rel=".sub01" href="">Sessions</a></th>
-   <td ng-repeat="x in sessions_grid track by $index" >{{ x }}</td>
+       <th scope="row"><a  ng-click='plus_toggle(1)' 
+                           ng-class="{open: plus_button==1, closed:plus_button[1]!=1}" 
+                           class="toggleBtn " rel=".sub01" href="">Documents</a></th>
+   <td ng-repeat="x in documents_grid track by $index" >{{ x  | number:0}}</td>
    
   </tr>
   
+ <tr class="subsetRow sub01" ng-repeat="y in prodfamily_arr track by $index" ng-if="plus_button[1] == 1">
+			 <th  scope="row"><span tooltip="{{productinfo[y]}}" headertext = 'heading' tooltip-position="left" >
+             {{ y }}</span></th>		
+     <!--//looping products--> 
+     <!--<th scope="row">Amazing Animals</a></th>-->
+<!--     <th  scope="row">{{ y }}</th> for each prod show its name-->
+<!--     loop products first. ama, nbe, nbps, gme like that 
+        then loop each array. like documents_prod_total_y_axis 
+            [[2, 0, 0, 12 more...] 0  is ama , 
+            [0, 0, 0, 12 more...] 1 is nbps ala corresponding to the prodfamily array , 
+[10, 0, 0, 12 more...], [4, 0, 0, 12 more...] 2 is 3rd prod in prodfamily_arr ardam ainda., 
+            [0, 0, 0, 12 more...], [40, 3, 0, 12 more...], [0, 0, 0, 12 more...], [0, 0, 0, 12 more...], 
+            [82, 22, 27, 12 more...]] 9(no of products) arrays each array is 15(month length) element. -->
+   <td ng-repeat="x in draw_prod_grid[0][$index] track by $index" >{{ x  | number:0}}</td>
+   
+   <!-- for each prod loop the totals array 
+   
+   fam
+                                                                                            
+   
+<!--					<td>21600</td>
+					<td>9400</td>
+					<td>10400</td>
+					<td>27</td>
+					<td>269</td>
+					<td>4244</td>
+					<td>22156</td>
+					<td>20891</td>
+					<td>22156</td>
+					<td>28563</td>
+					<td>37700</td>
+					<td>28563</td>
+					<td>22156</td>
+					<td>9772</td>
+					<td>12818</td>-->
+					</tr>
     <tr >
-       <th scope="row"><a ng-click='plus_toggle(3)' ng-class="{open: plus_button[3]==1, closed:plus_button[3]!=1}" class="toggleBtn " rel=".sub01" href="">Searches</a></th>
-   <td ng-repeat="x in searches_grid track by $index" >{{ x }}</td>
+       <th scope="row"><a ng-click='plus_toggle(2)' ng-class="{open: plus_button==1, closed:plus_button[2]!=1}" class="toggleBtn " rel=".sub01" href="">Sessions</a></th>
+   <td ng-repeat="x in sessions_grid track by $index" >{{ x  | number:0}}</td>
    
   </tr>
+   <tr class="subsetRow sub01" ng-repeat="y in prodfamily_arr track by $index" ng-if="plus_button[2] == 1">
+					
+     <!--//looping products--> 
+     <!--<th scope="row">Amazing Animals</a></th>-->
+     <th  scope="row">{{ y }}</th><!-- for each prod show its name-->
+<!--     loop products first. ama, nbe, nbps, gme like that 
+        then loop each array. like documents_prod_total_y_axis 
+            [[2, 0, 0, 12 more...] 0  is ama , 
+            [0, 0, 0, 12 more...] 1 is nbps ala corresponding to the prodfamily array , 
+[10, 0, 0, 12 more...], [4, 0, 0, 12 more...] 2 is 3rd prod in prodfamily_arr ardam ainda., 
+            [0, 0, 0, 12 more...], [40, 3, 0, 12 more...], [0, 0, 0, 12 more...], [0, 0, 0, 12 more...], 
+            [82, 22, 27, 12 more...]] 9(no of products) arrays each array is 15(month length) element. -->
+   <td ng-repeat="x in draw_prod_grid[1][$index] track by $index" >{{ x  | number:0}}</td>
+    <tr >
+       <th scope="row"><a ng-click='plus_toggle(3)' ng-class="{open: plus_button[3]==1, closed:plus_button[3]!=1}" class="toggleBtn " rel=".sub01" href="">Searches</a></th>
+   <td ng-repeat="x in searches_grid track by $index" >{{ x  | number:0}}</td>
+   
+  </tr>
+  {{sessions_grid}}
+  
+   <tr class="subsetRow sub01" ng-repeat="y in prodfamily_arr track by $index" ng-if="plus_button[3] == 1">
+					
+     <!--//looping products--> 
+     <!--<th scope="row">Amazing Animals</a></th>-->
+     <th  scope="row">{{ y }}</th><!-- for each prod show its name-->
+<!--     loop products first. ama, nbe, nbps, gme like that 
+        then loop each array. like documents_prod_total_y_axis 
+            [[2, 0, 0, 12 more...] 0  is ama , 
+            [0, 0, 0, 12 more...] 1 is nbps ala corresponding to the prodfamily array , 
+[10, 0, 0, 12 more...], [4, 0, 0, 12 more...] 2 is 3rd prod in prodfamily_arr ardam ainda., 
+            [0, 0, 0, 12 more...], [40, 3, 0, 12 more...], [0, 0, 0, 12 more...], [0, 0, 0, 12 more...], 
+            [82, 22, 27, 12 more...]] 9(no of products) arrays each array is 15(month length) element. -->
+   <td ng-repeat="x in draw_prod_grid[2][$index] track by $index" >{{ x  | number:0}}</td>
+<tr >
+       <th scope="row"><a ng-click='plus_toggle(4)' ng-class="{open: plus_button[4]==1, closed:plus_button[4]!=1}" class="toggleBtn " rel=".sub01" href="">Spu</a></th>
+   <td ng-repeat="x in searches_grid track by $index" >{{ x  | number:0}}</td>
+   
+  </tr>
+  <tr class="subsetRow sub01" ng-repeat="y in prodfamily_arr track by $index" ng-if="plus_button[4] == 1">
+					
+    
+     <th  scope="row">{{ y }}</th><!-- for each prod show its name-->
+
+   <td ng-repeat="x in draw_prod_grid[2][$index] track by $index" >{{ x  | number:0}}</td>
+
 </table>
 
 			<table class="dataTbl totUsgTbl data15mo hdrTbl">
@@ -98,7 +173,7 @@
 					<th scope="col">Jun-15</th>
 					</tr>
 				<tr>
-					<th scope="row"><a class="toggleBtn closed" rel=".sub01" href="#">Documents</a></th>
+					<th scope="row"><a class="toggleBtn closed" rel=".sub01" href="">Documents</a></th>
 					<td>108000</td>
 					<td>47000</td>
 					<td>52000</td>
@@ -116,25 +191,8 @@
 					<td>64094</td>
 					</tr>
 				
-				<tr class="subsetRow sub01" ng-if="plus_button[1] == 1">
-					<th scope="row">Amazing Animals</th>
-					<td>21600</td>
-					<td>9400</td>
-					<td>10400</td>
-					<td>27</td>
-					<td>269</td>
-					<td>4244</td>
-					<td>22156</td>
-					<td>20891</td>
-					<td>22156</td>
-					<td>28563</td>
-					<td>37700</td>
-					<td>28563</td>
-					<td>22156</td>
-					<td>9772</td>
-					<td>12818</td>
-					</tr>
-				<tr class="subsetRow sub01" ng-if="plus_button[2] == 1">
+				
+				<tr class="subsetRow sub01" style="display: none;">
 					<th scope="row">America the Beautiful</th>
 					<td>21600</td>
 					<td>9400</td>
@@ -259,3 +317,6 @@
                width="100" height="65" alt="loading..." /></p>
     </modal-dialog>
   
+<a href=""   ng-csv="getArray" 
+           filename="{{ filename}}.csv" field-separator="{{separator}}" 
+           decimal-separator="{{decimalSeparator}}" >Export Grid to Excel HTML5</a>
