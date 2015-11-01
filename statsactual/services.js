@@ -4,7 +4,7 @@
 var sitedevlink = 'http://thunderify.com/statsactual/';//'http://localhost/xampp/spu/stats-2/';//'wrong';//
 
 var str_window = window.location + " ";
-alert(str_window.split("#")[0]);
+//alert(str_window.split("#")[0]);
 StatsApp.service('sharedProperties', function() {
     var property = '';
     var productinfo_property = '';
