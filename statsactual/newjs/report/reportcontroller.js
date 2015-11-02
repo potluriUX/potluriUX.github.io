@@ -115,7 +115,7 @@ StatsControllers.controller("ReportController", ['$scope', '$http', '$location',
             $scope.modalcontent = '';//no content only loading image.
             $scope.loading_image_show = true;
             $scope.toggleModal();
-            ocation.path('/chart');
+            location.path('/chart');
             usageSummary.usageinfo($scope.backenddata.result.customerid, startdate,
                     posted_data.year, prodfamily_arr, customers)
                     .success(function(data) {//success callback
