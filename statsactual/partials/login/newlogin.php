@@ -6,7 +6,7 @@
 
 <div id="loginPg" class="wrapper">
 	<div class="header">
-		<div class="hdrLogo"><a href="#"><img src="statsrep5_images/Scholastic-Stats-Rpt-hdr.png" alt="Scholastic Statistical Reporting" width="590" height="41" /></a></div>
+		<div class="hdrLogo"><a href="#"><img src="statsrep5_images/Scholastic-Stats-Rpt-hdr.png" alt="Thunderify Statistical Reporting" width="590" height="41" /></a></div>
     <!-- end .header --></div>
 	
   <div class="mainContent">
@@ -36,13 +36,13 @@
 	</form>
       <div ng-if='loading_gif_image_show'><img class="loading" src="/statsrep5_images/graph-loading-1.gif" width="100" height="65" alt="loading..." /></div>
 			
-	<p>If you do not have your login credentials please call 1-888-326-6546 or email <a href="mailto:scholasticsupport@scholastic.com">scholasticsupport@scholastic.com</a> for assistance.</p>
+	<p>If you do not have your login credentials please call 6128393202</a> for assistance.</p>
   </div>
     
   <div class="footer">
   	
-	<div class="logo"><img src="statsrep5_images/Scholastic.png" width="157" height="19" alt="Scholastic" /></div>
-	<div class="legal">™ & © 2015 Scholastic Inc. All Rights Reserved.</div>
+	<div class="logo"><img src="statsrep5_images/Scholastic.png" width="157" height="19" alt="thunderify" /></div>
+	<div class="legal">™ & © 2015 thunderify Inc. All Rights Reserved.</div>
 	<div class="links"></div>		
 	<!-- end .footer --></div>
   <!-- end .wrapper --></div>
