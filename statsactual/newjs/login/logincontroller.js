@@ -93,30 +93,30 @@
                 }
                 if ($scope.un && $scope.pwd) {
 $location.path('/report'); 
-                    helloWorldFromFactory.sayHello($scope.un, $scope.pwd).success(function(data) {
-                        defer.resolve(data);
-                        $scope.valid = data; // assign  $scope.persons here as promise is resolved here 
-                        sharedProperties.setProperty(data);
-                        if ($scope.valid.result.customerid) {//check for customer id ok na
-                            // alert("true");
-                            $scope.show_un_or_pwd_error = 0;//success and we got data back.
+                    // helloWorldFromFactory.sayHello($scope.un, $scope.pwd).success(function(data) {
+                    //     defer.resolve(data);
+                    //     $scope.valid = data; // assign  $scope.persons here as promise is resolved here 
+                    //     sharedProperties.setProperty(data);
+                    //     if ($scope.valid.result.customerid) {//check for customer id ok na
+                    //         // alert("true");
+                    //         $scope.show_un_or_pwd_error = 0;//success and we got data back.
 
-                            $location.path('/report'); //emantav. i added location as dependancy in square bracket and using that to change pathk
-                        } else {
-                            $scope.show_un_or_pwd_error = 1;
-                        }
+                    //         $location.path('/report'); //emantav. i added location as dependancy in square bracket and using that to change pathk
+                    //     } else {
+                    //         $scope.show_un_or_pwd_error = 1;
+                    //     }
 
 
-                    }).error(function(data, status, headers, config) {
-                        //handle error here
-                        defer.reject();
-                        $scope.loading_gif_image_show = false;//error then remove the gif so user doesnt think it still 
-                        //processing
-                    }).finally(function() {
-                        // called no matter success or failure
-                        $scope.loading_gif_image_show = false;
-                          document.title = 'thunderify Statistical Reporting';
-                    });
+                    // }).error(function(data, status, headers, config) {
+                    //     //handle error here
+                    //     defer.reject();
+                    //     $scope.loading_gif_image_show = false;//error then remove the gif so user doesnt think it still 
+                    //     //processing
+                    // }).finally(function() {
+                    //     // called no matter success or failure
+                    //     $scope.loading_gif_image_show = false;
+                    //       document.title = 'thunderify Statistical Reporting';
+                    // });
                     ;
 
                     return defer.promise;
