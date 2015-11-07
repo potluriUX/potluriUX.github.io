@@ -7,7 +7,7 @@
 		<div class="welcome">Welcome, {{backenddata.result.customername}} </div>
 	</div>
 	<div class="header"><div class="helpLink"><a href="#/help">Help</a></div> 
-		<div class="hdrLogo"><a href="#"><img src="statsrep5_images/Scholastic-Stats-Rpt-hdr.png" alt="Scholastic Statistical Reporting" width="590" height="41" /></a></div>
+		<div class="hdrLogo"><a href="#"><img src="statsrep5_images/Scholastic-Stats-Rpt-hdr.png" alt="Thunderify Statistical Reporting" width="590" height="41" /></a></div>
 	
 		<div class="topNav2">
 			<div class="navBtn cyan active"><a href="#">Standard <br />
