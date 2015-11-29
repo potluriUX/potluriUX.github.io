@@ -620,6 +620,7 @@ textarea.form-control {
 			}
 			
 			#phone #center #msg #msg-top #battery {
+                            background-image: url("./battery.png");
 				
 				width:30px;
 				height:13px;
@@ -627,7 +628,7 @@ textarea.form-control {
 			}
 			
 			#phone #center #msg #msg-top #battery #battery-percent {
-				
+				background-image: url("./battery-percent.jpg");
 				border:solid 1px #eee;
 				width:50%;
 				max-width:25px;
