@@ -237,6 +237,7 @@ $(document).ready(function() {
          $('#iphone').hide();
                 $('#generator-nav').hide();
                 $('#generator-inputs').hide();
+                $("#test").show();
                 $("#showcanvas").show();
    }
 });
