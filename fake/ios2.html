@@ -69,8 +69,8 @@ Try it online now!">
           </button>
           <!--<a href="#" class="navbar-brand">Project name</a>-->
           <a class="navbar-brand" href="./ios2.html"><img width='150px' src='./fake/fakeiphone.png'</a>
-          <a class="btn btn-success btn-sm" onclick="downloadImg();"><i class="fa fa fa-arrow-circle-down"></i> Create</a>
-          <---hit this button after adding messages at bottom
+          <a class="btn btn-danger btn-sm" onclick="downloadImg();"><i class="fa fa fa-arrow-circle-down"></i> Download!!</a>
+      
         </div>
           <div class="fb-like" data-href="http://thunderify.com" data-layout="standard" data-action="like" data-show-faces="true" data-share="true"></div>
 
@@ -108,58 +108,7 @@ Try it online now!">
      
     </nav>
 
-<div >
-	<div class="row">
-    
-    	<div class="col-md-4 text-left text-white text-sm p-l m-t-n-sm hidden-sm hidden-xs">
-        	
 
-
-
-            
-            	
-            
-                    </div>
-            <div>
-        <p class="col-md-4 col-xs-4 bg-primary">
-        	<!--<a href="./ios2.html">IOS Fake Text</a>-->
-        </p>
-            </div>
-            
-            <div class="container">
-    <div class="col-xs-4">
-        <div class="col-xs-12 bg-primary bigbox">
-        </div>
-        <div class="col-xs-12 bg-warning smallbox">
-        </div>
-        <div class="col-xs-2 bg-success medbox">
-        </div>
-        <div class="col-xs-2 bg-success medbox">
-        </div>
-        <div class="col-xs-2 bg-success medbox">
-        </div>
-        <div class="col-xs-2 bg-success medbox">
-        </div>
-        <div class="col-xs-2 bg-success smallbox">
-        </div>
-        <div class="col-md-4 col-xs-4 text-right">
-        </div>
-    </div>
-             
-			
-            
-
-                        
-        </div>
-    </div>
-</div>
-
-
-	
-	
-	
-
-</div></div>
 
 
 <div id="center-panel">
@@ -171,13 +120,15 @@ Try it online now!">
     <span class="text-o">Hold on a sec...</span>
 </div>
 <div id="download-result">
-    <a style='left:0px' class='btn btn-primary' href="./ios2.html">Go Back</a>
+    
     
     <div class="row p-n m-n m-t-xl">
 
         
         <div class="col-md-4 text-center">
-        
+            <br>
+            Hold down the image for long to download!
+        <a style='left:0px' class='btn btn-primary' onclick='closeDownload()' href="#">Go Back</a>
         	<div id="image-container">
         	
                         	<img id="" style="display:none;">
@@ -521,39 +472,39 @@ Try it online now!">
                         </div>
                         <div id="upload_response"></div>                            
                         </form>
-                         <div class="m-t-xl text-center">
-                            	<a class="btn btn-primary sendMessage"><i class="fa">+</i> Add message</a>
-                            </div>
+                      
                         <!--<div class="line"></div>-->
                         
-                        <div class="checkbox checkbox-grey">
+                       
                         	<label>
                         		<input type="radio" value="grey" name="sender"> <span>Grey</span>
                         	</label>
-                        </div>
+                    
                         
-                        <div class="checkbox checkbox-green">
+                       
                         	<label>
-                        		<input type="radio" value="green" name="sender"> <span>Green</span>
+                        		<input type="radio" value="green" name="sender"> <span class='btn-success'>Green</span>
                         	</label>
-                        </div>
-                        
-                        <div class="checkbox checkbox-blue">
-                        	<label>
-                        		<input type="radio" value="blue" name="sender"> <span>Blue</span>
+                            <label>
+                        		<input type="radio" value="blue" name="sender"> <span class='btn-primary'>Blue</span>
                         	</label>
-                        </div>
+                       
                         
-                        <div class="checkbox checkbox-transparent">
+                       
+                        
+                    
                         	<label>
                         		<input type="radio" value="transparent" name="sender"> <span>Timestamp</span>
                         	</label>
-                        </div>
+                     
                         
                             <textarea placeholder="Type message ..." style="height:150px;" id="msg-content" class="form-control"></textarea>
-
-                           
-                        
+   <div class="m-t-xl text-center">
+                            	<a class="btn btn-primary sendMessage"><i class="fa">+</i> Add message</a>
+   <a class="btn btn-danger btn-sm" onclick="downloadImg();"><i class="fa fa fa-arrow-circle-down"></i> Download!!</a>
+                                                 
+   </div>
+                            
                         </div>               
                     </div>
                 </div>

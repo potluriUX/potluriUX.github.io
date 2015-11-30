@@ -499,7 +499,7 @@ textarea.form-control {
 	}
 
 #download-result {
-	top:80px;
+	//top:80px;
 	z-index:9990;
 	text-align:center;
 	position:fixed;
@@ -789,7 +789,7 @@ textarea.form-control {
 		
 		#blurred-result {
 			padding:2px;
-			border:dashed 2px rgba(0,0,0,0.2);
+			//border:dashed 2px rgba(0,0,0,0.2);
 			background-color:rgba(255,255,255,0.5);
 		}
 		
