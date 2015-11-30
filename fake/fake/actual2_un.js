@@ -214,7 +214,8 @@ $(document).ready(function() {
                 $('#img_val').val(canvas.toDataURL("image/png"));
                 $("#test").html("<img src='"+canvas.toDataURL("image/png")+"'>");
                 console.log("test");
-                //
+                //iphone-wrap generator-nav generator-inputs
+              showimage();
                 //
 //               var x = ravi;
 //               var concat = 'spi src="' +x+ '"spu'
@@ -223,4 +224,19 @@ $(document).ready(function() {
             }
         });
    return false; });
+   $("#showcanvas").click(showthecanvas);
+   function showthecanvas(){
+       $('#iphone').show();
+                $('#generator-nav').show();
+                $('#generator-inputs').show();
+                $("#test").hide();
+                $("#showcanvas").hide();
+   }
+   $("#showcanvas").hide();
+   function showimage(){
+         $('#iphone').hide();
+                $('#generator-nav').hide();
+                $('#generator-inputs').hide();
+                $("#showcanvas").show();
+   }
 });
