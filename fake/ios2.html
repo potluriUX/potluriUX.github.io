@@ -75,33 +75,9 @@ Try it online now!">
           <div class="fb-like" data-href="http://thunderify.com" data-layout="standard" data-action="like" data-show-faces="true" data-share="true"></div>
 
 
-<!--        <div class="navbar-collapse collapse" id="navbar">
-          <ul class="nav navbar-nav">
-            <li class="active"><a href="#">Home</a></li>
-            <li><a href="#about">About</a></li>
-            <li><a href="#contact">Contact</a></li>
-            <li class="dropdown">
-              <a aria-expanded="false" aria-haspopup="true" role="button" data-toggle="dropdown" class="dropdown-toggle" href="#">Dropdown <span class="caret"></span></a>
-              <ul class="dropdown-menu">
-                <li><a href="#">Action</a></li>
-                <li><a href="#">Another action</a></li>
-                <li><a href="#">Something else here</a></li>
-                <li class="divider" role="separator"></li>
-                <li class="dropdown-header">Nav header</li>
-                <li><a href="#">Separated link</a></li>
-                <li><a href="#">One more separated link</a></li>
-              </ul>
-            </li>
-          </ul>
-          <ul class="nav navbar-nav navbar-right">
-            <li><a href="../navbar/">Default</a></li>
-            <li><a href="../navbar-static-top/">Static top</a></li>
-            <li class="active"><a href="./">Fixed top <span class="sr-only">(current)</span></a></li>
-          </ul>
-        </div>/.nav-collapse -->
       </div>
     <div id="dlbtn">
-<!--<span class="text-white text-xs m-r">Click to generate your image</span>-->
+
             
              </div>
     
@@ -237,27 +213,16 @@ Try it online now!">
         </div>
     </div>
    
-    
-    <section>
-
-        <div id="accordion" class="panel-group">
+    <div id="tabs-container">
+    <ul class="tabs-menu">
+        <li class="current"><a href="#tab-1">Basics</a></li>
+        <li><a href="#tab-2">Add Message and Download</a></li>
+       
+    </ul>
+    <div class="tab">
+        <div id="tab-1" class="tab-content">
+            
         
-            <div class="panel panel-default">
-                <div class="panel-heading">
-                    <h4 class="panel-title">
-                        <a class='btn btn-primary' href="#collapse1" data-parent="#accordion" data-toggle="collapse">
-                            <header>
-                                <i class="el-icon-adjust-alt"></i>
-                                <div>
-                                    Basics
-                                </div>
-                            </header>
-                        </a>
-                    </h4>
-                </div>
-                <div class="panel-collapse collapse" id="collapse1">
-                    <div class="panel-body">
-                    
                     	<div class="p-l-lg p-r-lg m-b-xl">
                             
                             <div class="form-group text-center">
@@ -266,7 +231,7 @@ Try it online now!">
                             </div>
                             
                             <div class="form-group text-center">
-                                <label for="exampleInput">Company</label>
+                                <label for="exampleInput">Carrier</label>
                                 <input type="text" id="operator" value="AT&amp;T" placeholder="Enter operator" class="form-control text-center inputVal">
                             </div>
                             
@@ -274,106 +239,26 @@ Try it online now!">
                                 <label for="exampleInput"><i class="glyphicon glyphicon glyphicon-time"></i> Clock</label>
                                 <input type="text" id="clock" value="10:10 AM" placeholder="Enter clock" class="form-control text-center inputVal">
                             </div>
-                            
-<!--                            <div class="form-group text-center">
-                                <label for="exampleInput">"Messages"</label>
-                                <input type="text" id="text-messages" value="Messages" placeholder="Enter word for &quot;messages&quot;" class="form-control text-center inputVal">
-                            </div>
-                            
-                            <div class="form-group text-center">
-                                <label for="exampleInput">"Contact"</label>
-                                <input type="text" id="text-contact" value="Contact" placeholder="Enter word for &quot;contact&quot;" class="form-control text-center inputVal">
-                            </div>
-                            
-                            <div class="form-group text-center">
-                                <label for="exampleInput">"Text Message"</label>
-                                <input type="text" id="text-textmessage" value="Text Message" placeholder="Enter word for &quot;Text Message&quot;" class="form-control text-center inputVal">
-                            </div>
-                            
-                            <div class="form-group text-center">
-                                <label for="exampleInput">"Send"</label>
-                                <input type="text" id="text-send" value="Send" placeholder="Enter word for &quot;Send&quot;" class="form-control text-center inputVal">
-                            </div>-->
-                            
-                            <div class="checkbox">
-                                <label>
-                                    <input type="radio" value="true" name="expandIphone"> <span>Expand iPhone screen</span>
-                                </label>
-                        	</div>
-                            
-                            <div class="checkbox">
-                                <label>
-                                    <input type="radio" value="false" name="expandIphone"> <span>Keep original screen size</span>
-                                </label>
-                        	</div>
-                            
-                            
-                        
-                        </div>
-
-                    </div>
-                </div>
-            </div>
-            
-            <!--<div class="line m-t-none m-b-none"></div>-->
-            
-            <div class="panel panel-default">
-                <div class="panel-heading">
-                    <h4 class="panel-title">
-                        <a class='btn btn-primary' href="#collapse4" data-parent="#accordion" data-toggle="collapse">
-                            <header class="c-3">
-                                <i class="fa">+</i>
-                                <div>
-                                    Change Battery
-                                </div>
-                            </header>
-                        </a>
-                    </h4>
-                </div>
-                <div class="panel-collapse collapse" id="collapse4">
-                    <div class="panel-body">
-                    
-                    	<div class="p-l-lg p-r-lg m-b-xl">
+                            	<div class="p-l-lg p-r-lg m-b-xl">
                         
                             <p>
-                                <label for="amount">Battery percent:</label>
-                                <input type="text" readonly="readonly" class="pull-right" style="border:0; color:#f6931f; font-weight:bold;width:50px;font-size:12px;margin-top:-8px;text-align:right;" id="battery-slider-amount" value="50%">
+                                <label for="amount">Battery:</label>
+                                <!--<input type="text" readonly="readonly" class="pull-right" style="border:0; color:#f6931f; font-weight:bold;width:50px;font-size:12px;margin-top:-8px;text-align:right;" id="battery-slider-amount" value="50%">-->
+                            <input type="text"  id="battery-slider-amount" value="60%">
+                           
                             </p>
                             
-                            <div id="battery-slider" class="ui-slider ui-slider-horizontal ui-widget ui-widget-content ui-corner-all" aria-disabled="false"><div class="ui-slider-range ui-widget-header ui-corner-all ui-slider-range-min" style="width: 49.4949%;"></div><a href="#" class="ui-slider-handle ui-state-default ui-corner-all" style="left: 49.4949%;"></a><div class="ui-slider-range ui-widget-header ui-corner-all ui-slider-range-min" style="width: 49.4949%;"></div></div>
+                            <div id="battery-slider" class="ui-slider ui-slider-horizontal ui-widget ui-widget-content ui-corner-all" 
+                                 aria-disabled="false">
+                               </div>
                             
-                            <br>
                             
-                            <div class="checkbox">
-                                <label>
-                                    <input type="checkbox" checked="checked" id="battery-show-percent"> <span>Show percent</span>
-                                </label>
-                        	</div>
+                            
+                      
                         
-                        </div>               
-                    </div>
-                </div>
-            </div>
-            
-            <!--<div class="line m-t-none m-b-none"></div>-->
-            
-            <div class="panel panel-default">
-                <div class="panel-heading">
-                    <h4 class="panel-title">
-                        <a class='btn btn-primary' href="#collapse2" data-parent="#accordion" data-toggle="collapse">
-                            <header class="c-1">
-                                <i class="fa">+</i>
-                                <div>
-                                    3G/Wifi
-                                </div>
-                            </header>
-                        </a>
-                    </h4>
-                </div>
-                <div class="panel-collapse collapse " id="collapse2">
-                    <div class="panel-body">
-                    
-                    	<div class="p-l-lg p-r-lg m-b-xl">
+                        </div> 
+
+                            	<div class="p-l-lg p-r-lg m-b-xl">
                         
                         	<div class="checkbox">
                                 <label>
@@ -411,54 +296,41 @@ Try it online now!">
                                 <div id="connection-slider" class="ui-slider ui-slider-horizontal ui-widget ui-widget-content ui-corner-all" aria-disabled="false"><div class="ui-slider-range ui-widget-header ui-corner-all ui-slider-range-min" style="width: 60%;"></div><a href="#" class="ui-slider-handle ui-state-default ui-corner-all" style="left: 60%;"></a><div class="ui-slider-range ui-widget-header ui-corner-all ui-slider-range-min" style="width: 60%;"></div></div>
                             </div>-->
                         </div>               
-                    </div>
-                </div>
-            </div>
-
-            <!--<div class="line m-t-none m-b-none"></div>-->
-            
-            <div class="panel panel-default">
-                <div class="panel-heading">
-                    <h4 class="panel-title">
-                        <a class='btn btn-primary' href="#collapse3" data-parent="#accordion" data-toggle="collapse">
-                            <header class="c-2">
-                                <i class="fa">+</i>
-                                <div>
-                                   Add Message
-                                </div>
-                            </header>
-                        </a>
-                    </h4>
-                </div>
-                <div class="panel-collapse collapse in" id="collapse3">
-                    <div class="panel-body">
-                    
-                    	<div class="p-l-lg p-r-lg m-b-xl">
+                                      
+                        </div>
+        
+        </div>
+        <div id="tab-2" class="tab-content">
+             	<div class="p-l-lg p-r-lg m-b-xl">
                         
-                        <form action="upload.php" method="post" enctype="multipart/form-data" id="upload_form">
+                            <br>
                         <div class="fileUpload btn btn-default btn-sm">
-                            <span><i class="el-icon-picture"></i> Click here to upload image</span>
+                            <span> Add Image to conversation</span>
                             <input type="file" 
                                    accept="image/*" id="image_file" name="image_file" 
                                    value="Upload image" onchange="preview(this);" class="upload">
                         </div>
-                        <div id="upload_response"></div>                            
-                        </form>
+                            <br>
                       
                         <!--<div class="line"></div>-->
                         
-                       
+                       <br>
                         	<label>
-                        		<input type="radio" value="grey" name="sender"> <span>Grey</span>
+                                    
+
+                                    
+
+
+                        		<input type="radio" value="grey" name="sender"> <span>Grey(incoming texts)</span>
                         	</label>
                     
                         
                        
                         	<label>
-                        		<input type="radio" value="green" name="sender"> <span class='btn-success'>Green</span>
+                        		<input type="radio" value="green" name="sender"> <span class='btn-success'>Green(outgoing text carrier)</span>
                         	</label>
                             <label>
-                        		<input type="radio" value="blue" name="sender"> <span class='btn-primary'>Blue</span>
+                        		<input type="radio" value="blue" name="sender"> <span class='btn-primary'>Blue(outgoing text imessage)</span>
                         	</label>
                        
                         
@@ -479,31 +351,19 @@ Try it online now!">
                             
                         </div>               
                     </div>
-                </div>
-                
-            </div>
-            
         </div>
-        <!--<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>-->
-<!-- fake -->
-<!--<ins class="adsbygoogle"
-     style="display:block"
-     data-ad-client="ca-pub-3730266544385182"
-     data-ad-slot="5757174790"
-     data-ad-format="auto"></ins>
-<script>
-(adsbygoogle = window.adsbygoogle || []).push({});
-</script>-->
-	</section>
+       
+    </div>
+  
 </div>
          
     
     <div id="download-loading">
 	<i class="fa">+</i>
     <br>
-    <strong>Generating image &amp; Download link</strong>
+    <strong>Generating image </strong>
     <br>
-    <span class="text-o">Hold on a sec...</span>
+    <span class="text-o"></span>
 </div>
 <div id="download-result">
     
@@ -531,33 +391,153 @@ Try it online now!">
 </div>
 </div>
 
-<!--
-<div id="right-panel" class="side-panel hidden-sm hidden-xs">
-    <div class="text-center m-t">
-        
-     
-            
-        
-        
-    </div>
+
+  
+  
+
+  
+  
+  
+
+  
+
+
+  
+
+  
+
+  <style type="text/css">
+      *, body, button, input, textarea, select {
+  text-rendering: optimizeLegibility;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,textarea,p,blockquote,th,td {
+  margin:0;
+  padding:0;
+}
+table {
+  border-collapse:collapse;
+  border-spacing:0;
+}
+fieldset,img {
+  border:0;
+}
+address,caption,cite,code,dfn,em,strong,th,var {
+  font-style:normal;
+  font-weight:normal;
+}
+ol,ul {
+  list-style:none;
+}
+caption,th {
+  text-align:left;
+}
+h1,h2,h3,h4,h5,h6 {
+  font-size:100%;
+  font-weight:normal;
+}
+q:before,q:after {
+  content:'';
+}
+abbr,acronym { border:0;}
+
+    body {
+padding: 20px;
+font-family: Arial, Helvetica, sans-serif;
+line-height: 1.5;
+font-size: 14px;        
+}
+
+.tabs-menu {
+    height: 30px;
+    float: left;
+    clear: both;
+}
+
+.tabs-menu li {
+    height: 30px;
+    line-height: 30px;
+    float: left;
+    margin-right: 10px;
+    background-color: #ccc;
+    border-top: 1px solid #d4d4d1;
+    border-right: 1px solid #d4d4d1;
+    border-left: 1px solid #d4d4d1;
+}
+
+.tabs-menu li.current {
+    position: relative;
+    background-color: #fff;
+    border-bottom: 1px solid #fff;
+    z-index: 5;
+}
+
+.tabs-menu li a {
+    padding: 10px;
+    text-transform: uppercase;
+    color: #fff;
+    text-decoration: none; 
+}
+
+.tabs-menu .current a {
+    color: #2e7da3;
+}
+
+.tab {
+    border: 1px solid #d4d4d1;
+    background-color: #fff;
+    float: left;
+    margin-bottom: 20px;
+    width: auto;
+}
+
+.tab-content {
+    width: 460px;
+    padding: 20px;
+    display: none;
+}
+
+#tab-1 {
+ display: block;   
+}
+
+  </style>
+
+
+
+  
     
 
-    <div class="text-center m-t-xl">
-        
-
-        
-      
-      
-        
-        
-    
-    </div>
 
 
-</div>-->
 
+<script type='text/javascript'>//<![CDATA[
+$(window).load(function(){
+$(document).ready(function() {
+    $(".tabs-menu a").click(function(event) {
+        event.preventDefault();
+        $(this).parent().addClass("current");
+        $(this).parent().siblings().removeClass("current");
+        var tab = $(this).attr("href");
+        $(".tab-content").not(tab).css("display", "none");
+        $(tab).fadeIn();
+        return false;
+    });
+});
+});//]]> 
 
-<div id="_atssh" style="visibility: hidden; height: 1px; width: 1px; position: absolute; top: -9999px; z-index: 100000;">
+</script>
+
+  
+
+  
+
+  
+</body>
+
+</html>
+
 
 
 </body></html>
