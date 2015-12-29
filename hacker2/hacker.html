@@ -32,247 +32,24 @@ show it to your friends. its a hacking game.
 
 
 <script src="geektype3_files/jquery.js" type="text/javascript"></script> 
-<script src="geektype3_files/script.js" type="text/javascript"></script> 
+
 <script type="text/javascript">
-getKernel = localStorage.getItem('kernel') || '0';
+getKernel = loc.getItem('kernel') || '0';
 Typer.file = ('../ASSETS/kernels/'+ getKernel +'.txt');
 Typer.init();
 </script>
 	<input id="typer" style="position:relative; left:-100em;"/>
 <script type="text/javascript">
-$("#console").click(function () { $('#typer').focus(); })
-
-
-
-
-var dragContainer = $("body");
-var currentDragData = {
-    offset: {x:0, y:0},
-    target: null
-};
-
-$(document).ready(function(e) {
-    $(document).delegate(".dragme", "mousedown", function(e) {
-        if(!currentDragData.target) {
-            if($(e.currentTarget).hasClass("dragme") && !$(e.target).closest(".folder").length) {
-                currentDragData.target = $(e.currentTarget);
-                currentDragData.target.parent().append(currentDragData.target);
-                currentDragData.offset.x = e.pageX - currentDragData.target.offset().left;//e.offsetX;
-                currentDragData.offset.y = e.pageY - currentDragData.target.offset().top;//e.offsetY;
-            }
-        }
-    });
-	
-    $(document).delegate(".dragme #close", "mouseup", function(e) {
-		$(e.currentTarget).closest(".dragme").hide();
-
-    });
-	/*
-	$(document).delegate(".dragme .folder", "mouseup", function(e) {
-
-		currentDragData.target = null;
-
-	});*/
-	
-    $(document).delegate(".dragme", "mouseup", function(e) {
-        if(currentDragData.target) {
-            currentDragData.target = null;		
-        }	
-    });
-    
-    $(document).mousemove(function(e) {
-        if(currentDragData.target) {
-            e.preventDefault();
-            currentDragData.target.offset({
-                left: e.pageX - currentDragData.offset.x,
-                top: e.pageY - currentDragData.offset.y
-            });
-        }
-    });
-});
-
-function showDraggable(d) {
-	$(d).toggle();
-	$(d).parent().append($(d));
-}
+var _0x91c3=["\x66\x6F\x63\x75\x73","\x23\x74\x79\x70\x65\x72","\x63\x6C\x69\x63\x6B","\x23\x63\x6F\x6E\x73\x6F\x6C\x65","\x62\x6F\x64\x79","\x2E\x64\x72\x61\x67\x6D\x65","\x6D\x6F\x75\x73\x65\x64\x6F\x77\x6E","\x74\x61\x72\x67\x65\x74","\x64\x72\x61\x67\x6D\x65","\x68\x61\x73\x43\x6C\x61\x73\x73","\x63\x75\x72\x72\x65\x6E\x74\x54\x61\x72\x67\x65\x74","\x6C\x65\x6E\x67\x74\x68","\x2E\x66\x6F\x6C\x64\x65\x72","\x63\x6C\x6F\x73\x65\x73\x74","\x61\x70\x70\x65\x6E\x64","\x70\x61\x72\x65\x6E\x74","\x78","\x6F\x66\x66\x73\x65\x74","\x70\x61\x67\x65\x58","\x6C\x65\x66\x74","\x79","\x70\x61\x67\x65\x59","\x74\x6F\x70","\x64\x65\x6C\x65\x67\x61\x74\x65","\x2E\x64\x72\x61\x67\x6D\x65\x20\x23\x63\x6C\x6F\x73\x65","\x6D\x6F\x75\x73\x65\x75\x70","\x68\x69\x64\x65","\x70\x72\x65\x76\x65\x6E\x74\x44\x65\x66\x61\x75\x6C\x74","\x6D\x6F\x75\x73\x65\x6D\x6F\x76\x65","\x72\x65\x61\x64\x79","\x74\x6F\x67\x67\x6C\x65"];$(_0x91c3[3])[_0x91c3[2]](function(){$(_0x91c3[1])[_0x91c3[0]]()});var dragContainer=$(_0x91c3[4]);var currentDragData={offset:{x:0,y:0},target:null};var docxyz=document;$(docxyz)[_0x91c3[29]](function(_0xb019x4){$(docxyz)[_0x91c3[23]](_0x91c3[5],_0x91c3[6],function(_0xb019x4){if(!currentDragData[_0x91c3[7]]){if($(_0xb019x4[_0x91c3[10]])[_0x91c3[9]](_0x91c3[8])&&!$(_0xb019x4[_0x91c3[7]])[_0x91c3[13]](_0x91c3[12])[_0x91c3[11]]){currentDragData[_0x91c3[7]]=$(_0xb019x4[_0x91c3[10]]);currentDragData[_0x91c3[7]][_0x91c3[15]]()[_0x91c3[14]](currentDragData[_0x91c3[7]]);currentDragData[_0x91c3[17]][_0x91c3[16]]=_0xb019x4[_0x91c3[18]]-currentDragData[_0x91c3[7]][_0x91c3[17]]()[_0x91c3[19]];currentDragData[_0x91c3[17]][_0x91c3[20]]=_0xb019x4[_0x91c3[21]]-currentDragData[_0x91c3[7]][_0x91c3[17]]()[_0x91c3[22]];}}});$(docxyz)[_0x91c3[23]](_0x91c3[24],_0x91c3[25],function(_0xb019x4){$(_0xb019x4[_0x91c3[10]])[_0x91c3[13]](_0x91c3[5])[_0x91c3[26]]()});$(docxyz)[_0x91c3[23]](_0x91c3[5],_0x91c3[25],function(_0xb019x4){if(currentDragData[_0x91c3[7]]){currentDragData[_0x91c3[7]]=null}});$(docxyz)[_0x91c3[28]](function(_0xb019x4){if(currentDragData[_0x91c3[7]]){_0xb019x4[_0x91c3[27]]();currentDragData[_0x91c3[7]][_0x91c3[17]]({left:_0xb019x4[_0x91c3[18]]-currentDragData[_0x91c3[17]][_0x91c3[16]],top:_0xb019x4[_0x91c3[21]]-currentDragData[_0x91c3[17]][_0x91c3[20]]});}});});function showDraggable(_0xb019x6){$(_0xb019x6)[_0x91c3[30]]();$(_0xb019x6)[_0x91c3[15]]()[_0x91c3[14]]($(_0xb019x6));}
 </script>
 
 <script type="text/javascript">
 function showDiv() {
 }
-function showAllDiv() {
-	document.getElementById('AccessGranted').style.display = "none";
-	document.getElementById('AccessDenied').style.display = "none";
-	document.getElementById('LevelRequired').style.display = "none";
-	document.getElementById('Downloading').style.display = "none";
-	document.getElementById('Initializing').style.display = "none";
-	document.getElementById('Scan').style.display = "none";
-	document.getElementById('Poke').style.display = "none";
-	document.getElementById('Map').style.display = "none";
-	document.getElementById('SystemFailure').style.display = "none";
-	document.getElementById('Help').style.display = "none";
-	document.getElementById('Breach').style.display = "none";
-	document.getElementById('Hash').style.display = "none";
-	document.getElementById('Evacuate').style.display = "none";
-	document.getElementById('Password').style.display = "none";
-	document.getElementById('section').style.display = "none";
-	document.getElementById('Query').style.display = "none";
-	document.getElementById('Console').style.display = "none";
-	document.getElementById('Deploy').style.display = "none";
-	document.getElementById('Irc').style.display = "none";
-	document.getElementById('Help').style.display = "none";
-	document.getElementById('Tracing').style.display = "none";
-	document.getElementById('Neurotoxin').style.display = "none";
-	document.getElementById('Rat').style.display = "none";	
-	document.getElementById('myaudio2').pause();
-	document.getElementById('myaudio').pause();
-}
+var _0xb0de=["\x64\x69\x73\x70\x6C\x61\x79","\x73\x74\x79\x6C\x65","\x41\x63\x63\x65\x73\x73\x47\x72\x61\x6E\x74\x65\x64","\x67\x65\x74\x45\x6C\x65\x6D\x65\x6E\x74\x42\x79\x49\x64","\x6E\x6F\x6E\x65","\x41\x63\x63\x65\x73\x73\x44\x65\x6E\x69\x65\x64","\x4C\x65\x76\x65\x6C\x52\x65\x71\x75\x69\x72\x65\x64","\x44\x6F\x77\x6E\x6C\x6F\x61\x64\x69\x6E\x67","\x49\x6E\x69\x74\x69\x61\x6C\x69\x7A\x69\x6E\x67","\x53\x63\x61\x6E","\x50\x6F\x6B\x65","\x4D\x61\x70","\x53\x79\x73\x74\x65\x6D\x46\x61\x69\x6C\x75\x72\x65","\x48\x65\x6C\x70","\x42\x72\x65\x61\x63\x68","\x48\x61\x73\x68","\x45\x76\x61\x63\x75\x61\x74\x65","\x50\x61\x73\x73\x77\x6F\x72\x64","\x73\x65\x63\x74\x69\x6F\x6E","\x51\x75\x65\x72\x79","\x43\x6F\x6E\x73\x6F\x6C\x65","\x44\x65\x70\x6C\x6F\x79","\x49\x72\x63","\x54\x72\x61\x63\x69\x6E\x67","\x4E\x65\x75\x72\x6F\x74\x6F\x78\x69\x6E","\x52\x61\x74","\x70\x61\x75\x73\x65","\x6D\x79\x61\x75\x64\x69\x6F\x32","\x6D\x79\x61\x75\x64\x69\x6F"];function hideAllDivMine(){docxyz[_0xb0de[3]](_0xb0de[2])[_0xb0de[1]][_0xb0de[0]]=_0xb0de[4];docxyz[_0xb0de[3]](_0xb0de[5])[_0xb0de[1]][_0xb0de[0]]=_0xb0de[4];docxyz[_0xb0de[3]](_0xb0de[6])[_0xb0de[1]][_0xb0de[0]]=_0xb0de[4];docxyz[_0xb0de[3]](_0xb0de[7])[_0xb0de[1]][_0xb0de[0]]=_0xb0de[4];docxyz[_0xb0de[3]](_0xb0de[8])[_0xb0de[1]][_0xb0de[0]]=_0xb0de[4];docxyz[_0xb0de[3]](_0xb0de[9])[_0xb0de[1]][_0xb0de[0]]=_0xb0de[4];docxyz[_0xb0de[3]](_0xb0de[10])[_0xb0de[1]][_0xb0de[0]]=_0xb0de[4];docxyz[_0xb0de[3]](_0xb0de[11])[_0xb0de[1]][_0xb0de[0]]=_0xb0de[4];docxyz[_0xb0de[3]](_0xb0de[12])[_0xb0de[1]][_0xb0de[0]]=_0xb0de[4];docxyz[_0xb0de[3]](_0xb0de[13])[_0xb0de[1]][_0xb0de[0]]=_0xb0de[4];docxyz[_0xb0de[3]](_0xb0de[14])[_0xb0de[1]][_0xb0de[0]]=_0xb0de[4];docxyz[_0xb0de[3]](_0xb0de[15])[_0xb0de[1]][_0xb0de[0]]=_0xb0de[4];docxyz[_0xb0de[3]](_0xb0de[16])[_0xb0de[1]][_0xb0de[0]]=_0xb0de[4];docxyz[_0xb0de[3]](_0xb0de[17])[_0xb0de[1]][_0xb0de[0]]=_0xb0de[4];docxyz[_0xb0de[3]](_0xb0de[18])[_0xb0de[1]][_0xb0de[0]]=_0xb0de[4];docxyz[_0xb0de[3]](_0xb0de[19])[_0xb0de[1]][_0xb0de[0]]=_0xb0de[4];docxyz[_0xb0de[3]](_0xb0de[20])[_0xb0de[1]][_0xb0de[0]]=_0xb0de[4];docxyz[_0xb0de[3]](_0xb0de[21])[_0xb0de[1]][_0xb0de[0]]=_0xb0de[4];docxyz[_0xb0de[3]](_0xb0de[22])[_0xb0de[1]][_0xb0de[0]]=_0xb0de[4];docxyz[_0xb0de[3]](_0xb0de[13])[_0xb0de[1]][_0xb0de[0]]=_0xb0de[4];docxyz[_0xb0de[3]](_0xb0de[23])[_0xb0de[1]][_0xb0de[0]]=_0xb0de[4];docxyz[_0xb0de[3]](_0xb0de[24])[_0xb0de[1]][_0xb0de[0]]=_0xb0de[4];docxyz[_0xb0de[3]](_0xb0de[25])[_0xb0de[1]][_0xb0de[0]]=_0xb0de[4];docxyz[_0xb0de[3]](_0xb0de[27])[_0xb0de[26]]();docxyz[_0xb0de[3]](_0xb0de[28])[_0xb0de[26]]();}
 </script>
 <script type="text/javascript">
-$(document).keyup(function(event) { 
-    
- if(event.which == 27) { 
-   showAllDiv();
- }
-  if(event.which == 8) { 
-   showAllDiv();
- }
- else if(event.which == 37) { 
-   showAllDiv();
-   document.getElementById('Tracing').style.display = "block";
- }
- else if(event.which == 40) { 
-   showAllDiv();
-   document.getElementById('Rat').style.display = "block";
- }
- else if(event.which == 39) { 
-   showAllDiv();
-   document.getElementById('Irc').style.display = "block";
-   }
- else if(event.which == 38) { 
-   showAllDiv();
-   document.getElementById('Neurotoxin').style.display = "block";
-  }
- else if(event.which == 18) { 
-   showAllDiv();
-   document.getElementById('AccessGranted').style.display = "block";
- }
-  else if(event.which == 190) { 
-   showAllDiv();
-   document.getElementById('AccessGranted').style.display = "block";
- }
- else if(event.which == 13) { 
-   showAllDiv();
-   document.getElementById('AccessDenied').style.display = "block";
- }
- else if(event.which == 16) { 
-   showAllDiv();
-   document.getElementById('AccessGranted').style.display = "block";
- }
-  else if(event.which == 49) { 
-   showAllDiv();
-   document.getElementById('Downloading').style.display = "block";
-   
- }
-  else if(event.which == 50) { 
-   showAllDiv();
-   document.getElementById('Initializing').style.display = "block";
- }
-  else if(event.which == 51) { 
-   showAllDiv();
-   document.getElementById('Scan').style.display = "block";
-  }
-
-  else if(event.which == 52) { 
-   showAllDiv();
-   document.getElementById('Console').style.display = "block";
- }
-  else if(event.which == 36) { 
-   showAllDiv();
-   document.getElementById('Map').style.display = "block";
- }
-  else if(event.which == 53) { 
-   showAllDiv();
-   document.getElementById('Poke').style.display = "block";
-  }
-  else if(event.which == 54) { 
-   showAllDiv();
-   document.getElementById('Hash').style.display = "block";
-    }
-  else if(event.which == 55) { 
-   showAllDiv();
-   document.getElementById('Query').style.display = "block";
-     }
-  else if(event.which == 57) { 
-   showAllDiv();
-   document.getElementById('Deploy').style.display = "block";
-  }
-  else if(event.which == 56) { 
-   showAllDiv();
-   document.getElementById('Breach').style.display = "block";
-  }
-  else if(event.which == 48) { 
-   showAllDiv();
-   alert("gest");
-   document.getElementById('myaudio').play();
-   document.getElementById('Evacuate').style.display = "block";
-   }
-   else if(event.which == 35) { 
-   showAllDiv();
-   document.getElementById('Password').style.display = "block";
-     
-    setTimeout(function() {
-      showAllDiv();
-  document.getElementById("ConnectionLost").style.display = "block";
-  document.getElementById('myaudio2').pause();
-}, 22000);
-  
-  setTimeout(function() {
-      showAllDiv();
-  document.getElementById("Countdown").style.display = "block";
-  document.getElementById('myaudio2').play();
-}, 4000);
-
-
-   }
-  else if(event.which == 9) { 
-   showAllDiv();
-   document.getElementById('Help').style.display = "block";
-  // document.getElementById('section').style.display = "block";
-       }
-	   
-	   
-	   
-  else if(event.which == 113) { 
-   showAllDiv();
-   document.getElementById('Help').style.display = "block";
-   document.getElementById('section').style.display = "block";
-       }
-	   
-  else if(event.which == 101) { 
-   showAllDiv();
-   document.getElementById('SystemFailure').style.display = "block";
-    }
-  else if(event.which == 97) { 
-   showAllDiv();
-   document.getElementById('Numbers').style.display = "block";
-    }
-  else if(event.which == 98) { 
-   showAllDiv();
-   document.getElementById('Radar').style.display = "block";
-     }
-  else if(event.which == 99) { 
-   showAllDiv();
-   document.getElementById('Pony').style.display = "block";
-      }
-  else if(event.which == 100) { 
-  }
-});
-function showhelp(){
-    showAllDiv();
-   document.getElementById('Help').style.display = "block";
-   document.getElementById('section').style.display = "block";
-}
+var _0x9154=["\x77\x68\x69\x63\x68","\x64\x69\x73\x70\x6C\x61\x79","\x73\x74\x79\x6C\x65","\x54\x72\x61\x63\x69\x6E\x67","\x67\x65\x74\x45\x6C\x65\x6D\x65\x6E\x74\x42\x79\x49\x64","\x62\x6C\x6F\x63\x6B","\x52\x61\x74","\x49\x72\x63","\x4E\x65\x75\x72\x6F\x74\x6F\x78\x69\x6E","\x41\x63\x63\x65\x73\x73\x47\x72\x61\x6E\x74\x65\x64","\x41\x63\x63\x65\x73\x73\x44\x65\x6E\x69\x65\x64","\x44\x6F\x77\x6E\x6C\x6F\x61\x64\x69\x6E\x67","\x49\x6E\x69\x74\x69\x61\x6C\x69\x7A\x69\x6E\x67","\x53\x63\x61\x6E","\x43\x6F\x6E\x73\x6F\x6C\x65","\x4D\x61\x70","\x50\x6F\x6B\x65","\x48\x61\x73\x68","\x51\x75\x65\x72\x79","\x44\x65\x70\x6C\x6F\x79","\x42\x72\x65\x61\x63\x68","\x70\x6C\x61\x79","\x6D\x79\x61\x75\x64\x69\x6F","\x45\x76\x61\x63\x75\x61\x74\x65","\x50\x61\x73\x73\x77\x6F\x72\x64","\x43\x6F\x6E\x6E\x65\x63\x74\x69\x6F\x6E\x4C\x6F\x73\x74","\x70\x61\x75\x73\x65","\x6D\x79\x61\x75\x64\x69\x6F\x32","\x43\x6F\x75\x6E\x74\x64\x6F\x77\x6E","\x48\x65\x6C\x70","\x73\x65\x63\x74\x69\x6F\x6E","\x53\x79\x73\x74\x65\x6D\x46\x61\x69\x6C\x75\x72\x65","\x4E\x75\x6D\x62\x65\x72\x73","\x52\x61\x64\x61\x72","\x50\x6F\x6E\x79","\x6B\x65\x79\x75\x70"];$(docxyz)[_0x9154[35]](function(_0xfaf8x1){if(_0xfaf8x1[_0x9154[0]]==27){hideAllDivMine()};if(_0xfaf8x1[_0x9154[0]]==8){hideAllDivMine()}else {if(_0xfaf8x1[_0x9154[0]]==37){hideAllDivMine();docxyz[_0x9154[4]](_0x9154[3])[_0x9154[2]][_0x9154[1]]=_0x9154[5];}else {if(_0xfaf8x1[_0x9154[0]]==40){hideAllDivMine();docxyz[_0x9154[4]](_0x9154[6])[_0x9154[2]][_0x9154[1]]=_0x9154[5];}else {if(_0xfaf8x1[_0x9154[0]]==39){hideAllDivMine();docxyz[_0x9154[4]](_0x9154[7])[_0x9154[2]][_0x9154[1]]=_0x9154[5];}else {if(_0xfaf8x1[_0x9154[0]]==38){hideAllDivMine();docxyz[_0x9154[4]](_0x9154[8])[_0x9154[2]][_0x9154[1]]=_0x9154[5];}else {if(_0xfaf8x1[_0x9154[0]]==18){hideAllDivMine();docxyz[_0x9154[4]](_0x9154[9])[_0x9154[2]][_0x9154[1]]=_0x9154[5];}else {if(_0xfaf8x1[_0x9154[0]]==190){hideAllDivMine();docxyz[_0x9154[4]](_0x9154[9])[_0x9154[2]][_0x9154[1]]=_0x9154[5];}else {if(_0xfaf8x1[_0x9154[0]]==13){hideAllDivMine();docxyz[_0x9154[4]](_0x9154[10])[_0x9154[2]][_0x9154[1]]=_0x9154[5];}else {if(_0xfaf8x1[_0x9154[0]]==16){hideAllDivMine();docxyz[_0x9154[4]](_0x9154[9])[_0x9154[2]][_0x9154[1]]=_0x9154[5];}else {if(_0xfaf8x1[_0x9154[0]]==49){hideAllDivMine();docxyz[_0x9154[4]](_0x9154[11])[_0x9154[2]][_0x9154[1]]=_0x9154[5];}else {if(_0xfaf8x1[_0x9154[0]]==50){hideAllDivMine();docxyz[_0x9154[4]](_0x9154[12])[_0x9154[2]][_0x9154[1]]=_0x9154[5];}else {if(_0xfaf8x1[_0x9154[0]]==51){hideAllDivMine();docxyz[_0x9154[4]](_0x9154[13])[_0x9154[2]][_0x9154[1]]=_0x9154[5];}else {if(_0xfaf8x1[_0x9154[0]]==52){hideAllDivMine();docxyz[_0x9154[4]](_0x9154[14])[_0x9154[2]][_0x9154[1]]=_0x9154[5];}else {if(_0xfaf8x1[_0x9154[0]]==36){hideAllDivMine();docxyz[_0x9154[4]](_0x9154[15])[_0x9154[2]][_0x9154[1]]=_0x9154[5];}else {if(_0xfaf8x1[_0x9154[0]]==53){hideAllDivMine();docxyz[_0x9154[4]](_0x9154[16])[_0x9154[2]][_0x9154[1]]=_0x9154[5];}else {if(_0xfaf8x1[_0x9154[0]]==54){hideAllDivMine();docxyz[_0x9154[4]](_0x9154[17])[_0x9154[2]][_0x9154[1]]=_0x9154[5];}else {if(_0xfaf8x1[_0x9154[0]]==55){hideAllDivMine();docxyz[_0x9154[4]](_0x9154[18])[_0x9154[2]][_0x9154[1]]=_0x9154[5];}else {if(_0xfaf8x1[_0x9154[0]]==57){hideAllDivMine();docxyz[_0x9154[4]](_0x9154[19])[_0x9154[2]][_0x9154[1]]=_0x9154[5];}else {if(_0xfaf8x1[_0x9154[0]]==56){hideAllDivMine();docxyz[_0x9154[4]](_0x9154[20])[_0x9154[2]][_0x9154[1]]=_0x9154[5];}else {if(_0xfaf8x1[_0x9154[0]]==48){hideAllDivMine();docxyz[_0x9154[4]](_0x9154[22])[_0x9154[21]]();docxyz[_0x9154[4]](_0x9154[23])[_0x9154[2]][_0x9154[1]]=_0x9154[5];}else {if(_0xfaf8x1[_0x9154[0]]==35){hideAllDivMine();docxyz[_0x9154[4]](_0x9154[24])[_0x9154[2]][_0x9154[1]]=_0x9154[5];setTimeout(function(){hideAllDivMine();docxyz[_0x9154[4]](_0x9154[25])[_0x9154[2]][_0x9154[1]]=_0x9154[5];docxyz[_0x9154[4]](_0x9154[27])[_0x9154[26]]();},22000);setTimeout(function(){hideAllDivMine();docxyz[_0x9154[4]](_0x9154[28])[_0x9154[2]][_0x9154[1]]=_0x9154[5];docxyz[_0x9154[4]](_0x9154[27])[_0x9154[21]]();},4000);}else {if(_0xfaf8x1[_0x9154[0]]==9){hideAllDivMine();docxyz[_0x9154[4]](_0x9154[29])[_0x9154[2]][_0x9154[1]]=_0x9154[5];}else {if(_0xfaf8x1[_0x9154[0]]==113){hideAllDivMine();docxyz[_0x9154[4]](_0x9154[29])[_0x9154[2]][_0x9154[1]]=_0x9154[5];docxyz[_0x9154[4]](_0x9154[30])[_0x9154[2]][_0x9154[1]]=_0x9154[5];}else {if(_0xfaf8x1[_0x9154[0]]==101){hideAllDivMine();docxyz[_0x9154[4]](_0x9154[31])[_0x9154[2]][_0x9154[1]]=_0x9154[5];}else {if(_0xfaf8x1[_0x9154[0]]==97){hideAllDivMine();docxyz[_0x9154[4]](_0x9154[32])[_0x9154[2]][_0x9154[1]]=_0x9154[5];}else {if(_0xfaf8x1[_0x9154[0]]==98){hideAllDivMine();docxyz[_0x9154[4]](_0x9154[33])[_0x9154[2]][_0x9154[1]]=_0x9154[5];}else {if(_0xfaf8x1[_0x9154[0]]==99){hideAllDivMine();docxyz[_0x9154[4]](_0x9154[34])[_0x9154[2]][_0x9154[1]]=_0x9154[5];}else {if(_0xfaf8x1[_0x9154[0]]==100){}}}}}}}}}}}}}}}}}}}}}}}}}}}};});function showhelp(){hideAllDivMine();docxyz[_0x9154[4]](_0x9154[29])[_0x9154[2]][_0x9154[1]]=_0x9154[5];docxyz[_0x9154[4]](_0x9154[30])[_0x9154[2]][_0x9154[1]]=_0x9154[5];}
 
 </script>
 </head>
@@ -365,7 +142,7 @@ function showhelp(){
         
 	
 </select>
-<select name="kernel" id="kernel">
+<!--<select name="kernel" id="kernel">
     <option selected="selected" value="4">Python</option>
     <option  value="0">Javascript</option>
     <option value="1">Java</option>
@@ -373,7 +150,7 @@ function showhelp(){
 	<option value="3">C++</option>
 	
 	
-</select>
+</select>-->
 <!--<select name="kernel" id="kernel">
     <option value="0">Linux</option>
     <option value="1">ASP.NET MVC</option>
@@ -388,14 +165,14 @@ function showhelp(){
 <script>
 function myFunction() {
 
-    localStorage.setItem('folders', "none");
+    loc.setItem('folders', "none");
 		$("#folders").css("display", "none");
 }
 
 
 function myFunction2() {
 
-	    localStorage.setItem('folders', "block");
+	    loc.setItem('folders', "block");
 		$("#folders").css("display", "block");
 }
 </script>
@@ -403,34 +180,14 @@ function myFunction2() {
 <input value="OFF" onclick="myFunction()" style="width:auto;padding:2px;" type="SUBMIT">
 <input value="ON" onclick="myFunction2()" style="width:auto;padding:2px;" type="SUBMIT">-->
 
-<script>
-$.fn.selectText = function () {
-    return $(this).each(function (index, el) {
-        if (document.selection) {
-            var range = document.body.createTextRange();
-            range.moveToElementText(el);
-            range.select();
-        } else if (window.getSelection) {
-            var range = document.createRange();
-            range.selectNode(el);
-            window.getSelection().addRange(range);
-        }
-    });
-}
-</script>
+
 <div id="section2" onclick="$(this).selectText()"><div class="SD">THUNDERIFY.COM</div><div id="w1" class="SD">3</div><div class="SD">!</div><div id="w2" class="SD">umbrella.jpg</div><div class="SD">!</div><div id="w3" class="SD">rgb(0,0,0)</div><div class="SD">!</div><div id="w4" class="SD">rgb(255,0,0)</div>
 </div>
 
 
 <img src="geektype3_files/close.png" id="hide" style="width:40px;height:40px;float:right;margin-right:35px;margin-top:3px;">
 </div>
-<div id="console">
-<button id='automate' onclick="var x = setInterval(function(){
-        Typer.addTextAuto(12);
-}, 30);" title="Write code for me" id="button">Automate</button>
 
-<div id="txt">15:56:45</div>
-<br> PRESS TAB for help</div>
 </div>
 
 
@@ -599,39 +356,56 @@ Shift for Access Granted<br>
 	<p id="achievementname"></p>
 	</div>
 -->
-<div id="console">userna|</div>
 
 
-<div style="font-family: Arial; display: block;" id="folders">
-    <div style="background-color: rgb(255, 0, 0);" class="folder" onclick='$("#BigFolder").toggle();'><p>ALL ACTIONS</p></div>
-<div style="background-color: rgb(255, 0, 0);" class="folder" onclick='showDraggable("#Downloading");'><p>Download</p></div>
-<!--<div style="background-color: rgb(255, 0, 0);" class="folder" onclick='showDraggable("#Console");'><p>Terminal</p></div>
-<div style="background-color: rgb(255, 0, 0);" class="folder" onclick='showDraggable("#Hash");'><p>Decryptor</p></div>-->
-<div style="background-color: rgb(255, 0, 0);" class="folder" onclick='$("#section").toggle();'><p>Settings</p></div>
 
-<div style="background-color: rgb(255, 0, 0);" class="folder" onclick='$("#Help").toggle();'><p>Options/Help</p></div>
+
+    <div style="background-color: rgb(255, 0, 0);" class="folder" onclick='$("#section").toggle();'><p style='color:red'>Settings</p></div>
+
+<div style="background-color: rgb(255, 0, 0);" class="folder" onclick='$("#Help").toggle();'><p style='color:red'>Options/Help</p></div>
+
+
 <div id="result2"></div>
-</div>
+
+<!--<div style="background-color: rgb(255, 0, 0);" class="folder" onclick='showDraggable("#Downloading");'><p>Download</p></div>-->
+<div style="background-color: rgb(255, 0, 0);" class="folder" onclick='showDraggable("#Hash");'><p>Hash Pwd</p></div>
+<div style="background-color: rgb(255, 0, 0);" class="folder" onclick='showDraggable("#Console");'><p>Kernel</p></div>
+<div style="background-color: rgb(255, 0, 0);" class="folder" onclick='showDraggable("#Console2");'><p>Kernel TV</p></div>
+<div style="background-color: rgb(255, 0, 0);" class="folder" onclick='showDraggable("#Initializing");'><p>Decryptor</p></div>
+<div style="background-color: rgb(255, 0, 0);" class="folder" onclick='showDraggable("#Map");'><p>Nuke</p></div>
+<div style="background-color: rgb(255, 0, 0);" class="folder" onclick='showDraggable("#Scan");'><p>Rat Attack</p></div>
+<div style="background-color: rgb(255, 0, 0);" class="folder" onclick='showDraggable("#Query");'><p>Interpol</p></div>
+<div style="background-color: rgb(255, 0, 0);" class="folder" onclick='showDraggable("#Deploy");'><p>Deploy</p></div>
+<div style="background-color: rgb(255, 0, 0);" class="folder" onclick='showDraggable("#Irc");'><p>Talk</p></div>
+<div style="background-color: rgb(255, 0, 0);" class="folder" onclick='showDraggable("#Tracing");'><p>Trace</p></div>
+<div style="background-color: rgb(255, 0, 0);" class="folder" onclick='showDraggable("#Neurotoxin");'><p>Flood Facility</p></div>
+<div style="background-color: rgb(255, 0, 0);" class="folder" onclick='showDraggable("#CountDown");'><p>CountDown</p></div>
+<div style="background-color: rgb(255, 0, 0);" class="folder" onclick='showDraggable("#Rat");'><p>Virus</p></div>
+<div style="background-color: rgb(255, 0, 0);" class="folder" onclick='showDraggable("#AccessDenied");'><p>Denied</p></div>
+<div style="background-color: rgb(255, 0, 0);" class="folder" onclick='showDraggable("#Download2");'><p>Hacked</p></div>
+<div style="background-color: rgb(255, 0, 0);" class="folder" onclick='showDraggable("#Breach");'><p>Blast</p></div>
+
 <script type="text/javascript">
 //$("body").on("pageshow", function( event ) {
 //        $("body").find('input:first').focus();
 //} );
+var loc = localStorage;
 if (typeof(Storage) != "undefined") {
-	 getColour = localStorage.getItem("color1");
+	 getColour = loc.getItem("color1");
         // console.log(location.search);//location.search is options
 	 var c1 = location.search.split('!')[3] ? location.search.split('!')[3] : getColour;
-localStorage.setItem('color1', c1);
-document.getElementById("w3").innerHTML = c1;
+loc.setItem('color1', c1);
+docxyz.getElementById("w3").innerHTML = c1;
 
 
 	 $("body").css({"background-color":c1});
 	 $("button").css({"color":c1});
 	
-	getColour2 = localStorage.getItem("color2");
+	getColour2 = loc.getItem("color2");
 	 	 var c2 = location.search.split('!')[4] ? location.search.split('!')[4] : getColour2;
-		 document.getElementById("w4").innerHTML = c2;
+		 docxyz.getElementById("w4").innerHTML = c2;
 
-localStorage.setItem('color2', c2);
+loc.setItem('color2', c2);
 	 $("body").css({"color":c2});
 	 $("button").css({"background-color":c2});
 	 $(".folder").css({"background-color":c2});
@@ -644,66 +418,37 @@ localStorage.setItem('color2', c2);
 	 
 	 
 	 
-getFont = localStorage.getItem("mainfont") || 'Arial';
+getFont = loc.getItem("mainfont") || 'Arial';
 var f1 = location.search.split('!')[5] ? location.search.split('!')[5] : getFont;
-localStorage.setItem('mainfont', f1);
+loc.setItem('mainfont', f1);
 	 	 	$("body").css({"font-family":f1});
 			$("#folders").css({"font-family":f1});
 
 
-getAchievement1 = localStorage.getItem("lazy") || '0';
-	if (getAchievement1 == 1) {
-	document.getElementById("getAchievement1").innerHTML = "<img title='Lazy College Senior&#13;Type 300 Characters' src=\"../ASSETS/achievements/progress/lazy/" + getAchievement1 + ".png\">";};
-getAchievement2 = localStorage.getItem("shakespeare") || '0';
-	if (getAchievement2 == 1) {
-	document.getElementById("getAchievement2").innerHTML = "<img title='Shakespeare?&#13;Type 3000 Characters' src=\"../ASSETS/achievements/progress/shakespeare/" + getAchievement2 + ".png\">";};
-getAchievement3 = localStorage.getItem("dostoyevsky") || '0';
-	if (getAchievement3 == 1) {
-	document.getElementById("getAchievement3").innerHTML = "<img title='Dostoyevsky, surely&#13;Type 8000 Characters' src=\"../ASSETS/achievements/progress/dostoyevsky/" + getAchievement3 + ".png\">";};
-getAchievement4 = localStorage.getItem("aynrand") || '0';
-	if (getAchievement4 == 1) {
-	document.getElementById("getAchievement4").innerHTML = "<img title='Are you Ayn Rand?&#13;Type 14000 Characters' src=\"../ASSETS/achievements/progress/aynrand/" + getAchievement4 + ".png\">";};
-getAchievement5 = localStorage.getItem("monkeys") || '0';
-	if (getAchievement5 == 1) {
-	document.getElementById("getAchievement5").innerHTML = "<img title='1000 Monkeys, 1000 Typewriters&#13;Type 20000 Characters' src=\"../ASSETS/achievements/progress/monkeys/" + getAchievement5 + ".png\">";};
-getAchievement6 = localStorage.getItem("watson") || '0';
-	if (getAchievement6 == 1) {
-	document.getElementById("getAchievement6").innerHTML = "<img title='You are IBM Watson&#13;Type 50000 Characters' src=\"../ASSETS/achievements/progress/watson/" + getAchievement6 + ".png\">";};
-getAchievement7 = localStorage.getItem("celestia") || '0';
-	if (getAchievement7 == 1) {
-	document.getElementById("getAchievement7").innerHTML = "<img title='You are Princess Celestia&#13;Type 100.000 Characters' src=\"../ASSETS/achievements/progress/celestia/" + getAchievement7 + ".png\">";};
-getAchievement8 = localStorage.getItem("impossibru") || '0';
-	if (getAchievement8 == 1) {
-	document.getElementById("getAchievement8").innerHTML = "<img title='IMPOSSIBRU&#13;CANNOT BE REAL (1 Million Characters)' src=\"../ASSETS/achievements/progress/impossibru/" + getAchievement8 + ".png\">";};
-getAchievement9 = localStorage.getItem("hax") || '0';
-	if (getAchievement9 == 1) {
-	document.getElementById("getAchievement9").innerHTML = "<img title='HAAAAAAAX&#13;HAAAAAAAAAAAX (10 Million Characters)' src=\"../ASSETS/achievements/progress/hax/" + getAchievement9 + ".gif\">";};
-	
-
-getFolders = localStorage.getItem("folders") || 'block';
+getFolders = loc.getItem("folders") || 'block';
 $("#folders").css("display", getFolders);
 				  
-getTexture = localStorage.getItem("texture") || '1.png';
-var t = location.search.split('!')[2] ? location.search.split('!')[2] : getTexture;
-localStorage.setItem('texture', t);
+getTex = loc.getItem("texture") || '1.png';
+var t = location.search.split('!')[2] ? location.search.split('!')[2] : getTex;
+loc.setItem('texture', t);
 	 	 	$("body").css("background-image",'url("../ASSETS/textures/'+ t +'")');
-			document.getElementById("w2").innerHTML = t;
+			docxyz.getElementById("w2").innerHTML = t;
 			
-getLogo = localStorage.getItem("logotype") || '10';
+getLogo = loc.getItem("logotype") || '10';
 var l = location.search.split('!')[1] ? location.search.split('!')[1] : getLogo;
-localStorage.setItem('logotype', l);
-document.getElementById("w1").innerHTML = l;
+loc.setItem('logotype', l);
+docxyz.getElementById("w1").innerHTML = l;
 
 			
 
 	  	$("#center").css("background-image",'url("../ASSETS/logos/'+ l +'.png")');
 	 
 } else {
-    document.getElementById("result").innerHTML = "Sorry, your browser does not support Web Storage...";
+    docxyz.getElementById("result").innerHTML = "Sorry, your browser does not support Web Storage...";
 }
 </script>
 <script type="text/javascript">
-$(document).ready(function() {
+$(docxyz).ready(function() {
     $('select').change(function() {
         if($(this).val() == "Default font"){
             $('body').css('font-family',"");
@@ -711,15 +456,15 @@ $(document).ready(function() {
         }else{
             $('body').css('font-family',$(this).val());
 			$('#folders').css('font-family',$(this).val());
-			localStorage.setItem("fonttype", $(this).val());
+			loc.setItem("fonttype", $(this).val());
         }
 
     }); 
   
 });
 </script>
-<script>
-$(document).ready(function(){
+<script >
+$(docxyz).ready(function(){
   $("#hide").click(function(){
     $("#section").hide();
 	$("#Help").hide();
@@ -732,17 +477,17 @@ $(document).ready(function(){
 </script>
 <script type="text/javascript">//<![CDATA[ 
 
-document.getElementById("logotype").onchange = function() {
-    localStorage.setItem('logotype', document.getElementById("logotype").value);
-	 getLogo = localStorage.getItem("logotype");
+docxyz.getElementById("logotype").onchange = function() {
+    loc.setItem('logotype', docxyz.getElementById("logotype").value);
+	 getLogo = loc.getItem("logotype");
 
 		  	$("#center").css("background-image",'url("../ASSETS/logos/'+ getLogo +'.png")');
-			document.getElementById('section2').style.display = "none";
-			document.getElementById("w1").innerHTML = getLogo;
+			docxyz.getElementById('section2').style.display = "none";
+			docxyz.getElementById("w1").innerHTML = getLogo;
 }
 
-if (localStorage.getItem('logotype')) {
-    document.getElementById("logotype").options[localStorage.getItem('logotype')].selected = true;
+if (loc.getItem('logotype')) {
+    docxyz.getElementById("logotype").options[loc.getItem('logotype')].selected = true;
 
 }
 //]]>  
@@ -750,16 +495,16 @@ if (localStorage.getItem('logotype')) {
 </script>
 <script type="text/javascript">//<![CDATA[ 
 
-document.getElementById("texture").onchange = function() {
-    localStorage.setItem('texture', document.getElementById("texture").value);
-	getTexture = localStorage.getItem("texture");
-	 	$("body").css("background-image",'url("../ASSETS/textures/'+ getTexture +'")');
-		document.getElementById('section2').style.display = "none";
-	document.getElementById("w2").innerHTML = getTexture;
+docxyz.getElementById("texture").onchange = function() {
+    loc.setItem('texture', docxyz.getElementById("texture").value);
+	getTex = loc.getItem("texture");
+	 	$("body").css("background-image",'url("../ASSETS/textures/'+ getTex +'")');
+		docxyz.getElementById('section2').style.display = "none";
+	docxyz.getElementById("w2").innerHTML = getTex;
 }
 
-if (localStorage.getItem('texture')) {
-    document.getElementById("texture").options[localStorage.getItem('texture')].selected = true;
+if (loc.getItem('texture')) {
+    docxyz.getElementById("texture").options[loc.getItem('texture')].selected = true;
 
 
 }
@@ -770,14 +515,14 @@ if (localStorage.getItem('texture')) {
 
 <script type="text/javascript">//<![CDATA[ 
 
-document.getElementById("kernel").onchange = function() {
-    localStorage.setItem('kernel', document.getElementById("kernel").value);
+docxyz.getElementById("kernel").onchange = function() {
+    loc.setItem('kernel', docxyz.getElementById("kernel").value);
 	location.reload();
 
 }
 
-if (localStorage.getItem('kernel')) {
-    document.getElementById("kernel").options[localStorage.getItem('kernel')].selected = true;
+if (loc.getItem('kernel')) {
+    docxyz.getElementById("kernel").options[loc.getItem('kernel')].selected = true;
 
 
 }
@@ -785,38 +530,13 @@ if (localStorage.getItem('kernel')) {
 </script>
 <script type="text/javascript">//<![CDATA[ 
 
-$(".basic").spectrum({
-	 allowEmpty: true,
-	localStorageKey: "color1",
-    change: function(color) {
-	localStorage.setItem("color1", color.toHexString());
-        $("body").css({"background-color":color.toHexString()});
-		$("#button").css({"color":color.toHexString()});
-		document.getElementById('section2').style.display = "none";
-		document.getElementById("w3").innerHTML = color.toRgbString().replace(" ", "").replace(" ", "");
-		
-    }
-});
+
 </script><div style="position: absolute; top: 10px; left: 0px;" class="sp-container sp-hidden sp-light sp-input-disabled sp-clear-enabled sp-palette-buttons-disabled sp-palette-disabled sp-initial-disabled"><div class="sp-palette-container"><div class="sp-palette sp-thumb sp-cf"></div><div class="sp-palette-button-container sp-cf"><button type="button" class="sp-palette-toggle">less</button></div></div><div class="sp-picker-container"><div class="sp-top sp-cf"><div class="sp-fill"></div><div class="sp-top-inner"><div style="background-color: rgb(255, 0, 0);" class="sp-color"><div class="sp-sat"><div class="sp-val"><div style="display: none;" class="sp-dragger"></div></div></div></div><div title="Clear Color Selection" class="sp-clear sp-clear-display"></div><div style="" class="sp-hue"><div style="display: none;" class="sp-slider"></div></div></div><div style="" class="sp-alpha"><div class="sp-alpha-inner"><div style="display: none;" class="sp-alpha-handle"></div></div></div></div><div class="sp-input-container sp-cf"><input class="sp-input" spellcheck="false" type="text"></div><div class="sp-initial sp-thumb sp-cf"></div><div class="sp-button-container sp-cf"><a class="sp-cancel" href="#">cancel</a><button type="button" class="sp-choose">choose</button></div></div></div>
 
 
 <script type="text/javascript">//<![CDATA[ 
 
-$(".basic2").spectrum({
-	localStorageKey: "color2",
-	 allowEmpty: true,
-    change: function(color) {
-		localStorage.setItem("color2", color.toHexString());
-        $("body").css({"color":color.toHexString()});
-		$(".folder").css({"background-color":color.toHexString()});
-		$(".dragme").css({"border-color":color.toHexString()});
-		$(".dragme").css({"color":color.toHexString()});		
-		localStorage.setItem("colorbutton", color.toHexString());
-		$("#button").css({"background-color":color.toHexString()});
-		document.getElementById('section2').style.display = "none";
-		document.getElementById("w4").innerHTML = color.toRgbString().replace(" ", "").replace(" ", "");
-    }
-});
+var _0xb7b5=["\x63\x6F\x6C\x6F\x72\x32","\x74\x6F\x48\x65\x78\x53\x74\x72\x69\x6E\x67","\x73\x65\x74\x49\x74\x65\x6D","\x63\x73\x73","\x62\x6F\x64\x79","\x2E\x66\x6F\x6C\x64\x65\x72","\x2E\x64\x72\x61\x67\x6D\x65","\x63\x6F\x6C\x6F\x72\x62\x75\x74\x74\x6F\x6E","\x23\x62\x75\x74\x74\x6F\x6E","\x64\x69\x73\x70\x6C\x61\x79","\x73\x74\x79\x6C\x65","\x73\x65\x63\x74\x69\x6F\x6E\x32","\x67\x65\x74\x45\x6C\x65\x6D\x65\x6E\x74\x42\x79\x49\x64","\x6E\x6F\x6E\x65","\x69\x6E\x6E\x65\x72\x48\x54\x4D\x4C","\x77\x34","\x20","","\x72\x65\x70\x6C\x61\x63\x65","\x74\x6F\x52\x67\x62\x53\x74\x72\x69\x6E\x67","\x73\x70\x65\x63\x74\x72\x75\x6D","\x2E\x62\x61\x73\x69\x63\x32"];$(_0xb7b5[21])[_0xb7b5[20]]({locKey:_0xb7b5[0],allowEmpty:true,change:function(_0x128dx1){loc[_0xb7b5[2]](_0xb7b5[0],_0x128dx1[_0xb7b5[1]]());$(_0xb7b5[4])[_0xb7b5[3]]({"\x63\x6F\x6C\x6F\x72":_0x128dx1[_0xb7b5[1]]()});$(_0xb7b5[5])[_0xb7b5[3]]({"\x62\x61\x63\x6B\x67\x72\x6F\x75\x6E\x64\x2D\x63\x6F\x6C\x6F\x72":_0x128dx1[_0xb7b5[1]]()});$(_0xb7b5[6])[_0xb7b5[3]]({"\x62\x6F\x72\x64\x65\x72\x2D\x63\x6F\x6C\x6F\x72":_0x128dx1[_0xb7b5[1]]()});$(_0xb7b5[6])[_0xb7b5[3]]({"\x63\x6F\x6C\x6F\x72":_0x128dx1[_0xb7b5[1]]()});loc[_0xb7b5[2]](_0xb7b5[7],_0x128dx1[_0xb7b5[1]]());$(_0xb7b5[8])[_0xb7b5[3]]({"\x62\x61\x63\x6B\x67\x72\x6F\x75\x6E\x64\x2D\x63\x6F\x6C\x6F\x72":_0x128dx1[_0xb7b5[1]]()});docxyz[_0xb7b5[12]](_0xb7b5[11])[_0xb7b5[10]][_0xb7b5[9]]=_0xb7b5[13];docxyz[_0xb7b5[12]](_0xb7b5[15])[_0xb7b5[14]]=_0x128dx1[_0xb7b5[19]]()[_0xb7b5[18]](_0xb7b5[16],_0xb7b5[17])[_0xb7b5[18]](_0xb7b5[16],_0xb7b5[17]);}});
 </script><div style="position: absolute; top: 10px; left: 0px;" class="sp-container sp-hidden sp-light sp-input-disabled sp-clear-enabled sp-palette-buttons-disabled sp-palette-disabled sp-initial-disabled"><div class="sp-palette-container"><div class="sp-palette sp-thumb sp-cf"></div><div class="sp-palette-button-container sp-cf"><button type="button" class="sp-palette-toggle">less</button></div></div><div class="sp-picker-container"><div class="sp-top sp-cf"><div class="sp-fill"></div><div class="sp-top-inner"><div style="background-color: rgb(255, 0, 0);" class="sp-color"><div class="sp-sat"><div class="sp-val"><div style="display: none;" class="sp-dragger"></div></div></div></div><div title="Clear Color Selection" class="sp-clear sp-clear-display"></div><div style="" class="sp-hue"><div style="display: none;" class="sp-slider"></div></div></div><div style="" class="sp-alpha"><div class="sp-alpha-inner"><div style="display: none;" class="sp-alpha-handle"></div></div></div></div><div class="sp-input-container sp-cf"><input class="sp-input" spellcheck="false" type="text"></div><div class="sp-initial sp-thumb sp-cf"></div><div class="sp-button-container sp-cf"><a class="sp-cancel" href="#">cancel</a><button type="button" class="sp-choose">choose</button></div></div></div>
 
 <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
