@@ -608,6 +608,61 @@ border:2px solid #F00;
 border-top:20px solid #F00;
 }
 
+#typecode {
+background:#000;
+position:fixed;
+padding:20px;
+width:60%;
+top: 50%;
+left: 100px;
+margin-top: -152px;
+/*margin-left: -450px;*/
+z-index:499;
+border:2px solid #F00;
+border-top:20px solid #F00;
+}
+
+#typecode2 {
+background:#000;
+position:fixed;
+padding:20px;
+width:60%;
+top: 50%;
+left: 100px;
+margin-top: -152px;
+/*margin-left: -450px;*/
+z-index:499;
+border:2px solid #F00;
+border-top:20px solid #F00;
+}
+
+#typecode3 {
+background:#000;
+position:fixed;
+padding:20px;
+width:60%;
+top: 50%;
+left: 100px;
+margin-top: -152px;
+/*margin-left: -450px;*/
+z-index:499;
+border:2px solid #F00;
+border-top:20px solid #F00;
+}
+#typecode4 {
+background:#000;
+position:fixed;
+padding:20px;
+width:60%;
+top: 50%;
+left: 100px;
+margin-top: -152px;
+/*margin-left: -450px;*/
+z-index:499;
+border:2px solid #F00;
+border-top:20px solid #F00;
+}
+
 #Numbers  img{
 position:fixed;
 right: 8%;
