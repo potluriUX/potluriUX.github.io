@@ -157,7 +157,9 @@ $(function() {
         }
     });
     $('ul#msgs').on('mouseenter', 'li', function() {
+ 
         if (!$('#msgs').hasClass('dragging')) {
+          
             $w = $(this).width();
             $h = $(this).height();
             $ot = $(this).offset().top;
@@ -418,7 +420,7 @@ function downloadImg() {
         $("#download-result").css('left', '-3000px').animate({
             opacity: 1
         }, 800).addClass('active');
-        $("#msgs").addClass('dragging');
+        //$("#msgs").addClass('dragging');
         closeHelp();
         $("#download-loading").animate({
             top: '300px'

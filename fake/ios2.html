@@ -438,7 +438,9 @@ Try it online now!">
                         <form action="upload.php" method="post" enctype="multipart/form-data" id="upload_form">
                         <div class="fileUpload btn btn-default btn-sm">
                             <span><i class="el-icon-picture"></i> Click here to upload image</span>
-                            <input type="file" capture="" accept="image/*" id="image_file" name="image_file" value="Upload image" onchange="preview(this);" class="upload">
+                            <input type="file" 
+                                   accept="image/*" id="image_file" name="image_file" 
+                                   value="Upload image" onchange="preview(this);" class="upload">
                         </div>
                         <div id="upload_response"></div>                            
                         </form>

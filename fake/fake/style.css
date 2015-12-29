@@ -502,7 +502,7 @@ textarea.form-control {
 	//top:80px;
 	z-index:9990;
 	text-align:center;
-	position:fixed;
+	//position:fixed;
 
 	font-size:11px;
 	overflow:auto;
