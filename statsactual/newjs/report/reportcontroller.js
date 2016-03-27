@@ -29,6 +29,7 @@ StatsControllers.controller("ReportController", ['$scope', '$http', '$location',
 
         $scope.backenddata = sharedProperties.getProperty();
         var posted_data = post_to_chart_properties.getProperty();
+        console.log($scope.backenddata);
         $scope.lastprop = Object.keys($scope.backenddata.result.usagedates)[Object.keys($scope.backenddata.result.usagedates).length - 1];//$scope.backenddata.result.usagedates[Object.keys($scope.backenddata.result.usagedates)[Object.keys($scope.backenddata.result.usagedates).length - 1]]
 
         if (posted_data) {
