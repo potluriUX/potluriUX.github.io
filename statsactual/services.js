@@ -1,7 +1,7 @@
 /*@potluri multiple properties are shared across. some times ajax calls have been cached too with following code
  * its used in reportcontroller and logincontroller. search for sharedproperties in thos controllers.
  */
-var sitedevlink = 'http://thunderify.com/statsactual';
+var sitedevlink = 'http://thunderify.com/statsactual/';
 //'http://thunderify.com/statsactual/';//'http://localhost/xampp/spu/stats-2/';//'wrong';//http://localhost/xampp/spu/potluriUX.github.io/statsactual/
 
 var str_window = window.location + " ";
