@@ -7,7 +7,10 @@
               >Export to CSV</button>
          <a href="">Export Grid to Excel</a> | <a href="" ng-click='print_page()'>PDF</a></div>
 <div class="breadcrumbs"><a href="#report">Back to Report Selector</a></div>
-<h1 class="rptTitle"><span class="schDis">{{backenddata.result.customername}}</span> <span class="prod">{{prod_title}}</span></h1>
+<h1 class="rptTitle">
+    <span> ng-barchart to draw the bar chart and HTML5 ng-csv for excel export</span><br>
+    <span class="schDis">{{backenddata.result.customername}}</span>
+    <span class="prod">{{prod_title}}</span></h1>
 <h4 class="rptSubTitle">{{report_title}}</h4>
 <!--  <div ng-app="StatsApp">
     <div ng-controller="ChartController">-->
@@ -48,7 +51,7 @@
         </div>
                 <p></p>
     </div>
-{{prodfamily_arr}}
+
 <div id="rptData">
 		<div class="dataTblWrapper">
 <table class="dataTbl totUsgTbl data15mo hdrTbl">
@@ -124,7 +127,7 @@
    <td ng-repeat="x in searches_grid track by $index" >{{ x  | number:0}}</td>
    
   </tr>
-  {{sessions_grid}}
+  
   
    <tr class="subsetRow sub01" ng-repeat="y in prodfamily_arr track by $index" ng-if="plus_button[3] == 1">
 					

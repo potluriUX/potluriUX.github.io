@@ -169,7 +169,7 @@ ng-if and ng-inits have been used all over the place.
                 those reports show up in dropdown only when there is groups for the user logged in.
                 
                 -->	            <div  ng-if="(!(rpt.rpt_type == 'DUBG' ||rpt.rpt_type == 'SUBG'))"><div class="stepInstrux step4">
-					<div class="fltrt"><a href="#"><img src="statsrep5_images/btn-help.png" width="25" height="25" alt="Help" /></a></div>
+                        <div class="fltrt"><span class="ng-scope ng-binding" tooltip-position="left" headertext="heading" tooltip="This is tool tip"><a href="#"><img src="statsrep5_images/btn-help.png" width="25" height="25" alt="Help" /> this is a tool tip directive</a></span></div>
 					Include Individual Site statistics in the report? </div>
 				
                     <p>
@@ -207,7 +207,9 @@ ng-if and ng-inits have been used all over the place.
 			
 			<div class="runRptBlock" >
                             <!--ng-if="rpt.radioincludesites"-->
-		<!--finally create report will call a service and store the post variables ready to be grabbed by any other controller-->			<a id="runRptBtn" href="" ng-click="run()">Create Report</a>
+		<!--finally create report will call a service and store the post variables ready to be grabbed by any other controller-->		
+<!--                <a id="runRptBtn" href="" ng-click="run()">Create Report</a>-->
+                <a id="runRptBtn" href="" ng-click="run2()">Create Dialog</a>
 				</div>
 			<!-- end .col3 --></div>
 		</form>
@@ -222,3 +224,15 @@ ng-if and ng-inits have been used all over the place.
           <img ng-if='loading_image_show' class="loading" src="/statsrep5_images/graph-loading-1.gif" 
                width="100" height="65" alt="loading..." /></p>
     </modal-dialog>
+<modal-dialoge show='modalShown2' width='400px' height='200px' info2='info'>
+    <!--'info' is set in controller  info= is actually the variable in modal.php. 
+    it is passed by directive =info-->
+         This page is a good example of two way data binding,directives,tooltips,modal-dialogs.
+
+       <!-- {{rpt.rpt_type}}-->
+       <p><br><br>this is modaldialog new with transclude<br>
+           
+           {{modalcontent}}
+          
+       <a id="runRptBtn" href="" ng-click="run()">Create Report</a>
+    </modal-dialoge>

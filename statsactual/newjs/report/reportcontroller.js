@@ -29,7 +29,7 @@ StatsControllers.controller("ReportController", ['$scope', '$http', '$location',
 
         $scope.backenddata = sharedProperties.getProperty();
         var posted_data = post_to_chart_properties.getProperty();
-        console.log($scope.backenddata);
+        
         $scope.lastprop = Object.keys($scope.backenddata.result.usagedates)[Object.keys($scope.backenddata.result.usagedates).length - 1];//$scope.backenddata.result.usagedates[Object.keys($scope.backenddata.result.usagedates)[Object.keys($scope.backenddata.result.usagedates).length - 1]]
 
         if (posted_data) {
@@ -65,7 +65,16 @@ StatsControllers.controller("ReportController", ['$scope', '$http', '$location',
 
             $scope.rpt.prodfamily = false;
         }
+          $scope.run2 = function() {
+            $scope.toggleModal2();
+            $scope.modalcontent = "transclude true";
+
+        }
+$scope.toggleModal2 = function() {
+            $scope.modalShown2 = !$scope.modalShown2;
+        }
         $scope.run = function() {
+            
             document.title = 'Loading...';
             //once submitted the post data needs to be put in below property for next controller to access it 
 //           console.log($scope.productinfo);

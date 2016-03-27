@@ -17,7 +17,7 @@
   	</div>
 	 
 	<h2>Welcome to the Stats System! <br />
-		Start by entering your user name and password.</h2>
+		Start by entering your user name as dev and password as dev.</h2>
 	<form id="form" name='myform' class="form-signin">
 		<table class="loginTbl">
 			<tr>
@@ -41,8 +41,8 @@
     
   <div class="footer">
   	
-	<div class="logo"><img src="statsrep5_images/Scholastic.png" width="157" height="19" alt="thunderify" /></div>
-	<div class="legal">™ & © 2015 thunderify Inc. All Rights Reserved.</div>
+	<div class="logo"><img src="statsrep5_images/Scholastic.png" width="157" height="19" alt="Devi" /></div>
+	<div class="legal">™ & © 2015 @Devi. All Rights Reserved.</div>
 	<div class="links"></div>		
 	<!-- end .footer --></div>
   <!-- end .wrapper --></div>

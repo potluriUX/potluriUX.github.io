@@ -36,7 +36,37 @@ StatsControllers.directive('modalDialog', function() {
     templateUrl: "./partials/includes/modal.php",
   };
 });
+StatsControllers.directive('modalDialoge', function() {
+  return {
+    restrict: 'E',
+    scope: {
+           show: '=',
+      changednameinfo: '=info2'},
+    ////element
+//    scope: {
+//      show: '=',
+//      info:"="//vvvvv imp @potluri we passed 'info' from controller template(report.php) to the directive template(modal.php)!!
+//      ,changednameofinfo:"=info"
+//    },
+    replace: true, // Replace with the template below
+    transclude: true, // we want to insert custom content inside the directive
+    //transclude true means outer scope or maincontroller scope is what is available to this scope.
+    link: function(scope, element, attrs) {
+      scope.dialogStyle = {};
+      console.log(scope.changednameinfo);
+     
+      if (attrs.width)
+        scope.dialogStyle.width = attrs.width;
+      if (attrs.height)
+        scope.dialogStyle.height = attrs.height;
+    scope.hideModal=function(){
+        scope.show=true;
+    };
+},
 
+  templateUrl: "./partials/includes/modal2.php",
+  };
+});
 StatsControllers.directive('header', function () {
     return {
         restrict: 'A', //This menas that it will be used as an attribute and NOT as an element. I don't like creating custom HTML elements
