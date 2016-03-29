@@ -8,7 +8,7 @@ StatsControllers.directive('modalDialog', function() {
     restrict: 'E',//element
     scope: {
       show: '=',
-      info:"="//vvvvv imp @potluri we passed 'info' from controller template(report.php) to the directive template(modal.php)!!
+      info:"="//vvvvv imp @SDevi we passed 'info' from controller template(report.php) to the directive template(modal.php)!!
       ,changednameofinfo:"=info"
     },
     replace: true, // Replace with the template below
@@ -45,7 +45,7 @@ StatsControllers.directive('modalDialoge', function() {
     ////element
 //    scope: {
 //      show: '=',
-//      info:"="//vvvvv imp @potluri we passed 'info' from controller template(report.php) to the directive template(modal.php)!!
+//      info:"="//vvvvv imp @SDevi we passed 'info' from controller template(report.php) to the directive template(modal.php)!!
 //      ,changednameofinfo:"=info"
 //    },
     replace: true, // Replace with the template below

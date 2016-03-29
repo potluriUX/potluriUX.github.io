@@ -1,6 +1,6 @@
 <div header></div>
 <!--<script type="text/javascript" src="./js/jquery-global-func.js"></script>
-@potluri there is so much logic in this template file. 
+@SDevi there is so much logic in this template file. 
 ng-if and ng-inits have been used all over the place. 
 
 -->

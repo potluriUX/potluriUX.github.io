@@ -1,4 +1,4 @@
-/*@potluri multiple properties are shared across. some times ajax calls have been cached too with following code
+/*@SDevi multiple properties are shared across. some times ajax calls have been cached too with following code
  * its used in reportcontroller and logincontroller. search for sharedproperties in thos controllers.
  */
 var sitedevlink = 'http://thunderify.com/statsactual/';

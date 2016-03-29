@@ -68,13 +68,13 @@ StatsControllers.controller("ChartController", ['$scope', '$routeParams', '$http
 
 
                 }
-                month_dates_x_axis.reverse();//reverse the array for dates earlier to later @potluri
-                month_dates_x_axis_actual_on_graph.reverse();//reverse the array for dates earlier to later @potluri
+                month_dates_x_axis.reverse();//reverse the array for dates earlier to later @SDevi
+                month_dates_x_axis_actual_on_graph.reverse();//reverse the array for dates earlier to later @SDevi
             }
 
             $scope.calculate_months_xaxis_previous_in_pagination = function(posted_data) {
 
-                month_dates_x_axis.reverse();//reverse the array for dates earlier to later @potluri
+                month_dates_x_axis.reverse();//reverse the array for dates earlier to later @SDevi
                 month_dates_x_axis_actual_on_graph.reverse();
                 for (i = dates.indexOf(posted_data.year); i > dates.indexOf(posted_data.year) - prev_next_months_count; i--) {
                     if (dates[i]) {
@@ -87,8 +87,8 @@ StatsControllers.controller("ChartController", ['$scope', '$routeParams', '$http
 
                 }
                 //    console.log(month_dates_x_axis_actual_on_graph);
-                month_dates_x_axis.reverse();//reverse the array for dates earlier to later @potluri
-                month_dates_x_axis_actual_on_graph.reverse();//reverse the array for dates earlier to later @potluri
+                month_dates_x_axis.reverse();//reverse the array for dates earlier to later @SDevi
+                month_dates_x_axis_actual_on_graph.reverse();//reverse the array for dates earlier to later @SDevi
                 month_dates_x_axis.splice(num_of_months_to_show, Number.MAX_VALUE);
                 month_dates_x_axis_actual_on_graph.splice(num_of_months_to_show, Number.MAX_VALUE);
 
@@ -98,7 +98,7 @@ StatsControllers.controller("ChartController", ['$scope', '$routeParams', '$http
 
             $scope.calculate_months_xaxis_next_in_pagination = function(posted_data, enddate) {
 
-//        month_dates_x_axis.reverse();//reverse the array for dates earlier to later @potluri
+//        month_dates_x_axis.reverse();//reverse the array for dates earlier to later @SDevi
 //            month_dates_x_axis_actual_on_graph.reverse();
                 for (i = dates.indexOf(posted_data.year) + 1; i <= dates.indexOf(posted_data.year) + prev_next_months_count; i++) {
                     if (dates[i]) {
@@ -111,8 +111,8 @@ StatsControllers.controller("ChartController", ['$scope', '$routeParams', '$http
 
                 }
                 //    console.log(month_dates_x_axis_actual_on_graph);
-//            month_dates_x_axis.reverse();//reverse the array for dates earlier to later @potluri
-//            month_dates_x_axis_actual_on_graph.reverse();//reverse the array for dates earlier to later @potluri
+//            month_dates_x_axis.reverse();//reverse the array for dates earlier to later @SDevi
+//            month_dates_x_axis_actual_on_graph.reverse();//reverse the array for dates earlier to later @SDevi
 //            month_dates_x_axis.splice(num_of_months_to_show, Number.MAX_VALUE);
 //            month_dates_x_axis_actual_on_graph.splice(num_of_months_to_show, Number.MAX_VALUE);
 
