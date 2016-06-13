@@ -1,0 +1,426 @@
+@media all
+{
+  .p_courseContentRow1Container_print {
+	display:none;
+}
+
+.p_title_print {
+display:none;
+}
+}
+
+@media print
+{
+.header{
+	display:none;
+}
+.p_courseContentRow1Container_print {
+	display: block;
+	width: 600px;
+	height: 40px;
+	/*background: url(../images/interface/headerBG.png) no-repeat;*/
+	float: left;
+}
+.p_courseContentRow1Container{
+display:none;
+}
+.p_title{
+
+display:none;
+
+}
+
+
+.p_title_print {
+	display:block;
+	font-family: 'Myriad Set', 'Myriad Pro', 'Lucida Grande', Geneva, Arial, Verdana, sans-serif;
+	font-weight: bold;
+	font-size: 12px;
+	color: #333333;
+	width: 600px;
+	height: 20px;
+	/*background: url(../images/interface/headerBG.png) no-repeat;*/
+	
+	float: left;
+}
+.p_titleDescription_print{
+ 	display:block;
+}
+}
+
+.timelinefiscalleft{
+
+	text-align:center;
+	width:127px;
+	float:left;
+	border-bottom:1px solid #c0c0c0;
+	background-color: #F6F6F6;
+		 -webkit-border-radius: 6px 6px 0px 0px;
+
+
+}
+
+.timelinefiscalcenter{
+	text-align:center;
+	float:left;
+	width:504px;
+	border-bottom:1px solid #c0c0c0;
+	
+	background-color: #F6F6F6;
+}
+body {
+	background-color: #FFFFFF;
+	font-family: 'Lucida Grande', Geneva, Arial, Verdana, sans-serif;
+	margin: 0;
+	padding: 0;
+}
+
+
+a.anav:link, a.anav:visited {
+	text-decoration: none;
+	color: #ffffff;
+}
+a.anav:hover {
+	text-decoration: underline;
+	color: #ffffff;
+}
+
+
+p {
+	font-size: 12px;
+	color: #666666;
+	line-height: 17px;
+}
+.bold {
+font-weight: bold;
+}
+
+.p_clear {
+	clear: both;
+}
+.p_hide {
+	display: none;
+}
+.p_show {
+	display: block;
+}
+.p_footnote {
+	margin-top: 40px;
+	font-size: 9px;
+	line-height: 11px;
+}
+.p_ul {
+	font-size: 12px;
+	color: #666666;
+	line-height: 18px;
+	padding-left: 20px;
+	
+}
+.p_ul2 {
+	font-size: 11px;
+	color: #666666;
+	line-height: 16px;
+	padding-left: 20px;
+}
+.p_ul li {
+	font-size: 12px;
+	color: #666666;
+	line-height: 18px;
+	margin-bottom: 5px;
+}
+.p_ol li {
+	font-size: 12px;
+	color: #666666;
+	line-height: 18px;
+	margin-bottom: 0px;
+}
+.p_li_bullet {
+	list-style-type: disc;
+}
+.p_li_bullet2 {
+	list-style-type: disc;
+	font-size: 11px;
+	color: #666666;
+	line-height: 16px;
+}
+.p_body {
+	font-size: 12px;
+	color: #666666;
+	line-height: 17px;
+}
+.p_courseContainer {
+	width: 100%;
+	margin: 0;
+	padding: 0;
+}
+.p_courseHolder {
+	margin-left: auto;
+	margin-right: auto;
+	width: 1024px;
+	height: auto;
+}
+
+.p_courseContentRow1Container {
+	width: 1024px;
+	height: 50px;
+	background: url(../images/interface/headerBG.png) no-repeat;
+	float: left;
+}
+
+.p_title {
+	font-family: 'Myriad Set', 'Myriad Pro', 'Lucida Grande', Geneva, Arial, Verdana, sans-serif;
+	font-size: 24px;
+	color: #333333;
+	width: 600px;
+	height: 30px;
+	background: url(../images/interface/headerBG.png) no-repeat;
+	margin-top: 7px;
+	float: left;
+}
+.p_titleDescription {
+	font-family: 'Myriad Set', 'Myriad Pro', 'Lucida Grande', Geneva, Arial, Verdana, sans-serif;
+	font-size: 14px;
+	color: #333333;
+	width: 300px;
+	/*background: url(../images/interface/headerBG.png) no-repeat;*/
+	margin-top: 15px;
+	float: right;
+	text-align: right;
+}
+
+.p_courseContentRow2Container {
+	width: 1030px;
+	height: auto;
+	margin-top: 10px;
+	float: left;
+}
+
+.p_courseContentRow2Col1 {
+	width: 760px;
+	height:auto;
+	margin-right: 4px;
+	padding:2px;
+	  -webkit-border-radius: 6px 6px 6px 6px;
+        border: 1px solid #c0c0c0;
+	float: left;
+}
+.p_courseContentRow2Col2 {
+	width: 250px;
+	padding:2px;
+	/*background: url(../images/interface/sidebarBG.png) no-repeat;*/
+	  -webkit-border-radius: 6px 6px 6px 6px;
+        border: 1px solid #c0c0c0;
+	/*float: left;*/
+	display: inline-block;
+	height:100%;
+}
+.p_courseContentRow2Col1Sections {
+	width: 760px;
+	min-height: 70px;
+	margin-bottom: 10px;
+	float: left;
+}
+
+.p_courseContentRow2Col1SectionsCol {
+	width: 373px;
+	min-height: 100px;
+	margin-bottom: 10px;
+	float: left;
+}
+
+.p_courseContentRow2Col1SectionsTitle {
+	width: 750px;
+	height: 21px;
+	background: url(../images/interface/sectionHeaderBG.png) no-repeat;
+	float: left;
+	color: #666666;
+	padding-top: 5px;
+	padding-left: 10px;
+	font-size: 14px;
+	font-weight: bold;
+	font-family: 'Myriad Set', 'Myriad Pro', 'Lucida Grande', Geneva, Arial, Verdana, sans-serif;
+}
+
+.p_courseContentRow2Col1SectionsBody {
+	width: 730px;
+	min-height: 50px;
+	float: left;
+	color: #666666;
+	padding-left: 10px;
+	padding-right: 20px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	font-size: 11px;
+	line-height: 15px;
+}
+
+.p_courseContentRow2Col1SectionsHalfTitle {
+	width: 363px;
+	height: 21px;
+	background: url(../images/interface/sectionHeaderHalfBG.png) no-repeat;
+	float: left;
+	color: #666666;
+	padding-top: 5px;
+	padding-left: 10px;
+	font-size: 14px;
+	font-weight: bold;
+	font-family: 'Myriad Set', 'Myriad Pro', 'Lucida Grande', Geneva, Arial, Verdana, sans-serif;
+}
+
+.p_courseContentRow2Col1SectionsHalfBody {
+	width: 343px;
+	min-height: 50px;
+	float: left;
+	color: #666666;
+	padding-left: 10px;
+	padding-right: 20px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	font-size: 11px;
+	line-height: 15px;
+}
+.p_courseContentRow2Col1SectionsBodyTableContainer {
+	width: 730px;
+	min-height: 30px;
+	float: left;
+	padding-bottom: 10px;
+}
+.p_courseContentRow2Col1SectionsBodyTableCo1 {
+	width: 155px;
+	min-height: 10px;
+	font-size: 11px;
+	font-weight: bold;
+	margin-right: 10px;
+	float: left;
+	text-align: right;
+}
+.p_courseContentRow2Col1SectionsBodyTableCo2 {
+	width: 100px;
+	min-height: 10px;
+	font-size: 11px;
+	margin-left: 10px;
+	float: left;
+}
+
+.p_courseContentRow2Col1SectionsTimeline {
+	width: 758px;
+	height: 70px;
+	float: left;
+	 -webkit-border-radius: 6px 6px 6px 6px;
+        border: 1px solid #c0c0c0;
+	/*background: url(../images/interface/timelineBG.png) no-repeat;*/
+}
+
+.p_courseContentRow2Col1SectionsTimelineRow1 {
+	width: 760px;
+	height: 27px;
+	float: left;
+}
+.p_courseContentRow2Col1SectionsTimeline4Col {
+	width: 189px;
+	height: 18px;
+	float: left;
+	text-align: center;
+	color: #666666;
+	padding-top: 7px;
+	font-size: 14px;
+	font-weight: bold;
+	font-family: 'Myriad Set', 'Myriad Pro', 'Lucida Grande', Geneva, Arial, Verdana, sans-serif;
+	border-right: 1px solid #cccccc;
+}
+
+.p_courseContentRow2Col1SectionsTimeline3Col {
+	width: 63px;
+	height: 18px;
+	float: left;
+	text-align: center;
+	color: #666666;
+	padding-top: 3px;
+	font-size: 10px;
+	font-family: 'Myriad Set', 'Myriad Pro', 'Lucida Grande', Geneva, Arial, Verdana, sans-serif;
+}
+
+.p_courseContentRow2Col1SectionsTimelineRowBar {
+	width: 760px;
+	height: 30px;
+	margin-top: 15px;
+	margin-left: 1px;
+	float: left;
+}
+
+.p_courseContentRow2Col1SectionsTimelineRowBarScale {
+	min-width: 1px;
+	height: 23px;
+	float: left;
+	background: url(../images/interface/blueBarScale.png) repeat-x;
+}
+.p_courseContentRow2Col1SectionsTimelineRowBarEnd {
+	width: 3px;
+	height: 23px;
+	float: left;
+	background: url(../images/interface/blueBarEnd.png) no-repeat;
+}
+
+.p_courseContentSidebarContainer {
+	width: 250px;
+	
+	margin-top: 0px;
+	height:auto;
+	float: left;
+}
+
+.p_courseContentSidebarRow1header {
+	font-family: 'Myriad Set', 'Myriad Pro', 'Lucida Grande', Geneva, Arial, Verdana, sans-serif;
+	font-size: 12px;
+	color: #666666;
+	font-weight: bold;
+	text-align: center;
+	width: 250px;
+	min-height: 10px;
+	margin: 0px; /*10px;*/
+	padding: 0px;/*7px;*/
+	float: left;
+	border-bottom: 1px solid #cccccc;
+	
+}
+
+.p_courseContentSidebarRow1 {
+	font-family: 'Myriad Set', 'Myriad Pro', 'Lucida Grande', Geneva, Arial, Verdana, sans-serif;
+	font-size: 12px;
+	color: #666666;
+	font-weight: bold;
+	text-align: center;
+	width: 250px;
+	min-height: 10px;
+	margin: 0px; /*10px;*/
+	padding: 0px;/*7px;*/
+	float: left;
+	border-bottom: 1px solid #cccccc;
+	border-top: 1px solid #cccccc;
+}
+.p_courseContentSidebarRow2Container {
+	font-family: 'Myriad Set', 'Myriad Pro', 'Lucida Grande', Geneva, Arial, Verdana, sans-serif;
+	font-size: 11px;
+	color: #666666;
+	text-align: center;
+	width: 221px;
+	min-height: 20px;
+	margin: 5px 10px 3px 10px;
+	float: left;
+}
+.p_courseContentSidebarRow2Col1 {
+	font-family: 'Myriad Set', 'Myriad Pro', 'Lucida Grande', Geneva, Arial, Verdana, sans-serif;
+	
+	text-align: right;
+	width: 104px;
+	min-height: 20px;
+	float: left;
+}
+.p_courseContentSidebarRow2Col2 {
+	font-family: 'Myriad Set', 'Myriad Pro', 'Lucida Grande', Geneva, Arial, Verdana, sans-serif;
+	text-align: left;
+	width: 104px;
+	min-height: 20px;
+	margin-left: 10px;
+	float: left;
+}
