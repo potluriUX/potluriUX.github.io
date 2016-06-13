@@ -42,7 +42,7 @@
   <div class="footer">
   	
 	<div class="logo"><img src="statsrep5_images/Scholastic.png" width="157" height="19" alt="Devi" /></div>
-	<div class="legal">™ & © 2015 @Devi. All Rights Reserved.</div>
+	
 	<div class="links"></div>		
 	<!-- end .footer --></div>
   <!-- end .wrapper --></div>
