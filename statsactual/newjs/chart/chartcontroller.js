@@ -68,7 +68,7 @@ StatsControllers.controller("ChartController", ['$scope', '$routeParams', '$http
 
 
                 }
-                month_dates_x_axis.reverse();//reverse the array for dates earlier to later @SDevi
+                month_dates_x_axis.reverse();//reverse the array for dates earlier to later 
                 month_dates_x_axis_actual_on_graph.reverse();//reverse the array for dates earlier to later @SDevi
             }
 
