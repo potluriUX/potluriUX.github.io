@@ -1,0 +1,616 @@
+*** IN PROGRESS ***
+
+
+React with jsx and redux is best templating engine out there in the market for our needs.
+
+
+function formatName(user) {
+    return user.firstName + ' ' + user.lastName;
+}
+
+var user = {
+    firstName: 'Pappy',
+    lastName: 'Mc gee'
+};
+
+const element = (
+        <h1>
+            Hello, {formatName(user)}!
+            <button onClick={changeuser({
+                firstName: 'Pappy2',
+                lastName: 'Mc gee'
+                })} value = 'name' >change name</button>
+        </h1>
+            );
+    function changeuser(userchanged) {
+        user = userchanged;
+    }
+    ReactDOM.render(
+            element,
+            document.getElementById('root')
+            );
+
+
+    function Welcome(props) {//component welcome that gets props.
+        return <h1>Hello, {props.name}</h1>;
+    }
+
+    const element2 = <Welcome name="Sara" />;//props.name
+    ReactDOM.render(
+            element2,
+            document.getElementById('root2')
+            );
+
+
+
+    function Welcome(props) {
+        return <h1>Hello, {props.name}</h1>;
+    }
+
+    function App() {
+        return (
+                <div>
+                    <Welcome name="Sara" />
+                    <Welcome name="Cahal" />
+                    <Welcome name="Edite" />
+                </div>
+                );
+    }
+
+    ReactDOM.render(
+            <App />,
+            document.getElementById('root3')
+            );
+//x => x * 2 is roughly equivalent to function(x) { return x * 2; }
+
+    class Toggle extends React.Component {
+        constructor(props) {
+            super(props);
+            this.state = {isToggleOn: true};
+            this.handleClick = this.handleClick.bind(this);/////very very imp. 
+        }
+
+        handleClick() {
+            this.setState(prevState => ({// equivalent to function(prevState){ return {isToggleOn:!prevState.isToggleOn} }
+                    isToggleOn: !prevState.isToggleOn
+                }));
+        }
+
+        render() {
+            return (
+                    <button onClick={this.handleClick}>
+                        {this.state.isToggleOn ? 'ON' : 'OFF'}
+                    </button>
+                    );
+        }
+
+    }
+    ReactDOM.render(
+            <Toggle />, //component
+            document.getElementById('root4')//dom element
+            );
+
+
+    function Greeting(props) {
+        const isLoggedIn = props.isLoggedIn;
+        if (isLoggedIn) {
+            return <UserGreeting />;
+        }
+        return <GuestGreeting />;
+    }
+
+    class LoginControl extends React.Component {
+        constructor(props) {
+    super(props);
+    this.handleInClick = this.handleInClick.bind(this);
+    this.handleOutClick = this.handleOutClick.bind(this);
+    this.state = {isLoggedIn: false};
+  }
+    
+        
+
+        handleInClick() {
+            this.setState({isLoggedIn: true});
+        }
+        handleOutClick() {
+            this.setState({isLoggedIn: false});
+        }
+        render() {
+            if (this.state.isLoggedIn)
+                var button = <LogoutButton onClick={this.handleOutClick}/>;
+            else
+                var button = <LoginButton onClick={this.handleInClick}/>;
+            return (
+                    <div>
+                        <Greeting isLoggedIn={this.state.isLoggedIn}/>
+                        {button}
+                    </div>
+                    );
+        }
+    }
+
+
+    function LoginButton(props) {
+        return (
+                <button onClick={props.onClick}>
+                    Login
+                </button>
+                );
+    }
+
+    function LogoutButton(props) {
+        return (
+                <button onClick={props.onClick}>
+                    Logout
+                </button>
+                );
+    }
+
+
+    function UserGreeting(props) {
+        return <h1>Welcome back!</h1>;
+    }
+
+    function GuestGreeting(props) {
+        return <h1>Please sign up.</h1>;
+    }
+
+    ReactDOM.render(
+            <LoginControl />, //component
+            document.getElementById('root6')//dom element
+            );
+
+
+
+
+
+
+function Blog(props) {
+  const sidebar = (
+    <ul>
+      {props.posts.map((post) =>
+        <li key={post.id}>
+          {post.title}
+        </li>
+      )}
+    </ul>
+  );
+  const content = props.posts.map((post) =>
+    <div key={post.id}>
+      <h3>{post.title}</h3>
+      <p>{post.content}</p>
+    </div>
+  );
+  return (
+    <div>
+      {sidebar}
+      <hr />
+      {content}
+    </div>
+  );
+}
+
+const posts = [
+  {id: 1, title: 'Hello World', content: 'Welcome to learning React!'},
+  {id: 2, title: 'Installation', content: 'You can install React from npm.'}
+];
+ReactDOM.render(
+  <Blog posts={posts} />,
+  document.getElementById('root8')
+);
+
+
+
+
+
+
+class Calculator extends React.Component{
+    
+    constructor(props){
+     super(props);
+     this.handleChange = this.handleChange.bind(this);
+     this.state = {temperature:''};
+    }
+    handleChange(e){
+        this.setState({temperature:e.target.value});
+    }
+    render(){
+        return (
+                <div>
+                <input value={this.state.temperature} onChange={this.handleChange}/>
+                <input value={this.state.temperature} onChange={this.handleChange}/>
+                <BoilingVerdict 
+                celsius={parseFloat(this.state.temperature)} />
+                </div>
+                );
+    }
+}
+
+function BoilingVerdict(props) {
+  if (props.celsius >= 100) {
+    return <p>The water would boil.</p>;
+  }
+  return <p>The water would not boil.</p>;
+}
+
+ReactDOM.render(
+  <Calculator posts={posts} />,
+  document.getElementById('root8')
+);
+
+
+
+
+
+
+
+Component diagram draw components first 
+
+
+
+FilterableProductTable (orange): contains the entirety of the example
+SearchBar (blue): receives all user input
+ProductTable (green): displays and filters the data collection based on user input
+ProductCategoryRow (turquoise): displays a heading for each category
+ProductRow (red): displays a row for each product
+
+
+
+
+FilterableProductTable
+
+SearchBar
+ProductTable
+
+ProductCategoryRow
+ProductRow
+
+
+React: props and state.
+
+
+
+The original list of products is passed in as props, so that’s not state.
+
+The search text and the checkbox seem to be state since they change over time and can’t be computed from anything. And finally, the filtered list of products isn’t state because it can be computed by combining the original list of products with the search text and value of the checkbox.
+
+So finally, our state is:
+
+The search text the user has entered
+The value of the checkbox
+start with static classes 
+
+
+class ProductCategoryRow extends React.Component {/*static search app*/
+render() {
+    return (
+            <span></span>
+            );
+    }
+}
+
+class ProductRow extends React.Component {
+render() {
+    return (
+            <span></span>
+            );
+    }
+}
+
+class ProductTable extends React.Component {
+render() {
+    return (
+            <span></span>
+            );
+    }
+}
+
+class SearchBar extends React.Component {
+render() {
+    return (
+            <span></span>
+            );
+    }
+}
+
+class FilterableProductTable extends React.Component {
+render() {
+    return (
+            <span></span>
+            );
+    }
+
+
+
+
+Fill them with static html 
+
+
+
+
+
+class ProductCategoryRow extends React.Component {
+  render() {
+    const category = this.props.category;
+    return (
+      <tr>
+        <th colSpan="2">
+          {category}
+        </th>
+      </tr>
+    );
+  }
+}
+
+class ProductRow extends React.Component {
+  render() {
+    const product = this.props.product;
+    const name = product.stocked ?
+      product.name :
+      <span style={{color: 'red'}}>
+        {product.name}
+      </span>;
+
+    return (
+      <tr>
+        <td>{name}</td>
+        <td>{product.price}</td>
+      </tr>
+    );
+  }
+}
+
+class ProductTable extends React.Component {
+  render() {
+    const rows = [];
+    let lastCategory = null;
+    
+    this.props.products.forEach((product) => {
+      if (product.category !== lastCategory) {
+        rows.push(
+          <ProductCategoryRow
+            category={product.category}
+            key={product.category} />
+        );
+      }
+      rows.push(
+        <ProductRow
+          product={product}
+          key={product.name} />
+      );
+      lastCategory = product.category;
+    });
+
+    return (
+      <table>
+        <thead>
+          <tr>
+            <th>Name</th>
+            <th>Price</th>
+          </tr>
+        </thead>
+        <tbody>{rows}</tbody>
+      </table>
+    );
+  }
+}
+
+class SearchBar extends React.Component {
+  render() {
+    return (
+      <form>
+        <input type="text" placeholder="Search..." />
+        <p>
+          <input type="checkbox" />
+          {' '}
+          Only show products in stock
+        </p>
+      </form>
+    );
+  }
+}
+
+class FilterableProductTable extends React.Component {
+  render() {
+    return (
+      <div>
+        <SearchBar />
+        <ProductTable products={this.props.products} />
+      </div>
+    );
+  }
+}
+
+
+const PRODUCTS = [
+  {category: 'Sporting Goods', price: '$49.99', stocked: true, name: 'Football'},
+  {category: 'Sporting Goods', price: '$9.99', stocked: true, name: 'Baseball'},
+  {category: 'Sporting Goods', price: '$29.99', stocked: false, name: 'Basketball'},
+  {category: 'Electronics', price: '$99.99', stocked: true, name: 'iPod Touch'},
+  {category: 'Electronics', price: '$399.99', stocked: false, name: 'iPhone 5'},
+  {category: 'Electronics', price: '$199.99', stocked: true, name: 'Nexus 7'}
+];
+ 
+ReactDOM.render(
+  <FilterableProductTable products={PRODUCTS} />,
+  document.getElementById('container')
+);
+
+
+Make them dynamic
+
+
+
+
+
+
+
+class ProductCategoryRow extends React.Component {/*static search app*/
+render() {
+    return (
+             <tr>
+        <th colSpan="2">
+          {this.props.category}
+        </th>
+      </tr>
+            );
+    }
+}
+
+class ProductRow extends React.Component {
+render() {
+    return (
+             <tr>
+        <td>{this.props.product.name}</td>
+        <td>{this.props.product.price}</td>
+      </tr>
+            );
+    }
+}
+
+class ProductTable extends React.Component {
+ render() {
+    const filterText = this.props.filterText;
+    const inStockOnly = this.props.inStockOnly;
+
+    const rows = [];
+    let lastCategory = null;
+
+    this.props.products.forEach((product) => {
+      if (product.name.indexOf(filterText) === -1) {
+        return;
+      }
+      if (inStockOnly && !product.stocked) {
+        return;
+      }
+      if (product.category !== lastCategory) {
+        rows.push(
+          <ProductCategoryRow
+            category={product.category}
+            key={product.category} />
+        );
+      }
+      rows.push(
+        <ProductRow
+          product={product}
+          key={product.name}
+        />
+      );
+      lastCategory = product.category;
+    });
+
+    return (
+      <table>
+        <thead>
+          <tr>
+            <th>Name</th>
+            <th>Price</th>
+          </tr>
+        </thead>
+        <tbody>{rows}</tbody>
+      </table>
+    );
+  }
+}
+
+class SearchBar extends React.Component {
+ constructor(props) {
+    super(props);
+    this.handleFilterTextChange = this.handleFilterTextChange.bind(this);
+    this.handleInStockChange = this.handleInStockChange.bind(this);
+  }
+  
+  handleFilterTextChange(e) {
+    this.props.onFilterTextChange(e.target.value);
+  }
+  
+  handleInStockChange(e) {
+    this.props.onInStockChange(e.target.checked);
+  }
+  
+  render() {
+    return (
+      <form>
+        <input
+          type="text"
+          placeholder="Search..."
+          value={this.props.filterText}
+          onChange={this.handleFilterTextChange}
+        />
+        <p>
+          <input
+            type="checkbox"
+            checked={this.props.inStockOnly}
+            onChange={this.handleInStockChange}
+          />
+          {' '}
+          Only show products in stock
+        </p>
+      </form>
+    );
+  }
+}
+
+class FilterableProductTable extends React.Component {
+constructor(props) {
+    super(props);
+    this.state = {
+      filterText: '',
+      inStockOnly: false
+    };
+    
+    this.handleFilterTextChange = this.handleFilterTextChange.bind(this);
+    this.handleInStockChange = this.handleInStockChange.bind(this);
+  }
+
+  handleFilterTextChange(filterText) {
+    this.setState({
+      filterText: filterText
+    });
+  }
+  
+  handleInStockChange(inStockOnly) {
+    this.setState({
+      inStockOnly: inStockOnly
+    })
+  }
+
+  render() {
+    return (
+      <div>
+        <SearchBar
+          filterText={this.state.filterText}
+          inStockOnly={this.state.inStockOnly}
+          onFilterTextChange={this.handleFilterTextChange}
+          onInStockChange={this.handleInStockChange}
+        />
+        <ProductTable
+          products={this.props.products}
+          filterText={this.state.filterText}
+          inStockOnly={this.state.inStockOnly}
+        />
+      </div>
+    );
+  }
+}
+const PRODUCTS = [
+  {category: 'Sporting Goods', price: '$49.99', stocked: true, name: 'Football'},
+  {category: 'Sporting Goods', price: '$9.99', stocked: true, name: 'Baseball'},
+  {category: 'Sporting Goods', price: '$29.99', stocked: false, name: 'Basketball'},
+  {category: 'Electronics', price: '$99.99', stocked: true, name: 'iPod Touch'},
+  {category: 'Electronics', price: '$399.99', stocked: false, name: 'iPhone 5'},
+  {category: 'Electronics', price: '$199.99', stocked: true, name: 'Nexus 7'}
+];
+
+
+ReactDOM.render(
+  <FilterableProductTable products={PRODUCTS} />,
+  document.getElementById('container')
+);
+
+
+
+
+
+
+
