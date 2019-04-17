@@ -1,0 +1,710 @@
+<!DOCTYPE html>
+<!-- saved from url=(0101)./card-profile-view.html -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <link href="./assets/patternpack.css" rel="stylesheet">
+    <link href="./assets/github.css" rel="stylesheet">
+    <link href="./assets/brand.css" rel="stylesheet">
+    <link href="./assets/font-awesome.min.css" rel="stylesheet">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Card Profile View</title>
+
+    <script src="./assets/jquery.min.js.download"></script>
+    <script src="./assets/bootstrap.min.js.download"></script>
+    <script src="./assets/highlight.min.js.download"></script>
+    <script>
+        hljs.initHighlightingOnLoad();
+    </script>
+</head>
+
+<body>
+<div class="navbar spl navbar-fixed-top" role="navigation">
+  <div class="container-fluid">
+    <div class="navbar-header">
+        <!--hamburger menu for smaller screens-->
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar icon-bar--whiteOut"></span>
+            <span class="icon-bar icon-bar--whiteOut"></span>
+            <span class="icon-bar icon-bar--whiteOut"></span>
+        </button>
+        <a class="logo" href="http://psl-devux01.lab.brandtech.net/">brand Technologies</a>
+    </div>
+
+    <div class="navbar-collapse collapse">
+      <ul class="nav navbar-nav">
+                 
+        <li class="dropdown">
+          <a href="./card-profile-view.html" class="dropdown-toggle" data-toggle="dropdown">
+            <div class="divider">
+              Structures <i class="caret"></i>
+            </div>
+          </a>
+          <ul class="dropdown-menu dropdown--cropped">
+            <li>
+              <a href="./structures/brand-colors.html">Brand Colors</a>
+            </li>
+            <li>
+              <a href="./structures/brand-fonts.html">Brand Fonts</a>
+            </li>
+            <li>
+              <a href="./structures/device-support.html">Device Support</a>
+            </li>
+            <li>
+              <a href="./structures/grid.html">Grid</a>
+            </li>
+            <li>
+              <a href="./structures/layouts.html">Layouts</a>
+            </li>
+            <li>
+              <a href="./structures/utilities.html">Utilities</a>
+            </li>
+          </ul>
+        </li>  
+        <li class="dropdown">
+          <a href="./card-profile-view.html" class="dropdown-toggle" data-toggle="dropdown">
+            <div class="divider">
+              Elements <i class="caret"></i>
+            </div>
+          </a>
+          <ul class="dropdown-menu dropdown--cropped">
+            <li>
+              <a href="./elements/buttons.html">Buttons</a>
+            </li>
+            <li>
+              <a href="./elements/forms.html">Forms</a>
+            </li>
+            <li>
+              <a href="./elements/image-basic.html">Image Basic</a>
+            </li>
+            <li>
+              <a href="./elements/modal.html">Modal</a>
+            </li>
+            <li>
+              <a href="./elements/pagination.html">Pagination</a>
+            </li>
+            <li>
+              <a href="./elements/player.html">Player</a>
+            </li>
+            <li>
+              <a href="./elements/tables.html">Tables</a>
+            </li>
+            <li>
+              <a href="./elements/tag.html">Tag</a>
+            </li>
+          </ul>
+        </li>  
+        <li class="dropdown">
+          <a href="./card-profile-view.html" class="dropdown-toggle" data-toggle="dropdown">
+            <div class="divider">
+              Patterns <i class="caret"></i>
+            </div>
+          </a>
+          <ul class="dropdown-menu dropdown--cropped">
+            <li>
+              <a href="./activity-timeline.html">Activity Timeline</a>
+            </li>
+            <li>
+              <a href="./add-row.html">Add Row</a>
+            </li>
+            <li>
+              <a href="./alerts.html">Alerts</a>
+            </li>
+            <li>
+              <a href="./busy-indicator.html">Busy Indicator</a>
+            </li>
+            <li>
+              <a href="./card-profile-view.html">Card Profile View</a>
+            </li>
+            <li>
+              <a href="./card-summary-view.html">Card Summary View</a>
+            </li>
+            <li>
+              <a href="./collapsing-section.html">Collapsing Section</a>
+            </li>
+            <li>
+              <a href="./column-filter.html">Column Filter</a>
+            </li>
+            <li>
+              <a href="./column-sort.html">Column Sort</a>
+            </li>
+            <li>
+              <a href="./context-drilldown.html">Context Drilldown</a>
+            </li>
+            <li>
+              <a href="./contextual-filter.html">Contextual Filter</a>
+            </li>
+            <li>
+              <a href="./corporate-logo.html">Corporate Logo</a>
+            </li>
+            <li>
+              <a href="./data-grid.html">Data Grid</a>
+            </li>
+            <li>
+              <a href="./details-panel.html">Details Panel</a>
+            </li>
+            <li>
+              <a href="./details-section.html">Details Section</a>
+            </li>
+            <li>
+              <a href="./dropdown-with-summary.html">Dropdown With Summary</a>
+            </li>
+            <li>
+              <a href="./header.html">Header</a>
+            </li>
+            <li>
+              <a href="./hierarchical-navigation.html">Hierarchical Navigation</a>
+            </li>
+            <li>
+              <a href="./inline-edit.html">Inline Edit</a>
+            </li>
+            <li>
+              <a href="./input-date-range.html">Input Date Range</a>
+            </li>
+            <li>
+              <a href="./input-dropdown-picker.html">Input Dropdown Picker</a>
+            </li>
+            <li>
+              <a href="./list-selector.html">List Selector</a>
+            </li>
+            <li>
+              <a href="./notifications.html">Notifications</a>
+            </li>
+            <li>
+              <a href="./option-box.html">Option Box</a>
+            </li>
+            <li>
+              <a href="./override-inheritance.html">Override Inheritance</a>
+            </li>
+            <li>
+              <a href="./page-header.html">Page Header</a>
+            </li>
+            <li>
+              <a href="./password-requirements.html">Password Requirements</a>
+            </li>
+            <li>
+              <a href="./revealing-checkbox.html">Revealing Checkbox</a>
+            </li>
+            <li>
+              <a href="./rounded-checkbox.html">Rounded Checkbox</a>
+            </li>
+            <li>
+              <a href="./search-field-refiner.html">Search Field Refiner</a>
+            </li>
+            <li>
+              <a href="./search-form.html">Search Form</a>
+            </li>
+            <li>
+              <a href="./search-results-toolbar.html">Search Results Toolbar</a>
+            </li>
+            <li>
+              <a href="./search-results.html">Search Results</a>
+            </li>
+            <li>
+              <a href="./second-level-nav.html">Second Level Nav</a>
+            </li>
+            <li>
+              <a href="./select-entities.html">Select Entities</a>
+            </li>
+            <li>
+              <a href="./singlePanel.html">SinglePanel</a>
+            </li>
+            <li>
+              <a href="./sub-navigation-grid.html">Sub Navigation Grid</a>
+            </li>
+            <li>
+              <a href="./tables.html">Tables</a>
+            </li>
+            <li>
+              <a href="./tabs.html">Tabs</a>
+            </li>
+            <li>
+              <a href="./user-profile.html">User Profile</a>
+            </li>
+            <li>
+              <a href="./validation-alert.html">Validation Alert</a>
+            </li>
+            <li>
+              <a href="./visit-summary.html">Visit Summary</a>
+            </li>
+            <li>
+              <a href="./widget.html">Widget</a>
+            </li>
+            <li>
+              <a href="./wizard.html">Wizard</a>
+            </li>
+          </ul>
+        </li>  
+        <li class="dropdown">
+          <a href="./card-profile-view.html" class="dropdown-toggle" data-toggle="dropdown">
+            <div class="divider">
+              Icons <i class="caret"></i>
+            </div>
+          </a>
+          <ul class="dropdown-menu dropdown--cropped">
+            <li>
+              <a href="./icons/icon-set.html">Icon Set</a>
+            </li>
+            <li>
+              <a href="./icons/icon-tooltip.html">Icon Tooltip</a>
+            </li>
+          </ul>
+        </li>  
+        <li class="dropdown">
+          <a href="./card-profile-view.html" class="dropdown-toggle" data-toggle="dropdown">
+            <div class="divider">
+              Angular <i class="caret"></i>
+            </div>
+          </a>
+          <ul class="dropdown-menu dropdown--cropped">
+            <li>
+              <a href="./angular/components.html">Components</a>
+            </li>
+          </ul>
+        </li>       </ul>
+    </div>
+  </div>
+</div>
+
+<div class="container-fluid page-header">
+  <h2>Card Profile View</h2>
+</div>
+
+<div id="libraryContent" class="container-fluid no-breadcrumb">
+  <div class="container markdown__body">
+    <p>Display a profile view card with attorney or home user information.</p>
+<h3 id="problem-summary">Problem summary</h3>
+<p>The user needs to browse content of varying types and length.</p>
+<h3 id="usage">Usage</h3>
+<ul>
+<li>Use to display content composed of different elements</li>
+<li>Use to showcase elements whose size or supported actions vary – like photos with captions of variable length.</li>
+<li>Use when displaying content that…<ul>
+<li>As a collection, consists of multiple data types (images, movies, text)</li>
+<li>Doesn't require direct comparison</li>
+<li>Supports content of highly variable length (captions, comments)</li>
+<li>Contains interactive content</li>
+</ul>
+</li>
+<li>Use to visually group digestible portions of information that call for an action; like accepting a request, or accessing more details.</li>
+<li>Use to gather various pieces of information about a single subject to form one coherent piece of content.</li>
+<li>Cards are better suited when users browse for information than when they search.</li>
+<li>Cards work best for collections of heterogeneous items (when not all the content is of the same basic type).</li>
+</ul>
+<h3 id="example">Example</h3>
+<div class="library__example">
+    <div class="row">
+        
+        
+        <div class="card col-xs-12 col-sm-6 col-md-3">
+            <a class="card-header card-attorney" href="./card-profile-view.html#">
+                <h4 class="v-center">Ashleigh Banfield</h4>
+            </a>
+            <div class="card-image">
+                <div class="image" style="background-image:url(http://i2.cdn.cnn.com/cnnnext/dam/assets/140926154016-ashleigh-banfield-profile-image-super-tease.jpg)"></div>
+                <a href="./card-profile-view.html#" class="fa fa-clone"></a>
+            </div>
+            <div class="card-block-attorney">
+                <p class="card-text v-center">Attorney<br> 817-690-9023
+                    <br> ashleigh.banfield@cnn.com
+                </p>
+            </div>
+            <div class="card-actions">
+                <div class="col-xs-7 col-sm-6 col-md-7 site v-center">View All Pending</div>
+                <div class="col-xs-5 col-sm-6 col-md-5 open v-center">
+                    <span class="glyphicon glyphicon-option-vertical" aria-hidden="true"></span>
+                </div>
+            </div>
+            <!--expansion card #4-->
+            <div class="card-reveal row">
+                <span class="card-title grey-text section-header">
+                Pending Requests<button type="button" class="close" data-dismiss="modal" aria-hidden="true">x</button>
+                </span>
+                <div class="card-reveal-container row">
+                    <div class="card-actions col-xs-12">
+                        <div class="col-xs-7 col-sm-6 col-md-7 site v-center">Broward CI, FL</div>
+                        <div class="col-xs-5 col-sm-6 col-md-5 v-center">
+                            <button type="button" class="btn btn-approve btn-xs glyphicon glyphicon-ok">
+                            </button><button type="button" class="btn btn-reject btn-xs glyphicon glyphicon-ban-circle">
+                        </button></div>
+                    </div>
+                    <div class="card-actions col-xs-12">
+                        <div class="col-xs-7 col-sm-6 col-md-7 site v-center">Broward CI, FL</div>
+                        <div class="col-xs-5 col-sm-6 col-md-5 v-center">
+                            <button type="button" class="btn btn-approve btn-xs glyphicon glyphicon-ok">
+                            </button><button type="button" class="btn btn-reject btn-xs glyphicon glyphicon-ban-circle">
+                        </button></div>
+                    </div>
+                    <div class="card-actions col-xs-12">
+                        <div class="col-xs-7 col-sm-6 col-md-7 site v-center">Broward CI, FL</div>
+                        <div class="col-xs-5 col-sm-6 col-md-5 v-center">
+                            <button type="button" class="btn btn-approve btn-xs glyphicon glyphicon-ok">
+                            </button><button type="button" class="btn btn-reject btn-xs glyphicon glyphicon-ban-circle">
+                        </button></div>
+                    </div>
+                    <div class="card-actions col-xs-12">
+                        <div class="col-xs-7 col-sm-6 col-md-7 site v-center">Broward CI, FL</div>
+                        <div class="col-xs-5 col-sm-6 col-md-5 v-center">
+                            <button type="button" class="btn btn-approve btn-xs glyphicon glyphicon-ok">
+                            </button><button type="button" class="btn btn-reject btn-xs glyphicon glyphicon-ban-circle">
+                        </button></div>
+                    </div>
+                    <div class="card-actions col-xs-12">
+                        <div class="col-xs-7 col-sm-6 col-md-7 site v-center">Broward CI, FL</div>
+                        <div class="col-xs-5 col-sm-6 col-md-5 v-center">
+                            <button type="button" class="btn btn-approve btn-xs glyphicon glyphicon-ok">
+                            </button><button type="button" class="btn btn-reject btn-xs glyphicon glyphicon-ban-circle">
+                        </button></div>
+                    </div>
+                    <div class="card-actions col-xs-12">
+                        <div class="col-xs-7 col-sm-6 col-md-7 site v-center">Broward CI, FL</div>
+                        <div class="col-xs-5 col-sm-6 col-md-5 v-center">
+                            <button type="button" class="btn btn-approve btn-xs glyphicon glyphicon-ok">
+                            </button><button type="button" class="btn btn-reject btn-xs glyphicon glyphicon-ban-circle">
+                        </button></div>
+                    </div>
+                    <div class="card-actions col-xs-12">
+                        <div class="col-xs-7 col-sm-6 col-md-7 site v-center">Broward CI, FL</div>
+                        <div class="col-xs-5 col-sm-6 col-md-5 v-center">
+                            <button type="button" class="btn btn-approve btn-xs glyphicon glyphicon-ok">
+                            </button><button type="button" class="btn btn-reject btn-xs glyphicon glyphicon-ban-circle">
+                        </button></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    <div class="card col-xs-12 col-sm-6 col-md-3 scale-in">
+            <a class="card-header card-attorney" href="./card-profile-view.html#">
+                <h4 class="v-center">Carol Costello</h4>
+            </a>
+            <div class="card-image">
+                <div class="image" style="background-image:url(http://i2.cdn.cnn.com/cnnnext/dam/assets/150601173014-carole-costello-update-profile-image-super-tease.jpg)"></div>
+                <a href="./card-profile-view.html#" class="fa fa-clone"></a>
+            </div>
+            <div class="card-block-attorney">
+                <p class="card-text v-center">
+                    Attorney<br> 817-690-9023
+                    <br> carol.costello@cnn.com
+                </p>
+            </div>
+            <div class="card-actions">
+                <div class="col-xs-7 col-sm-6 col-md-7 site v-center">Broward CI, FL</div>
+                <div class="col-xs-5 col-sm-6 col-md-5 v-center">
+                    <button type="button" class="btn btn-approve btn-xs glyphicon glyphicon-ok">
+                    </button><button type="button" class="btn btn-reject btn-xs glyphicon glyphicon-ban-circle">
+                </button></div>
+            </div>
+        </div><div class="card col-xs-12 col-sm-6 col-md-3 removed added scale-in">
+            <a class="card-header card-homeuser" href="./card-profile-view.html#">
+                <h4 class="v-center">Wolf Blitzer</h4>
+            </a>
+            <div class="card-image">
+                <div class="image" style="background-image:url(http://i2.cdn.cnn.com/cnnnext/dam/assets/140324160316-wolf-blitzer-profile-super-tease.jpg)"></div>
+                <a href="./card-profile-view.html#" class="fa fa-clone"></a>
+            </div>
+            <div class="card-block-homeuser">
+                <p class="card-text v-center">
+                    Home User<br> 817-690-9023
+                    <br> wolf.blitzer@cnn.com
+                </p>
+            </div>
+            <div class="card-actions">
+                <div class="col-xs-7 col-sm-6 col-md-7 site v-center">Broward CI, FL</div>
+                <div class="col-xs-5 col-sm-6 col-md-5 v-center">
+                    <button type="button" class="btn btn-approve btn-xs glyphicon glyphicon-ok">
+                    </button><button type="button" class="btn btn-reject btn-xs glyphicon glyphicon-ban-circle remove">
+                </button></div>
+            </div>
+        </div></div>
+</div>
+
+<h3 id="code">Code</h3>
+<pre><code class="lang-html hljs xml">        <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"card col-xs-12 col-sm-6 col-md-3"</span>&gt;</span>
+            <span class="hljs-tag">&lt;<span class="hljs-name">a</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"card-header card-attorney"</span> <span class="hljs-attr">href</span>=<span class="hljs-string">"#"</span>&gt;</span>
+                <span class="hljs-tag">&lt;<span class="hljs-name">h4</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"v-center"</span>&gt;</span>Attorney Name<span class="hljs-tag">&lt;/<span class="hljs-name">h4</span>&gt;</span>
+            <span class="hljs-tag">&lt;/<span class="hljs-name">a</span>&gt;</span>
+            <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"card-image"</span>&gt;</span>
+                <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"image"</span> <span class="hljs-attr">style</span>=<span class="hljs-string">"background-image:url(http://i2.cdn.cnn.com/cnnnext/dam/assets/150601173014-carole-costello-update-profile-image-super-tease.jpg)"</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+                <span class="hljs-tag">&lt;<span class="hljs-name">a</span> <span class="hljs-attr">href</span>=<span class="hljs-string">"#"</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"fa fa-clone"</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">a</span>&gt;</span>
+            <span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+            <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"card-block-attorney"</span>&gt;</span>
+                <span class="hljs-tag">&lt;<span class="hljs-name">p</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"card-text v-center"</span>&gt;</span>
+                    Attorney<span class="hljs-tag">&lt;<span class="hljs-name">br</span>&gt;</span> 800-555-1212
+                    <span class="hljs-tag">&lt;<span class="hljs-name">br</span>&gt;</span> attorney.name@domain.com
+                <span class="hljs-tag">&lt;/<span class="hljs-name">p</span>&gt;</span>
+            <span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+            <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"card-actions"</span>&gt;</span>
+                <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"col-xs-7 col-sm-6 col-md-7 site v-center"</span>&gt;</span>City, State<span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+                <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"col-xs-5 col-sm-6 col-md-5 v-center"</span>&gt;</span>
+                    <span class="hljs-tag">&lt;<span class="hljs-name">button</span> <span class="hljs-attr">type</span>=<span class="hljs-string">"button"</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"btn btn-approve btn-xs glyphicon glyphicon-ok"</span> /&gt;</span>
+                    <span class="hljs-tag">&lt;<span class="hljs-name">button</span> <span class="hljs-attr">type</span>=<span class="hljs-string">"button"</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"btn btn-reject btn-xs glyphicon glyphicon-ban-circle"</span> /&gt;</span>
+                <span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+            <span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+        <span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"card col-xs-12 col-sm-6 col-md-3 removed added"</span>&gt;</span>
+            <span class="hljs-tag">&lt;<span class="hljs-name">a</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"card-header card-homeuser"</span> <span class="hljs-attr">href</span>=<span class="hljs-string">"#"</span>&gt;</span>
+                <span class="hljs-tag">&lt;<span class="hljs-name">h4</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"v-center"</span>&gt;</span>Home User Name<span class="hljs-tag">&lt;/<span class="hljs-name">h4</span>&gt;</span>
+            <span class="hljs-tag">&lt;/<span class="hljs-name">a</span>&gt;</span>
+            <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"card-image"</span>&gt;</span>
+                <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"image"</span> <span class="hljs-attr">style</span>=<span class="hljs-string">"background-image:url(http://i2.cdn.cnn.com/cnnnext/dam/assets/140324160316-wolf-blitzer-profile-super-tease.jpg)"</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+                <span class="hljs-tag">&lt;<span class="hljs-name">a</span> <span class="hljs-attr">href</span>=<span class="hljs-string">"#"</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"fa fa-clone"</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">a</span>&gt;</span>
+            <span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+            <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"card-block-homeuser"</span>&gt;</span>
+                <span class="hljs-tag">&lt;<span class="hljs-name">p</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"card-text v-center"</span>&gt;</span>
+                    Home User<span class="hljs-tag">&lt;<span class="hljs-name">br</span>&gt;</span> 800-555-1212
+                    <span class="hljs-tag">&lt;<span class="hljs-name">br</span>&gt;</span> home.user.name@domain.com
+                <span class="hljs-tag">&lt;/<span class="hljs-name">p</span>&gt;</span>
+            <span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+            <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"card-actions"</span>&gt;</span>
+                <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"col-xs-7 col-sm-6 col-md-7 site v-center"</span>&gt;</span>City, State<span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+                <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"col-xs-5 col-sm-6 col-md-5 v-center"</span>&gt;</span>
+                    <span class="hljs-tag">&lt;<span class="hljs-name">button</span> <span class="hljs-attr">type</span>=<span class="hljs-string">"button"</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"btn btn-approve btn-xs glyphicon glyphicon-ok"</span> /&gt;</span>
+                    <span class="hljs-tag">&lt;<span class="hljs-name">button</span> <span class="hljs-attr">type</span>=<span class="hljs-string">"button"</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"btn btn-reject btn-xs glyphicon glyphicon-ban-circle remove"</span> /&gt;</span>
+                <span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+            <span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+        <span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"card col-xs-12 col-sm-6 col-md-3"</span>&gt;</span>
+            <span class="hljs-tag">&lt;<span class="hljs-name">a</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"card-header card-attorney"</span> <span class="hljs-attr">href</span>=<span class="hljs-string">"#"</span>&gt;</span>
+                <span class="hljs-tag">&lt;<span class="hljs-name">h4</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"v-center"</span>&gt;</span>Attorney Name<span class="hljs-tag">&lt;/<span class="hljs-name">h4</span>&gt;</span>
+            <span class="hljs-tag">&lt;/<span class="hljs-name">a</span>&gt;</span>
+            <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"card-image"</span>&gt;</span>
+                <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"image"</span> <span class="hljs-attr">style</span>=<span class="hljs-string">"background-image:url(http://i2.cdn.cnn.com/cnnnext/dam/assets/140926154016-ashleigh-banfield-profile-image-super-tease.jpg)"</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+                <span class="hljs-tag">&lt;<span class="hljs-name">a</span> <span class="hljs-attr">href</span>=<span class="hljs-string">"#"</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"fa fa-clone"</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">a</span>&gt;</span>
+            <span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+            <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"card-block-attorney"</span>&gt;</span>
+                <span class="hljs-tag">&lt;<span class="hljs-name">p</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"card-text v-center"</span>&gt;</span>
+                    Attorney<span class="hljs-tag">&lt;<span class="hljs-name">br</span>&gt;</span> 800-555-1212
+                    <span class="hljs-tag">&lt;<span class="hljs-name">br</span>&gt;</span> attorney.name@domain.com
+                <span class="hljs-tag">&lt;/<span class="hljs-name">p</span>&gt;</span>
+            <span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+            <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"card-actions"</span>&gt;</span>
+                <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"col-xs-7 col-sm-6 col-md-7 site v-center"</span>&gt;</span>View All Pending<span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+                <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"col-xs-5 col-sm-6 col-md-5 open v-center"</span>&gt;</span>
+                    <span class="hljs-tag">&lt;<span class="hljs-name">span</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"glyphicon glyphicon-option-vertical"</span> <span class="hljs-attr">aria-hidden</span>=<span class="hljs-string">"true"</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">span</span>&gt;</span>
+                <span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+            <span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+            <span class="hljs-comment">&lt;!--expansion card #4--&gt;</span>
+            <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"card-reveal row"</span>&gt;</span>
+                <span class="hljs-tag">&lt;<span class="hljs-name">span</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"card-title grey-text section-header"</span>&gt;</span>
+                Pending Requests<span class="hljs-tag">&lt;<span class="hljs-name">button</span> <span class="hljs-attr">type</span>=<span class="hljs-string">"button"</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"close"</span> <span class="hljs-attr">data-dismiss</span>=<span class="hljs-string">"modal"</span> <span class="hljs-attr">aria-hidden</span>=<span class="hljs-string">"true"</span>&gt;</span>x<span class="hljs-tag">&lt;/<span class="hljs-name">button</span>&gt;</span>
+                <span class="hljs-tag">&lt;/<span class="hljs-name">span</span>&gt;</span>
+                <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"card-reveal-container row"</span>&gt;</span>
+                    <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"card-actions col-xs-12"</span>&gt;</span>
+                        <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"col-xs-7 col-sm-6 col-md-7 site v-center"</span>&gt;</span>Broward CI, FL<span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+                        <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"col-xs-5 col-sm-6 col-md-5 v-center"</span>&gt;</span>
+                            <span class="hljs-tag">&lt;<span class="hljs-name">button</span> <span class="hljs-attr">type</span>=<span class="hljs-string">"button"</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"btn btn-approve btn-xs glyphicon glyphicon-ok"</span> /&gt;</span>
+                            <span class="hljs-tag">&lt;<span class="hljs-name">button</span> <span class="hljs-attr">type</span>=<span class="hljs-string">"button"</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"btn btn-reject btn-xs glyphicon glyphicon-ban-circle"</span> /&gt;</span>
+                        <span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+                    <span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+                    <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"card-actions col-xs-12"</span>&gt;</span>
+                        <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"col-xs-7 col-sm-6 col-md-7 site v-center"</span>&gt;</span>Broward CI, FL<span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+                        <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"col-xs-5 col-sm-6 col-md-5 v-center"</span>&gt;</span>
+                            <span class="hljs-tag">&lt;<span class="hljs-name">button</span> <span class="hljs-attr">type</span>=<span class="hljs-string">"button"</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"btn btn-approve btn-xs glyphicon glyphicon-ok"</span> /&gt;</span>
+                            <span class="hljs-tag">&lt;<span class="hljs-name">button</span> <span class="hljs-attr">type</span>=<span class="hljs-string">"button"</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"btn btn-reject btn-xs glyphicon glyphicon-ban-circle"</span> /&gt;</span>
+                        <span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+                    <span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+                    <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"card-actions col-xs-12"</span>&gt;</span>
+                        <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"col-xs-7 col-sm-6 col-md-7 site v-center"</span>&gt;</span>Broward CI, FL<span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+                        <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"col-xs-5 col-sm-6 col-md-5 v-center"</span>&gt;</span>
+                            <span class="hljs-tag">&lt;<span class="hljs-name">button</span> <span class="hljs-attr">type</span>=<span class="hljs-string">"button"</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"btn btn-approve btn-xs glyphicon glyphicon-ok"</span> /&gt;</span>
+                            <span class="hljs-tag">&lt;<span class="hljs-name">button</span> <span class="hljs-attr">type</span>=<span class="hljs-string">"button"</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"btn btn-reject btn-xs glyphicon glyphicon-ban-circle"</span> /&gt;</span>
+                        <span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+                    <span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+                    <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"card-actions col-xs-12"</span>&gt;</span>
+                        <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"col-xs-7 col-sm-6 col-md-7 site v-center"</span>&gt;</span>Broward CI, FL<span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+                        <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"col-xs-5 col-sm-6 col-md-5 v-center"</span>&gt;</span>
+                            <span class="hljs-tag">&lt;<span class="hljs-name">button</span> <span class="hljs-attr">type</span>=<span class="hljs-string">"button"</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"btn btn-approve btn-xs glyphicon glyphicon-ok"</span> /&gt;</span>
+                            <span class="hljs-tag">&lt;<span class="hljs-name">button</span> <span class="hljs-attr">type</span>=<span class="hljs-string">"button"</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"btn btn-reject btn-xs glyphicon glyphicon-ban-circle"</span> /&gt;</span>
+                        <span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+                    <span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+                    <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"card-actions col-xs-12"</span>&gt;</span>
+                        <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"col-xs-7 col-sm-6 col-md-7 site v-center"</span>&gt;</span>Broward CI, FL<span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+                        <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"col-xs-5 col-sm-6 col-md-5 v-center"</span>&gt;</span>
+                            <span class="hljs-tag">&lt;<span class="hljs-name">button</span> <span class="hljs-attr">type</span>=<span class="hljs-string">"button"</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"btn btn-approve btn-xs glyphicon glyphicon-ok"</span> /&gt;</span>
+                            <span class="hljs-tag">&lt;<span class="hljs-name">button</span> <span class="hljs-attr">type</span>=<span class="hljs-string">"button"</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"btn btn-reject btn-xs glyphicon glyphicon-ban-circle"</span> /&gt;</span>
+                        <span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+                    <span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+                    <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"card-actions col-xs-12"</span>&gt;</span>
+                        <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"col-xs-7 col-sm-6 col-md-7 site v-center"</span>&gt;</span>Broward CI, FL<span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+                        <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"col-xs-5 col-sm-6 col-md-5 v-center"</span>&gt;</span>
+                            <span class="hljs-tag">&lt;<span class="hljs-name">button</span> <span class="hljs-attr">type</span>=<span class="hljs-string">"button"</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"btn btn-approve btn-xs glyphicon glyphicon-ok"</span> /&gt;</span>
+                            <span class="hljs-tag">&lt;<span class="hljs-name">button</span> <span class="hljs-attr">type</span>=<span class="hljs-string">"button"</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"btn btn-reject btn-xs glyphicon glyphicon-ban-circle"</span> /&gt;</span>
+                        <span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+                    <span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+                    <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"card-actions col-xs-12"</span>&gt;</span>
+                        <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"col-xs-7 col-sm-6 col-md-7 site v-center"</span>&gt;</span>Broward CI, FL<span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+                        <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"col-xs-5 col-sm-6 col-md-5 v-center"</span>&gt;</span>
+                            <span class="hljs-tag">&lt;<span class="hljs-name">button</span> <span class="hljs-attr">type</span>=<span class="hljs-string">"button"</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"btn btn-approve btn-xs glyphicon glyphicon-ok"</span> /&gt;</span>
+                            <span class="hljs-tag">&lt;<span class="hljs-name">button</span> <span class="hljs-attr">type</span>=<span class="hljs-string">"button"</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"btn btn-reject btn-xs glyphicon glyphicon-ban-circle"</span> /&gt;</span>
+                        <span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+                    <span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+                <span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+            <span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+        <span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+</code></pre>
+<p><br><br>
+Display a profile view side card with extended attorney or home user information.</p>
+<h3 id="example">Example</h3>
+<div class="library__example">
+    <div class="row">
+        <div class="col-md-4 col-lg-3 left-col" id="leftCol">
+            <div class="card side">
+                <a class="card-header card-attorney" href="./card-profile-view.html#">
+                    <h4 class="v-center">Ashleigh Banfield</h4>
+                </a>
+                <div class="card-image">
+                    <div class="image" style="background-image: url(http://i2.cdn.cnn.com/cnnnext/dam/assets/140926154016-ashleigh-banfield-profile-image-super-tease.jpg)"> </div>
+                    <a href="javascript:alert(&#39;open images modal&#39;);" class="fa fa-clone"></a>
+                </div>
+                <div class="card-block-attorney">
+                    <p class="card-text">Attorney
+                        <br>817-690-9023
+                        <br>1500 Main Street
+                        <br>Dallas, Texas 75226 USA
+                        <br>ashleigh.banfield@cnn.com
+                    </p>
+                </div>
+                <div class="row card-content">
+                    <div class="card-content_row col-xs-12">
+                        <div class="col-xs-5 col-md-6">Date of Birth:</div>
+                        <div class="col-xs-7 col-md-6">06/13/1969</div>
+                    </div>
+                    <div class="card-content_row col-xs-12">
+                        <div class="col-xs-5 col-md-6">Gov ID #:</div>
+                        <div class="col-xs-7 col-md-6">223344</div>
+                    </div>
+                    <div class="card-content_row col-xs-12">
+                        <div class="col-xs-5 col-md-6">Expiration Date:</div>
+                        <div class="col-xs-7 col-md-6">06/13/2019</div>
+                    </div>
+                    <div class="card-content_row col-xs-12">
+                        <div class="col-xs-5 col-md-6">Bar ID #:</div>
+                        <div class="col-xs-7 col-md-6">223344</div>
+                    </div>
+                    <div class="card-content_row col-xs-12">
+                        <div class="col-xs-5 col-md-6">Issue Date:</div>
+                        <div class="col-xs-7 col-md-6">12/12/2016</div>
+                    </div>
+                    <div class="card-content_row col-xs-12">
+                        <div class="col-xs-5 col-md-6">Name of Firm:</div>
+                        <div class="col-xs-7 col-md-6">Bon Scott &amp; Associates</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<h3 id="code">Code</h3>
+<pre><code class="lang-html hljs xml"><span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"col-md-4 col-lg-3 left-col"</span> <span class="hljs-attr">id</span>=<span class="hljs-string">"leftCol"</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"card side"</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">a</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"card-header card-attorney"</span> <span class="hljs-attr">href</span>=<span class="hljs-string">"#"</span>&gt;</span>
+            <span class="hljs-tag">&lt;<span class="hljs-name">h4</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"v-center"</span>&gt;</span>Ashleigh Banfield<span class="hljs-tag">&lt;/<span class="hljs-name">h4</span>&gt;</span>
+        <span class="hljs-tag">&lt;/<span class="hljs-name">a</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"card-image"</span>&gt;</span>
+            <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"image"</span> <span class="hljs-attr">style</span>=<span class="hljs-string">"background-image: url(http://i2.cdn.cnn.com/cnnnext/dam/assets/140926154016-ashleigh-banfield-profile-image-super-tease.jpg)"</span>&gt;</span> <span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+            <span class="hljs-tag">&lt;<span class="hljs-name">a</span> <span class="hljs-attr">href</span>=<span class="hljs-string">"javascript:alert('open images modal');"</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"fa fa-clone"</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">a</span>&gt;</span>
+        <span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"card-block-attorney"</span>&gt;</span>
+            <span class="hljs-tag">&lt;<span class="hljs-name">p</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"card-text"</span>&gt;</span>Attorney
+                <span class="hljs-tag">&lt;<span class="hljs-name">br</span>&gt;</span>817-690-9023
+                <span class="hljs-tag">&lt;<span class="hljs-name">br</span>&gt;</span>1500 Main Street
+                <span class="hljs-tag">&lt;<span class="hljs-name">br</span>&gt;</span>Dallas, Texas 75226 USA
+                <span class="hljs-tag">&lt;<span class="hljs-name">br</span>&gt;</span>ashleigh.banfield@cnn.com
+            <span class="hljs-tag">&lt;/<span class="hljs-name">p</span>&gt;</span>
+        <span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+        <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"row card-content"</span>&gt;</span>
+                <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"card-content_row col-xs-12"</span>&gt;</span>
+                    <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"col-xs-5 col-md-6"</span>&gt;</span>Date of Birth:<span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+                    <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"col-xs-7 col-md-6"</span>&gt;</span>06/13/1969<span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+                <span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+                <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"card-content_row col-xs-12"</span>&gt;</span>
+                    <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"col-xs-5 col-md-6"</span>&gt;</span>Gov ID #:<span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+                    <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"col-xs-7 col-md-6"</span>&gt;</span>223344<span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+                <span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+                <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"card-content_row col-xs-12"</span>&gt;</span>
+                    <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"col-xs-5 col-md-6"</span>&gt;</span>Expiration Date:<span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+                    <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"col-xs-7 col-md-6"</span>&gt;</span>06/13/2019<span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+                <span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+                <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"card-content_row col-xs-12"</span>&gt;</span>
+                    <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"col-xs-5 col-md-6"</span>&gt;</span>Bar ID #:<span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+                    <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"col-xs-7 col-md-6"</span>&gt;</span>223344<span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+                <span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+                <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"card-content_row col-xs-12"</span>&gt;</span>
+                    <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"col-xs-5 col-md-6"</span>&gt;</span>Issue Date:<span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+                    <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"col-xs-7 col-md-6"</span>&gt;</span>12/12/2016<span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+                <span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+                <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"card-content_row col-xs-12"</span>&gt;</span>
+                    <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"col-xs-5 col-md-6"</span>&gt;</span>Name of Firm:<span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+                    <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"col-xs-7 col-md-6"</span>&gt;</span>Bon Scott &amp; Associates<span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+                <span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+        <span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+    <span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+<span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+</code></pre>
+<script>
+    $('.open,.close', '.card').on('click', function (evt) {
+      $('.card-reveal').toggleClass('opened', $(evt.target).not().hasClass('open'));
+    });
+    $('.btn-approve,.btn-reject', '.card > .card-actions').on('click', function () {
+      var $removed = $(this).closest('.card');
+      // add .scale-out class and remove .scale-in class then bind a single animation end event
+      $removed
+        .toggleClass('scale-out', true)
+        .toggleClass('scale-in', false)
+        .one('animationend',
+        function (e) {
+          // remove classes
+          $removed
+            .toggleClass('scale-out', false)
+            .toggleClass('scale-in', false);
+          // append to dom and add .scale-in class
+          $removed
+            .appendTo($('.removed')
+              .parent())
+            .toggleClass('scale-in', true);
+        });
+    });
+</script>
+  </div>
+</div>
+
+    <div class="container-fluid">
+        <div class="container">
+            <div class="page-footer">
+                <div class="pull-left">
+                    <ul>
+                        <li>
+                            © <span class="copyright-year">2017</span> brand Technologies
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script>
+        $("dl input[type=checkbox]").click(function () {
+            if ($(this).parent("dt").length) {
+                // toggle indeterminate
+                $(this).prop("indeterminate", false);
+
+                // toggle all children
+                $(this)
+                    .parents("dt")
+                    .siblings("dd")
+                    .find("input[type=checkbox]")
+                    .prop("checked", $(this).is(":checked"));
+            } else {
+                var parent = $(this).parents("dl"),
+                    checkboxes = parent.find("dd").find("input[type=checkbox]"),
+                    checked = parent.find("dd").find("input[type=checkbox]:checked");
+                var indeterminate = checked.length && checked.length != checkboxes.length,
+                    parentCheck = parent.find("dt").find("input[type=checkbox]");
+                parentCheck.prop("indeterminate", indeterminate);
+                parentCheck.prop("checked", !indeterminate && checked.length);
+            }
+        });
+    </script>
+
+
+</body></html>

@@ -1,0 +1,134 @@
+.library__color-swatch {
+  border-radius: 3px;
+  float: left;
+  margin-bottom: 30px; }
+  .library__color-swatch__preview {
+    display: block;
+    height: 100%;
+    margin-bottom: 10px; }
+  .library__color-swatch__details {
+    padding-left: 1.75rem; }
+
+.pp-hero {
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.75)), to(rgba(0, 0, 0, 0.75))), url("../../../assets/images/shared/brand/bg/backdrop4.jpg");
+  background: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)), url("../../../assets/images/shared/brand/bg/backdrop4.jpg");
+  background-position: bottom center;
+  background-size: cover;
+  color: white;
+  height: 500px;
+  width: 100%; }
+  .pp-hero__content {
+    margin-top: 200px; }
+  .pp-hero__navigation {
+    float: right; }
+    .pp-hero__navigation ul {
+      list-style: none; }
+    .pp-hero__navigation li {
+      display: inline-block;
+      float: left;
+      margin-left: 10px; }
+    .pp-hero__navigation .btn-link {
+      color: white; }
+      .pp-hero__navigation .btn-link:hover, .pp-hero__navigation .btn-link:active, .pp-hero__navigation .btn-link:focus {
+        color: #fafafa; }
+  .pp-hero h1 {
+    border: 0;
+    font-size: 48px;
+    margin: 0;
+    padding: 0; }
+  .pp-hero .btn {
+    margin-top: 20px; }
+
+.markdown__body {
+  clear: both; }
+  .markdown__body:not(.library__example) > *:first-child {
+    margin-top: 0; }
+  .markdown__body:not(.library__example) > h1 {
+    border-bottom: 1px solid #ddd;
+    font-weight: bold;
+    margin-bottom: 15px;
+    margin-top: 1em;
+    padding-bottom: 10px; }
+  .markdown__body:not(.library__example) > h2 {
+    border-bottom: 1px solid #ddd;
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 15px;
+    margin-top: 1em;
+    padding-bottom: 10px; }
+  .markdown__body:not(.library__example) > h3 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 5px;
+    margin-top: 1em; }
+  .markdown__body:not(.library__example) > p {
+    margin-bottom: 1em; }
+  .markdown__body:not(.library__example) > ul,
+  .markdown__body:not(.library__example) ol {
+    margin-bottom: 1em;
+    margin-left: 1.5em; }
+    .markdown__body:not(.library__example) > ul li ul,
+    .markdown__body:not(.library__example) > ul li ol,
+    .markdown__body:not(.library__example) ol li ul,
+    .markdown__body:not(.library__example) ol li ol {
+      margin-left: 1.5em; }
+  .markdown__body:not(.library__example) > ul {
+    list-style: square; }
+    .markdown__body:not(.library__example) > ul li ul {
+      list-style: square; }
+  .markdown__body:not(.library__example) > ol {
+    list-style: decimal; }
+    .markdown__body:not(.library__example) > ol li ol {
+      list-style: decimal; }
+  .markdown__body:not(.library__example) > pre {
+    border: 1px solid #ddd;
+    border-radius: 3px;
+    font-family: 'Consolas', 'Monaco', 'Courier New', monospace;
+    line-height: 1.3em; }
+  .markdown__body:not(.library__example) > table {
+    width: 100%; }
+    .markdown__body:not(.library__example) > table th {
+      background-color: #ddd;
+      font-size: .8em;
+      font-weight: bold;
+      padding: 10px;
+      text-align: left;
+      text-transform: uppercase; }
+    .markdown__body:not(.library__example) > table td {
+      padding: 5px 10px; }
+  .markdown__body:not(.library__example) img[alt*="icon"] {
+    height: 32px;
+    width: auto; }
+  .markdown__body:not(.library__example) > .row *[class*="col-"] {
+    margin-bottom: 15px; }
+  .markdown__body:not(.library__example) .background-pink {
+    background-color: rgba(255, 0, 0, 0.15); }
+
+.hljs-title {
+  padding-left: 0.2rem;
+  padding-right: 0.2rem; }
+
+.hljs-tag {
+  margin-right: -0.2rem; }
+  .hljs-tag:not(:last-child) {
+    margin-left: -0.2rem; }
+
+.hljs-comment {
+  display: inline-block;
+  margin-top: 1em; }
+
+.library__example h1 {
+  border: none;
+  margin-bottom: 0px;
+  padding-bottom: 0px; }
+
+.pp-page-header {
+  line-height: 60px !important;
+  margin-top: 0 !important; }
+
+.marketing-tab {
+  margin-top: 30px; }
+  .marketing-tab i {
+    font-size: .75em; }
+
+/*# sourceMappingURL=patternpack.css.map */

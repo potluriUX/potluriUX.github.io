@@ -1,0 +1,1159 @@
+<!DOCTYPE html>
+<!-- saved from url=(0090)./structures/grid.html -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <link href="./assets/patternpack.css" rel="stylesheet">
+    <link href="./assets/github.css" rel="stylesheet">
+    <link href="./assets/brand.css" rel="stylesheet">
+    <link href="./assets/font-awesome.min.css" rel="stylesheet">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Grid System</title>
+
+    <script src="./assets/jquery.min.js.download"></script>
+    <script src="./assets/bootstrap.min.js.download"></script>
+    <script src="./assets/highlight.min.js.download"></script>
+    <script>
+        hljs.initHighlightingOnLoad();
+    </script>
+</head>
+
+<body>
+<div class="navbar spl navbar-fixed-top" role="navigation">
+  <div class="container-fluid">
+    <div class="navbar-header">
+        <!--hamburger menu for smaller screens-->
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar icon-bar--whiteOut"></span>
+            <span class="icon-bar icon-bar--whiteOut"></span>
+            <span class="icon-bar icon-bar--whiteOut"></span>
+        </button>
+        <a class="logo" href="http://psl-devux01.lab.brandtech.net/">brand Technologies</a>
+    </div>
+
+    <div class="navbar-collapse collapse">
+      <ul class="nav navbar-nav">
+                 
+        <li class="dropdown">
+          <a href="./structures/grid.html" class="dropdown-toggle" data-toggle="dropdown">
+            <div class="divider">
+              Structures <i class="caret"></i>
+            </div>
+          </a>
+          <ul class="dropdown-menu dropdown--cropped">
+            <li>
+              <a href="./structures/brand-colors.html">Brand Colors</a>
+            </li>
+            <li>
+              <a href="./structures/brand-fonts.html">Brand Fonts</a>
+            </li>
+            <li>
+              <a href="./structures/device-support.html">Device Support</a>
+            </li>
+            <li>
+              <a href="./structures/grid.html">Grid</a>
+            </li>
+            <li>
+              <a href="./structures/layouts.html">Layouts</a>
+            </li>
+            <li>
+              <a href="./structures/utilities.html">Utilities</a>
+            </li>
+          </ul>
+        </li>  
+        <li class="dropdown">
+          <a href="./structures/grid.html" class="dropdown-toggle" data-toggle="dropdown">
+            <div class="divider">
+              Elements <i class="caret"></i>
+            </div>
+          </a>
+          <ul class="dropdown-menu dropdown--cropped">
+            <li>
+              <a href="./elements/buttons.html">Buttons</a>
+            </li>
+            <li>
+              <a href="./elements/forms.html">Forms</a>
+            </li>
+            <li>
+              <a href="./elements/image-basic.html">Image Basic</a>
+            </li>
+            <li>
+              <a href="./elements/modal.html">Modal</a>
+            </li>
+            <li>
+              <a href="./elements/pagination.html">Pagination</a>
+            </li>
+            <li>
+              <a href="./elements/player.html">Player</a>
+            </li>
+            <li>
+              <a href="./elements/tables.html">Tables</a>
+            </li>
+            <li>
+              <a href="./elements/tag.html">Tag</a>
+            </li>
+          </ul>
+        </li>  
+        <li class="dropdown">
+          <a href="./structures/grid.html" class="dropdown-toggle" data-toggle="dropdown">
+            <div class="divider">
+              Patterns <i class="caret"></i>
+            </div>
+          </a>
+          <ul class="dropdown-menu dropdown--cropped">
+            <li>
+              <a href="./activity-timeline.html">Activity Timeline</a>
+            </li>
+            <li>
+              <a href="./add-row.html">Add Row</a>
+            </li>
+            <li>
+              <a href="./alerts.html">Alerts</a>
+            </li>
+            <li>
+              <a href="./busy-indicator.html">Busy Indicator</a>
+            </li>
+            <li>
+              <a href="./card-profile-view.html">Card Profile View</a>
+            </li>
+            <li>
+              <a href="./card-summary-view.html">Card Summary View</a>
+            </li>
+            <li>
+              <a href="./collapsing-section.html">Collapsing Section</a>
+            </li>
+            <li>
+              <a href="./column-filter.html">Column Filter</a>
+            </li>
+            <li>
+              <a href="./column-sort.html">Column Sort</a>
+            </li>
+            <li>
+              <a href="./context-drilldown.html">Context Drilldown</a>
+            </li>
+            <li>
+              <a href="./contextual-filter.html">Contextual Filter</a>
+            </li>
+            <li>
+              <a href="./corporate-logo.html">Corporate Logo</a>
+            </li>
+            <li>
+              <a href="./data-grid.html">Data Grid</a>
+            </li>
+            <li>
+              <a href="./details-panel.html">Details Panel</a>
+            </li>
+            <li>
+              <a href="./details-section.html">Details Section</a>
+            </li>
+            <li>
+              <a href="./dropdown-with-summary.html">Dropdown With Summary</a>
+            </li>
+            <li>
+              <a href="./header.html">Header</a>
+            </li>
+            <li>
+              <a href="./hierarchical-navigation.html">Hierarchical Navigation</a>
+            </li>
+            <li>
+              <a href="./inline-edit.html">Inline Edit</a>
+            </li>
+            <li>
+              <a href="./input-date-range.html">Input Date Range</a>
+            </li>
+            <li>
+              <a href="./input-dropdown-picker.html">Input Dropdown Picker</a>
+            </li>
+            <li>
+              <a href="./list-selector.html">List Selector</a>
+            </li>
+            <li>
+              <a href="./notifications.html">Notifications</a>
+            </li>
+            <li>
+              <a href="./option-box.html">Option Box</a>
+            </li>
+            <li>
+              <a href="./override-inheritance.html">Override Inheritance</a>
+            </li>
+            <li>
+              <a href="./page-header.html">Page Header</a>
+            </li>
+            <li>
+              <a href="./password-requirements.html">Password Requirements</a>
+            </li>
+            <li>
+              <a href="./revealing-checkbox.html">Revealing Checkbox</a>
+            </li>
+            <li>
+              <a href="./rounded-checkbox.html">Rounded Checkbox</a>
+            </li>
+            <li>
+              <a href="./search-field-refiner.html">Search Field Refiner</a>
+            </li>
+            <li>
+              <a href="./search-form.html">Search Form</a>
+            </li>
+            <li>
+              <a href="./search-results-toolbar.html">Search Results Toolbar</a>
+            </li>
+            <li>
+              <a href="./search-results.html">Search Results</a>
+            </li>
+            <li>
+              <a href="./second-level-nav.html">Second Level Nav</a>
+            </li>
+            <li>
+              <a href="./select-entities.html">Select Entities</a>
+            </li>
+            <li>
+              <a href="./singlePanel.html">SinglePanel</a>
+            </li>
+            <li>
+              <a href="./sub-navigation-grid.html">Sub Navigation Grid</a>
+            </li>
+            <li>
+              <a href="./tables.html">Tables</a>
+            </li>
+            <li>
+              <a href="./tabs.html">Tabs</a>
+            </li>
+            <li>
+              <a href="./user-profile.html">User Profile</a>
+            </li>
+            <li>
+              <a href="./validation-alert.html">Validation Alert</a>
+            </li>
+            <li>
+              <a href="./visit-summary.html">Visit Summary</a>
+            </li>
+            <li>
+              <a href="./widget.html">Widget</a>
+            </li>
+            <li>
+              <a href="./wizard.html">Wizard</a>
+            </li>
+          </ul>
+        </li>  
+        <li class="dropdown">
+          <a href="./structures/grid.html" class="dropdown-toggle" data-toggle="dropdown">
+            <div class="divider">
+              Icons <i class="caret"></i>
+            </div>
+          </a>
+          <ul class="dropdown-menu dropdown--cropped">
+            <li>
+              <a href="./icons/icon-set.html">Icon Set</a>
+            </li>
+            <li>
+              <a href="./icons/icon-tooltip.html">Icon Tooltip</a>
+            </li>
+          </ul>
+        </li>  
+        <li class="dropdown">
+          <a href="./structures/grid.html" class="dropdown-toggle" data-toggle="dropdown">
+            <div class="divider">
+              Angular <i class="caret"></i>
+            </div>
+          </a>
+          <ul class="dropdown-menu dropdown--cropped">
+            <li>
+              <a href="./angular/components.html">Components</a>
+            </li>
+          </ul>
+        </li>       </ul>
+    </div>
+  </div>
+</div>
+
+<div class="container-fluid page-header">
+  <h2>Grid System</h2>
+</div>
+
+<div id="libraryContent" class="container-fluid no-breadcrumb">
+  <div class="container markdown__body">
+    <p>Use this page to guide your designs and layouts, both online and off, to ensure you're staying consistent with the Base Structures.</p>
+<h2 id="grid-specifications-">Grid Specifications:</h2>
+<p>We use a 1200px width grid, which includes the minimum resolution for displays that we provide to our customers.</p>
+<ul>
+<li>1170px width</li>
+<li>12 ~66PX columns</li>
+<li>30px gutter (15px on each side of a column)</li>
+</ul>
+<h3 id="introduction">Introduction</h3>
+<p>Grid systems are used for creating page layouts through a series of rows and columns that house your content. Here's how the brand Pattern Library grid system works:</p>
+<ul>
+<li>Rows must be placed within a <code>.container</code> (fixed-width) or <code>.container-fluid</code> (full-width) for proper alignment and padding.</li>
+<li>Use rows to create horizontal groups of columns.</li>
+<li>Content should be placed within columns, and only columns may be immediate children of rows.</li>
+<li>Predefined grid classes like <code>.row-flex</code> and <code>.col-flex-xs-4</code> are available for quickly making grid layouts. Sass mixins can also be used for more semantic layouts.</li>
+<li>Columns create gutters (gaps between column content) via <code>padding</code>. That padding is offset in rows for the first and last column via negative margin on <code>.row-flex</code>s.</li>
+<li>The negative margin is why the examples below are outdented. It's so that content within grid columns is lined up with non-grid content.</li>
+<li>Grid columns are created by specifying the number of twelve available columns you wish to span. For example, three equal columns would use three <code>.col-flex-xs-4</code>.</li>
+<li>If more than 12 columns are placed within a single row, each group of extra columns will, as one unit, wrap onto a new line.</li>
+<li>Grid classes apply to devices with screen widths greater than or equal to the breakpoint sizes, and override grid classes targeted at smaller devices. Therefore, e.g. applying any <code>.col-flex-md-*</code> class to an element will not only affect its styling on medium devices but also on large devices if a <code>.col-flex-lg-*</code> class is not present.</li>
+</ul>
+<p>Look to the examples for applying these principles to your code.</p>
+<h2 id="media-queries">Media queries</h2>
+<p>We use the following media queries in our Sass files to create the key breakpoints in our grid system.</p>
+<pre><code class="hljs css">  <span class="hljs-comment">/* Extra small devices (phones, less than 768px) */</span> 
+  <span class="hljs-comment">/* No media query since this is the default in brand Pattern Library */</span>  
+
+  <span class="hljs-comment">/* Small devices (tablets, 768px and up) */</span> 
+  @<span class="hljs-keyword">media</span>  ( min-width :  $screen-sm-min )  {  ...  } 
+
+  <span class="hljs-comment">/* Medium devices (desktops, 992px and up) */</span> 
+  @<span class="hljs-keyword">media</span>  ( min-width :  $screen-md-min )  {  ...  }  
+
+  <span class="hljs-comment">/* Large devices (large desktops, 1200px and up) */</span> 
+  @<span class="hljs-keyword">media</span>  ( min-width :  $screen-lg-min )  {  ...  }
+</code></pre><p>We occasionally expand on these media queries to include a <code>max-width</code> to limit CSS to a narrower set of devices.</p>
+<pre><code class="hljs perl">  @media  ( max-width :  $screen-xs-max )  {  ...  } 
+  @media  ( min-width :  $screen-sm-min )  <span class="hljs-keyword">and</span>  ( max-width :  $screen-sm-max )  {  ...  } 
+  @media  ( min-width :  $screen-md-min )  <span class="hljs-keyword">and</span>  ( max-width :  $screen-md-max )  {  ...  } 
+  @media  ( min-width :  $screen-lg-min )  {  ...  }
+</code></pre><h2 id="grid-options">Grid options</h2>
+<p>See how aspects of the brand Pattern Library grid system work across multiple devices with a handy table.</p>
+<div class="table-responsive">
+    <table class="table table-bordered table-striped">
+        <thead>
+            <tr>
+                <th></th>
+                <th> Extra small devices <small>Phones (&lt;768px)</small> </th>
+                <th> Small devices <small>Tablets (≥768px)</small> </th>
+                <th> Medium devices <small>Desktops (≥992px)</small> </th>
+                <th> Large devices <small>Desktops (≥1200px)</small> </th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <th class="text-nowrap" scope="row">&nbsp;&nbsp;&nbsp;Grid behavior</th>
+                <td>Horizontal at all times</td>
+                <td colspan="3">Collapsed to start, horizontal above breakpoints</td>
+            </tr>
+            <tr>
+                <th class="text-nowrap" scope="row">&nbsp;&nbsp;&nbsp;Container width</th>
+                <td>None (auto)</td>
+                <td>750px</td>
+                <td>970px</td>
+                <td>1170px</td>
+            </tr>
+            <tr>
+                <th class="text-nowrap" scope="row">&nbsp;&nbsp;&nbsp;Class prefix</th>
+                <td><code>.col-flex-xs-</code></td>
+                <td><code>.col-flex-sm-</code></td>
+                <td><code>.col-flex-md-</code></td>
+                <td><code>.col-flex-lg-</code></td>
+            </tr>
+            <tr>
+                <th class="text-nowrap" scope="row">&nbsp;&nbsp;&nbsp;# of columns</th>
+                <td colspan="4">12</td>
+            </tr>
+            <tr>
+                <th class="text-nowrap" scope="row">&nbsp;&nbsp;&nbsp;Column width</th>
+                <td class="text-muted">Auto</td>
+                <td>~62px</td>
+                <td>~81px</td>
+                <td>~97px</td>
+            </tr>
+            <tr>
+                <th class="text-nowrap" scope="row">&nbsp;&nbsp;&nbsp;Gutter width</th>
+                <td colspan="4">30px (15px on each side of a column)</td>
+            </tr>
+            <tr>
+                <th class="text-nowrap" scope="row">&nbsp;&nbsp;&nbsp;Nestable</th>
+                <td colspan="4">Yes</td>
+            </tr>
+            <tr>
+                <th class="text-nowrap" scope="row">&nbsp;&nbsp;&nbsp;Offsets</th>
+                <td colspan="4">Yes</td>
+            </tr>
+            <tr>
+                <th class="text-nowrap" scope="row">&nbsp;&nbsp;&nbsp;Column ordering</th>
+                <td colspan="4">Yes</td>
+            </tr>
+        </tbody>
+    </table>
+</div>
+
+<h2 id="example-stacked-to-horizontal">Example: Stacked-to-horizontal</h2>
+<p>Using a single set of <code>.col-flex-md-*</code> grid classes, you can create a basic grid system that starts out stacked on mobile devices and tablet devices (the extra small to small range) before becoming horizontal on desktop (medium) devices. Place grid columns in any <code>.row-flex</code>.</p>
+<div class="show-grid">
+  <div class="row-flex">
+      <div class="col-flex-md-1">.col-flex-md-1</div>
+      <div class="col-flex-md-1">.col-flex-md-1</div>
+      <div class="col-flex-md-1">.col-flex-md-1</div>
+      <div class="col-flex-md-1">.col-flex-md-1</div>
+      <div class="col-flex-md-1">.col-flex-md-1</div>
+      <div class="col-flex-md-1">.col-flex-md-1</div>
+      <div class="col-flex-md-1">.col-flex-md-1</div>
+      <div class="col-flex-md-1">.col-flex-md-1</div>
+      <div class="col-flex-md-1">.col-flex-md-1</div>
+      <div class="col-flex-md-1">.col-flex-md-1</div>
+      <div class="col-flex-md-1">.col-flex-md-1</div>
+      <div class="col-flex-md-1">.col-flex-md-1</div>
+  </div>
+  <div class="row-flex">
+      <div class="col-flex-md-8">.col-flex-md-8</div>
+      <div class="col-flex-md-4">.col-flex-md-4</div>
+  </div>
+  <div class="row-flex">
+      <div class="col-flex-md-4">.col-flex-md-4</div>
+      <div class="col-flex-md-4">.col-flex-md-4</div>
+      <div class="col-flex-md-4">.col-flex-md-4</div>
+  </div>
+  <div class="row-flex">
+      <div class="col-flex-md-6">.col-flex-md-6</div>
+      <div class="col-flex-md-6">.col-flex-md-6</div>
+  </div>
+</div>
+
+<pre><code class="hljs cs">&lt;div <span class="hljs-keyword">class</span>=<span class="hljs-string">"row-flex"</span>&gt;
+  &lt;div <span class="hljs-keyword">class</span>=<span class="hljs-string">"col-flex-md-1"</span>&gt;.col-flex-md<span class="hljs-number">-1</span>&lt;/div&gt;
+  &lt;div <span class="hljs-keyword">class</span>=<span class="hljs-string">"col-flex-md-1"</span>&gt;.col-flex-md<span class="hljs-number">-1</span>&lt;/div&gt;
+  &lt;div <span class="hljs-keyword">class</span>=<span class="hljs-string">"col-flex-md-1"</span>&gt;.col-flex-md<span class="hljs-number">-1</span>&lt;/div&gt;
+  &lt;div <span class="hljs-keyword">class</span>=<span class="hljs-string">"col-flex-md-1"</span>&gt;.col-flex-md<span class="hljs-number">-1</span>&lt;/div&gt;
+  &lt;div <span class="hljs-keyword">class</span>=<span class="hljs-string">"col-flex-md-1"</span>&gt;.col-flex-md<span class="hljs-number">-1</span>&lt;/div&gt;
+  &lt;div <span class="hljs-keyword">class</span>=<span class="hljs-string">"col-flex-md-1"</span>&gt;.col-flex-md<span class="hljs-number">-1</span>&lt;/div&gt;
+  &lt;div <span class="hljs-keyword">class</span>=<span class="hljs-string">"col-flex-md-1"</span>&gt;.col-flex-md<span class="hljs-number">-1</span>&lt;/div&gt;
+  &lt;div <span class="hljs-keyword">class</span>=<span class="hljs-string">"col-flex-md-1"</span>&gt;.col-flex-md<span class="hljs-number">-1</span>&lt;/div&gt;
+  &lt;div <span class="hljs-keyword">class</span>=<span class="hljs-string">"col-flex-md-1"</span>&gt;.col-flex-md<span class="hljs-number">-1</span>&lt;/div&gt;
+  &lt;div <span class="hljs-keyword">class</span>=<span class="hljs-string">"col-flex-md-1"</span>&gt;.col-flex-md<span class="hljs-number">-1</span>&lt;/div&gt;
+  &lt;div <span class="hljs-keyword">class</span>=<span class="hljs-string">"col-flex-md-1"</span>&gt;.col-flex-md<span class="hljs-number">-1</span>&lt;/div&gt;
+  &lt;div <span class="hljs-keyword">class</span>=<span class="hljs-string">"col-flex-md-1"</span>&gt;.col-flex-md<span class="hljs-number">-1</span>&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div <span class="hljs-keyword">class</span>=<span class="hljs-string">"row-flex"</span>&gt;
+  &lt;div <span class="hljs-keyword">class</span>=<span class="hljs-string">"col-flex-md-8"</span>&gt;.col-flex-md<span class="hljs-number">-8</span>&lt;/div&gt;
+  &lt;div <span class="hljs-keyword">class</span>=<span class="hljs-string">"col-flex-md-4"</span>&gt;.col-flex-md<span class="hljs-number">-4</span>&lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div <span class="hljs-keyword">class</span>=<span class="hljs-string">"row-flex"</span>&gt;
+  &lt;div <span class="hljs-keyword">class</span>=<span class="hljs-string">"col-flex-md-4"</span>&gt;.col-flex-md<span class="hljs-number">-4</span>&lt;/div&gt;
+  &lt;div <span class="hljs-keyword">class</span>=<span class="hljs-string">"col-flex-md-4"</span>&gt;.col-flex-md<span class="hljs-number">-4</span>&lt;/div&gt;
+  &lt;div <span class="hljs-keyword">class</span>=<span class="hljs-string">"col-flex-md-4"</span>&gt;.col-flex-md<span class="hljs-number">-4</span>&lt;/div&gt;
+&lt;/div&gt;
+
+ &lt;div <span class="hljs-keyword">class</span>=<span class="hljs-string">"row-flex"</span>&gt;
+  &lt;div <span class="hljs-keyword">class</span>=<span class="hljs-string">"col-flex-md-6"</span>&gt;.col-flex-md<span class="hljs-number">-6</span>&lt;/div&gt;
+  &lt;div <span class="hljs-keyword">class</span>=<span class="hljs-string">"col-flex-md-6"</span>&gt;.col-flex-md<span class="hljs-number">-6</span>&lt;/div&gt;
+&lt;/div&gt;
+</code></pre><h2 id="collapse-gutters-">Collapse Gutters:</h2>
+<p>Using utility classes you can collapse the gutters for a row, a column, or both recursively.</p>
+<p><code>.collapse-sides</code> can be applied to a row</p>
+<div class="show-grid">
+.row-flex .collapse-sides
+  <div class="row-flex collapse-sides">
+    <div class="col-flex-xs-6">
+      <div class="show-grid"> .col-flex-xs-6</div>
+    </div>
+    <div class="col-flex-xs-6">
+      <div class="show-grid"> .col-flex-xs-6</div>
+    </div>
+  </div>
+</div>
+
+<pre><code class="hljs cs">&lt;div <span class="hljs-keyword">class</span>=<span class="hljs-string">"row-flex collapse-sides"</span>&gt;
+    &lt;div <span class="hljs-keyword">class</span>=<span class="hljs-string">"col-flex-xs-6"</span>&gt;
+        .col-flex-xs<span class="hljs-number">-6</span>
+    &lt;/div&gt;
+    &lt;div <span class="hljs-keyword">class</span>=<span class="hljs-string">"col-flex-xs-6"</span>&gt;
+        .col-flex-xs<span class="hljs-number">-6</span>
+    &lt;/div&gt;
+&lt;/div&gt;
+</code></pre><p><code>.collapse-sides</code> can be applied to column</p>
+
+<div class="show-grid">
+  <div class="row-flex">
+    <div class="col-flex-md-6 collapse-sides">
+      <div class="show-grid"> .col-flex-md-6 .collapse-sides</div>
+    </div>
+    <div class="col-flex-xs-6 collapse-sides">
+      <div class="show-grid"> .col-flex-md-6 .collapse-sides</div>
+    </div>
+  </div>
+</div>
+
+<pre><code class="hljs cs">&lt;div <span class="hljs-keyword">class</span>=<span class="hljs-string">"row-flex"</span>&gt;
+    &lt;div <span class="hljs-keyword">class</span>=<span class="hljs-string">"col-flex-xs-6 collapse-sides"</span>&gt;
+        .col-flex-xs<span class="hljs-number">-6</span> .collapse-sides
+    &lt;/div&gt;
+    &lt;div <span class="hljs-keyword">class</span>=<span class="hljs-string">"col-flex-xs-6 collapse-sides"</span>&gt;
+        .col-flex-xs<span class="hljs-number">-6</span> .collapse-sides
+    &lt;/div&gt;
+&lt;/div&gt;
+</code></pre><p><code>.collapse-sides-nested</code> applies to a row and the first set of columns</p>
+
+<div class="show-grid">
+.row-flex .collapse-sides-nested
+  <div class="row-flex collapse-sides-nested">
+    <div class="col-flex-xs-6">
+      <div class="show-grid"> .col-flex-xs-6</div>
+    </div>
+    <div class="col-flex-xs-6">
+      <div class="show-grid"> .col-flex-xs-6</div>
+    </div>
+  </div>
+</div>
+
+<pre><code class="hljs cs">&lt;div <span class="hljs-keyword">class</span>=<span class="hljs-string">"row-flex collapse-sides-nested"</span>&gt;
+    &lt;div <span class="hljs-keyword">class</span>=<span class="hljs-string">"col-flex-xs-6"</span>&gt;
+        .col-flex-xs<span class="hljs-number">-6</span>
+    &lt;/div&gt;
+    &lt;div <span class="hljs-keyword">class</span>=<span class="hljs-string">"col-flex-xs-6"</span>&gt;
+        .col-flex-xs<span class="hljs-number">-6</span>
+    &lt;/div&gt;
+&lt;/div&gt;
+</code></pre>  <p><code>.collapse-sides-nested-lg</code> applies to a row and the first set of columns but only on large device and up</p>
+
+  <div class="show-grid">
+  .row-flex .collapse-sides-nested-lg
+    <div class="row-flex collapse-sides-nested-lg">
+      <div class="col-flex-xs-6">
+        <div class="show-grid"> .col-flex-xs-6</div>
+      </div>
+      <div class="col-flex-xs-6">
+        <div class="show-grid"> .col-flex-xs-6</div>
+      </div>
+    </div>
+  </div>
+
+<pre><code class="hljs cs">&lt;div <span class="hljs-keyword">class</span>=<span class="hljs-string">"row-flex collapse-sides-nested"</span>&gt;
+    &lt;div <span class="hljs-keyword">class</span>=<span class="hljs-string">"col-flex-xs-6"</span>&gt;
+        .col-flex-xs<span class="hljs-number">-6</span>
+    &lt;/div&gt;
+    &lt;div <span class="hljs-keyword">class</span>=<span class="hljs-string">"col-flex-xs-6"</span>&gt;
+        .col-flex-xs<span class="hljs-number">-6</span>
+    &lt;/div&gt;
+&lt;/div&gt;
+</code></pre>  <p><code>.collapse-between</code> applies to a each column on extra small devices and up</p>
+
+  <div class="show-grid">
+  .row-flex .collapse-between
+    <div class="row-flex collapse-between">
+      <div class="col-flex-xs-3">
+        <div class="show-grid"> .col-flex-xs-3</div>
+      </div>
+      <div class="col-flex-xs-3">
+        <div class="show-grid"> .col-flex-xs-3</div>
+      </div>
+      <div class="col-flex-xs-3">
+        <div class="show-grid"> .col-flex-xs-3</div>
+      </div>
+      <div class="col-flex-xs-3">
+        <div class="show-grid"> .col-flex-xs-3</div>
+      </div>
+    </div>
+  </div>
+
+<pre><code class="hljs cs">&lt;div <span class="hljs-keyword">class</span>=<span class="hljs-string">"row-flex collapse-between"</span>&gt;
+    &lt;div <span class="hljs-keyword">class</span>=<span class="hljs-string">"col-flex-xs-3"</span>&gt;
+        .col-flex-xs<span class="hljs-number">-3</span>
+    &lt;/div&gt;
+    &lt;div <span class="hljs-keyword">class</span>=<span class="hljs-string">"col-flex-xs-3"</span>&gt;
+        .col-flex-xs<span class="hljs-number">-3</span>
+    &lt;/div&gt;
+    &lt;div <span class="hljs-keyword">class</span>=<span class="hljs-string">"col-flex-xs-3"</span>&gt;
+        .col-flex-xs<span class="hljs-number">-3</span>
+    &lt;/div&gt;
+    &lt;div <span class="hljs-keyword">class</span>=<span class="hljs-string">"col-flex-xs-3"</span>&gt;
+        .col-flex-xs<span class="hljs-number">-3</span>
+    &lt;/div&gt;
+&lt;/div&gt;
+</code></pre>  <p><code>.collapse-between-lg</code> applies to a row and the first set of columns but only on large device and up</p>
+
+  <div class="show-grid">
+  .row-flex .collapse-between-lg
+    <div class="row-flex collapse-between-lg">
+      <div class="col-flex-xs-3">
+        <div class="show-grid"> .col-flex-xs-3</div>
+      </div>
+      <div class="col-flex-xs-3">
+        <div class="show-grid"> .col-flex-xs-3</div>
+      </div>
+      <div class="col-flex-xs-3">
+        <div class="show-grid"> .col-flex-xs-3</div>
+      </div>
+      <div class="col-flex-xs-3">
+        <div class="show-grid"> .col-flex-xs-3</div>
+      </div>
+    </div>
+  </div>
+
+<pre><code class="hljs cs">&lt;div <span class="hljs-keyword">class</span>=<span class="hljs-string">"row-flex collapse-between"</span>&gt;
+    &lt;div <span class="hljs-keyword">class</span>=<span class="hljs-string">"col-flex-xs-3"</span>&gt;
+        .col-flex-xs<span class="hljs-number">-3</span>
+    &lt;/div&gt;
+    &lt;div <span class="hljs-keyword">class</span>=<span class="hljs-string">"col-flex-xs-3"</span>&gt;
+        .col-flex-xs<span class="hljs-number">-3</span>
+    &lt;/div&gt;
+    &lt;div <span class="hljs-keyword">class</span>=<span class="hljs-string">"col-flex-xs-3"</span>&gt;
+        .col-flex-xs<span class="hljs-number">-3</span>
+    &lt;/div&gt;
+    &lt;div <span class="hljs-keyword">class</span>=<span class="hljs-string">"col-flex-xs-3"</span>&gt;
+        .col-flex-xs<span class="hljs-number">-3</span>
+    &lt;/div&gt;
+&lt;/div&gt;
+</code></pre><h2 id="example-mobile-and-desktop">Example: Mobile and desktop</h2>
+<p>Don't want your columns to simply stack in smaller devices? Use the extra small and medium device grid classes by adding <code>.col-flex-xs-*</code> <code>.col-flex-md-*</code> to your columns. See the example below for a better idea of how it all works.</p>
+<div class="row-flex show-grid">
+    <div class="col-flex-xs-12 col-flex-md-8"><div class="show-grid">.col-flex-xs-12 .col-flex-md-8</div></div>
+    <div class="col-flex-xs-6 col-flex-md-4"><div class="show-grid">.col-flex-xs-6 .col-flex-md-4</div></div>
+</div>
+<div class="row-flex show-grid">
+    <div class="col-flex-xs-6 col-flex-md-4"><div class="show-grid">.col-flex-xs-6 .col-flex-md-4</div></div>
+    <div class="col-flex-xs-6 col-flex-md-4"><div class="show-grid">.col-flex-xs-6 .col-flex-md-4</div></div>
+    <div class="col-flex-xs-6 col-flex-md-4"><div class="show-grid">.col-flex-xs-6 .col-flex-md-4</div></div>
+</div>
+<div class="row-flex show-grid">
+    <div class="col-flex-xs-6"><div class="show-grid">.col-flex-xs-6</div></div>
+    <div class="col-flex-xs-6"><div class="show-grid">.col-flex-xs-6</div></div>
+</div>
+
+<pre><code class="hljs xml"><span class="hljs-comment">&lt;!-- Stack the columns on mobile by making one full-width and the other half-width --&gt;</span>
+<span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"row-flex"</span>&gt;</span>
+  <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"col-flex-xs-12 col-flex-md-8"</span>&gt;</span>.col-flex-xs-12 .col-flex-md-8<span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+  <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"col-flex-xs-6 col-flex-md-4"</span>&gt;</span>.col-flex-xs-6 .col-flex-md-4<span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+<span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+
+<span class="hljs-comment">&lt;!-- Columns start at 50% wide on mobile and bump up to 33.3% wide on desktop --&gt;</span>
+<span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"row-flex"</span>&gt;</span>
+  <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"col-flex-xs-6 col-flex-md-4"</span>&gt;</span>.col-flex-xs-6 .col-flex-md-4<span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+  <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"col-flex-xs-6 col-flex-md-4"</span>&gt;</span>.col-flex-xs-6 .col-flex-md-4<span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+  <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"col-flex-xs-6 col-flex-md-4"</span>&gt;</span>.col-flex-xs-6 .col-flex-md-4<span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+<span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+
+<span class="hljs-comment">&lt;!-- Columns are always 50% wide, on mobile and desktop --&gt;</span>
+<span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"row-flex"</span>&gt;</span>
+  <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"col-flex-xs-6"</span>&gt;</span>.col-flex-xs-6<span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+  <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"col-flex-xs-6"</span>&gt;</span>.col-flex-xs-6<span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+<span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+</code></pre><h2 id="example-mobile-tablet-desktop">Example: Mobile, tablet, desktop</h2>
+<p>Build on the previous example by creating even more dynamic and powerful layouts with tablet <code>.col-flex-sm-*</code> classes.</p>
+<div class="row-flex show-grid">
+    <div class="col-flex-xs-12 col-flex-sm-6 col-flex-md-8"><div class="show-grid">.col-flex-xs-12 .col-flex-sm-6 .col-flex-md-8</div></div>
+    <div class="col-flex-xs-6 col-flex-md-4"><div class="show-grid">.col-flex-xs-6 .col-flex-md-4</div></div>
+</div>
+
+<div class="row-flex show-grid">
+    <div class="col-flex-xs-6 col-flex-sm-4"><div class="show-grid">.col-flex-xs-6 .col-flex-sm-4</div></div>
+    <div class="col-flex-xs-6 col-flex-sm-4"><div class="show-grid">.col-flex-xs-6 .col-flex-sm-4</div></div>
+    <div class="clearfix visible-xs-block"></div>
+    <div class="col-flex-xs-6 col-flex-sm-4"><div class="show-grid">.col-flex-xs-6 .col-flex-sm-4</div></div>
+</div>
+
+<pre><code class="hljs xml"><span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"row-flex"</span>&gt;</span>
+  <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"col-flex-xs-12 col-flex-sm-6 col-flex-md-8"</span>&gt;</span>.col-flex-xs-12 .col-flex-sm-6 .col-flex-md-8<span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+  <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"col-flex-xs-6 col-flex-md-4"</span>&gt;</span>.col-flex-xs-6 .col-flex-md-4<span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+<span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+
+<span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"row-flex"</span>&gt;</span>
+  <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"col-flex-xs-6 col-flex-sm-4"</span>&gt;</span>.col-flex-xs-6 .col-flex-sm-4<span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+  <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"col-flex-xs-6 col-flex-sm-4"</span>&gt;</span>.col-flex-xs-6 .col-flex-sm-4<span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+
+  <span class="hljs-comment">&lt;!-- Optional: clear the XS cols if their content doesn't match in height --&gt;</span>
+  <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"clearfix visible-xs-block"</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+
+  <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"col-flex-xs-6 col-flex-sm-4"</span>&gt;</span>.col-flex-xs-6 .col-flex-sm-4<span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+<span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+</code></pre><h2 id="example-column-wrapping">Example: Column wrapping</h2>
+<p>If more than 12 columns are placed within a single row, each group of extra columns will, as one unit, wrap onto a new line.</p>
+<div class="row-flex show-grid">
+    <div class="col-flex-xs-9">.col-flex-xs-9</div>
+    <div class="col-flex-xs-4">.col-flex-xs-4<br>Since 9 + 4 = 13 &gt; 12, this 4-column-wide div gets wrapped onto a new line as one contiguous unit.</div>
+    <div class="col-flex-xs-6">.col-flex-xs-6<br>Subsequent columns continue along the new line.</div>
+</div>
+
+<pre><code class="hljs cs">&lt;div <span class="hljs-keyword">class</span>=<span class="hljs-string">"row-flex"</span>&gt;
+  &lt;div <span class="hljs-keyword">class</span>=<span class="hljs-string">"col-flex-xs-9"</span>&gt;.col-flex-xs<span class="hljs-number">-9</span>&lt;/div&gt;
+  &lt;div <span class="hljs-keyword">class</span>=<span class="hljs-string">"col-flex-xs-4"</span>&gt;
+      .col-flex-xs<span class="hljs-number">-4</span>&lt;br&gt;
+      Since <span class="hljs-number">9</span> + <span class="hljs-number">4</span> = <span class="hljs-number">13</span> &gt;<span class="hljs-number">12</span>, <span class="hljs-keyword">this</span> <span class="hljs-number">4</span>-column-wide div gets wrapped onto a <span class="hljs-keyword">new</span> line <span class="hljs-keyword">as</span> one contiguous unit.
+  &lt;/div&gt;
+  &lt;div <span class="hljs-keyword">class</span>=<span class="hljs-string">"col-flex-xs-6"</span>&gt;.col-flex-xs<span class="hljs-number">-6</span>&lt;br&gt;Subsequent columns <span class="hljs-keyword">continue</span> along the <span class="hljs-keyword">new</span> line.&lt;/div&gt;
+&lt;/div&gt;
+</code></pre><h2 id="responsive-column-resets">Responsive column resets</h2>
+<p>With the four tiers of grids available you're bound to run into issues where, at certain breakpoints, your columns don't clear quite right as one is taller than the other. To fix that, use a combination of a <code>.clearfix</code> and our responsive utility classes.</p>
+<div class="row-flex show-grid">
+    <div class="col-flex-xs-6 col-flex-sm-3"> .col-flex-xs-6 .col-flex-sm-3 <br> Resize your viewport or check it out on your phone for an example. </div>
+    <div class="col-flex-xs-6 col-flex-sm-3">.col-flex-xs-6 .col-flex-sm-3</div>
+    <div class="clearfix visible-xs-block"></div>
+    <div class="col-flex-xs-6 col-flex-sm-3">.col-flex-xs-6 .col-flex-sm-3</div>
+    <div class="col-flex-xs-6 col-flex-sm-3">.col-flex-xs-6 .col-flex-sm-3</div>
+</div>
+
+<pre><code class="hljs xml"><span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"row-flex"</span>&gt;</span>
+  <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"col-flex-xs-6 col-flex-sm-3"</span>&gt;</span>.col-flex-xs-6 .col-flex-sm-3<span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+  <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"col-flex-xs-6 col-flex-sm-3"</span>&gt;</span>.col-flex-xs-6 .col-flex-sm-3<span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+
+  <span class="hljs-comment">&lt;!-- Add the extra clearfix for only the required viewport --&gt;</span>
+  <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"clearfix visible-xs-block"</span>&gt;</span><span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+
+  <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"col-flex-xs-6 col-flex-sm-3"</span>&gt;</span>.col-flex-xs-6 .col-flex-sm-3<span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+  <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"col-flex-xs-6 col-flex-sm-3"</span>&gt;</span>.col-flex-xs-6 .col-flex-sm-3<span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+<span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+</code></pre><p>In addition to column clearing at responsive breakpoints, you may need to <strong>reset offsets, pushes, or pulls</strong>. See this in action in the grid example.</p>
+<div class="row-flex show-grid">
+  <div class="col-flex-sm-5 col-flex-md-6">
+    .col-flex-sm-5 .col-flex-md-6
+  </div>
+  <div class="col-flex-sm-5 col-flex-sm-offset-2 col-flex-md-6 col-flex-md-offset-0">
+    .col-flex-sm-5 .col-flex-sm-offset-2 .col-flex-md-6 .col-flex-md-offset-0
+  </div>
+</div>
+
+<div class="row-flex show-grid">
+  <div class="col-flex-sm-6 col-flex-md-5 col-flex-lg-6">
+    .col-flex-sm-6 .col-flex-md-5 .col-flex-lg-6
+  </div>
+  <div class="col-flex-sm-6 col-flex-md-5 col-flex-md-offset-2 col-flex-lg-6 col-flex-lg-offset-0">
+    .col-flex-sm-6 .col-flex-md-5 .col-flex-md-offset-2 .col-flex-lg-6 .col-flex-lg-offset-0
+  </div>
+</div>
+
+<pre><code class="hljs cs">&lt;div <span class="hljs-keyword">class</span>=<span class="hljs-string">"row-flex"</span>&gt;
+  &lt;div <span class="hljs-keyword">class</span>=<span class="hljs-string">"col-flex-sm-5 col-flex-md-6"</span>&gt;
+    .col-flex-sm<span class="hljs-number">-5</span> .col-flex-md<span class="hljs-number">-6</span>
+  &lt;/div&gt;
+  &lt;div <span class="hljs-keyword">class</span>=<span class="hljs-string">"col-flex-sm-5 col-flex-sm-offset-2 col-flex-md-6 col-flex-md-offset-0"</span>&gt;
+    .col-flex-sm<span class="hljs-number">-5</span> .col-flex-sm-offset<span class="hljs-number">-2</span> .col-flex-md<span class="hljs-number">-6</span> .col-flex-md-offset<span class="hljs-number">-0</span>
+  &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div <span class="hljs-keyword">class</span>=<span class="hljs-string">"row-flex"</span>&gt;
+  &lt;div <span class="hljs-keyword">class</span>=<span class="hljs-string">"col-flex-sm-6 col-flex-md-5 col-flex-lg-6"</span>&gt;
+    .col-flex-sm<span class="hljs-number">-6</span> .col-flex-md<span class="hljs-number">-5</span> .col-flex-lg<span class="hljs-number">-6</span>
+  &lt;/div&gt;
+  &lt;div <span class="hljs-keyword">class</span>=<span class="hljs-string">"col-flex-sm-6 col-flex-md-5 col-flex-md-offset-2 col-flex-lg-6 col-flex-lg-offset-0"</span>&gt;
+    .col-flex-sm<span class="hljs-number">-6</span> .col-flex-md<span class="hljs-number">-5</span> .col-flex-md-offset<span class="hljs-number">-2</span> .col-flex-lg<span class="hljs-number">-6</span> .col-flex-lg-offset<span class="hljs-number">-0</span>
+  &lt;/div&gt;
+&lt;/div&gt;
+</code></pre><h2 id="offsetting-columns">Offsetting columns</h2>
+<p>Move columns to the right using <code>.col-flex-md-offset-*</code> classes. These classes increase the left margin of a column by <code>*</code> columns. For example, <code>.col-flex-md-offset-4</code> moves <code>.col-flex-md-4</code> over four columns.</p>
+<div class="row-flex show-grid">
+    <div class="col-flex-md-4">.col-flex-md-4</div>
+    <div class="col-flex-md-4 col-flex-md-offset-4">.col-flex-md-4 .col-flex-md-offset-4</div>
+</div>
+<div class="row-flex show-grid">
+    <div class="col-flex-md-3 col-flex-md-offset-3">.col-flex-md-3 .col-flex-md-offset-3</div>
+    <div class="col-flex-md-3 col-flex-md-offset-3">.col-flex-md-3 .col-flex-md-offset-3</div>
+</div>
+<div class="row-flex show-grid">
+    <div class="col-flex-md-6 col-flex-md-offset-3">.col-flex-md-6 .col-flex-md-offset-3</div>
+</div>
+
+<pre><code class="hljs cs">&lt;div <span class="hljs-keyword">class</span>=<span class="hljs-string">"row-flex"</span>&gt;
+  &lt;div <span class="hljs-keyword">class</span>=<span class="hljs-string">"col-flex-md-4"</span>&gt;.col-flex-md<span class="hljs-number">-4</span>&lt;/div&gt;
+  &lt;div <span class="hljs-keyword">class</span>=<span class="hljs-string">"col-flex-md-4 col-flex-md-offset-4"</span>&gt;&lt;/div&gt;
+&lt;/div&gt; 
+
+&lt;div <span class="hljs-keyword">class</span>=<span class="hljs-string">"row-flex"</span>&gt;
+  &lt;div <span class="hljs-keyword">class</span>=<span class="hljs-string">"col-flex-md-3 col-flex-md-offset-3"</span>&gt;&lt;/div&gt;
+  &lt;div <span class="hljs-keyword">class</span>=<span class="hljs-string">"col-flex-md-3 col-flex-md-offset-3"</span>&gt;&lt;/div&gt;
+&lt;/div&gt; 
+
+&lt;div <span class="hljs-keyword">class</span>=<span class="hljs-string">"row-flex"</span>&gt;
+  &lt;div <span class="hljs-keyword">class</span>=<span class="hljs-string">"col-flex-md-6 col-flex-md-offset-3"</span>&gt;&lt;/div&gt;
+&lt;/div&gt;
+</code></pre><p>You can also override offsets from lower grid tiers with <code>.col-flex-*-offset-0</code> classes.</p>
+<div class="row-flex show-grid">
+  <div class="col-flex-xs-6 col-flex-sm-4">
+    col-flex-xs-6 <br>
+    col-flex-sm-4<br>
+  </div>
+  <div class="col-flex-xs-6 col-flex-sm-4">
+    col-flex-xs-6 <br>
+    col-flex-sm-4<br>
+  </div>
+  <div class="col-flex-xs-6 col-flex-xs-offset-3 col-flex-sm-4 col-flex-sm-offset-0">
+    col-flex-xs-6 <br>
+    col-flex-xs-offset-3 <br>
+    col-flex-sm-4 <br>
+    col-flex-sm-offset-0
+  </div>
+</div>
+
+<pre><code class="hljs cs">&lt;div <span class="hljs-keyword">class</span>=<span class="hljs-string">"row-flex"</span>&gt;
+  &lt;div <span class="hljs-keyword">class</span>=<span class="hljs-string">"col-flex-xs-6 col-flex-sm-4"</span>&gt;
+  &lt;/div&gt;
+  &lt;div <span class="hljs-keyword">class</span>=<span class="hljs-string">"col-flex-xs-6 col-flex-sm-4"</span>&gt;
+  &lt;/div&gt;
+  &lt;div <span class="hljs-keyword">class</span>=<span class="hljs-string">"col-flex-xs-6 col-flex-xs-offset-3 col-flex-sm-4 col-flex-sm-offset-0"</span>&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+</code></pre><h2 id="nesting-columns">Nesting columns</h2>
+<p>To nest your content with the default grid, add a new <code>.row-flex</code> and set of <code>.col-flex-sm-*</code> columns within an existing <code>.col-flex-sm-*</code> column. </p>
+<p>Nested rows should include a set of columns that add up to 12 or fewer. It is not required that you use all 12 available columns.</p>
+<div class="row-flex show-grid">
+    <div class="col-flex-sm-9">
+        Level 1: .col-flex-sm-9 
+        <div class="row-flex show-grid">
+            <div class="col-flex-xs-8 col-flex-sm-6"> Level 2: .col-flex-xs-8 .col-flex-sm-6</div>
+            <div class="col-flex-xs-4 col-flex-sm-6"> Level 2: .col-flex-xs-4 .col-flex-sm-6</div>
+        </div>
+    </div>
+</div>
+
+<pre><code class="hljs cs">&lt;div <span class="hljs-keyword">class</span>=<span class="hljs-string">"row-flex"</span>&gt;
+  &lt;div <span class="hljs-keyword">class</span>=<span class="hljs-string">"col-flex-sm-9"</span>&gt;
+    Level <span class="hljs-number">1</span>: .col-flex-sm<span class="hljs-number">-9</span>
+    &lt;div <span class="hljs-keyword">class</span>=<span class="hljs-string">"row-flex"</span>&gt;
+      &lt;div <span class="hljs-keyword">class</span>=<span class="hljs-string">"col-flex-xs-8 col-flex-sm-6"</span>&gt;
+        Level <span class="hljs-number">2</span>: .col-flex-xs<span class="hljs-number">-8</span> .col-flex-sm<span class="hljs-number">-6</span>
+      &lt;/div&gt;
+      &lt;div <span class="hljs-keyword">class</span>=<span class="hljs-string">"col-flex-xs-4 col-flex-sm-6"</span>&gt;
+        Level <span class="hljs-number">2</span>: .col-flex-xs<span class="hljs-number">-4</span> .col-flex-sm<span class="hljs-number">-6</span>
+      &lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+</code></pre><h2>Column ordering</h2>
+
+<div class="show-grid">
+  <div class="row-flex">
+    <div class="col-flex-xs-3">
+      <div class="show-grid">First, but unordered</div>
+    </div>
+    <div class="col-flex-xs-3 order-0">
+      <div class="show-grid">Second, but unordered</div>
+    </div>
+    <div class="col-flex-xs-3 order-last">
+      <div class="show-grid">Third, but last</div>
+    </div>
+    <div class="col-flex-xs-3 order-first">
+      <div class="show-grid">Fourth, but first</div>
+    </div>
+  </div>
+</div>
+
+<pre><code class="hljs cs">&lt;div <span class="hljs-keyword">class</span>=<span class="hljs-string">"container"</span>&gt;
+  &lt;div <span class="hljs-keyword">class</span>=<span class="hljs-string">"row-flex"</span>&gt;
+    &lt;div <span class="hljs-keyword">class</span>=<span class="hljs-string">"col-flex-xs-3"</span>&gt;
+      First, but unordered
+    &lt;/div&gt;
+    &lt;div <span class="hljs-keyword">class</span>=<span class="hljs-string">"col-flex-xs-3 order-0"</span>&gt;
+      Second, but unordered
+    &lt;/div&gt;
+    &lt;div <span class="hljs-keyword">class</span>=<span class="hljs-string">"col-flex-xs-3 order-last"</span>&gt;
+      Third, but last
+    &lt;/div&gt;
+    &lt;div <span class="hljs-keyword">class</span>=<span class="hljs-string">"col-flex-xs-3 order-first"</span>&gt;
+      Fourth, but first
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+</code></pre><h2 id="nested">Nested</h2>
+<div class="show-grid">
+  <div class="row-flex">
+    <div class="col-flex-md-12">
+      <div class="show-grid">.col-flex-md-12
+        <div class="row-flex">
+          <div class="col-flex-md-2">
+            <div class="show-grid">.col-flex-md-2</div>
+          </div>
+          <div class="col-flex-md-10">
+            <div class="show-grid">.col-flex-md-10
+              <div class="row-flex">
+                <div class="col-flex-md-6">
+                  <div class="show-grid">.col-flex-md-6</div>
+                </div>
+                <div class="col-flex-md-6">
+                  <div class="show-grid">.col-flex-md-6</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<pre><code class="hljs cs">&lt;div <span class="hljs-keyword">class</span>=<span class="hljs-string">"row-flex"</span>&gt;
+  &lt;div <span class="hljs-keyword">class</span>=<span class="hljs-string">"col-flex-md-12"</span>&gt; .col-flex-md<span class="hljs-number">-12</span>
+    &lt;div <span class="hljs-keyword">class</span>=<span class="hljs-string">"row-flex"</span>&gt;
+      &lt;div <span class="hljs-keyword">class</span>=<span class="hljs-string">"col-flex-md-2"</span>&gt;.col-flex-md<span class="hljs-number">-2</span>&lt;/div&gt;
+      &lt;div <span class="hljs-keyword">class</span>=<span class="hljs-string">"col-flex-md-10"</span>&gt; .col-flex-md<span class="hljs-number">-10</span>
+        &lt;div <span class="hljs-keyword">class</span>=<span class="hljs-string">"row-flex"</span>&gt;
+          &lt;div <span class="hljs-keyword">class</span>=<span class="hljs-string">"col-flex-md-6"</span>&gt;.col-flex-md<span class="hljs-number">-6</span>&lt;/div&gt;
+          &lt;div <span class="hljs-keyword">class</span>=<span class="hljs-string">"col-flex-md-6"</span>&gt;.col-flex-md<span class="hljs-number">-6</span>&lt;/div&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+</code></pre><h2 id="vertical-and-horizontal-aligments">Vertical and Horizontal Aligments</h2>
+<p>Using flexbox we can improve the grid system.</p>
+<h3 id="horizontal-aligment">Horizontal Aligment</h3>
+<p>You may add classes to align elements to the start or end of a row as well as the top, bottom, or center of a column.
+  And it be like this.</p>
+<p>you can add <code>xs</code> <code>md</code> <code>lg</code> to the aligment</p>
+<p><code>.start-*</code></p>
+<div class="show-grid">
+  <div class="row-flex start-xs">
+    <div class="col-flex-xs-6">
+      <div class="show-grid"> .col-flex-xs-6</div>
+    </div>
+  </div>
+</div>
+
+<pre><code class="hljs cs">&lt;div <span class="hljs-keyword">class</span>=<span class="hljs-string">"row-flex start-xs"</span>&gt;
+    &lt;div <span class="hljs-keyword">class</span>=<span class="hljs-string">"col-flex-xs-6"</span>&gt;
+        .col-flex-xs<span class="hljs-number">-6</span>
+    &lt;/div&gt;
+&lt;/div&gt;
+</code></pre><p><code>.center-*</code></p>
+<div class="show-grid">
+  <div class="row-flex center-xs">
+    <div class="col-flex-xs-6">
+      <div class="show-grid"> .col-flex-xs-6</div>
+    </div>
+  </div>
+</div>
+
+<pre><code class="hljs cs">&lt;div <span class="hljs-keyword">class</span>=<span class="hljs-string">"row-flex center-xs"</span>&gt;
+    &lt;div <span class="hljs-keyword">class</span>=<span class="hljs-string">"col-flex-xs-6"</span>&gt;
+        .col-flex-xs<span class="hljs-number">-6</span>
+    &lt;/div&gt;
+&lt;/div&gt;
+</code></pre><p><code>.end-*</code></p>
+<div class="show-grid">
+  <div class="row-flex end-xs">
+    <div class="col-flex-xs-6">
+      <div class="show-grid">.col-flex-xs-6</div>
+    </div>
+  </div>
+</div>
+
+<pre><code class="hljs cs">&lt;div <span class="hljs-keyword">class</span>=<span class="hljs-string">"row-flex end-xs"</span>&gt;
+    &lt;div <span class="hljs-keyword">class</span>=<span class="hljs-string">"col-flex-xs-6"</span>&gt;
+        .col-flex-xs<span class="hljs-number">-6</span>
+    &lt;/div&gt;
+&lt;/div&gt;
+</code></pre><p><code>.between-*</code></p>
+<div class="show-grid">
+  <div class="row-flex between-xs">
+    <div class="col-flex-xs-3">
+      <div class="show-grid">.col-flex-xs-3</div>
+    </div>
+    <div class="col-flex-xs-3">
+      <div class="show-grid">.col-flex-xs-3</div>
+    </div>
+  </div>
+</div>
+
+<pre><code class="hljs cs">&lt;div <span class="hljs-keyword">class</span>=<span class="hljs-string">"row-flex between-xs"</span>&gt;
+  &lt;div <span class="hljs-keyword">class</span>=<span class="hljs-string">"col-flex-xs-3"</span>&gt;
+    .col-flex-xs<span class="hljs-number">-3</span>
+  &lt;/div&gt;
+  &lt;div <span class="hljs-keyword">class</span>=<span class="hljs-string">"col-flex-xs-3"</span>&gt;
+    .col-flex-xs<span class="hljs-number">-3</span>
+  &lt;/div&gt;
+&lt;/div&gt;
+</code></pre><p><code>.around-*</code></p>
+<div class="show-grid">
+  <div class="row-flex around-xs">
+    <div class="col-flex-xs-3">
+      <div class="show-grid">.col-flex-xs-3</div>
+    </div>
+    <div class="col-flex-xs-3">
+      <div class="show-grid">.col-flex-xs-3</div>
+    </div>
+  </div>
+</div>
+
+<pre><code class="hljs cs">&lt;div <span class="hljs-keyword">class</span>=<span class="hljs-string">"row-flex around-xs"</span>&gt;
+  &lt;div <span class="hljs-keyword">class</span>=<span class="hljs-string">"col-flex-xs-3"</span>&gt;
+    .col-flex-xs<span class="hljs-number">-3</span>
+  &lt;/div&gt;
+  &lt;div <span class="hljs-keyword">class</span>=<span class="hljs-string">"col-flex-xs-3"</span>&gt;
+    .col-flex-xs<span class="hljs-number">-3</span>
+  &lt;/div&gt;
+&lt;/div&gt;
+</code></pre><h2 id="equal-heights">Equal Heights</h2>
+<p>Since <code>align-items: stretch;</code>is the default value, you may omit the <code>.top-*</code>, <code>.middle-*</code>, <code>.bottom-*</code> classes or use the <code>.stretch-*</code> class to override a previously applied media query style.</p>
+<p>you can add <code>xs</code> <code>md</code> <code>lg</code> to the vertical aligment class</p>
+<p><code>.stretch-*</code> (default)</p>
+<div class="show-grid">
+  <div class="row-flex top-md stretch-lg">
+    <div class="col-flex-xs-4">
+      <div class="show-grid">.col-flex-xs-4<br>.col-flex-xs-4<br>.col-flex-xs-4</div>
+    </div>
+    <div class="col-flex-xs-4">
+      <div class="show-grid">.col-flex-xs-4<br>.col-flex-xs-4</div>
+    </div>
+    <div class="col-flex-xs-4">
+      <div class="show-grid">.col-flex-xs-4</div>
+    </div>
+  </div>
+</div>
+
+<pre><code class="hljs javascript">&lt;div <span class="hljs-class"><span class="hljs-keyword">class</span></span>=<span class="hljs-string">"row-flex top-md stretch-lg"</span>&gt;
+    <span class="xml"><span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"col-flex-xs-4"</span>&gt;</span>
+        .col-flex-xs-4<span class="hljs-tag">&lt;<span class="hljs-name">br</span>&gt;</span>.col-flex-xs-4br&gt;.col-flex-xs-4
+    <span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"col-flex-xs-4br&gt;.col-flex-xs-4"</span>&gt;</span>
+        .col-flex-xs-4
+    <span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"col-flex-xs-4"</span>&gt;</span>
+        .col-flex-xs-4
+    <span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+<span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span></span>
+</code></pre><h3 id="vertical-aligment">Vertical Aligment</h3>
+<p><code>.top-*</code></p>
+<div class="show-grid">
+  <div class="row-flex top-xs">
+    <div class="col-flex-xs-6">
+      <div class="show-grid">.col-flex-xs-6<br>.col-flex-xs-6</div>
+    </div>
+    <div class="col-flex-xs-6">
+      <div class="show-grid">.col-flex-xs-6</div>
+    </div>
+  </div>
+</div>
+
+<pre><code class="hljs javascript">&lt;div <span class="hljs-class"><span class="hljs-keyword">class</span></span>=<span class="hljs-string">"row-flex top-xs"</span>&gt;
+    <span class="xml"><span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"col-flex-xs-6"</span>&gt;</span>
+        .col-flex-xs-6<span class="hljs-tag">&lt;<span class="hljs-name">br</span>&gt;</span>.col-flex-xs-6
+    <span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"col-flex-xs-6"</span>&gt;</span>
+        .col-flex-xs-6
+    <span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+<span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span></span>
+</code></pre><p><code>.middle-*</code></p>
+<div class="show-grid">
+  <div class="row-flex middle-xs">
+    <div class="col-flex-xs-6">
+      <div class="show-grid">.col-flex-xs-6<br>.col-flex-xs-6</div>
+    </div>
+    <div class="col-flex-xs-6">
+      <div class="show-grid">.col-flex-xs-6</div>
+    </div>
+  </div>
+</div>
+
+<pre><code class="hljs javascript">&lt;div <span class="hljs-class"><span class="hljs-keyword">class</span></span>=<span class="hljs-string">"row-flex middle-xs"</span>&gt;
+    <span class="xml"><span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"col-flex-xs-6"</span>&gt;</span>
+        .col-flex-xs-6<span class="hljs-tag">&lt;<span class="hljs-name">br</span>&gt;</span>.col-flex-xs-6
+    <span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"col-flex-xs-6"</span>&gt;</span>
+        .col-flex-xs-6
+    <span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+<span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span></span>
+</code></pre><p><code>.bottom-*</code></p>
+<div class="show-grid">
+  <div class="row-flex bottom-xs">
+    <div class="col-flex-xs-6">
+      <div class="show-grid">.col-flex-xs-6<br>.col-flex-xs-6</div>
+    </div>
+    <div class="col-flex-xs-6">
+      <div class="show-grid">.col-flex-xs-6</div>
+    </div>
+  </div>
+</div>
+
+<pre><code class="hljs javascript">&lt;div <span class="hljs-class"><span class="hljs-keyword">class</span></span>=<span class="hljs-string">"row-flex bottom-xs"</span>&gt;
+    <span class="xml"><span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"col-flex-xs-6"</span>&gt;</span>
+        .col-flex-xs-6<span class="hljs-tag">&lt;<span class="hljs-name">br</span>&gt;</span>.col-flex-xs-6
+    <span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">div</span> <span class="hljs-attr">class</span>=<span class="hljs-string">"col-flex-xs-6"</span>&gt;</span>
+        .col-flex-xs-6
+    <span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span>
+<span class="hljs-tag">&lt;/<span class="hljs-name">div</span>&gt;</span></span>
+</code></pre><p><code>.baseline-*</code></p>
+<div class="show-grid">
+  <div class="row-flex baseline-xs">
+    <div class="col-flex-xs-4 padding-v-0">
+      <div class="show-grid">.col-flex-xs-4</div>
+    </div>
+    <div class="col-flex-xs-4 padding-v-0">
+      <div class="show-grid">.col-flex-xs-4<br>.col-flex-xs-4</div>
+    </div>
+    <div class="col-flex-xs-4">
+      <div class="show-grid">.col-flex-xs-4<br>.col-flex-xs-4<br>.col-flex-xs-4</div>
+    </div>
+  </div>
+</div>
+
+<pre><code class="hljs cs">&lt;div <span class="hljs-keyword">class</span>=<span class="hljs-string">"row-flex baseline-xs"</span>&gt;
+    &lt;div <span class="hljs-keyword">class</span>=<span class="hljs-string">"col-flex-xs-4 padding-v-0"</span>&gt;
+        .col-flex-xs<span class="hljs-number">-4</span>
+    &lt;/div&gt;
+    &lt;div <span class="hljs-keyword">class</span>=<span class="hljs-string">"col-flex-xs-4 padding-v-0"</span>&gt;
+        .col-flex-xs<span class="hljs-number">-4</span>
+        .col-flex-xs<span class="hljs-number">-4</span>
+    &lt;/div&gt;
+    &lt;div <span class="hljs-keyword">class</span>=<span class="hljs-string">"col-flex-xs-4"</span>&gt;
+        .col-flex-xs<span class="hljs-number">-4</span>
+        .col-flex-xs<span class="hljs-number">-4</span>
+        .col-flex-xs<span class="hljs-number">-4</span>
+    &lt;/div&gt;
+&lt;/div&gt;
+</code></pre><p>you can add <code>xs</code> <code>md</code> <code>lg</code> to the aligment</p>
+<h3 id="reverse-grid">Reverse Grid</h3>
+<p>You can reverse the order of the grid.
+<strong>.reverse</strong></p>
+<div class="show-grid">
+  <div class="row-flex reverse">
+    <div class="col-flex-xs-4">
+      <div class="show-grid"> 1</div>
+    </div>
+    <div class="col-flex-xs-4">
+      <div class="show-grid"> 2</div>
+    </div>
+    <div class="col-flex-xs-4">
+      <div class="show-grid"> 3</div>
+    </div>
+  </div>
+</div>
+
+<pre><code class="hljs cs">&lt;div <span class="hljs-keyword">class</span>=<span class="hljs-string">"row-flex reverse"</span>&gt;
+    &lt;div <span class="hljs-keyword">class</span>=<span class="hljs-string">"col-flex-xs-4"</span>&gt; <span class="hljs-number">1</span> &lt;/div&gt;
+    &lt;div <span class="hljs-keyword">class</span>=<span class="hljs-string">"col-flex-xs-4"</span>&gt; <span class="hljs-number">2</span> &lt;/div&gt;
+    &lt;div <span class="hljs-keyword">class</span>=<span class="hljs-string">"col-flex-xs-4"</span>&gt; <span class="hljs-number">3</span> &lt;/div&gt;
+&lt;/div&gt;
+</code></pre><p>And because the reverse the grid order will be <strong>3</strong> - <strong>2</strong> - <strong>1</strong>. The
+    <code>.reverse</code> class must be used with the <code>.row-flex</code>.</p>
+
+  </div>
+</div>
+
+    <div class="container-fluid">
+        <div class="container">
+            <div class="page-footer">
+                <div class="pull-left">
+                    <ul>
+                        <li>
+                            © <span class="copyright-year">2017</span> brand Technologies
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script>
+        $("dl input[type=checkbox]").click(function () {
+            if ($(this).parent("dt").length) {
+                // toggle indeterminate
+                $(this).prop("indeterminate", false);
+
+                // toggle all children
+                $(this)
+                    .parents("dt")
+                    .siblings("dd")
+                    .find("input[type=checkbox]")
+                    .prop("checked", $(this).is(":checked"));
+            } else {
+                var parent = $(this).parents("dl"),
+                    checkboxes = parent.find("dd").find("input[type=checkbox]"),
+                    checked = parent.find("dd").find("input[type=checkbox]:checked");
+                var indeterminate = checked.length && checked.length != checkboxes.length,
+                    parentCheck = parent.find("dt").find("input[type=checkbox]");
+                parentCheck.prop("indeterminate", indeterminate);
+                parentCheck.prop("checked", !indeterminate && checked.length);
+            }
+        });
+    </script>
+
+
+</body></html>
